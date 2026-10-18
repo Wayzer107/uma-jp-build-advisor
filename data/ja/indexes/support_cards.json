@@ -1,0 +1,7958 @@
+{
+  "by_id": {
+    "10001": "support-cards/10001.json",
+    "10002": "support-cards/10002.json",
+    "10003": "support-cards/10003.json",
+    "10004": "support-cards/10004.json",
+    "10005": "support-cards/10005.json",
+    "10006": "support-cards/10006.json",
+    "10007": "support-cards/10007.json",
+    "10008": "support-cards/10008.json",
+    "10009": "support-cards/10009.json",
+    "10010": "support-cards/10010.json",
+    "10011": "support-cards/10011.json",
+    "10012": "support-cards/10012.json",
+    "10013": "support-cards/10013.json",
+    "10014": "support-cards/10014.json",
+    "10015": "support-cards/10015.json",
+    "10016": "support-cards/10016.json",
+    "10017": "support-cards/10017.json",
+    "10018": "support-cards/10018.json",
+    "10019": "support-cards/10019.json",
+    "10020": "support-cards/10020.json",
+    "10021": "support-cards/10021.json",
+    "10022": "support-cards/10022.json",
+    "10023": "support-cards/10023.json",
+    "10024": "support-cards/10024.json",
+    "10025": "support-cards/10025.json",
+    "10026": "support-cards/10026.json",
+    "10027": "support-cards/10027.json",
+    "10028": "support-cards/10028.json",
+    "10029": "support-cards/10029.json",
+    "10030": "support-cards/10030.json",
+    "10031": "support-cards/10031.json",
+    "10032": "support-cards/10032.json",
+    "10033": "support-cards/10033.json",
+    "10034": "support-cards/10034.json",
+    "10035": "support-cards/10035.json",
+    "10036": "support-cards/10036.json",
+    "10037": "support-cards/10037.json",
+    "10038": "support-cards/10038.json",
+    "10039": "support-cards/10039.json",
+    "10040": "support-cards/10040.json",
+    "10041": "support-cards/10041.json",
+    "10042": "support-cards/10042.json",
+    "10043": "support-cards/10043.json",
+    "10044": "support-cards/10044.json",
+    "10045": "support-cards/10045.json",
+    "10046": "support-cards/10046.json",
+    "10047": "support-cards/10047.json",
+    "10048": "support-cards/10048.json",
+    "10049": "support-cards/10049.json",
+    "10050": "support-cards/10050.json",
+    "10051": "support-cards/10051.json",
+    "10052": "support-cards/10052.json",
+    "10053": "support-cards/10053.json",
+    "10054": "support-cards/10054.json",
+    "10055": "support-cards/10055.json",
+    "10056": "support-cards/10056.json",
+    "10057": "support-cards/10057.json",
+    "10058": "support-cards/10058.json",
+    "10059": "support-cards/10059.json",
+    "10060": "support-cards/10060.json",
+    "10061": "support-cards/10061.json",
+    "10062": "support-cards/10062.json",
+    "10063": "support-cards/10063.json",
+    "10064": "support-cards/10064.json",
+    "10065": "support-cards/10065.json",
+    "10066": "support-cards/10066.json",
+    "10067": "support-cards/10067.json",
+    "10068": "support-cards/10068.json",
+    "10069": "support-cards/10069.json",
+    "10070": "support-cards/10070.json",
+    "10071": "support-cards/10071.json",
+    "10072": "support-cards/10072.json",
+    "10073": "support-cards/10073.json",
+    "10074": "support-cards/10074.json",
+    "10075": "support-cards/10075.json",
+    "10076": "support-cards/10076.json",
+    "10077": "support-cards/10077.json",
+    "10078": "support-cards/10078.json",
+    "10079": "support-cards/10079.json",
+    "10080": "support-cards/10080.json",
+    "10081": "support-cards/10081.json",
+    "10082": "support-cards/10082.json",
+    "10083": "support-cards/10083.json",
+    "10084": "support-cards/10084.json",
+    "10085": "support-cards/10085.json",
+    "10086": "support-cards/10086.json",
+    "10087": "support-cards/10087.json",
+    "10088": "support-cards/10088.json",
+    "10089": "support-cards/10089.json",
+    "10090": "support-cards/10090.json",
+    "10091": "support-cards/10091.json",
+    "10092": "support-cards/10092.json",
+    "10093": "support-cards/10093.json",
+    "10094": "support-cards/10094.json",
+    "10095": "support-cards/10095.json",
+    "10096": "support-cards/10096.json",
+    "10097": "support-cards/10097.json",
+    "10098": "support-cards/10098.json",
+    "10099": "support-cards/10099.json",
+    "10100": "support-cards/10100.json",
+    "10101": "support-cards/10101.json",
+    "10102": "support-cards/10102.json",
+    "10103": "support-cards/10103.json",
+    "10104": "support-cards/10104.json",
+    "10105": "support-cards/10105.json",
+    "10106": "support-cards/10106.json",
+    "10107": "support-cards/10107.json",
+    "10108": "support-cards/10108.json",
+    "10109": "support-cards/10109.json",
+    "10110": "support-cards/10110.json",
+    "10111": "support-cards/10111.json",
+    "10113": "support-cards/10113.json",
+    "10114": "support-cards/10114.json",
+    "10115": "support-cards/10115.json",
+    "10116": "support-cards/10116.json",
+    "10117": "support-cards/10117.json",
+    "10118": "support-cards/10118.json",
+    "10119": "support-cards/10119.json",
+    "10120": "support-cards/10120.json",
+    "10121": "support-cards/10121.json",
+    "10122": "support-cards/10122.json",
+    "10123": "support-cards/10123.json",
+    "10124": "support-cards/10124.json",
+    "10125": "support-cards/10125.json",
+    "10126": "support-cards/10126.json",
+    "10127": "support-cards/10127.json",
+    "10128": "support-cards/10128.json",
+    "10129": "support-cards/10129.json",
+    "10131": "support-cards/10131.json",
+    "10132": "support-cards/10132.json",
+    "10133": "support-cards/10133.json",
+    "10134": "support-cards/10134.json",
+    "10135": "support-cards/10135.json",
+    "10136": "support-cards/10136.json",
+    "10137": "support-cards/10137.json",
+    "10138": "support-cards/10138.json",
+    "10139": "support-cards/10139.json",
+    "10140": "support-cards/10140.json",
+    "10141": "support-cards/10141.json",
+    "10142": "support-cards/10142.json",
+    "10143": "support-cards/10143.json",
+    "10144": "support-cards/10144.json",
+    "10145": "support-cards/10145.json",
+    "10146": "support-cards/10146.json",
+    "10147": "support-cards/10147.json",
+    "10148": "support-cards/10148.json",
+    "20001": "support-cards/20001.json",
+    "20002": "support-cards/20002.json",
+    "20003": "support-cards/20003.json",
+    "20004": "support-cards/20004.json",
+    "20005": "support-cards/20005.json",
+    "20006": "support-cards/20006.json",
+    "20007": "support-cards/20007.json",
+    "20008": "support-cards/20008.json",
+    "20009": "support-cards/20009.json",
+    "20010": "support-cards/20010.json",
+    "20011": "support-cards/20011.json",
+    "20012": "support-cards/20012.json",
+    "20013": "support-cards/20013.json",
+    "20014": "support-cards/20014.json",
+    "20015": "support-cards/20015.json",
+    "20016": "support-cards/20016.json",
+    "20017": "support-cards/20017.json",
+    "20018": "support-cards/20018.json",
+    "20019": "support-cards/20019.json",
+    "20020": "support-cards/20020.json",
+    "20021": "support-cards/20021.json",
+    "20022": "support-cards/20022.json",
+    "20023": "support-cards/20023.json",
+    "20024": "support-cards/20024.json",
+    "20025": "support-cards/20025.json",
+    "20026": "support-cards/20026.json",
+    "20027": "support-cards/20027.json",
+    "20028": "support-cards/20028.json",
+    "20029": "support-cards/20029.json",
+    "20030": "support-cards/20030.json",
+    "20031": "support-cards/20031.json",
+    "20032": "support-cards/20032.json",
+    "20033": "support-cards/20033.json",
+    "20034": "support-cards/20034.json",
+    "20035": "support-cards/20035.json",
+    "20036": "support-cards/20036.json",
+    "20037": "support-cards/20037.json",
+    "20038": "support-cards/20038.json",
+    "20039": "support-cards/20039.json",
+    "20040": "support-cards/20040.json",
+    "20041": "support-cards/20041.json",
+    "20042": "support-cards/20042.json",
+    "20043": "support-cards/20043.json",
+    "20044": "support-cards/20044.json",
+    "20045": "support-cards/20045.json",
+    "20046": "support-cards/20046.json",
+    "20047": "support-cards/20047.json",
+    "20048": "support-cards/20048.json",
+    "20049": "support-cards/20049.json",
+    "20050": "support-cards/20050.json",
+    "20051": "support-cards/20051.json",
+    "20052": "support-cards/20052.json",
+    "20053": "support-cards/20053.json",
+    "20054": "support-cards/20054.json",
+    "20055": "support-cards/20055.json",
+    "20056": "support-cards/20056.json",
+    "20057": "support-cards/20057.json",
+    "20058": "support-cards/20058.json",
+    "20059": "support-cards/20059.json",
+    "20060": "support-cards/20060.json",
+    "20061": "support-cards/20061.json",
+    "20062": "support-cards/20062.json",
+    "20063": "support-cards/20063.json",
+    "20064": "support-cards/20064.json",
+    "20065": "support-cards/20065.json",
+    "20066": "support-cards/20066.json",
+    "20067": "support-cards/20067.json",
+    "20068": "support-cards/20068.json",
+    "20069": "support-cards/20069.json",
+    "20070": "support-cards/20070.json",
+    "20071": "support-cards/20071.json",
+    "20072": "support-cards/20072.json",
+    "20073": "support-cards/20073.json",
+    "20074": "support-cards/20074.json",
+    "20075": "support-cards/20075.json",
+    "20076": "support-cards/20076.json",
+    "20077": "support-cards/20077.json",
+    "20078": "support-cards/20078.json",
+    "20079": "support-cards/20079.json",
+    "20080": "support-cards/20080.json",
+    "20081": "support-cards/20081.json",
+    "20082": "support-cards/20082.json",
+    "20083": "support-cards/20083.json",
+    "20084": "support-cards/20084.json",
+    "20085": "support-cards/20085.json",
+    "20086": "support-cards/20086.json",
+    "20087": "support-cards/20087.json",
+    "20088": "support-cards/20088.json",
+    "20089": "support-cards/20089.json",
+    "20090": "support-cards/20090.json",
+    "20091": "support-cards/20091.json",
+    "20092": "support-cards/20092.json",
+    "20093": "support-cards/20093.json",
+    "20094": "support-cards/20094.json",
+    "20095": "support-cards/20095.json",
+    "20096": "support-cards/20096.json",
+    "20097": "support-cards/20097.json",
+    "20098": "support-cards/20098.json",
+    "20099": "support-cards/20099.json",
+    "20100": "support-cards/20100.json",
+    "20101": "support-cards/20101.json",
+    "30001": "support-cards/30001.json",
+    "30002": "support-cards/30002.json",
+    "30003": "support-cards/30003.json",
+    "30004": "support-cards/30004.json",
+    "30005": "support-cards/30005.json",
+    "30006": "support-cards/30006.json",
+    "30007": "support-cards/30007.json",
+    "30008": "support-cards/30008.json",
+    "30009": "support-cards/30009.json",
+    "30010": "support-cards/30010.json",
+    "30011": "support-cards/30011.json",
+    "30012": "support-cards/30012.json",
+    "30013": "support-cards/30013.json",
+    "30014": "support-cards/30014.json",
+    "30015": "support-cards/30015.json",
+    "30016": "support-cards/30016.json",
+    "30017": "support-cards/30017.json",
+    "30018": "support-cards/30018.json",
+    "30019": "support-cards/30019.json",
+    "30020": "support-cards/30020.json",
+    "30021": "support-cards/30021.json",
+    "30022": "support-cards/30022.json",
+    "30023": "support-cards/30023.json",
+    "30024": "support-cards/30024.json",
+    "30025": "support-cards/30025.json",
+    "30026": "support-cards/30026.json",
+    "30027": "support-cards/30027.json",
+    "30028": "support-cards/30028.json",
+    "30029": "support-cards/30029.json",
+    "30030": "support-cards/30030.json",
+    "30031": "support-cards/30031.json",
+    "30032": "support-cards/30032.json",
+    "30033": "support-cards/30033.json",
+    "30034": "support-cards/30034.json",
+    "30036": "support-cards/30036.json",
+    "30037": "support-cards/30037.json",
+    "30038": "support-cards/30038.json",
+    "30039": "support-cards/30039.json",
+    "30040": "support-cards/30040.json",
+    "30041": "support-cards/30041.json",
+    "30042": "support-cards/30042.json",
+    "30043": "support-cards/30043.json",
+    "30044": "support-cards/30044.json",
+    "30045": "support-cards/30045.json",
+    "30046": "support-cards/30046.json",
+    "30047": "support-cards/30047.json",
+    "30048": "support-cards/30048.json",
+    "30052": "support-cards/30052.json",
+    "30053": "support-cards/30053.json",
+    "30054": "support-cards/30054.json",
+    "30055": "support-cards/30055.json",
+    "30056": "support-cards/30056.json",
+    "30057": "support-cards/30057.json",
+    "30058": "support-cards/30058.json",
+    "30059": "support-cards/30059.json",
+    "30060": "support-cards/30060.json",
+    "30061": "support-cards/30061.json",
+    "30062": "support-cards/30062.json",
+    "30063": "support-cards/30063.json",
+    "30064": "support-cards/30064.json",
+    "30065": "support-cards/30065.json",
+    "30066": "support-cards/30066.json",
+    "30067": "support-cards/30067.json",
+    "30068": "support-cards/30068.json",
+    "30069": "support-cards/30069.json",
+    "30070": "support-cards/30070.json",
+    "30071": "support-cards/30071.json",
+    "30072": "support-cards/30072.json",
+    "30073": "support-cards/30073.json",
+    "30074": "support-cards/30074.json",
+    "30075": "support-cards/30075.json",
+    "30076": "support-cards/30076.json",
+    "30077": "support-cards/30077.json",
+    "30078": "support-cards/30078.json",
+    "30079": "support-cards/30079.json",
+    "30080": "support-cards/30080.json",
+    "30081": "support-cards/30081.json",
+    "30082": "support-cards/30082.json",
+    "30083": "support-cards/30083.json",
+    "30084": "support-cards/30084.json",
+    "30085": "support-cards/30085.json",
+    "30086": "support-cards/30086.json",
+    "30087": "support-cards/30087.json",
+    "30088": "support-cards/30088.json",
+    "30089": "support-cards/30089.json",
+    "30090": "support-cards/30090.json",
+    "30091": "support-cards/30091.json",
+    "30092": "support-cards/30092.json",
+    "30093": "support-cards/30093.json",
+    "30094": "support-cards/30094.json",
+    "30095": "support-cards/30095.json",
+    "30096": "support-cards/30096.json",
+    "30097": "support-cards/30097.json",
+    "30098": "support-cards/30098.json",
+    "30099": "support-cards/30099.json",
+    "30100": "support-cards/30100.json",
+    "30101": "support-cards/30101.json",
+    "30102": "support-cards/30102.json",
+    "30103": "support-cards/30103.json",
+    "30104": "support-cards/30104.json",
+    "30105": "support-cards/30105.json",
+    "30106": "support-cards/30106.json",
+    "30107": "support-cards/30107.json",
+    "30108": "support-cards/30108.json",
+    "30109": "support-cards/30109.json",
+    "30110": "support-cards/30110.json",
+    "30111": "support-cards/30111.json",
+    "30112": "support-cards/30112.json",
+    "30113": "support-cards/30113.json",
+    "30114": "support-cards/30114.json",
+    "30115": "support-cards/30115.json",
+    "30116": "support-cards/30116.json",
+    "30117": "support-cards/30117.json",
+    "30118": "support-cards/30118.json",
+    "30119": "support-cards/30119.json",
+    "30120": "support-cards/30120.json",
+    "30121": "support-cards/30121.json",
+    "30122": "support-cards/30122.json",
+    "30123": "support-cards/30123.json",
+    "30124": "support-cards/30124.json",
+    "30125": "support-cards/30125.json",
+    "30126": "support-cards/30126.json",
+    "30127": "support-cards/30127.json",
+    "30128": "support-cards/30128.json",
+    "30129": "support-cards/30129.json",
+    "30130": "support-cards/30130.json",
+    "30131": "support-cards/30131.json",
+    "30132": "support-cards/30132.json",
+    "30133": "support-cards/30133.json",
+    "30134": "support-cards/30134.json",
+    "30135": "support-cards/30135.json",
+    "30136": "support-cards/30136.json",
+    "30137": "support-cards/30137.json",
+    "30138": "support-cards/30138.json",
+    "30139": "support-cards/30139.json",
+    "30140": "support-cards/30140.json",
+    "30141": "support-cards/30141.json",
+    "30142": "support-cards/30142.json",
+    "30143": "support-cards/30143.json",
+    "30145": "support-cards/30145.json",
+    "30146": "support-cards/30146.json",
+    "30147": "support-cards/30147.json",
+    "30148": "support-cards/30148.json",
+    "30149": "support-cards/30149.json",
+    "30150": "support-cards/30150.json",
+    "30151": "support-cards/30151.json",
+    "30152": "support-cards/30152.json",
+    "30153": "support-cards/30153.json",
+    "30154": "support-cards/30154.json",
+    "30155": "support-cards/30155.json",
+    "30156": "support-cards/30156.json",
+    "30157": "support-cards/30157.json",
+    "30158": "support-cards/30158.json",
+    "30159": "support-cards/30159.json",
+    "30160": "support-cards/30160.json",
+    "30161": "support-cards/30161.json",
+    "30162": "support-cards/30162.json",
+    "30163": "support-cards/30163.json",
+    "30164": "support-cards/30164.json",
+    "30165": "support-cards/30165.json",
+    "30166": "support-cards/30166.json",
+    "30167": "support-cards/30167.json",
+    "30168": "support-cards/30168.json",
+    "30169": "support-cards/30169.json",
+    "30170": "support-cards/30170.json",
+    "30171": "support-cards/30171.json",
+    "30172": "support-cards/30172.json",
+    "30173": "support-cards/30173.json",
+    "30174": "support-cards/30174.json",
+    "30175": "support-cards/30175.json",
+    "30176": "support-cards/30176.json",
+    "30177": "support-cards/30177.json",
+    "30178": "support-cards/30178.json",
+    "30179": "support-cards/30179.json",
+    "30180": "support-cards/30180.json",
+    "30181": "support-cards/30181.json",
+    "30182": "support-cards/30182.json",
+    "30183": "support-cards/30183.json",
+    "30184": "support-cards/30184.json",
+    "30185": "support-cards/30185.json",
+    "30186": "support-cards/30186.json",
+    "30187": "support-cards/30187.json",
+    "30188": "support-cards/30188.json",
+    "30189": "support-cards/30189.json",
+    "30190": "support-cards/30190.json",
+    "30191": "support-cards/30191.json",
+    "30192": "support-cards/30192.json",
+    "30193": "support-cards/30193.json",
+    "30194": "support-cards/30194.json",
+    "30195": "support-cards/30195.json",
+    "30196": "support-cards/30196.json",
+    "30197": "support-cards/30197.json",
+    "30198": "support-cards/30198.json",
+    "30199": "support-cards/30199.json",
+    "30200": "support-cards/30200.json",
+    "30201": "support-cards/30201.json",
+    "30202": "support-cards/30202.json",
+    "30203": "support-cards/30203.json",
+    "30204": "support-cards/30204.json",
+    "30205": "support-cards/30205.json",
+    "30206": "support-cards/30206.json",
+    "30207": "support-cards/30207.json",
+    "30208": "support-cards/30208.json",
+    "30209": "support-cards/30209.json",
+    "30210": "support-cards/30210.json",
+    "30211": "support-cards/30211.json",
+    "30212": "support-cards/30212.json",
+    "30213": "support-cards/30213.json",
+    "30214": "support-cards/30214.json",
+    "30215": "support-cards/30215.json",
+    "30216": "support-cards/30216.json",
+    "30217": "support-cards/30217.json",
+    "30218": "support-cards/30218.json",
+    "30219": "support-cards/30219.json",
+    "30220": "support-cards/30220.json",
+    "30221": "support-cards/30221.json",
+    "30222": "support-cards/30222.json",
+    "30223": "support-cards/30223.json",
+    "30224": "support-cards/30224.json",
+    "30225": "support-cards/30225.json",
+    "30226": "support-cards/30226.json",
+    "30227": "support-cards/30227.json",
+    "30228": "support-cards/30228.json",
+    "30229": "support-cards/30229.json",
+    "30230": "support-cards/30230.json",
+    "30231": "support-cards/30231.json",
+    "30232": "support-cards/30232.json",
+    "30233": "support-cards/30233.json",
+    "30234": "support-cards/30234.json",
+    "30235": "support-cards/30235.json",
+    "30236": "support-cards/30236.json",
+    "30237": "support-cards/30237.json",
+    "30238": "support-cards/30238.json",
+    "30239": "support-cards/30239.json",
+    "30240": "support-cards/30240.json",
+    "30241": "support-cards/30241.json",
+    "30242": "support-cards/30242.json",
+    "30243": "support-cards/30243.json",
+    "30244": "support-cards/30244.json",
+    "30245": "support-cards/30245.json",
+    "30246": "support-cards/30246.json",
+    "30247": "support-cards/30247.json",
+    "30248": "support-cards/30248.json",
+    "30249": "support-cards/30249.json",
+    "30250": "support-cards/30250.json",
+    "30251": "support-cards/30251.json",
+    "30252": "support-cards/30252.json",
+    "30253": "support-cards/30253.json",
+    "30254": "support-cards/30254.json",
+    "30255": "support-cards/30255.json",
+    "30256": "support-cards/30256.json",
+    "30257": "support-cards/30257.json",
+    "30258": "support-cards/30258.json",
+    "30259": "support-cards/30259.json",
+    "30260": "support-cards/30260.json",
+    "30261": "support-cards/30261.json",
+    "30262": "support-cards/30262.json",
+    "30263": "support-cards/30263.json",
+    "30264": "support-cards/30264.json",
+    "30265": "support-cards/30265.json",
+    "30266": "support-cards/30266.json",
+    "30267": "support-cards/30267.json",
+    "30268": "support-cards/30268.json",
+    "30269": "support-cards/30269.json",
+    "30270": "support-cards/30270.json",
+    "30271": "support-cards/30271.json",
+    "30272": "support-cards/30272.json",
+    "30273": "support-cards/30273.json",
+    "30274": "support-cards/30274.json",
+    "30275": "support-cards/30275.json",
+    "30276": "support-cards/30276.json",
+    "30277": "support-cards/30277.json",
+    "30278": "support-cards/30278.json",
+    "30279": "support-cards/30279.json",
+    "30280": "support-cards/30280.json",
+    "30281": "support-cards/30281.json",
+    "30282": "support-cards/30282.json",
+    "30283": "support-cards/30283.json",
+    "30284": "support-cards/30284.json",
+    "30285": "support-cards/30285.json",
+    "30286": "support-cards/30286.json",
+    "30287": "support-cards/30287.json",
+    "30288": "support-cards/30288.json",
+    "30289": "support-cards/30289.json",
+    "30290": "support-cards/30290.json",
+    "30291": "support-cards/30291.json",
+    "30292": "support-cards/30292.json",
+    "30293": "support-cards/30293.json",
+    "30294": "support-cards/30294.json",
+    "30295": "support-cards/30295.json",
+    "30296": "support-cards/30296.json",
+    "30297": "support-cards/30297.json",
+    "30298": "support-cards/30298.json",
+    "30299": "support-cards/30299.json",
+    "30300": "support-cards/30300.json",
+    "30301": "support-cards/30301.json",
+    "30302": "support-cards/30302.json",
+    "30303": "support-cards/30303.json",
+    "30304": "support-cards/30304.json",
+    "30305": "support-cards/30305.json",
+    "30306": "support-cards/30306.json",
+    "30307": "support-cards/30307.json",
+    "30308": "support-cards/30308.json",
+    "30309": "support-cards/30309.json",
+    "30310": "support-cards/30310.json",
+    "30311": "support-cards/30311.json",
+    "30312": "support-cards/30312.json",
+    "30313": "support-cards/30313.json",
+    "30314": "support-cards/30314.json",
+    "30315": "support-cards/30315.json",
+    "30316": "support-cards/30316.json",
+    "30317": "support-cards/30317.json",
+    "30318": "support-cards/30318.json",
+    "30319": "support-cards/30319.json",
+    "30320": "support-cards/30320.json",
+    "30321": "support-cards/30321.json"
+  },
+  "by_name": {
+    "0500 just as scheduled": [
+      "20013"
+    ],
+    "0500 just as scheduled eishin flash": [
+      "20013"
+    ],
+    "0500 定刻通り": [
+      "20013"
+    ],
+    "0500 定刻通り エイシンフラッシュ": [
+      "20013"
+    ],
+    "1日の終わりに": [
+      "20043"
+    ],
+    "1日の終わりに スペシャルウィーク": [
+      "20043"
+    ],
+    "2人のバウンス シャッセ": [
+      "30189"
+    ],
+    "2人のバウンス シャッセ キタサンブラック": [
+      "30189"
+    ],
+    "43 8 1": [
+      "30043"
+    ],
+    "43 8 1 nakayama festa": [
+      "30043"
+    ],
+    "43 8 1 ナカヤマフェスタ": [
+      "30043"
+    ],
+    "7センチの先へ": [
+      "30013"
+    ],
+    "7センチの先へ エアシャカール": [
+      "30013"
+    ],
+    "a fab heart is a blooming heart": [
+      "30109"
+    ],
+    "a fab heart is a blooming heart sakura chiyono o": [
+      "30109"
+    ],
+    "a feeling a wish": [
+      "30041"
+    ],
+    "a feeling a wish mejiro dober": [
+      "30041"
+    ],
+    "a first magnitude star does not waver": [
+      "20038"
+    ],
+    "a first magnitude star does not waver sirius symboli": [
+      "20038"
+    ],
+    "a grain of peace": [
+      "30016"
+    ],
+    "a grain of peace super creek": [
+      "30016"
+    ],
+    "a holy night for change": [
+      "30174"
+    ],
+    "a holy night for change mejiro dober": [
+      "30174"
+    ],
+    "a melody in brillante with you": [
+      "30191"
+    ],
+    "a melody in brillante with you sounds of earth": [
+      "30191"
+    ],
+    "a more marvelous world": [
+      "30089"
+    ],
+    "a more marvelous world marvelous sunday": [
+      "30089"
+    ],
+    "a myriad of colors a noble bloom": [
+      "30006"
+    ],
+    "a myriad of colors a noble bloom grass wonder": [
+      "30006"
+    ],
+    "a pizzica of intense emotion": [
+      "30190"
+    ],
+    "a pizzica of intense emotion duramente": [
+      "30190"
+    ],
+    "a scene from dreams": [
+      "30100"
+    ],
+    "a scene from dreams rice shower": [
+      "30100"
+    ],
+    "a smile from the heavens": [
+      "30169"
+    ],
+    "a smile from the heavens tsurumaru tsuyoshi": [
+      "30169"
+    ],
+    "a summer gale towards ideals": [
+      "30106"
+    ],
+    "a summer gale towards ideals air groove": [
+      "30106"
+    ],
+    "a tiara shaped ley line": [
+      "30194"
+    ],
+    "a tiara shaped ley line rhein kraft": [
+      "30194"
+    ],
+    "a waltz with you": [
+      "30140"
+    ],
+    "a waltz with you tokai teio": [
+      "30140"
+    ],
+    "a win foreshadowed": [
+      "30118"
+    ],
+    "a win foreshadowed symboli kris s": [
+      "30118"
+    ],
+    "a win foreshadowed シンボリクリスエス": [
+      "30118"
+    ],
+    "accumulating feelings": [
+      "30081"
+    ],
+    "accumulating feelings team sirius": [
+      "30081"
+    ],
+    "acupuncturist": [
+      "10074"
+    ],
+    "acupuncturist anshinzawa sasami": [
+      "10074"
+    ],
+    "admire groove": [
+      "10133",
+      "30265",
+      "30320"
+    ],
+    "admire vega": [
+      "10075",
+      "20041",
+      "30077",
+      "30162"
+    ],
+    "advance of the unsinkable battleship": [
+      "30004"
+    ],
+    "advance of the unsinkable battleship gold ship": [
+      "30004"
+    ],
+    "affections in a small cup": [
+      "30082"
+    ],
+    "affections in a small cup nishino flower": [
+      "30082"
+    ],
+    "agnes digital": [
+      "10026",
+      "20005",
+      "30085",
+      "30229",
+      "30297"
+    ],
+    "agnes tachyon": [
+      "10036",
+      "20012",
+      "20059",
+      "30101",
+      "30299"
+    ],
+    "air groove": [
+      "10025",
+      "20004",
+      "30106",
+      "30124",
+      "30159",
+      "30282"
+    ],
+    "air messiah": [
+      "10127",
+      "30255"
+    ],
+    "air shakur": [
+      "10037",
+      "20076",
+      "30013",
+      "30092",
+      "30226"
+    ],
+    "alert new work available": [
+      "30229"
+    ],
+    "alert new work available agnes digital": [
+      "30229"
+    ],
+    "all alba vincerò": [
+      "30152"
+    ],
+    "all alba vincerò t m opera o": [
+      "30152"
+    ],
+    "all alba vincerò テイエムオペラオー": [
+      "30152"
+    ],
+    "all out brilliance": [
+      "30273"
+    ],
+    "all out brilliance tosen jordan": [
+      "30273"
+    ],
+    "all out brilliance トーセンジョーダン": [
+      "30273"
+    ],
+    "almond eye": [
+      "10122",
+      "30242",
+      "30308"
+    ],
+    "american dream": [
+      "30290"
+    ],
+    "american dream casino drive": [
+      "30290"
+    ],
+    "american dream カジノドライヴ": [
+      "30290"
+    ],
+    "and the curtains rise": [
+      "30209"
+    ],
+    "and the curtains rise dantsu flame": [
+      "30209"
+    ],
+    "angels in the sunlight": [
+      "30116"
+    ],
+    "angels in the sunlight daitaku helios": [
+      "30116"
+    ],
+    "anshinzawa sasami": [
+      "10074",
+      "30080"
+    ],
+    "are you merry": [
+      "30124"
+    ],
+    "are you merry air groove": [
+      "30124"
+    ],
+    "are you merry エアグルーヴ": [
+      "30124"
+    ],
+    "are your instincts awakening": [
+      "30257"
+    ],
+    "are your instincts awakening tucker bryne": [
+      "30257"
+    ],
+    "arrival of spring": [
+      "30244"
+    ],
+    "arrival of spring mejiro bright": [
+      "30244"
+    ],
+    "arrow whistling through the skies": [
+      "30069"
+    ],
+    "arrow whistling through the skies narita brian": [
+      "30069"
+    ],
+    "as if guided": [
+      "30311"
+    ],
+    "as if guided エフフォーリア": [
+      "30311"
+    ],
+    "as the ace": [
+      "30022"
+    ],
+    "as the ace mejiro mcqueen": [
+      "30022"
+    ],
+    "aston machan": [
+      "10087",
+      "20055",
+      "30149",
+      "30296"
+    ],
+    "at day s end": [
+      "20043"
+    ],
+    "at day s end special week": [
+      "20043"
+    ],
+    "azure coronation ceremony": [
+      "30205"
+    ],
+    "azure coronation ceremony verxina": [
+      "30205"
+    ],
+    "b n winner": [
+      "30012"
+    ],
+    "b n winner winning ticket": [
+      "30012"
+    ],
+    "b n winner ウイニングチケット": [
+      "30012"
+    ],
+    "back to back with happiness": [
+      "20017"
+    ],
+    "back to back with happiness meisho doto": [
+      "20017"
+    ],
+    "balliamo": [
+      "30186"
+    ],
+    "balliamo gentildonna": [
+      "30186"
+    ],
+    "balliamo ジェンティルドンナ": [
+      "30186"
+    ],
+    "ballroom tempest": [
+      "30245"
+    ],
+    "ballroom tempest vodka": [
+      "30245"
+    ],
+    "ballroom tempest ウオッカ": [
+      "30245"
+    ],
+    "bamboo memory": [
+      "10065",
+      "30042",
+      "30094",
+      "30197"
+    ],
+    "beauty and the moon": [
+      "20083"
+    ],
+    "beauty and the moon mejiro ramonu": [
+      "20083"
+    ],
+    "behold the majestic bloodline": [
+      "30114"
+    ],
+    "behold the majestic bloodline daiichi ruby": [
+      "30114"
+    ],
+    "beyond the 7 cm": [
+      "30013"
+    ],
+    "beyond the 7 cm air shakur": [
+      "30013"
+    ],
+    "beyond the brilliant scenery": [
+      "30002"
+    ],
+    "beyond the brilliant scenery silence suzuka": [
+      "30002"
+    ],
+    "biko pegasus": [
+      "10042",
+      "20090",
+      "30020",
+      "30132",
+      "30315"
+    ],
+    "biwa hayahide": [
+      "10029",
+      "20006",
+      "30061",
+      "30113"
+    ],
+    "blast off": [
+      "30232"
+    ],
+    "blast off blast onepiece": [
+      "30232"
+    ],
+    "blast off hot summer": [
+      "30158"
+    ],
+    "blast off hot summer jungle pocket": [
+      "30158"
+    ],
+    "blast off ブラストワンピース": [
+      "30232"
+    ],
+    "blast onepiece": [
+      "10116",
+      "30232",
+      "30303"
+    ],
+    "blessings are fugues": [
+      "30059"
+    ],
+    "blessings are fugues mihono bourbon": [
+      "30059"
+    ],
+    "blooming buds": [
+      "30254"
+    ],
+    "blooming buds daring heart": [
+      "30254"
+    ],
+    "blooming buds デアリングハート": [
+      "30254"
+    ],
+    "blooming flowers smile in the heavens": [
+      "30235"
+    ],
+    "blooming flowers smile in the heavens maruzensky": [
+      "30235"
+    ],
+    "blustering breakneck flower storm": [
+      "30083"
+    ],
+    "blustering breakneck flower storm sakura bakushin o": [
+      "30083"
+    ],
+    "blustering in that heart": [
+      "20034"
+    ],
+    "blustering in that heart mejiro ardan": [
+      "20034"
+    ],
+    "bonds like a golden orchid bouquet": [
+      "30099"
+    ],
+    "bonds like a golden orchid bouquet ikuno dictus": [
+      "30099"
+    ],
+    "book recommendations available": [
+      "20028"
+    ],
+    "book recommendations available zenno rob roy": [
+      "20028"
+    ],
+    "bounce chassé together": [
+      "30189"
+    ],
+    "bounce chassé together kitasan black": [
+      "30189"
+    ],
+    "brave soldiers": [
+      "30200"
+    ],
+    "brave soldiers no reason": [
+      "30200"
+    ],
+    "brewing silence": [
+      "20091"
+    ],
+    "brewing silence sakura chitose o": [
+      "20091"
+    ],
+    "bruraright passion": [
+      "30098"
+    ],
+    "bruraright passion haru urara": [
+      "30098"
+    ],
+    "bubble gum fellow": [
+      "10111",
+      "20082",
+      "30284"
+    ],
+    "buena vista": [
+      "10118",
+      "30216",
+      "30250"
+    ],
+    "burning": [
+      "30197"
+    ],
+    "burning bamboo memory": [
+      "30197"
+    ],
+    "burning バンブーメモリー": [
+      "30197"
+    ],
+    "calligraphy expert": [
+      "30233"
+    ],
+    "calligraphy expert symboli rudolf": [
+      "30233"
+    ],
+    "calstone light o": [
+      "10135",
+      "20100",
+      "30267"
+    ],
+    "candid shot between the waves": [
+      "30210"
+    ],
+    "candid shot between the waves smart falcon": [
+      "30210"
+    ],
+    "capricious whimsy": [
+      "30128"
+    ],
+    "capricious whimsy sweep tosho": [
+      "30128"
+    ],
+    "casino drive": [
+      "10141",
+      "30290"
+    ],
+    "catstone light o": [
+      "30267"
+    ],
+    "catstone light o calstone light o": [
+      "30267"
+    ],
+    "ceremonial dance lighting up the night": [
+      "30070"
+    ],
+    "ceremonial dance lighting up the night yukino bijin": [
+      "30070"
+    ],
+    "cesario": [
+      "10115",
+      "30217"
+    ],
+    "cheers": [
+      "20075"
+    ],
+    "cheers tap dance city": [
+      "20075"
+    ],
+    "cheers タップダンスシチー": [
+      "20075"
+    ],
+    "cherry blossoms abloom": [
+      "30142"
+    ],
+    "cherry blossoms abloom sakura laurel": [
+      "30142"
+    ],
+    "cheval grand": [
+      "10105",
+      "30193"
+    ],
+    "chewing up the refrain": [
+      "30223"
+    ],
+    "chewing up the refrain hishi amazon": [
+      "30223"
+    ],
+    "chill chill night": [
+      "30151"
+    ],
+    "chill chill night mayano top gun": [
+      "30151"
+    ],
+    "chill chill night マヤノトップガン": [
+      "30151"
+    ],
+    "chilly hogging": [
+      "30045"
+    ],
+    "chilly hogging sweep tosho": [
+      "30045"
+    ],
+    "choose choose with all your heart": [
+      "30176"
+    ],
+    "choose choose with all your heart mejiro ryan": [
+      "30176"
+    ],
+    "chrono genesis": [
+      "10134",
+      "30266"
+    ],
+    "city girl training begin": [
+      "20011"
+    ],
+    "city girl training begin yukino bijin": [
+      "20011"
+    ],
+    "cocoon": [
+      "30226"
+    ],
+    "cocoon air shakur": [
+      "30226"
+    ],
+    "cocoon エアシャカール": [
+      "30226"
+    ],
+    "cool crazy buddy": [
+      "30228"
+    ],
+    "cool crazy buddy symboli kris s": [
+      "30228"
+    ],
+    "cool crazy buddy シンボリクリスエス": [
+      "30228"
+    ],
+    "copano rickey": [
+      "10092",
+      "20064",
+      "30211"
+    ],
+    "curren bouquetd or": [
+      "10126",
+      "20088",
+      "30274",
+      "30295"
+    ],
+    "curren chan": [
+      "10073",
+      "20044",
+      "30068",
+      "30237"
+    ],
+    "cute cute is": [
+      "20007"
+    ],
+    "cute cute is mayano top gun": [
+      "20007"
+    ],
+    "cutest in ur": [
+      "30237"
+    ],
+    "cutest in ur curren chan": [
+      "30237"
+    ],
+    "cutest in ur カレンチャン": [
+      "30237"
+    ],
+    "daiichi ruby": [
+      "10079",
+      "30114",
+      "30270"
+    ],
+    "daitaku helios": [
+      "10052",
+      "20024",
+      "30071",
+      "30116",
+      "30155"
+    ],
+    "daiwa scarlet": [
+      "10023",
+      "20002",
+      "30047",
+      "30093",
+      "30148",
+      "30227"
+    ],
+    "danke schön": [
+      "30122"
+    ],
+    "danke schön eishin flash": [
+      "30122"
+    ],
+    "danke schön エイシンフラッシュ": [
+      "30122"
+    ],
+    "dantsu flame": [
+      "10108",
+      "20077",
+      "30209",
+      "30269"
+    ],
+    "daring heart": [
+      "10121",
+      "20087",
+      "30254",
+      "30294"
+    ],
+    "daring music": [
+      "20087"
+    ],
+    "daring music daring heart": [
+      "20087"
+    ],
+    "daring music デアリングハート": [
+      "20087"
+    ],
+    "daring tact": [
+      "10120",
+      "30248",
+      "30293"
+    ],
+    "darley arabian": [
+      "30137"
+    ],
+    "dawn to night stars to their heavens": [
+      "30077"
+    ],
+    "dawn to night stars to their heavens admire vega": [
+      "30077"
+    ],
+    "dead end toosenbo": [
+      "20056"
+    ],
+    "dead end toosenbo jungle pocket": [
+      "20056"
+    ],
+    "dear mr c b": [
+      "30097"
+    ],
+    "dear mr c b mr c b": [
+      "30097"
+    ],
+    "dear mr c b ミスターシービー": [
+      "30097"
+    ],
+    "dear secluded me": [
+      "30234"
+    ],
+    "dear secluded me mejiro ardan": [
+      "30234"
+    ],
+    "devilish whispers": [
+      "30215"
+    ],
+    "devilish whispers still in love": [
+      "30215"
+    ],
+    "devilish whispers スティルインラブ": [
+      "30215"
+    ],
+    "devils in the moonlight": [
+      "30115"
+    ],
+    "devils in the moonlight mejiro palmer": [
+      "30115"
+    ],
+    "devoted to you": [
+      "20027"
+    ],
+    "devoted to you nishino flower": [
+      "20027"
+    ],
+    "digital charging in progress": [
+      "20005"
+    ],
+    "digital charging in progress agnes digital": [
+      "20005"
+    ],
+    "director akikawa": [
+      "10109",
+      "30207"
+    ],
+    "disheveled innocence": [
+      "20026"
+    ],
+    "disheveled innocence nice nature": [
+      "20026"
+    ],
+    "don t close your eyes now": [
+      "30138"
+    ],
+    "don t close your eyes now nice nature": [
+      "30138"
+    ],
+    "don t mind the gazes": [
+      "20018"
+    ],
+    "don t mind the gazes mejiro dober": [
+      "20018"
+    ],
+    "don t stop anymore": [
+      "30125"
+    ],
+    "don t stop anymore sakura laurel": [
+      "30125"
+    ],
+    "dream journey": [
+      "10119",
+      "30246"
+    ],
+    "dreams do come true": [
+      "30033"
+    ],
+    "dreams do come true winning ticket": [
+      "30033"
+    ],
+    "dreams of alstroemeria": [
+      "30206"
+    ],
+    "dreams of alstroemeria vivlos": [
+      "30206"
+    ],
+    "dreams supervisor": [
+      "10141"
+    ],
+    "dreams supervisor casino drive": [
+      "10141"
+    ],
+    "dreams 責任者": [
+      "10141"
+    ],
+    "dreams 責任者 カジノドライヴ": [
+      "10141"
+    ],
+    "drifting to blissful sleep": [
+      "30204"
+    ],
+    "drifting to blissful sleep seiun sky": [
+      "30204"
+    ],
+    "duramente": [
+      "10101",
+      "30178",
+      "30190",
+      "30262",
+      "30321"
+    ],
+    "durandal": [
+      "10136",
+      "30268"
+    ],
+    "efforia": [
+      "10146",
+      "30311"
+    ],
+    "effort does not betray": [
+      "20002"
+    ],
+    "effort does not betray daiwa scarlet": [
+      "20002"
+    ],
+    "eishin flash": [
+      "10038",
+      "20013",
+      "30122",
+      "30272"
+    ],
+    "el condor pasa": [
+      "10011",
+      "20033",
+      "30007",
+      "30102",
+      "30161"
+    ],
+    "eldest sister s trouble": [
+      "20070"
+    ],
+    "eldest sister s trouble verxina": [
+      "20070"
+    ],
+    "embers which dissolve winter": [
+      "30175"
+    ],
+    "embers which dissolve winter mejiro ramonu": [
+      "30175"
+    ],
+    "embracing a fiery fighting spirit": [
+      "30164"
+    ],
+    "embracing a fiery fighting spirit hishi amazon": [
+      "30164"
+    ],
+    "enchaînement": [
+      "30090"
+    ],
+    "enchaînement symboli rudolf": [
+      "30090"
+    ],
+    "enchaînement シンボリルドルフ": [
+      "30090"
+    ],
+    "endless game": [
+      "30313"
+    ],
+    "endless game ルーラーシップ": [
+      "30313"
+    ],
+    "ensemble of earth and us": [
+      "30173"
+    ],
+    "ensemble of earth and us sounds of earth": [
+      "30173"
+    ],
+    "escorte étoile": [
+      "30091"
+    ],
+    "escorte étoile sirius symboli": [
+      "30091"
+    ],
+    "escorte étoile シリウスシンボリ": [
+      "30091"
+    ],
+    "espoir city": [
+      "10110",
+      "30222",
+      "30251"
+    ],
+    "even an iron maiden can smile": [
+      "30238"
+    ],
+    "even an iron maiden can smile ikuno dictus": [
+      "30238"
+    ],
+    "even as a tiny bud": [
+      "30018"
+    ],
+    "even as a tiny bud nishino flower": [
+      "30018"
+    ],
+    "event producer": [
+      "10083"
+    ],
+    "event producer light hello": [
+      "10083"
+    ],
+    "evil spiders begone": [
+      "20069"
+    ],
+    "evil spiders begone matikanetannhauser": [
+      "20069"
+    ],
+    "exercise and excel": [
+      "20010"
+    ],
+    "exercise and excel mejiro ryan": [
+      "20010"
+    ],
+    "experimental study of lifeform a": [
+      "20012"
+    ],
+    "experimental study of lifeform a agnes tachyon": [
+      "20012"
+    ],
+    "extraordinary gold medal": [
+      "20068"
+    ],
+    "extraordinary gold medal nice nature": [
+      "20068"
+    ],
+    "eyes aflame and a heart craving victory": [
+      "30258"
+    ],
+    "eyes aflame and a heart craving victory mejiro ryan": [
+      "30258"
+    ],
+    "fast delicious fast": [
+      "30015"
+    ],
+    "fast delicious fast sakura bakushin o": [
+      "30015"
+    ],
+    "fenomeno": [
+      "10139",
+      "30279"
+    ],
+    "fervent yearning": [
+      "20095"
+    ],
+    "fervent yearning red desire": [
+      "20095"
+    ],
+    "fervent yearning レッドディザイア": [
+      "20095"
+    ],
+    "fine motion": [
+      "10028",
+      "20037",
+      "30010",
+      "30167",
+      "30214",
+      "30283"
+    ],
+    "first class planning": [
+      "20020"
+    ],
+    "first class planning king halo": [
+      "20020"
+    ],
+    "first magnitude desire": [
+      "20041"
+    ],
+    "first magnitude desire admire vega": [
+      "20041"
+    ],
+    "forever young": [
+      "10140",
+      "30289"
+    ],
+    "formation party": [
+      "30072"
+    ],
+    "formation party mayano top gun": [
+      "30072"
+    ],
+    "fortuna s ovation": [
+      "30165"
+    ],
+    "fortuna s ovation tanino gimlet": [
+      "30165"
+    ],
+    "founders of a new era": [
+      "30203"
+    ],
+    "founders of a new era jungle pocket": [
+      "30203"
+    ],
+    "from the ground up": [
+      "30052"
+    ],
+    "from the ground up light hello": [
+      "30052"
+    ],
+    "from the ground up ライトハロー": [
+      "30052"
+    ],
+    "fuji kiseki": [
+      "10049",
+      "20001",
+      "30219",
+      "30271"
+    ],
+    "full of history and good food": [
+      "30214"
+    ],
+    "full of history and good food fine motion": [
+      "30214"
+    ],
+    "full power tantrum": [
+      "30046"
+    ],
+    "full power tantrum winning ticket": [
+      "30046"
+    ],
+    "fun and food every day": [
+      "30221"
+    ],
+    "fun and food every day satono diamond": [
+      "30221"
+    ],
+    "fusaichi pandora": [
+      "10129",
+      "30259",
+      "30309"
+    ],
+    "fussy supervisor": [
+      "20039"
+    ],
+    "fussy supervisor vodka": [
+      "20039"
+    ],
+    "gambling den violet": [
+      "30163"
+    ],
+    "gambling den violet nakayama festa": [
+      "30163"
+    ],
+    "gathering constellations": [
+      "30060"
+    ],
+    "gathering constellations twin turbo": [
+      "30060"
+    ],
+    "gentildonna": [
+      "10113",
+      "30186"
+    ],
+    "gentle heart gentle step": [
+      "30063"
+    ],
+    "gentle heart gentle step ikuno dictus": [
+      "30063"
+    ],
+    "gentle moon": [
+      "30153"
+    ],
+    "gentle moon gold city": [
+      "30153"
+    ],
+    "gentle sleek": [
+      "20057"
+    ],
+    "gentle sleek mejiro dober": [
+      "20057"
+    ],
+    "get movin live it up party on": [
+      "30071"
+    ],
+    "get movin live it up party on daitaku helios": [
+      "30071"
+    ],
+    "ghosts and the magic of halloween": [
+      "30066"
+    ],
+    "ghosts and the magic of halloween mihono bourbon": [
+      "30066"
+    ],
+    "give it a wallop i do say": [
+      "30172"
+    ],
+    "give it a wallop i do say mejiro mcqueen": [
+      "30172"
+    ],
+    "glad tidings": [
+      "30123"
+    ],
+    "glad tidings narita brian": [
+      "30123"
+    ],
+    "glad tidings ナリタブライアン": [
+      "30123"
+    ],
+    "glittering gallop": [
+      "30102"
+    ],
+    "glittering gallop el condor pasa": [
+      "30102"
+    ],
+    "go fashionista": [
+      "30185"
+    ],
+    "go fashionista north flight": [
+      "30185"
+    ],
+    "go for the gold": [
+      "20049"
+    ],
+    "go for the gold gold city": [
+      "20049"
+    ],
+    "go go princess": [
+      "30096"
+    ],
+    "go go princess kawakami princess": [
+      "30096"
+    ],
+    "go go tsuyoshi": [
+      "20052"
+    ],
+    "go go tsuyoshi tsurumaru tsuyoshi": [
+      "20052"
+    ],
+    "gold city": [
+      "10017",
+      "20049",
+      "30014",
+      "30153"
+    ],
+    "gold ship": [
+      "10006",
+      "20061",
+      "30004",
+      "30057",
+      "30168",
+      "30278"
+    ],
+    "golshi flippy speciality": [
+      "20061"
+    ],
+    "golshi flippy speciality gold ship": [
+      "20061"
+    ],
+    "good grief welcome back": [
+      "20001"
+    ],
+    "good grief welcome back fuji kiseki": [
+      "20001"
+    ],
+    "good marvelous to everyone": [
+      "20079"
+    ],
+    "good marvelous to everyone marvelous sunday": [
+      "20079"
+    ],
+    "gran alegria": [
+      "10124",
+      "30243",
+      "30301"
+    ],
+    "grand fotografia": [
+      "20054"
+    ],
+    "grand fotografia t m opera o": [
+      "20054"
+    ],
+    "grass wonder": [
+      "10009",
+      "20065",
+      "30006",
+      "30129"
+    ],
+    "grateful gratitude cherry blossom flurry": [
+      "30184"
+    ],
+    "grateful gratitude cherry blossom flurry sakura bakushin o": [
+      "30184"
+    ],
+    "gratitude up to one s fingertips": [
+      "30010"
+    ],
+    "gratitude up to one s fingertips fine motion": [
+      "30010"
+    ],
+    "grayish party": [
+      "30260"
+    ],
+    "grayish party mejiro mcqueen": [
+      "30260"
+    ],
+    "great helper and the little witch": [
+      "20066"
+    ],
+    "great helper and the little witch kitasan black": [
+      "20066"
+    ],
+    "grma ramen": [
+      "20037"
+    ],
+    "grma ramen fine motion": [
+      "20037"
+    ],
+    "grmaラーメン": [
+      "20037"
+    ],
+    "grmaラーメン ファインモーション": [
+      "20037"
+    ],
+    "guiding light": [
+      "30241"
+    ],
+    "guiding light embodiment of legends": [
+      "30241"
+    ],
+    "hanagoromo for you": [
+      "20080"
+    ],
+    "hanagoromo for you sakura laurel": [
+      "20080"
+    ],
+    "hands up crook": [
+      "30053"
+    ],
+    "hands up crook taiki shuttle": [
+      "30053"
+    ],
+    "hands up crook タイキシャトル": [
+      "30053"
+    ],
+    "happiness is just around the corner": [
+      "30034"
+    ],
+    "happiness is just around the corner rice shower": [
+      "30034"
+    ],
+    "haru urara": [
+      "10020",
+      "30019",
+      "30098",
+      "30171",
+      "30314"
+    ],
+    "haute couture memory": [
+      "30149"
+    ],
+    "haute couture memory aston machan": [
+      "30149"
+    ],
+    "have a sweet swim ring": [
+      "20060"
+    ],
+    "have a sweet swim ring hishi akebono": [
+      "20060"
+    ],
+    "hayakawa tazuna": [
+      "10021",
+      "30021",
+      "30305"
+    ],
+    "head on fight": [
+      "30042"
+    ],
+    "head on fight bamboo memory": [
+      "30042"
+    ],
+    "head on fight バンブーメモリー": [
+      "30042"
+    ],
+    "hear an exemplary greeting": [
+      "20042"
+    ],
+    "hear an exemplary greeting sakura bakushin o": [
+      "20042"
+    ],
+    "heart ignition": [
+      "30150"
+    ],
+    "heart ignition vodka": [
+      "30150"
+    ],
+    "heaven piercing lightning girl": [
+      "30009"
+    ],
+    "heaven piercing lightning girl tamamo cross": [
+      "30009"
+    ],
+    "hello my clover": [
+      "30167"
+    ],
+    "hello my clover fine motion": [
+      "30167"
+    ],
+    "hello my clover ファインモーション": [
+      "30167"
+    ],
+    "here s your salvation": [
+      "20036"
+    ],
+    "here s your salvation mejiro palmer": [
+      "20036"
+    ],
+    "hero blessed with magic": [
+      "30065"
+    ],
+    "hero blessed with magic zenno rob roy": [
+      "30065"
+    ],
+    "hishi akebono": [
+      "10064",
+      "20060",
+      "30040",
+      "30133"
+    ],
+    "hishi amazon": [
+      "10024",
+      "20003",
+      "20098",
+      "30164",
+      "30223"
+    ],
+    "hishi miracle": [
+      "10107",
+      "30199"
+    ],
+    "hokko tarumae": [
+      "10090",
+      "20092",
+      "30182"
+    ],
+    "hometown cheering express": [
+      "30031"
+    ],
+    "hometown cheering express yukino bijin": [
+      "30031"
+    ],
+    "hoshina kiyoko": [
+      "10138",
+      "30276"
+    ],
+    "hot cute memory": [
+      "20044"
+    ],
+    "hot cute memory curren chan": [
+      "20044"
+    ],
+    "howling fortitude": [
+      "30230"
+    ],
+    "howling fortitude meisho doto": [
+      "30230"
+    ],
+    "i am the strongest": [
+      "30240"
+    ],
+    "i am the strongest jungle pocket": [
+      "30240"
+    ],
+    "ikuno dictus": [
+      "10053",
+      "20025",
+      "30063",
+      "30099",
+      "30143",
+      "30238"
+    ],
+    "impawcable hero": [
+      "20090"
+    ],
+    "impawcable hero biko pegasus": [
+      "20090"
+    ],
+    "in my way": [
+      "30084"
+    ],
+    "in my way tosen jordan": [
+      "30084"
+    ],
+    "in my way トーセンジョーダン": [
+      "30084"
+    ],
+    "in pursuit of eternal glory": [
+      "30137"
+    ],
+    "in pursuit of eternal glory progenitors guides": [
+      "30137"
+    ],
+    "in the future ahead": [
+      "30266"
+    ],
+    "in the future ahead chrono genesis": [
+      "30266"
+    ],
+    "inari one": [
+      "10068",
+      "20032",
+      "30281"
+    ],
+    "ines fujin": [
+      "10035",
+      "20030",
+      "30011"
+    ],
+    "innovator": [
+      "30289"
+    ],
+    "innovator forever young": [
+      "30289"
+    ],
+    "innovator フォーエバーヤング": [
+      "30289"
+    ],
+    "inseparable": [
+      "30270"
+    ],
+    "inseparable daiichi ruby": [
+      "30270"
+    ],
+    "inseparable ダイイチルビー": [
+      "30270"
+    ],
+    "into the future": [
+      "30180"
+    ],
+    "into the future timeless icons": [
+      "30180"
+    ],
+    "invigorating winning shot": [
+      "30048"
+    ],
+    "invigorating winning shot mejiro ryan": [
+      "30048"
+    ],
+    "invitation to a trance": [
+      "30246"
+    ],
+    "invitation to a trance dream journey": [
+      "30246"
+    ],
+    "island project manager": [
+      "10128"
+    ],
+    "island project manager tucker bryne": [
+      "10128"
+    ],
+    "it s on the house": [
+      "30110"
+    ],
+    "it s on the house manhattan cafe": [
+      "30110"
+    ],
+    "it s on the house マンハッタンカフェ": [
+      "30110"
+    ],
+    "japan s number 1 stage": [
+      "30001"
+    ],
+    "japan s number 1 stage special week": [
+      "30001"
+    ],
+    "joy in every flower": [
+      "20088"
+    ],
+    "joy in every flower curren bouquetd or": [
+      "20088"
+    ],
+    "jump out and shine": [
+      "30011"
+    ],
+    "jump out and shine ines fujin": [
+      "30011"
+    ],
+    "jungle pocket": [
+      "10089",
+      "20056",
+      "30147",
+      "30158",
+      "30203",
+      "30240"
+    ],
+    "just a drop of water": [
+      "20019"
+    ],
+    "just a drop of water nice nature": [
+      "20019"
+    ],
+    "just keep going": [
+      "30030"
+    ],
+    "just keep going matikanetannhauser": [
+      "30030"
+    ],
+    "just keep going マチカネタンホイザ": [
+      "30030"
+    ],
+    "k s miracle": [
+      "10080",
+      "20051",
+      "30130",
+      "30195"
+    ],
+    "kashimoto riko": [
+      "10060",
+      "30036"
+    ],
+    "katsuragi ace": [
+      "10091",
+      "30135"
+    ],
+    "kawakami princess": [
+      "10063",
+      "20089",
+      "30039",
+      "30096"
+    ],
+    "king halo": [
+      "10048",
+      "20020",
+      "30056",
+      "30170",
+      "30285"
+    ],
+    "kiseki": [
+      "10145",
+      "30307"
+    ],
+    "kitasan black": [
+      "10055",
+      "20066",
+      "30028",
+      "30180",
+      "30189"
+    ],
+    "knock em down": [
+      "30222"
+    ],
+    "knock em down espoir city": [
+      "30222"
+    ],
+    "knock em down エスポワールシチー": [
+      "30222"
+    ],
+    "l aube approaches": [
+      "30160"
+    ],
+    "l aube approaches satake mei": [
+      "30160"
+    ],
+    "l aubeは迫りて": [
+      "30160"
+    ],
+    "l aubeは迫りて 佐岳メイ": [
+      "30160"
+    ],
+    "laugh all you want": [
+      "30027"
+    ],
+    "laugh all you want mejiro palmer": [
+      "30027"
+    ],
+    "leave the haute couture to me": [
+      "20081"
+    ],
+    "leave the haute couture to me north flight": [
+      "20081"
+    ],
+    "legend of the strongest uma king": [
+      "30057"
+    ],
+    "legend of the strongest uma king gold ship": [
+      "30057"
+    ],
+    "let s go halloween night": [
+      "30064"
+    ],
+    "let s go halloween night tamamo cross": [
+      "30064"
+    ],
+    "let s go together": [
+      "30291"
+    ],
+    "let s go together victoire pisa": [
+      "30291"
+    ],
+    "let s go together ヴィクトワールピサ": [
+      "30291"
+    ],
+    "let s seize our dreams": [
+      "30105"
+    ],
+    "let s seize our dreams special week": [
+      "30105"
+    ],
+    "let your dreams be known": [
+      "30003"
+    ],
+    "let your dreams be known tokai teio": [
+      "30003"
+    ],
+    "lifelong wonder": [
+      "30156"
+    ],
+    "lifelong wonder wonder acute": [
+      "30156"
+    ],
+    "light hello": [
+      "10083",
+      "30052"
+    ],
+    "like a seagull": [
+      "30154"
+    ],
+    "like a seagull mejiro palmer": [
+      "30154"
+    ],
+    "like white lightning": [
+      "30256"
+    ],
+    "like white lightning tamamo cross": [
+      "30256"
+    ],
+    "linked parade notes": [
+      "30249"
+    ],
+    "linked parade notes transcend": [
+      "30249"
+    ],
+    "little by little": [
+      "30087"
+    ],
+    "little by little mejiro bright": [
+      "30087"
+    ],
+    "long awaited masterplan": [
+      "30008"
+    ],
+    "long awaited masterplan seiun sky": [
+      "30008"
+    ],
+    "love beyond affection": [
+      "30067"
+    ],
+    "love beyond affection the throne s assemblage": [
+      "30067"
+    ],
+    "lucky lilac": [
+      "10123",
+      "20084"
+    ],
+    "lucky summertime": [
+      "30211"
+    ],
+    "lucky summertime copano rickey": [
+      "30211"
+    ],
+    "lucky summertime コパノリッキー": [
+      "30211"
+    ],
+    "luz de ensueño": [
+      "30250"
+    ],
+    "luz de ensueño buena vista": [
+      "30250"
+    ],
+    "luz de ensueño ブエナビスタ": [
+      "30250"
+    ],
+    "mag c number": [
+      "30092"
+    ],
+    "mag c number air shakur": [
+      "30092"
+    ],
+    "mag c number エアシャカール": [
+      "30092"
+    ],
+    "making a power trio": [
+      "30225"
+    ],
+    "making a power trio matikanefukukitaru": [
+      "30225"
+    ],
+    "manhattan cafe": [
+      "10031",
+      "20008",
+      "30075",
+      "30110",
+      "30157"
+    ],
+    "marche lorraine": [
+      "10144",
+      "30292"
+    ],
+    "maruzensky": [
+      "10004",
+      "20062",
+      "30107",
+      "30235"
+    ],
+    "marvelous chocolate show": [
+      "30131"
+    ],
+    "marvelous chocolate show marvelous sunday": [
+      "30131"
+    ],
+    "marvelous masterplan": [
+      "20015"
+    ],
+    "marvelous masterplan marvelous sunday": [
+      "20015"
+    ],
+    "marvelous sunday": [
+      "10043",
+      "20015",
+      "20079",
+      "30074",
+      "30089",
+      "30131"
+    ],
+    "matikane adventure": [
+      "30103"
+    ],
+    "matikane adventure matikanetannhauser": [
+      "30103"
+    ],
+    "matikanefukukitaru": [
+      "10044",
+      "20016",
+      "20078",
+      "30078",
+      "30225",
+      "30286"
+    ],
+    "matikanetannhauser": [
+      "10057",
+      "20069",
+      "30030",
+      "30103",
+      "30317"
+    ],
+    "may this charm bring prosperity": [
+      "20078"
+    ],
+    "may this charm bring prosperity matikanefukukitaru": [
+      "20078"
+    ],
+    "mayano top gun": [
+      "10030",
+      "20007",
+      "30072",
+      "30151"
+    ],
+    "meisho doto": [
+      "10045",
+      "20017",
+      "30079",
+      "30230",
+      "30304"
+    ],
+    "mejiro ardan": [
+      "10069",
+      "20034",
+      "20099",
+      "30119",
+      "30234"
+    ],
+    "mejiro bright": [
+      "10076",
+      "30087",
+      "30244"
+    ],
+    "mejiro dober": [
+      "10046",
+      "20018",
+      "20057",
+      "20093",
+      "30041",
+      "30174"
+    ],
+    "mejiro mcqueen": [
+      "10010",
+      "20085",
+      "30022",
+      "30139",
+      "30172",
+      "30260"
+    ],
+    "mejiro palmer": [
+      "10054",
+      "20036",
+      "30027",
+      "30115",
+      "30154"
+    ],
+    "mejiro ramonu": [
+      "10088",
+      "20083",
+      "30134",
+      "30175"
+    ],
+    "mejiro ryan": [
+      "10033",
+      "20010",
+      "20040",
+      "30048",
+      "30176",
+      "30258"
+    ],
+    "mihono bourbon": [
+      "10032",
+      "20009",
+      "30059",
+      "30066",
+      "30121",
+      "30141",
+      "30277"
+    ],
+    "mission feeding the heart": [
+      "30141"
+    ],
+    "mission feeding the heart mihono bourbon": [
+      "30141"
+    ],
+    "mother sea of love": [
+      "30217"
+    ],
+    "mother sea of love cesario": [
+      "30217"
+    ],
+    "mr c b": [
+      "10078",
+      "30097",
+      "30312"
+    ],
+    "muddied campanello": [
+      "20033"
+    ],
+    "muddied campanello el condor pasa": [
+      "20033"
+    ],
+    "my beloved scenery": [
+      "30252"
+    ],
+    "my beloved scenery silence suzuka": [
+      "30252"
+    ],
+    "my beloved scenery サイレンススズカ": [
+      "30252"
+    ],
+    "my dance whirls forth": [
+      "30170"
+    ],
+    "my dance whirls forth king halo": [
+      "30170"
+    ],
+    "my dear v e r 2285": [
+      "30198"
+    ],
+    "my dear v e r 2285 neo universe": [
+      "30198"
+    ],
+    "my heart on a night breeze": [
+      "30139"
+    ],
+    "my heart on a night breeze mejiro mcqueen": [
+      "30139"
+    ],
+    "my hope you can t erase": [
+      "30054"
+    ],
+    "my hope you can t erase nice nature": [
+      "30054"
+    ],
+    "nail on turf": [
+      "20035"
+    ],
+    "nail on turf tosen jordan": [
+      "20035"
+    ],
+    "nail on turf トーセンジョーダン": [
+      "20035"
+    ],
+    "nakayama festa": [
+      "10067",
+      "30043",
+      "30108",
+      "30163"
+    ],
+    "narita brian": [
+      "10072",
+      "30044",
+      "30069",
+      "30123",
+      "30224",
+      "30319"
+    ],
+    "narita taishin": [
+      "10040",
+      "20014",
+      "30073",
+      "30201"
+    ],
+    "narita top road": [
+      "10077",
+      "20053",
+      "30086"
+    ],
+    "needy night": [
+      "20067"
+    ],
+    "needy night taiki shuttle": [
+      "20067"
+    ],
+    "neo universe": [
+      "10106",
+      "30198",
+      "30287"
+    ],
+    "new tales await": [
+      "30243"
+    ],
+    "new tales await gran alegria": [
+      "30243"
+    ],
+    "new tales await グランアレグリア": [
+      "30243"
+    ],
+    "nice nature": [
+      "10047",
+      "20019",
+      "20026",
+      "20068",
+      "30054",
+      "30138",
+      "30239",
+      "30306"
+    ],
+    "nishino flower": [
+      "10041",
+      "20027",
+      "30018",
+      "30082",
+      "30208"
+    ],
+    "no reason": [
+      "10117",
+      "30200"
+    ],
+    "north flight": [
+      "10102",
+      "20081",
+      "30185"
+    ],
+    "oguri cap": [
+      "10005",
+      "20048",
+      "30024",
+      "30146"
+    ],
+    "oh such joy such delight": [
+      "30171"
+    ],
+    "oh such joy such delight haru urara": [
+      "30171"
+    ],
+    "oh wonderful sweetness": [
+      "20059"
+    ],
+    "oh wonderful sweetness agnes tachyon": [
+      "20059"
+    ],
+    "on the limit uma dol": [
+      "20045"
+    ],
+    "on the limit uma dol smart falcon": [
+      "20045"
+    ],
+    "on the slow waves": [
+      "20050"
+    ],
+    "on the slow waves seiun sky": [
+      "20050"
+    ],
+    "on the winds": [
+      "30196"
+    ],
+    "on the winds yamanin zephyr": [
+      "30196"
+    ],
+    "onwards the fearsome demon queen forces": [
+      "30117"
+    ],
+    "onwards the fearsome demon queen forces shinko windy": [
+      "30117"
+    ],
+    "operation escort": [
+      "30247"
+    ],
+    "operation escort symboli kris s": [
+      "30247"
+    ],
+    "operation escort シンボリクリスエス": [
+      "30247"
+    ],
+    "orfevre": [
+      "10103",
+      "30187",
+      "30280"
+    ],
+    "our angel s homecoming": [
+      "30182"
+    ],
+    "our angel s homecoming hokko tarumae": [
+      "30182"
+    ],
+    "our princess ways": [
+      "20089"
+    ],
+    "our princess ways kawakami princess": [
+      "20089"
+    ],
+    "outfit as no 1": [
+      "30093"
+    ],
+    "outfit as no 1 daiwa scarlet": [
+      "30093"
+    ],
+    "outfit as no 1 ダイワスカーレット": [
+      "30093"
+    ],
+    "over the ocean": [
+      "30193"
+    ],
+    "over the ocean cheval grand": [
+      "30193"
+    ],
+    "over the ocean シュヴァルグラン": [
+      "30193"
+    ],
+    "party people party night": [
+      "20024"
+    ],
+    "party people party night daitaku helios": [
+      "20024"
+    ],
+    "passion campeóna": [
+      "30007"
+    ],
+    "passion campeóna el condor pasa": [
+      "30007"
+    ],
+    "peachy baku shot": [
+      "30086"
+    ],
+    "peachy baku shot narita top road": [
+      "30086"
+    ],
+    "pearl of the world": [
+      "20029"
+    ],
+    "pearl of the world seeking the pearl": [
+      "20029"
+    ],
+    "peering through an afternoon shower": [
+      "20063"
+    ],
+    "peering through an afternoon shower silence suzuka": [
+      "20063"
+    ],
+    "perfection is composable": [
+      "20071"
+    ],
+    "perfection is composable royce and royce": [
+      "20071"
+    ],
+    "pray to ward off evil spirits": [
+      "30127"
+    ],
+    "pray to ward off evil spirits special week": [
+      "30127"
+    ],
+    "precious moments": [
+      "30162"
+    ],
+    "precious moments admire vega": [
+      "30162"
+    ],
+    "precious moments アドマイヤベガ": [
+      "30162"
+    ],
+    "preserving the wonder in her eyes": [
+      "20074"
+    ],
+    "preserving the wonder in her eyes yaeno muteki": [
+      "20074"
+    ],
+    "principal water dancer": [
+      "30261"
+    ],
+    "principal water dancer win variation": [
+      "30261"
+    ],
+    "producer": [
+      "10104"
+    ],
+    "producer tsurugi ryoka": [
+      "10104"
+    ],
+    "promised glitter": [
+      "30251"
+    ],
+    "promised glitter espoir city": [
+      "30251"
+    ],
+    "pulse quickening cooldown": [
+      "20040"
+    ],
+    "pulse quickening cooldown mejiro ryan": [
+      "20040"
+    ],
+    "pushed by the approaching passion": [
+      "30028"
+    ],
+    "pushed by the approaching passion kitasan black": [
+      "30028"
+    ],
+    "q 0": [
+      "30101"
+    ],
+    "q 0 agnes tachyon": [
+      "30101"
+    ],
+    "q 0 アグネスタキオン": [
+      "30101"
+    ],
+    "radiant": [
+      "30134"
+    ],
+    "radiant mejiro ramonu": [
+      "30134"
+    ],
+    "radical ride": [
+      "20062"
+    ],
+    "radical ride maruzensky": [
+      "20062"
+    ],
+    "rain s recital my original": [
+      "20008"
+    ],
+    "rain s recital my original manhattan cafe": [
+      "20008"
+    ],
+    "raise up your raging torch": [
+      "30135"
+    ],
+    "raise up your raging torch katsuragi ace": [
+      "30135"
+    ],
+    "real quality fantastical extra large carrot": [
+      "30207"
+    ],
+    "real quality fantastical extra large carrot director akikawa": [
+      "30207"
+    ],
+    "red desire": [
+      "10142",
+      "20095",
+      "30310"
+    ],
+    "resolute flora": [
+      "30274"
+    ],
+    "resolute flora curren bouquetd or": [
+      "30274"
+    ],
+    "resonating strain": [
+      "30061"
+    ],
+    "resonating strain biwa hayahide": [
+      "30061"
+    ],
+    "rewarding job": [
+      "30220"
+    ],
+    "rewarding job symboli kris s": [
+      "30220"
+    ],
+    "rewarding job シンボリクリスエス": [
+      "30220"
+    ],
+    "rhein kraft": [
+      "10114",
+      "30194",
+      "30253"
+    ],
+    "rhodonite and the dreamstone": [
+      "30104"
+    ],
+    "rhodonite and the dreamstone zenno rob roy": [
+      "30104"
+    ],
+    "rice my favourite": [
+      "20048"
+    ],
+    "rice my favourite oguri cap": [
+      "20048"
+    ],
+    "rice shower": [
+      "10015",
+      "20086",
+      "30023",
+      "30034",
+      "30100",
+      "30318"
+    ],
+    "ride into tomorrow": [
+      "30202"
+    ],
+    "ride into tomorrow vodka": [
+      "30202"
+    ],
+    "ride the night winds flowers of prayer": [
+      "30119"
+    ],
+    "ride the night winds flowers of prayer mejiro ardan": [
+      "30119"
+    ],
+    "rippling feelings": [
+      "20014"
+    ],
+    "rippling feelings narita taishin": [
+      "20014"
+    ],
+    "road of vodka": [
+      "30005"
+    ],
+    "road of vodka vodka": [
+      "30005"
+    ],
+    "roadside feedback": [
+      "20076"
+    ],
+    "roadside feedback air shakur": [
+      "20076"
+    ],
+    "roar of apoyando": [
+      "30224"
+    ],
+    "roar of apoyando narita brian": [
+      "30224"
+    ],
+    "royce and royce": [
+      "10100",
+      "20071"
+    ],
+    "rulership": [
+      "10147",
+      "30313"
+    ],
+    "run dash sprint": [
+      "30146"
+    ],
+    "run dash sprint oguri cap": [
+      "30146"
+    ],
+    "run my way": [
+      "30014"
+    ],
+    "run my way gold city": [
+      "30014"
+    ],
+    "run my way ゴールドシチー": [
+      "30014"
+    ],
+    "sakura bakushin o": [
+      "10018",
+      "20042",
+      "30015",
+      "30083",
+      "30184"
+    ],
+    "sakura chitose o": [
+      "10137",
+      "20091"
+    ],
+    "sakura chiyono o": [
+      "10062",
+      "30038",
+      "30109",
+      "30300"
+    ],
+    "sakura in full bloom": [
+      "30038"
+    ],
+    "sakura in full bloom sakura chiyono o": [
+      "30038"
+    ],
+    "sakura laurel": [
+      "10085",
+      "20080",
+      "30125",
+      "30142"
+    ],
+    "satake mei": [
+      "10094",
+      "30160"
+    ],
+    "satisfied winning smile": [
+      "30177"
+    ],
+    "satisfied winning smile vivlos": [
+      "30177"
+    ],
+    "satono diamond": [
+      "10056",
+      "20094",
+      "30029",
+      "30088",
+      "30179",
+      "30221",
+      "30302"
+    ],
+    "scenes we reached": [
+      "30143"
+    ],
+    "scenes we reached ikuno dictus": [
+      "30143"
+    ],
+    "scorch even the heavens flame of devotion": [
+      "30120"
+    ],
+    "scorch even the heavens flame of devotion yaeno muteki": [
+      "30120"
+    ],
+    "seaside bloom": [
+      "30159"
+    ],
+    "seaside bloom air groove": [
+      "30159"
+    ],
+    "seaside bloom エアグルーヴ": [
+      "30159"
+    ],
+    "seeking sights unseen": [
+      "30076"
+    ],
+    "seeking sights unseen silence suzuka": [
+      "30076"
+    ],
+    "seeking the pearl": [
+      "10061",
+      "20029",
+      "30095",
+      "30236"
+    ],
+    "seiun sky": [
+      "10014",
+      "20050",
+      "30008",
+      "30055",
+      "30204"
+    ],
+    "sentimentality advisory": [
+      "30107"
+    ],
+    "sentimentality advisory maruzensky": [
+      "30107"
+    ],
+    "shinko windy": [
+      "10066",
+      "20031",
+      "30117"
+    ],
+    "silence suzuka": [
+      "10002",
+      "20063",
+      "30002",
+      "30062",
+      "30076",
+      "30252",
+      "30288"
+    ],
+    "sing minna no": [
+      "30181"
+    ],
+    "sing minna no twin turbo": [
+      "30181"
+    ],
+    "sirius symboli": [
+      "10071",
+      "20038",
+      "30091"
+    ],
+    "smart falcon": [
+      "10039",
+      "20045",
+      "30017",
+      "30210"
+    ],
+    "smile in fondente": [
+      "30133"
+    ],
+    "smile in fondente hishi akebono": [
+      "30133"
+    ],
+    "smiling through the mud": [
+      "20032"
+    ],
+    "smiling through the mud inari one": [
+      "20032"
+    ],
+    "snow crystal day": [
+      "30074"
+    ],
+    "snow crystal day marvelous sunday": [
+      "30074"
+    ],
+    "soaring ambition": [
+      "30161"
+    ],
+    "soaring ambition el condor pasa": [
+      "30161"
+    ],
+    "solo chase helix": [
+      "30075"
+    ],
+    "solo chase helix manhattan cafe": [
+      "30075"
+    ],
+    "something blue": [
+      "30148"
+    ],
+    "something blue daiwa scarlet": [
+      "30148"
+    ],
+    "something blue ダイワスカーレット": [
+      "30148"
+    ],
+    "something troubling you pony chan": [
+      "30219"
+    ],
+    "something troubling you pony chan fuji kiseki": [
+      "30219"
+    ],
+    "sonorous yo ho": [
+      "30166"
+    ],
+    "sonorous yo ho tap dance city": [
+      "30166"
+    ],
+    "sounds of earth": [
+      "10098",
+      "30173",
+      "30191"
+    ],
+    "special dreamers": [
+      "30088"
+    ],
+    "special dreamers satono diamond": [
+      "30088"
+    ],
+    "special dreamers サトノダイヤモンド": [
+      "30088"
+    ],
+    "special move w carrot punch": [
+      "30020"
+    ],
+    "special move w carrot punch biko pegasus": [
+      "30020"
+    ],
+    "special reverance": [
+      "30192"
+    ],
+    "special reverance vivlos": [
+      "30192"
+    ],
+    "special week": [
+      "10001",
+      "20043",
+      "30001",
+      "30025",
+      "30081",
+      "30105",
+      "30127"
+    ],
+    "speed symboli": [
+      "30241"
+    ],
+    "spotless white": [
+      "30248"
+    ],
+    "spotless white daring tact": [
+      "30248"
+    ],
+    "spread my feelings": [
+      "30094"
+    ],
+    "spread my feelings bamboo memory": [
+      "30094"
+    ],
+    "stand at the top": [
+      "20003"
+    ],
+    "stand at the top hishi amazon": [
+      "20003"
+    ],
+    "stay gold": [
+      "10132",
+      "30264"
+    ],
+    "step smile wink": [
+      "20047"
+    ],
+    "step smile wink tokai teio": [
+      "20047"
+    ],
+    "step smile wink トウカイテイオー": [
+      "20047"
+    ],
+    "still in love": [
+      "10096",
+      "30215"
+    ],
+    "stirring blood": [
+      "30178"
+    ],
+    "stirring blood duramente": [
+      "30178"
+    ],
+    "stop prez": [
+      "20053"
+    ],
+    "stop prez narita top road": [
+      "20053"
+    ],
+    "strawberry field at sunrise": [
+      "30208"
+    ],
+    "strawberry field at sunrise nishino flower": [
+      "30208"
+    ],
+    "strong growing young grass": [
+      "30255"
+    ],
+    "strong growing young grass air messiah": [
+      "30255"
+    ],
+    "stubborn malkuth": [
+      "30073"
+    ],
+    "stubborn malkuth narita taishin": [
+      "30073"
+    ],
+    "summer newself": [
+      "30155"
+    ],
+    "summer newself daitaku helios": [
+      "30155"
+    ],
+    "sunset colored aspiration": [
+      "30025"
+    ],
+    "sunset colored aspiration special week": [
+      "30025"
+    ],
+    "sunshine under the moon": [
+      "30218"
+    ],
+    "sunshine under the moon taiki shuttle": [
+      "30218"
+    ],
+    "super creek": [
+      "10019",
+      "20097",
+      "30016"
+    ],
+    "surpassing that back": [
+      "30029"
+    ],
+    "surpassing that back satono diamond": [
+      "30029"
+    ],
+    "surrender to the dice": [
+      "30108"
+    ],
+    "surrender to the dice nakayama festa": [
+      "30108"
+    ],
+    "sushi go round": [
+      "20096"
+    ],
+    "sushi go round taiki shuttle": [
+      "20096"
+    ],
+    "sushi go round タイキシャトル": [
+      "20096"
+    ],
+    "sweep tosho": [
+      "10050",
+      "20023",
+      "20046",
+      "30045",
+      "30128"
+    ],
+    "symboli kris s": [
+      "10082",
+      "30118",
+      "30136",
+      "30220",
+      "30228",
+      "30247"
+    ],
+    "symboli rudolf": [
+      "10013",
+      "20058",
+      "30037",
+      "30067",
+      "30090",
+      "30233"
+    ],
+    "t m opera o": [
+      "10012",
+      "20054",
+      "30152",
+      "30231"
+    ],
+    "taiki shuttle": [
+      "10008",
+      "20067",
+      "20096",
+      "30053",
+      "30218"
+    ],
+    "take them down": [
+      "30201"
+    ],
+    "take them down narita taishin": [
+      "30201"
+    ],
+    "take them down ナリタタイシン": [
+      "30201"
+    ],
+    "tamamo cross": [
+      "10027",
+      "20022",
+      "30009",
+      "30064",
+      "30256"
+    ],
+    "tanino gimlet": [
+      "10084",
+      "20072",
+      "30145",
+      "30165"
+    ],
+    "tap dance city": [
+      "10095",
+      "20075",
+      "30166",
+      "30298"
+    ],
+    "taste my ikayaki": [
+      "20022"
+    ],
+    "taste my ikayaki tamamo cross": [
+      "20022"
+    ],
+    "teioo oo ooo": [
+      "30111"
+    ],
+    "teioo oo ooo tokai teio": [
+      "30111"
+    ],
+    "that summer s cut off line": [
+      "30212"
+    ],
+    "that summer s cut off line wonder acute": [
+      "30212"
+    ],
+    "the 3rd miracle": [
+      "20051"
+    ],
+    "the 3rd miracle k s miracle": [
+      "20051"
+    ],
+    "the 3rd miracle ケイエスミラクル": [
+      "20051"
+    ],
+    "the aftertaste of quality tea": [
+      "20065"
+    ],
+    "the aftertaste of quality tea grass wonder": [
+      "20065"
+    ],
+    "the apprentice witch and the long night": [
+      "20023"
+    ],
+    "the apprentice witch and the long night sweep tosho": [
+      "20023"
+    ],
+    "the blue rose of happiness": [
+      "20086"
+    ],
+    "the blue rose of happiness rice shower": [
+      "20086"
+    ],
+    "the cheer that changed the world": [
+      "30095"
+    ],
+    "the cheer that changed the world seeking the pearl": [
+      "30095"
+    ],
+    "the frontier": [
+      "30147"
+    ],
+    "the frontier jungle pocket": [
+      "30147"
+    ],
+    "the frontier ジャングルポケット": [
+      "30147"
+    ],
+    "the goddess of luck rises early": [
+      "20064"
+    ],
+    "the goddess of luck rises early copano rickey": [
+      "20064"
+    ],
+    "the joy there": [
+      "30085"
+    ],
+    "the joy there agnes digital": [
+      "30085"
+    ],
+    "the ruling royalty": [
+      "30231"
+    ],
+    "the ruling royalty t m opera o": [
+      "30231"
+    ],
+    "the slapdash grand prix has begun": [
+      "30213"
+    ],
+    "the slapdash grand prix has begun tokai teio": [
+      "30213"
+    ],
+    "the sparkles we create": [
+      "30188"
+    ],
+    "the sparkles we create tsurugi ryoka": [
+      "30188"
+    ],
+    "the white bird s arabesque": [
+      "30195"
+    ],
+    "the white bird s arabesque k s miracle": [
+      "30195"
+    ],
+    "the wind blows for you scarlet": [
+      "30227"
+    ],
+    "the wind blows for you scarlet daiwa scarlet": [
+      "30227"
+    ],
+    "this eve i dedicate to you my lord": [
+      "30268"
+    ],
+    "this eve i dedicate to you my lord durandal": [
+      "30268"
+    ],
+    "this is my umadol way": [
+      "30017"
+    ],
+    "this is my umadol way smart falcon": [
+      "30017"
+    ],
+    "this last one is special okay": [
+      "30239"
+    ],
+    "this last one is special okay nice nature": [
+      "30239"
+    ],
+    "thorough management": [
+      "30036"
+    ],
+    "thorough management kashimoto riko": [
+      "30036"
+    ],
+    "thou shan t neglect warming up": [
+      "20025"
+    ],
+    "thou shan t neglect warming up ikuno dictus": [
+      "20025"
+    ],
+    "time flies": [
+      "20073"
+    ],
+    "time flies tosen jordan": [
+      "20073"
+    ],
+    "time flies トーセンジョーダン": [
+      "20073"
+    ],
+    "to polish gjallarhorn": [
+      "20072"
+    ],
+    "to polish gjallarhorn tanino gimlet": [
+      "20072"
+    ],
+    "to uncharted winds": [
+      "30126"
+    ],
+    "to uncharted winds yamanin zephyr": [
+      "30126"
+    ],
+    "to you": [
+      "30130"
+    ],
+    "to you k s miracle": [
+      "30130"
+    ],
+    "to you ケイエスミラクル": [
+      "30130"
+    ],
+    "to your hard working self": [
+      "20030"
+    ],
+    "to your hard working self ines fujin": [
+      "20030"
+    ],
+    "today was fun": [
+      "30269"
+    ],
+    "today was fun dantsu flame": [
+      "30269"
+    ],
+    "together on the same path": [
+      "20021"
+    ],
+    "together on the same path kiryūin aoi": [
+      "20021"
+    ],
+    "tokai teio": [
+      "10003",
+      "20047",
+      "30003",
+      "30058",
+      "30111",
+      "30140",
+      "30213",
+      "30275"
+    ],
+    "tomboy witch in training": [
+      "20046"
+    ],
+    "tomboy witch in training sweep tosho": [
+      "20046"
+    ],
+    "tomorrow the entire country will be dyed red": [
+      "30055"
+    ],
+    "tomorrow the entire country will be dyed red seiun sky": [
+      "30055"
+    ],
+    "tonight let s dance to the waltz": [
+      "30056"
+    ],
+    "tonight let s dance to the waltz king halo": [
+      "30056"
+    ],
+    "tosen jordan": [
+      "10070",
+      "20035",
+      "20073",
+      "30084",
+      "30273"
+    ],
+    "touching sleeves bring fortune": [
+      "30078"
+    ],
+    "touching sleeves bring fortune matikanefukukitaru": [
+      "30078"
+    ],
+    "tracen academy": [
+      "10001",
+      "10002",
+      "10003",
+      "10004",
+      "10005",
+      "10006",
+      "10007",
+      "10008",
+      "10009",
+      "10010",
+      "10011",
+      "10012",
+      "10013",
+      "10014",
+      "10015",
+      "10016",
+      "10017",
+      "10018",
+      "10019",
+      "10020",
+      "10021",
+      "10022",
+      "10023",
+      "10024",
+      "10025",
+      "10026",
+      "10027",
+      "10028",
+      "10029",
+      "10030",
+      "10031",
+      "10032",
+      "10033",
+      "10034",
+      "10035",
+      "10036",
+      "10037",
+      "10038",
+      "10039",
+      "10040",
+      "10041",
+      "10042",
+      "10043",
+      "10044",
+      "10045",
+      "10046",
+      "10047",
+      "10048",
+      "10049",
+      "10050",
+      "10051",
+      "10052",
+      "10053",
+      "10054",
+      "10055",
+      "10056",
+      "10057",
+      "10058",
+      "10059",
+      "10060",
+      "10061",
+      "10062",
+      "10063",
+      "10064",
+      "10065",
+      "10066",
+      "10067",
+      "10068",
+      "10069",
+      "10070",
+      "10071",
+      "10072",
+      "10073",
+      "10075",
+      "10076",
+      "10077",
+      "10078",
+      "10079",
+      "10080",
+      "10081",
+      "10082",
+      "10084",
+      "10085",
+      "10086",
+      "10087",
+      "10088",
+      "10089",
+      "10090",
+      "10091",
+      "10092",
+      "10093",
+      "10095",
+      "10096",
+      "10097",
+      "10098",
+      "10099",
+      "10100",
+      "10101",
+      "10102",
+      "10103",
+      "10105",
+      "10106",
+      "10107",
+      "10108",
+      "10109",
+      "10110",
+      "10111",
+      "10113",
+      "10114",
+      "10115",
+      "10116",
+      "10117",
+      "10118",
+      "10119",
+      "10120",
+      "10121",
+      "10122",
+      "10123",
+      "10124",
+      "10125",
+      "10126",
+      "10127",
+      "10129",
+      "10131",
+      "10132",
+      "10133",
+      "10134",
+      "10135",
+      "10136",
+      "10137",
+      "10139",
+      "10140",
+      "10142",
+      "10143",
+      "10144"
+    ],
+    "tracen academy admire groove": [
+      "10133"
+    ],
+    "tracen academy admire vega": [
+      "10075"
+    ],
+    "tracen academy agnes digital": [
+      "10026"
+    ],
+    "tracen academy agnes tachyon": [
+      "10036"
+    ],
+    "tracen academy air groove": [
+      "10025"
+    ],
+    "tracen academy air messiah": [
+      "10127"
+    ],
+    "tracen academy air shakur": [
+      "10037"
+    ],
+    "tracen academy almond eye": [
+      "10122"
+    ],
+    "tracen academy aston machan": [
+      "10087"
+    ],
+    "tracen academy bamboo memory": [
+      "10065"
+    ],
+    "tracen academy biko pegasus": [
+      "10042"
+    ],
+    "tracen academy biwa hayahide": [
+      "10029"
+    ],
+    "tracen academy blast onepiece": [
+      "10116"
+    ],
+    "tracen academy bubble gum fellow": [
+      "10111"
+    ],
+    "tracen academy buena vista": [
+      "10118"
+    ],
+    "tracen academy calstone light o": [
+      "10135"
+    ],
+    "tracen academy cesario": [
+      "10115"
+    ],
+    "tracen academy cheval grand": [
+      "10105"
+    ],
+    "tracen academy chrono genesis": [
+      "10134"
+    ],
+    "tracen academy copano rickey": [
+      "10092"
+    ],
+    "tracen academy curren bouquetd or": [
+      "10126"
+    ],
+    "tracen academy curren chan": [
+      "10073"
+    ],
+    "tracen academy daiichi ruby": [
+      "10079"
+    ],
+    "tracen academy daitaku helios": [
+      "10052"
+    ],
+    "tracen academy daiwa scarlet": [
+      "10023"
+    ],
+    "tracen academy dantsu flame": [
+      "10108"
+    ],
+    "tracen academy daring heart": [
+      "10121"
+    ],
+    "tracen academy daring tact": [
+      "10120"
+    ],
+    "tracen academy director akikawa": [
+      "10109"
+    ],
+    "tracen academy dream journey": [
+      "10119"
+    ],
+    "tracen academy duramente": [
+      "10101"
+    ],
+    "tracen academy durandal": [
+      "10136"
+    ],
+    "tracen academy eishin flash": [
+      "10038"
+    ],
+    "tracen academy el condor pasa": [
+      "10011"
+    ],
+    "tracen academy espoir city": [
+      "10110"
+    ],
+    "tracen academy fenomeno": [
+      "10139"
+    ],
+    "tracen academy fine motion": [
+      "10028"
+    ],
+    "tracen academy forever young": [
+      "10140"
+    ],
+    "tracen academy fuji kiseki": [
+      "10049"
+    ],
+    "tracen academy fusaichi pandora": [
+      "10129"
+    ],
+    "tracen academy gentildonna": [
+      "10113"
+    ],
+    "tracen academy gold city": [
+      "10017"
+    ],
+    "tracen academy gold ship": [
+      "10006"
+    ],
+    "tracen academy gran alegria": [
+      "10124"
+    ],
+    "tracen academy grass wonder": [
+      "10009"
+    ],
+    "tracen academy haru urara": [
+      "10020"
+    ],
+    "tracen academy hayakawa tazuna": [
+      "10021"
+    ],
+    "tracen academy hishi akebono": [
+      "10064"
+    ],
+    "tracen academy hishi amazon": [
+      "10024"
+    ],
+    "tracen academy hishi miracle": [
+      "10107"
+    ],
+    "tracen academy hokko tarumae": [
+      "10090"
+    ],
+    "tracen academy ikuno dictus": [
+      "10053"
+    ],
+    "tracen academy inari one": [
+      "10068"
+    ],
+    "tracen academy ines fujin": [
+      "10035"
+    ],
+    "tracen academy jungle pocket": [
+      "10089"
+    ],
+    "tracen academy k s miracle": [
+      "10080"
+    ],
+    "tracen academy kashimoto riko": [
+      "10060"
+    ],
+    "tracen academy katsuragi ace": [
+      "10091"
+    ],
+    "tracen academy kawakami princess": [
+      "10063"
+    ],
+    "tracen academy king halo": [
+      "10048"
+    ],
+    "tracen academy kiryūin aoi": [
+      "10022"
+    ],
+    "tracen academy kitasan black": [
+      "10055"
+    ],
+    "tracen academy lucky lilac": [
+      "10123"
+    ],
+    "tracen academy manhattan cafe": [
+      "10031"
+    ],
+    "tracen academy marche lorraine": [
+      "10144"
+    ],
+    "tracen academy maruzensky": [
+      "10004"
+    ],
+    "tracen academy marvelous sunday": [
+      "10043"
+    ],
+    "tracen academy matikanefukukitaru": [
+      "10044"
+    ],
+    "tracen academy matikanetannhauser": [
+      "10057"
+    ],
+    "tracen academy mayano top gun": [
+      "10030"
+    ],
+    "tracen academy meisho doto": [
+      "10045"
+    ],
+    "tracen academy mejiro ardan": [
+      "10069"
+    ],
+    "tracen academy mejiro bright": [
+      "10076"
+    ],
+    "tracen academy mejiro dober": [
+      "10046"
+    ],
+    "tracen academy mejiro mcqueen": [
+      "10010"
+    ],
+    "tracen academy mejiro palmer": [
+      "10054"
+    ],
+    "tracen academy mejiro ramonu": [
+      "10088"
+    ],
+    "tracen academy mejiro ryan": [
+      "10033"
+    ],
+    "tracen academy mihono bourbon": [
+      "10032"
+    ],
+    "tracen academy mr c b": [
+      "10078"
+    ],
+    "tracen academy nakayama festa": [
+      "10067"
+    ],
+    "tracen academy narita brian": [
+      "10072"
+    ],
+    "tracen academy narita taishin": [
+      "10040"
+    ],
+    "tracen academy narita top road": [
+      "10077"
+    ],
+    "tracen academy neo universe": [
+      "10106"
+    ],
+    "tracen academy nice nature": [
+      "10047"
+    ],
+    "tracen academy nishino flower": [
+      "10041"
+    ],
+    "tracen academy no reason": [
+      "10117"
+    ],
+    "tracen academy north flight": [
+      "10102"
+    ],
+    "tracen academy oguri cap": [
+      "10005"
+    ],
+    "tracen academy orfevre": [
+      "10103"
+    ],
+    "tracen academy red desire": [
+      "10142"
+    ],
+    "tracen academy rhein kraft": [
+      "10114"
+    ],
+    "tracen academy rice shower": [
+      "10015"
+    ],
+    "tracen academy royce and royce": [
+      "10100"
+    ],
+    "tracen academy sakura bakushin o": [
+      "10018"
+    ],
+    "tracen academy sakura chitose o": [
+      "10137"
+    ],
+    "tracen academy sakura chiyono o": [
+      "10062"
+    ],
+    "tracen academy sakura laurel": [
+      "10085"
+    ],
+    "tracen academy satono diamond": [
+      "10056"
+    ],
+    "tracen academy seeking the pearl": [
+      "10061"
+    ],
+    "tracen academy seiun sky": [
+      "10014"
+    ],
+    "tracen academy shinko windy": [
+      "10066"
+    ],
+    "tracen academy silence suzuka": [
+      "10002"
+    ],
+    "tracen academy sirius symboli": [
+      "10071"
+    ],
+    "tracen academy smart falcon": [
+      "10039"
+    ],
+    "tracen academy sounds of earth": [
+      "10098"
+    ],
+    "tracen academy special week": [
+      "10001"
+    ],
+    "tracen academy stay gold": [
+      "10132"
+    ],
+    "tracen academy still in love": [
+      "10096"
+    ],
+    "tracen academy super creek": [
+      "10019"
+    ],
+    "tracen academy sweep tosho": [
+      "10050"
+    ],
+    "tracen academy symboli kris s": [
+      "10082"
+    ],
+    "tracen academy symboli rudolf": [
+      "10013"
+    ],
+    "tracen academy t m opera o": [
+      "10012"
+    ],
+    "tracen academy taiki shuttle": [
+      "10008"
+    ],
+    "tracen academy tamamo cross": [
+      "10027"
+    ],
+    "tracen academy tanino gimlet": [
+      "10084"
+    ],
+    "tracen academy tap dance city": [
+      "10095"
+    ],
+    "tracen academy tokai teio": [
+      "10003"
+    ],
+    "tracen academy tosen jordan": [
+      "10070"
+    ],
+    "tracen academy transcend": [
+      "10125"
+    ],
+    "tracen academy tsurumaru tsuyoshi": [
+      "10081"
+    ],
+    "tracen academy twin turbo": [
+      "10051"
+    ],
+    "tracen academy verxina": [
+      "10097"
+    ],
+    "tracen academy victoire pisa": [
+      "10143"
+    ],
+    "tracen academy vivlos": [
+      "10099"
+    ],
+    "tracen academy vodka": [
+      "10007"
+    ],
+    "tracen academy win variation": [
+      "10131"
+    ],
+    "tracen academy winning ticket": [
+      "10016"
+    ],
+    "tracen academy wonder acute": [
+      "10093"
+    ],
+    "tracen academy yaeno muteki": [
+      "10058"
+    ],
+    "tracen academy yamanin zephyr": [
+      "10086"
+    ],
+    "tracen academy yukino bijin": [
+      "10034"
+    ],
+    "tracen academy zenno rob roy": [
+      "10059"
+    ],
+    "trainer kiryūin": [
+      "10022",
+      "20021"
+    ],
+    "tranquil realm of frozen crystals": [
+      "30265"
+    ],
+    "tranquil realm of frozen crystals admire groove": [
+      "30265"
+    ],
+    "tranquillo": [
+      "30262"
+    ],
+    "tranquillo duramente": [
+      "30262"
+    ],
+    "tranquillo ドゥラメンテ": [
+      "30262"
+    ],
+    "transcend": [
+      "10125",
+      "30249"
+    ],
+    "transform garçon form": [
+      "30132"
+    ],
+    "transform garçon form biko pegasus": [
+      "30132"
+    ],
+    "transient moments with you": [
+      "30157"
+    ],
+    "transient moments with you manhattan cafe": [
+      "30157"
+    ],
+    "trifle vacation": [
+      "30047"
+    ],
+    "trifle vacation daiwa scarlet": [
+      "30047"
+    ],
+    "try first with bite": [
+      "30040"
+    ],
+    "try first with bite hishi akebono": [
+      "30040"
+    ],
+    "tsurugi ryoka": [
+      "10104",
+      "30188"
+    ],
+    "tsurumaru tsuyoshi": [
+      "10081",
+      "20052",
+      "30169"
+    ],
+    "tt ignition": [
+      "30112"
+    ],
+    "tt ignition twin turbo": [
+      "30112"
+    ],
+    "tt ignition ツインターボ": [
+      "30112"
+    ],
+    "tucker bryne": [
+      "10128",
+      "30257"
+    ],
+    "turbo engine full power": [
+      "30026"
+    ],
+    "turbo engine full power twin turbo": [
+      "30026"
+    ],
+    "twin turbo": [
+      "10051",
+      "30026",
+      "30060",
+      "30112",
+      "30181"
+    ],
+    "two little smiles": [
+      "30183"
+    ],
+    "two little smiles winning ticket": [
+      "30183"
+    ],
+    "two noble lights": [
+      "30058"
+    ],
+    "two noble lights tokai teio": [
+      "30058"
+    ],
+    "two pieces": [
+      "30044"
+    ],
+    "two pieces narita brian": [
+      "30044"
+    ],
+    "two pieces ナリタブライアン": [
+      "30044"
+    ],
+    "two sing of victory": [
+      "30292"
+    ],
+    "two sing of victory marche lorraine": [
+      "30292"
+    ],
+    "u me": [
+      "30121"
+    ],
+    "u me mihono bourbon": [
+      "30121"
+    ],
+    "u me ミホノブルボン": [
+      "30121"
+    ],
+    "uchronia architect": [
+      "30113"
+    ],
+    "uchronia architect biwa hayahide": [
+      "30113"
+    ],
+    "unconditional subjugation": [
+      "30187"
+    ],
+    "unconditional subjugation orfevre": [
+      "30187"
+    ],
+    "undisputed prodigy legend": [
+      "30259"
+    ],
+    "undisputed prodigy legend fusaichi pandora": [
+      "30259"
+    ],
+    "unmistakable emperor": [
+      "30037"
+    ],
+    "unmistakable emperor symboli rudolf": [
+      "30037"
+    ],
+    "unrestrainably burning with passion": [
+      "30032"
+    ],
+    "unrestrainably burning with passion yaeno muteki": [
+      "30032"
+    ],
+    "unveiled dream": [
+      "30253"
+    ],
+    "unveiled dream rhein kraft": [
+      "30253"
+    ],
+    "unveiled dream ラインクラフト": [
+      "30253"
+    ],
+    "unyielding resolve": [
+      "30136"
+    ],
+    "unyielding resolve symboli kris s": [
+      "30136"
+    ],
+    "unyielding resolve シンボリクリスエス": [
+      "30136"
+    ],
+    "ura staff": [
+      "10094"
+    ],
+    "ura staff satake mei": [
+      "10094"
+    ],
+    "urara n holiday": [
+      "30019"
+    ],
+    "urara n holiday haru urara": [
+      "30019"
+    ],
+    "ura職員": [
+      "10094"
+    ],
+    "ura職員 佐岳メイ": [
+      "10094"
+    ],
+    "v e r 2285のあなたへ": [
+      "30198"
+    ],
+    "v e r 2285のあなたへ ネオユニヴァース": [
+      "30198"
+    ],
+    "vanguard splash": [
+      "20082"
+    ],
+    "vanguard splash bubble gum fellow": [
+      "20082"
+    ],
+    "venus takeoff": [
+      "30236"
+    ],
+    "venus takeoff seeking the pearl": [
+      "30236"
+    ],
+    "verification start": [
+      "20006"
+    ],
+    "verification start biwa hayahide": [
+      "20006"
+    ],
+    "verxina": [
+      "10097",
+      "20070",
+      "30205"
+    ],
+    "vice president s swift justice": [
+      "20004"
+    ],
+    "vice president s swift justice air groove": [
+      "20004"
+    ],
+    "victoire pisa": [
+      "10143",
+      "30291"
+    ],
+    "vivlos": [
+      "10099",
+      "30177",
+      "30192",
+      "30206",
+      "30263"
+    ],
+    "vodka": [
+      "10007",
+      "20039",
+      "30005",
+      "30150",
+      "30202",
+      "30245"
+    ],
+    "wade the waves to a dream": [
+      "30168"
+    ],
+    "wade the waves to a dream gold ship": [
+      "30168"
+    ],
+    "want a stab": [
+      "30080"
+    ],
+    "want a stab anshinzawa sasami": [
+      "30080"
+    ],
+    "warning gate": [
+      "20031"
+    ],
+    "warning gate shinko windy": [
+      "20031"
+    ],
+    "warning gate シンコウウインディ": [
+      "20031"
+    ],
+    "welcome to tracen academy": [
+      "30021"
+    ],
+    "welcome to tracen academy hayakawa tazuna": [
+      "30021"
+    ],
+    "welcome to umayuru": [
+      "30145"
+    ],
+    "welcome to umayuru tanino gimlet": [
+      "30145"
+    ],
+    "welcome to umayuru タニノギムレット": [
+      "30145"
+    ],
+    "what makes a bride": [
+      "30039"
+    ],
+    "what makes a bride kawakami princess": [
+      "30039"
+    ],
+    "when happiness blooms": [
+      "20084"
+    ],
+    "when happiness blooms lucky lilac": [
+      "20084"
+    ],
+    "when happiness dances": [
+      "30023"
+    ],
+    "when happiness dances rice shower": [
+      "30023"
+    ],
+    "whereabouts of luck": [
+      "20016"
+    ],
+    "whereabouts of luck matikanefukukitaru": [
+      "20016"
+    ],
+    "whimsical luminous sky wanderer": [
+      "30264"
+    ],
+    "whimsical luminous sky wanderer stay gold": [
+      "30264"
+    ],
+    "whispers of melon": [
+      "20085"
+    ],
+    "whispers of melon mejiro mcqueen": [
+      "20085"
+    ],
+    "win variation": [
+      "10131",
+      "30261"
+    ],
+    "winning dream": [
+      "30062"
+    ],
+    "winning dream silence suzuka": [
+      "30062"
+    ],
+    "winning dream サイレンススズカ": [
+      "30062"
+    ],
+    "winning ticket": [
+      "10016",
+      "30012",
+      "30033",
+      "30046",
+      "30183"
+    ],
+    "winter gives way to summer s verdancy": [
+      "30129"
+    ],
+    "winter gives way to summer s verdancy grass wonder": [
+      "30129"
+    ],
+    "wishes diverse as flowers held within": [
+      "30179"
+    ],
+    "wishes diverse as flowers held within satono diamond": [
+      "30179"
+    ],
+    "wishing to leap out": [
+      "30079"
+    ],
+    "wishing to leap out meisho doto": [
+      "30079"
+    ],
+    "with love to our school": [
+      "30216"
+    ],
+    "with love to our school buena vista": [
+      "30216"
+    ],
+    "with magic from the stage": [
+      "30271"
+    ],
+    "with magic from the stage fuji kiseki": [
+      "30271"
+    ],
+    "wonder acute": [
+      "10093",
+      "30156",
+      "30212"
+    ],
+    "wonderful smile time": [
+      "30263"
+    ],
+    "wonderful smile time vivlos": [
+      "30263"
+    ],
+    "work a miracle": [
+      "30199"
+    ],
+    "work a miracle hishi miracle": [
+      "30199"
+    ],
+    "working in shaping up": [
+      "20077"
+    ],
+    "working in shaping up dantsu flame": [
+      "20077"
+    ],
+    "workout companion": [
+      "20009"
+    ],
+    "workout companion mihono bourbon": [
+      "20009"
+    ],
+    "world changing gaze": [
+      "30242"
+    ],
+    "world changing gaze almond eye": [
+      "30242"
+    ],
+    "would you like your attachment heated": [
+      "20055"
+    ],
+    "would you like your attachment heated aston machan": [
+      "20055"
+    ],
+    "yaeno muteki": [
+      "10058",
+      "20074",
+      "30032",
+      "30120"
+    ],
+    "yamanin zephyr": [
+      "10086",
+      "30126",
+      "30196"
+    ],
+    "you ll be dearly beloved": [
+      "30024"
+    ],
+    "you ll be dearly beloved oguri cap": [
+      "30024"
+    ],
+    "your smile after school": [
+      "20058"
+    ],
+    "your smile after school symboli rudolf": [
+      "20058"
+    ],
+    "your sorrow your beauty": [
+      "30068"
+    ],
+    "your sorrow your beauty curren chan": [
+      "30068"
+    ],
+    "yukino bijin": [
+      "10034",
+      "20011",
+      "30031",
+      "30070"
+    ],
+    "yukoma inn proprietress": [
+      "10138"
+    ],
+    "yukoma inn proprietress hoshina kiyoko": [
+      "10138"
+    ],
+    "zenno rob roy": [
+      "10059",
+      "20028",
+      "20101",
+      "30065",
+      "30104"
+    ],
+    "zirkus der träume": [
+      "30272"
+    ],
+    "zirkus der träume eishin flash": [
+      "30272"
+    ],
+    "zirkus der träume エイシンフラッシュ": [
+      "30272"
+    ],
+    "ああ 楽しや 楽しや": [
+      "30171"
+    ],
+    "ああ 楽しや 楽しや ハルウララ": [
+      "30171"
+    ],
+    "あくもー退散": [
+      "20069"
+    ],
+    "あくもー退散 マチカネタンホイザ": [
+      "20069"
+    ],
+    "あこがれの景色": [
+      "30100"
+    ],
+    "あこがれの景色 ライスシャワー": [
+      "30100"
+    ],
+    "あなたにささげる": [
+      "20027"
+    ],
+    "あなたにささげる ニシノフラワー": [
+      "20027"
+    ],
+    "あの夏のキリトリ線": [
+      "30212"
+    ],
+    "あの夏のキリトリ線 ワンダーアキュート": [
+      "30212"
+    ],
+    "あまえんぼnight": [
+      "20067"
+    ],
+    "あまえんぼnight タイキシャトル": [
+      "20067"
+    ],
+    "いじっぱりのマルクト": [
+      "30073"
+    ],
+    "いじっぱりのマルクト ナリタタイシン": [
+      "30073"
+    ],
+    "いつか深まる若草": [
+      "30255"
+    ],
+    "いつか深まる若草 エアメサイア": [
+      "30255"
+    ],
+    "うらら な休日": [
+      "30019"
+    ],
+    "うらら な休日 ハルウララ": [
+      "30019"
+    ],
+    "うららか ぱっしょん": [
+      "30098"
+    ],
+    "うららか ぱっしょん ハルウララ": [
+      "30098"
+    ],
+    "うるさい監視役": [
+      "20039"
+    ],
+    "うるさい監視役 ウオッカ": [
+      "20039"
+    ],
+    "おすすめ本 あります": [
+      "20028"
+    ],
+    "おすすめ本 あります ゼンノロブロイ": [
+      "20028"
+    ],
+    "おてんば魔女 修行中": [
+      "20046"
+    ],
+    "おてんば魔女 修行中 スイープトウショウ": [
+      "20046"
+    ],
+    "おどれ さわげ フェスれ": [
+      "30071"
+    ],
+    "おどれ さわげ フェスれ ダイタクヘリオス": [
+      "30071"
+    ],
+    "おもい ねがう": [
+      "30041"
+    ],
+    "おもい ねがう メジロドーベル": [
+      "30041"
+    ],
+    "おセンチ注意報": [
+      "30107"
+    ],
+    "おセンチ注意報 マルゼンスキー": [
+      "30107"
+    ],
+    "お任せ オートクチュール": [
+      "20081"
+    ],
+    "お任せ オートクチュール ノースフライト": [
+      "20081"
+    ],
+    "お助け大将と小さな魔女": [
+      "20066"
+    ],
+    "お助け大将と小さな魔女 キタサンブラック": [
+      "20066"
+    ],
+    "お守りパワーで福徳円満": [
+      "20078"
+    ],
+    "お守りパワーで福徳円満 マチカネフクキタル": [
+      "20078"
+    ],
+    "お日さま天使ちゃん": [
+      "30116"
+    ],
+    "お日さま天使ちゃん ダイタクヘリオス": [
+      "30116"
+    ],
+    "かっとばせー ですわ": [
+      "30172"
+    ],
+    "かっとばせー ですわ メジロマックイーン": [
+      "30172"
+    ],
+    "かなし君 うつくし君": [
+      "30068"
+    ],
+    "かなし君 うつくし君 カレンチャン": [
+      "30068"
+    ],
+    "ここからはdon t stop": [
+      "30125"
+    ],
+    "ここからはdon t stop サクラローレル": [
+      "30125"
+    ],
+    "この先の未来で": [
+      "30266"
+    ],
+    "この先の未来で クロノジェネシス": [
+      "30266"
+    ],
+    "この先も": [
+      "30180"
+    ],
+    "この先も 刻み続ける者たち": [
+      "30180"
+    ],
+    "これがウチらのいか焼きや": [
+      "20022"
+    ],
+    "これがウチらのいか焼きや タマモクロス": [
+      "20022"
+    ],
+    "これが私のウマドル道": [
+      "30017"
+    ],
+    "これが私のウマドル道 スマートファルコン": [
+      "30017"
+    ],
+    "これきり 特別ですよ": [
+      "30239"
+    ],
+    "これきり 特別ですよ ナイスネイチャ": [
+      "30239"
+    ],
+    "しあわせの青いバラ": [
+      "20086"
+    ],
+    "しあわせの青いバラ ライスシャワー": [
+      "20086"
+    ],
+    "ずーっと一緒 だぞー": [
+      "30303"
+    ],
+    "ずーっと一緒 だぞー ブラストワンピース": [
+      "30303"
+    ],
+    "そこに いる 幸せ": [
+      "30085"
+    ],
+    "そこに いる 幸せ アグネスデジタル": [
+      "30085"
+    ],
+    "そして幕は上がる": [
+      "30209"
+    ],
+    "そして幕は上がる ダンツフレーム": [
+      "30209"
+    ],
+    "そのエールは世界を変えた": [
+      "30095"
+    ],
+    "そのエールは世界を変えた シーキングザパール": [
+      "30095"
+    ],
+    "その執念は怒濤が如く": [
+      "30304"
+    ],
+    "その執念は怒濤が如く メイショウドトウ": [
+      "30304"
+    ],
+    "その心に吹きすさぶ": [
+      "20034"
+    ],
+    "その心に吹きすさぶ メジロアルダン": [
+      "20034"
+    ],
+    "その背中を越えて": [
+      "30029"
+    ],
+    "その背中を越えて サトノダイヤモンド": [
+      "30029"
+    ],
+    "そびえ立つ背中": [
+      "20098"
+    ],
+    "そびえ立つ背中 ヒシアマゾン": [
+      "20098"
+    ],
+    "ただの水滴ですって": [
+      "20019"
+    ],
+    "ただの水滴ですって ナイスネイチャ": [
+      "20019"
+    ],
+    "たどり着いた景色": [
+      "30143"
+    ],
+    "たどり着いた景色 イクノディクタス": [
+      "30143"
+    ],
+    "ちょいワルヒーロー 見参": [
+      "30315"
+    ],
+    "ちょいワルヒーロー 見参 ビコーペガサス": [
+      "30315"
+    ],
+    "とっておきのレヴェランス": [
+      "30192"
+    ],
+    "とっておきのレヴェランス ヴィブロス": [
+      "30192"
+    ],
+    "とびだせ 恐怖の魔王軍": [
+      "30117"
+    ],
+    "とびだせ 恐怖の魔王軍 シンコウウインディ": [
+      "30117"
+    ],
+    "とびっきりの金メダル": [
+      "20068"
+    ],
+    "とびっきりの金メダル ナイスネイチャ": [
+      "20068"
+    ],
+    "ぬくもりのノエル": [
+      "30279"
+    ],
+    "ぬくもりのノエル フェノーメノ": [
+      "30279"
+    ],
+    "ぬくもりフォー ユー": [
+      "20093"
+    ],
+    "ぬくもりフォー ユー メジロドーベル": [
+      "20093"
+    ],
+    "ぬりぬりシェイプアップ": [
+      "20077"
+    ],
+    "ぬりぬりシェイプアップ ダンツフレーム": [
+      "20077"
+    ],
+    "はやい うまい はやい": [
+      "30015"
+    ],
+    "はやい うまい はやい サクラバクシンオー": [
+      "30015"
+    ],
+    "ふたつのノーブルライト": [
+      "30058"
+    ],
+    "ふたつのノーブルライト トウカイテイオー": [
+      "30058"
+    ],
+    "ふりさけみれば天花のわらう": [
+      "30235"
+    ],
+    "ふりさけみれば天花のわらう マルゼンスキー": [
+      "30235"
+    ],
+    "ふるさと直送エール": [
+      "30031"
+    ],
+    "ふるさと直送エール ユキノビジン": [
+      "30031"
+    ],
+    "ふわり さらり": [
+      "20057"
+    ],
+    "ふわり さらり メジロドーベル": [
+      "20057"
+    ],
+    "ほっと きゅーとメモリー": [
+      "20044"
+    ],
+    "ほっと きゅーとメモリー カレンチャン": [
+      "20044"
+    ],
+    "まだ小さな蕾でも": [
+      "30018"
+    ],
+    "まだ小さな蕾でも ニシノフラワー": [
+      "30018"
+    ],
+    "まだ見ぬ景色を求めて": [
+      "30076"
+    ],
+    "まだ見ぬ景色を求めて サイレンススズカ": [
+      "30076"
+    ],
+    "みんなにグッドマーベラス": [
+      "20079"
+    ],
+    "みんなにグッドマーベラス マーベラスサンデー": [
+      "20079"
+    ],
+    "むじゃむじゃむじゃき": [
+      "20026"
+    ],
+    "むじゃむじゃむじゃき ナイスネイチャ": [
+      "20026"
+    ],
+    "めぐるぐるぐるトレセン日和": [
+      "30318"
+    ],
+    "めぐるぐるぐるトレセン日和 ライスシャワー": [
+      "30318"
+    ],
+    "やったれハロウィンナイト": [
+      "30064"
+    ],
+    "やったれハロウィンナイト タマモクロス": [
+      "30064"
+    ],
+    "やれやれ お帰り": [
+      "20001"
+    ],
+    "やれやれ お帰り フジキセキ": [
+      "20001"
+    ],
+    "ゆかし きらめきの旅路": [
+      "30283"
+    ],
+    "ゆかし きらめきの旅路 ファインモーション": [
+      "30283"
+    ],
+    "ゆこま旅館女将": [
+      "10138"
+    ],
+    "ゆこま旅館女将 保科健子": [
+      "10138"
+    ],
+    "ゆるっと まにまに": [
+      "20050"
+    ],
+    "ゆるっと まにまに セイウンスカイ": [
+      "20050"
+    ],
+    "ゆるり ゆこま旅館": [
+      "30276"
+    ],
+    "ゆるり ゆこま旅館 保科健子": [
+      "30276"
+    ],
+    "よい茶の飲み置き": [
+      "20065"
+    ],
+    "よい茶の飲み置き グラスワンダー": [
+      "20065"
+    ],
+    "ようこそ トレセン学園へ": [
+      "30021"
+    ],
+    "ようこそ トレセン学園へ 駿川たづな": [
+      "30021"
+    ],
+    "わたしときみの交換こ": [
+      "30314"
+    ],
+    "わたしときみの交換こ ハルウララ": [
+      "30314"
+    ],
+    "わーく あ みらくる": [
+      "30199"
+    ],
+    "わーく あ みらくる ヒシミラクル": [
+      "30199"
+    ],
+    "アイネスフウジン": [
+      "10035",
+      "20030",
+      "30011"
+    ],
+    "アグネスタキオン": [
+      "10036",
+      "20012",
+      "20059",
+      "30101",
+      "30299"
+    ],
+    "アグネスデジタル": [
+      "10026",
+      "20005",
+      "30085",
+      "30229",
+      "30297"
+    ],
+    "アストンマーチャン": [
+      "10087",
+      "20055",
+      "30149",
+      "30296"
+    ],
+    "アドマイヤグルーヴ": [
+      "10133",
+      "30265",
+      "30320"
+    ],
+    "アドマイヤベガ": [
+      "10075",
+      "20041",
+      "30077",
+      "30162"
+    ],
+    "アルストロメリアの夢": [
+      "30206"
+    ],
+    "アルストロメリアの夢 ヴィブロス": [
+      "30206"
+    ],
+    "アーモンドアイ": [
+      "10122",
+      "30242",
+      "30308"
+    ],
+    "イクノディクタス": [
+      "10053",
+      "20025",
+      "30063",
+      "30099",
+      "30143",
+      "30238"
+    ],
+    "イナリワン": [
+      "10068",
+      "20032",
+      "30281"
+    ],
+    "イベントプロデューサー": [
+      "10083"
+    ],
+    "イベントプロデューサー ライトハロー": [
+      "10083"
+    ],
+    "ウイニングチケット": [
+      "10016",
+      "30012",
+      "30033",
+      "30046",
+      "30183"
+    ],
+    "ウインバリアシオン": [
+      "10131",
+      "30261"
+    ],
+    "ウオッカ": [
+      "10007",
+      "20039",
+      "30005",
+      "30150",
+      "30202",
+      "30245"
+    ],
+    "ウタエミンナノ": [
+      "30181"
+    ],
+    "ウタエミンナノ ツインターボ": [
+      "30181"
+    ],
+    "ウマ王伝説 最強になった件": [
+      "30057"
+    ],
+    "ウマ王伝説 最強になった件 ゴールドシップ": [
+      "30057"
+    ],
+    "エアグルーヴ": [
+      "10025",
+      "20004",
+      "30106",
+      "30124",
+      "30159",
+      "30282"
+    ],
+    "エアシャカール": [
+      "10037",
+      "20076",
+      "30013",
+      "30092",
+      "30226"
+    ],
+    "エアメサイア": [
+      "10127",
+      "30255"
+    ],
+    "エイシンフラッシュ": [
+      "10038",
+      "20013",
+      "30122",
+      "30272"
+    ],
+    "エスポワールシチー": [
+      "10110",
+      "30222",
+      "30251"
+    ],
+    "エフフォーリア": [
+      "10146",
+      "30311"
+    ],
+    "エルコンドルパサー": [
+      "10011",
+      "20033",
+      "30007",
+      "30102",
+      "30161"
+    ],
+    "エース として": [
+      "30022"
+    ],
+    "エース として メジロマックイーン": [
+      "30022"
+    ],
+    "オグリキャップ": [
+      "10005",
+      "20048",
+      "30024",
+      "30146"
+    ],
+    "オルフェーヴル": [
+      "10103",
+      "30187",
+      "30280"
+    ],
+    "オートクチュール メモリー": [
+      "30149"
+    ],
+    "オートクチュール メモリー アストンマーチャン": [
+      "30149"
+    ],
+    "カジノドライヴ": [
+      "10141",
+      "30290"
+    ],
+    "カツラギエース": [
+      "10091",
+      "30135"
+    ],
+    "カモメのように": [
+      "30154"
+    ],
+    "カモメのように メジロパーマー": [
+      "30154"
+    ],
+    "カルストンライトオ": [
+      "10135",
+      "20100",
+      "30267"
+    ],
+    "カルストンライトオ 猫です": [
+      "30267"
+    ],
+    "カルストンライトオ 猫です カルストンライトオ": [
+      "30267"
+    ],
+    "カレンチャン": [
+      "10073",
+      "20044",
+      "30068",
+      "30237"
+    ],
+    "カレンブーケドール": [
+      "10126",
+      "20088",
+      "30274",
+      "30295"
+    ],
+    "カワイイ カワイイは": [
+      "20007"
+    ],
+    "カワイイ カワイイは マヤノトップガン": [
+      "20007"
+    ],
+    "カワカミプリンセス": [
+      "10063",
+      "20089",
+      "30039",
+      "30096"
+    ],
+    "ガブッと 笑顔に": [
+      "30310"
+    ],
+    "ガブッと 笑顔に レッドディザイア": [
+      "30310"
+    ],
+    "キセキ": [
+      "10145",
+      "30307"
+    ],
+    "キタサンブラック": [
+      "10055",
+      "20066",
+      "30028",
+      "30180",
+      "30189"
+    ],
+    "キラキラカケル": [
+      "30102"
+    ],
+    "キラキラカケル エルコンドルパサー": [
+      "30102"
+    ],
+    "キングヘイロー": [
+      "10048",
+      "20020",
+      "30056",
+      "30170",
+      "30285"
+    ],
+    "ギャラルホルンを磨き上げよ": [
+      "20072"
+    ],
+    "ギャラルホルンを磨き上げよ タニノギムレット": [
+      "20072"
+    ],
+    "ギュッとしてマイフレンド": [
+      "30288"
+    ],
+    "ギュッとしてマイフレンド サイレンススズカ": [
+      "30288"
+    ],
+    "ギリギリ uma dol": [
+      "20045"
+    ],
+    "ギリギリ uma dol スマートファルコン": [
+      "20045"
+    ],
+    "クロノジェネシス": [
+      "10134",
+      "30266"
+    ],
+    "グラスワンダー": [
+      "10009",
+      "20065",
+      "30006",
+      "30129"
+    ],
+    "グランアレグリア": [
+      "10124",
+      "30243",
+      "30301"
+    ],
+    "グレイッシュparty": [
+      "30260"
+    ],
+    "グレイッシュparty メジロマックイーン": [
+      "30260"
+    ],
+    "ケイエスミラクル": [
+      "10080",
+      "20051",
+      "30130",
+      "30195"
+    ],
+    "コパノリッキー": [
+      "10092",
+      "20064",
+      "30211"
+    ],
+    "ゴルシ印のスペシャリテ": [
+      "20061"
+    ],
+    "ゴルシ印のスペシャリテ ゴールドシップ": [
+      "20061"
+    ],
+    "ゴー ファッショニスタ": [
+      "30185"
+    ],
+    "ゴー ファッショニスタ ノースフライト": [
+      "30185"
+    ],
+    "ゴールドシチー": [
+      "10017",
+      "20049",
+      "30014",
+      "30153"
+    ],
+    "ゴールドシップ": [
+      "10006",
+      "20061",
+      "30004",
+      "30057",
+      "30168",
+      "30278"
+    ],
+    "サイレンススズカ": [
+      "10002",
+      "20063",
+      "30002",
+      "30062",
+      "30076",
+      "30252",
+      "30288"
+    ],
+    "サウンズオブアース": [
+      "10098",
+      "30173",
+      "30191"
+    ],
+    "サクラチトセオー": [
+      "10137",
+      "20091"
+    ],
+    "サクラチヨノオー": [
+      "10062",
+      "30038",
+      "30109",
+      "30300"
+    ],
+    "サクラバクシンオー": [
+      "10018",
+      "20042",
+      "30015",
+      "30083",
+      "30184"
+    ],
+    "サクラローレル": [
+      "10085",
+      "20080",
+      "30125",
+      "30142"
+    ],
+    "サトノダイヤモンド": [
+      "10056",
+      "20094",
+      "30029",
+      "30088",
+      "30179",
+      "30221",
+      "30302"
+    ],
+    "サムソンビッグ": [
+      "10148",
+      "30316"
+    ],
+    "シチーガール入門": [
+      "20011"
+    ],
+    "シチーガール入門 ユキノビジン": [
+      "20011"
+    ],
+    "シュヴァルグラン": [
+      "10105",
+      "30193"
+    ],
+    "シリウスシンボリ": [
+      "10071",
+      "20038",
+      "30091"
+    ],
+    "シンコウウインディ": [
+      "10066",
+      "20031",
+      "30117"
+    ],
+    "シンボリクリスエス": [
+      "10082",
+      "30118",
+      "30136",
+      "30220",
+      "30228",
+      "30247"
+    ],
+    "シンボリルドルフ": [
+      "10013",
+      "20058",
+      "30037",
+      "30067",
+      "30090",
+      "30233"
+    ],
+    "シーキングザパール": [
+      "10061",
+      "20029",
+      "30095",
+      "30236"
+    ],
+    "シーザリオ": [
+      "10115",
+      "30217"
+    ],
+    "ジェンティルドンナ": [
+      "10113",
+      "30186"
+    ],
+    "ジャングルポケット": [
+      "10089",
+      "20056",
+      "30147",
+      "30158",
+      "30203",
+      "30240"
+    ],
+    "スイープトウショウ": [
+      "10050",
+      "20023",
+      "20046",
+      "30045",
+      "30128"
+    ],
+    "スティルインラブ": [
+      "10096",
+      "30215"
+    ],
+    "ステイゴールド": [
+      "10132",
+      "30264"
+    ],
+    "ストップ 委員長": [
+      "20053"
+    ],
+    "ストップ 委員長 ナリタトップロード": [
+      "20053"
+    ],
+    "スノウクリスタル デイ": [
+      "30074"
+    ],
+    "スノウクリスタル デイ マーベラスサンデー": [
+      "30074"
+    ],
+    "スピードシンボリ": [
+      "30241"
+    ],
+    "スペシャルウィーク": [
+      "10001",
+      "20043",
+      "30001",
+      "30025",
+      "30081",
+      "30105",
+      "30127"
+    ],
+    "スマイル エバーアフター": [
+      "30301"
+    ],
+    "スマイル エバーアフター グランアレグリア": [
+      "30301"
+    ],
+    "スマートファルコン": [
+      "10039",
+      "20045",
+      "30017",
+      "30210"
+    ],
+    "スーパークリーク": [
+      "10019",
+      "20097",
+      "30016"
+    ],
+    "セイウンスカイ": [
+      "10014",
+      "20050",
+      "30008",
+      "30055",
+      "30204"
+    ],
+    "ゼッタイ 天才伝説": [
+      "30259"
+    ],
+    "ゼッタイ 天才伝説 フサイチパンドラ": [
+      "30259"
+    ],
+    "ゼンノロブロイ": [
+      "10059",
+      "20028",
+      "20101",
+      "30065",
+      "30104"
+    ],
+    "タイキシャトル": [
+      "10008",
+      "20067",
+      "20096",
+      "30053",
+      "30218"
+    ],
+    "タッカーブライン": [
+      "10128",
+      "30257"
+    ],
+    "タップダンスシチー": [
+      "10095",
+      "20075",
+      "30166",
+      "30298"
+    ],
+    "タニノギムレット": [
+      "10084",
+      "20072",
+      "30145",
+      "30165"
+    ],
+    "タマモクロス": [
+      "10027",
+      "20022",
+      "30009",
+      "30064",
+      "30256"
+    ],
+    "ターボエンジン全開宣言": [
+      "30026"
+    ],
+    "ターボエンジン全開宣言 ツインターボ": [
+      "30026"
+    ],
+    "ダイイチルビー": [
+      "10079",
+      "30114",
+      "30270"
+    ],
+    "ダイタクヘリオス": [
+      "10052",
+      "20024",
+      "30071",
+      "30116",
+      "30155"
+    ],
+    "ダイワスカーレット": [
+      "10023",
+      "20002",
+      "30047",
+      "30093",
+      "30148",
+      "30227"
+    ],
+    "ダンツフレーム": [
+      "10108",
+      "20077",
+      "30209",
+      "30269"
+    ],
+    "ダーレーアラビアン": [
+      "30137"
+    ],
+    "チョベリグ心あれば桜心": [
+      "30109"
+    ],
+    "チョベリグ心あれば桜心 サクラチヨノオー": [
+      "30109"
+    ],
+    "ツインターボ": [
+      "10051",
+      "30026",
+      "30060",
+      "30112",
+      "30181"
+    ],
+    "ツメたいヒトリジメ": [
+      "30045"
+    ],
+    "ツメたいヒトリジメ スイープトウショウ": [
+      "30045"
+    ],
+    "ツルマルツヨシ": [
+      "10081",
+      "20052",
+      "30169"
+    ],
+    "ティアラが描くレイライン": [
+      "30194"
+    ],
+    "ティアラが描くレイライン ラインクラフト": [
+      "30194"
+    ],
+    "テイエムオペラオー": [
+      "10012",
+      "20054",
+      "30152",
+      "30231"
+    ],
+    "テイオー オー オー": [
+      "30111"
+    ],
+    "テイオー オー オー トウカイテイオー": [
+      "30111"
+    ],
+    "テッペンに立て": [
+      "20003"
+    ],
+    "テッペンに立て ヒシアマゾン": [
+      "20003"
+    ],
+    "デアリングタクト": [
+      "10120",
+      "30248",
+      "30293"
+    ],
+    "デアリングハート": [
+      "10121",
+      "20087",
+      "30254",
+      "30294"
+    ],
+    "デジタル充電中": [
+      "20005"
+    ],
+    "デジタル充電中 アグネスデジタル": [
+      "20005"
+    ],
+    "デッド エンド 通せん坊": [
+      "20056"
+    ],
+    "デッド エンド 通せん坊 ジャングルポケット": [
+      "20056"
+    ],
+    "デュランダル": [
+      "10136",
+      "30268"
+    ],
+    "トばすぜホットサマー": [
+      "30158"
+    ],
+    "トばすぜホットサマー ジャングルポケット": [
+      "30158"
+    ],
+    "トウカイテイオー": [
+      "10003",
+      "20047",
+      "30003",
+      "30058",
+      "30111",
+      "30140",
+      "30213",
+      "30275"
+    ],
+    "トライフル バケーション": [
+      "30047"
+    ],
+    "トライフル バケーション ダイワスカーレット": [
+      "30047"
+    ],
+    "トランセンド": [
+      "10125",
+      "30249"
+    ],
+    "トレセン学園": [
+      "10001",
+      "10002",
+      "10003",
+      "10004",
+      "10005",
+      "10006",
+      "10007",
+      "10008",
+      "10009",
+      "10010",
+      "10011",
+      "10012",
+      "10013",
+      "10014",
+      "10015",
+      "10016",
+      "10017",
+      "10018",
+      "10019",
+      "10020",
+      "10021",
+      "10022",
+      "10023",
+      "10024",
+      "10025",
+      "10026",
+      "10027",
+      "10028",
+      "10029",
+      "10030",
+      "10031",
+      "10032",
+      "10033",
+      "10034",
+      "10035",
+      "10036",
+      "10037",
+      "10038",
+      "10039",
+      "10040",
+      "10041",
+      "10042",
+      "10043",
+      "10044",
+      "10045",
+      "10046",
+      "10047",
+      "10048",
+      "10049",
+      "10050",
+      "10051",
+      "10052",
+      "10053",
+      "10054",
+      "10055",
+      "10056",
+      "10057",
+      "10058",
+      "10059",
+      "10060",
+      "10061",
+      "10062",
+      "10063",
+      "10064",
+      "10065",
+      "10066",
+      "10067",
+      "10068",
+      "10069",
+      "10070",
+      "10071",
+      "10072",
+      "10073",
+      "10075",
+      "10076",
+      "10077",
+      "10078",
+      "10079",
+      "10080",
+      "10081",
+      "10082",
+      "10084",
+      "10085",
+      "10086",
+      "10087",
+      "10088",
+      "10089",
+      "10090",
+      "10091",
+      "10092",
+      "10093",
+      "10095",
+      "10096",
+      "10097",
+      "10098",
+      "10099",
+      "10100",
+      "10101",
+      "10102",
+      "10103",
+      "10105",
+      "10106",
+      "10107",
+      "10108",
+      "10109",
+      "10110",
+      "10111",
+      "10113",
+      "10114",
+      "10115",
+      "10116",
+      "10117",
+      "10118",
+      "10119",
+      "10120",
+      "10121",
+      "10122",
+      "10123",
+      "10124",
+      "10125",
+      "10126",
+      "10127",
+      "10129",
+      "10131",
+      "10132",
+      "10133",
+      "10134",
+      "10135",
+      "10136",
+      "10137",
+      "10139",
+      "10140",
+      "10142",
+      "10143",
+      "10144",
+      "10145",
+      "10146",
+      "10147",
+      "10148"
+    ],
+    "トレセン学園 アイネスフウジン": [
+      "10035"
+    ],
+    "トレセン学園 アグネスタキオン": [
+      "10036"
+    ],
+    "トレセン学園 アグネスデジタル": [
+      "10026"
+    ],
+    "トレセン学園 アストンマーチャン": [
+      "10087"
+    ],
+    "トレセン学園 アドマイヤグルーヴ": [
+      "10133"
+    ],
+    "トレセン学園 アドマイヤベガ": [
+      "10075"
+    ],
+    "トレセン学園 アーモンドアイ": [
+      "10122"
+    ],
+    "トレセン学園 イクノディクタス": [
+      "10053"
+    ],
+    "トレセン学園 イナリワン": [
+      "10068"
+    ],
+    "トレセン学園 ウイニングチケット": [
+      "10016"
+    ],
+    "トレセン学園 ウインバリアシオン": [
+      "10131"
+    ],
+    "トレセン学園 ウオッカ": [
+      "10007"
+    ],
+    "トレセン学園 エアグルーヴ": [
+      "10025"
+    ],
+    "トレセン学園 エアシャカール": [
+      "10037"
+    ],
+    "トレセン学園 エアメサイア": [
+      "10127"
+    ],
+    "トレセン学園 エイシンフラッシュ": [
+      "10038"
+    ],
+    "トレセン学園 エスポワールシチー": [
+      "10110"
+    ],
+    "トレセン学園 エフフォーリア": [
+      "10146"
+    ],
+    "トレセン学園 エルコンドルパサー": [
+      "10011"
+    ],
+    "トレセン学園 オグリキャップ": [
+      "10005"
+    ],
+    "トレセン学園 オルフェーヴル": [
+      "10103"
+    ],
+    "トレセン学園 カツラギエース": [
+      "10091"
+    ],
+    "トレセン学園 カルストンライトオ": [
+      "10135"
+    ],
+    "トレセン学園 カレンチャン": [
+      "10073"
+    ],
+    "トレセン学園 カレンブーケドール": [
+      "10126"
+    ],
+    "トレセン学園 カワカミプリンセス": [
+      "10063"
+    ],
+    "トレセン学園 キセキ": [
+      "10145"
+    ],
+    "トレセン学園 キタサンブラック": [
+      "10055"
+    ],
+    "トレセン学園 キングヘイロー": [
+      "10048"
+    ],
+    "トレセン学園 クロノジェネシス": [
+      "10134"
+    ],
+    "トレセン学園 グラスワンダー": [
+      "10009"
+    ],
+    "トレセン学園 グランアレグリア": [
+      "10124"
+    ],
+    "トレセン学園 ケイエスミラクル": [
+      "10080"
+    ],
+    "トレセン学園 コパノリッキー": [
+      "10092"
+    ],
+    "トレセン学園 ゴールドシチー": [
+      "10017"
+    ],
+    "トレセン学園 ゴールドシップ": [
+      "10006"
+    ],
+    "トレセン学園 サイレンススズカ": [
+      "10002"
+    ],
+    "トレセン学園 サウンズオブアース": [
+      "10098"
+    ],
+    "トレセン学園 サクラチトセオー": [
+      "10137"
+    ],
+    "トレセン学園 サクラチヨノオー": [
+      "10062"
+    ],
+    "トレセン学園 サクラバクシンオー": [
+      "10018"
+    ],
+    "トレセン学園 サクラローレル": [
+      "10085"
+    ],
+    "トレセン学園 サトノダイヤモンド": [
+      "10056"
+    ],
+    "トレセン学園 サムソンビッグ": [
+      "10148"
+    ],
+    "トレセン学園 シュヴァルグラン": [
+      "10105"
+    ],
+    "トレセン学園 シリウスシンボリ": [
+      "10071"
+    ],
+    "トレセン学園 シンコウウインディ": [
+      "10066"
+    ],
+    "トレセン学園 シンボリクリスエス": [
+      "10082"
+    ],
+    "トレセン学園 シンボリルドルフ": [
+      "10013"
+    ],
+    "トレセン学園 シーキングザパール": [
+      "10061"
+    ],
+    "トレセン学園 シーザリオ": [
+      "10115"
+    ],
+    "トレセン学園 ジェンティルドンナ": [
+      "10113"
+    ],
+    "トレセン学園 ジャングルポケット": [
+      "10089"
+    ],
+    "トレセン学園 スイープトウショウ": [
+      "10050"
+    ],
+    "トレセン学園 スティルインラブ": [
+      "10096"
+    ],
+    "トレセン学園 ステイゴールド": [
+      "10132"
+    ],
+    "トレセン学園 スペシャルウィーク": [
+      "10001"
+    ],
+    "トレセン学園 スマートファルコン": [
+      "10039"
+    ],
+    "トレセン学園 スーパークリーク": [
+      "10019"
+    ],
+    "トレセン学園 セイウンスカイ": [
+      "10014"
+    ],
+    "トレセン学園 ゼンノロブロイ": [
+      "10059"
+    ],
+    "トレセン学園 タイキシャトル": [
+      "10008"
+    ],
+    "トレセン学園 タップダンスシチー": [
+      "10095"
+    ],
+    "トレセン学園 タニノギムレット": [
+      "10084"
+    ],
+    "トレセン学園 タマモクロス": [
+      "10027"
+    ],
+    "トレセン学園 ダイイチルビー": [
+      "10079"
+    ],
+    "トレセン学園 ダイタクヘリオス": [
+      "10052"
+    ],
+    "トレセン学園 ダイワスカーレット": [
+      "10023"
+    ],
+    "トレセン学園 ダンツフレーム": [
+      "10108"
+    ],
+    "トレセン学園 ツインターボ": [
+      "10051"
+    ],
+    "トレセン学園 ツルマルツヨシ": [
+      "10081"
+    ],
+    "トレセン学園 テイエムオペラオー": [
+      "10012"
+    ],
+    "トレセン学園 デアリングタクト": [
+      "10120"
+    ],
+    "トレセン学園 デアリングハート": [
+      "10121"
+    ],
+    "トレセン学園 デュランダル": [
+      "10136"
+    ],
+    "トレセン学園 トウカイテイオー": [
+      "10003"
+    ],
+    "トレセン学園 トランセンド": [
+      "10125"
+    ],
+    "トレセン学園 トーセンジョーダン": [
+      "10070"
+    ],
+    "トレセン学園 ドゥラメンテ": [
+      "10101"
+    ],
+    "トレセン学園 ドリームジャーニー": [
+      "10119"
+    ],
+    "トレセン学園 ナイスネイチャ": [
+      "10047"
+    ],
+    "トレセン学園 ナカヤマフェスタ": [
+      "10067"
+    ],
+    "トレセン学園 ナリタタイシン": [
+      "10040"
+    ],
+    "トレセン学園 ナリタトップロード": [
+      "10077"
+    ],
+    "トレセン学園 ナリタブライアン": [
+      "10072"
+    ],
+    "トレセン学園 ニシノフラワー": [
+      "10041"
+    ],
+    "トレセン学園 ネオユニヴァース": [
+      "10106"
+    ],
+    "トレセン学園 ノースフライト": [
+      "10102"
+    ],
+    "トレセン学園 ノーリーズン": [
+      "10117"
+    ],
+    "トレセン学園 ハルウララ": [
+      "10020"
+    ],
+    "トレセン学園 バブルガムフェロー": [
+      "10111"
+    ],
+    "トレセン学園 バンブーメモリー": [
+      "10065"
+    ],
+    "トレセン学園 ヒシアケボノ": [
+      "10064"
+    ],
+    "トレセン学園 ヒシアマゾン": [
+      "10024"
+    ],
+    "トレセン学園 ヒシミラクル": [
+      "10107"
+    ],
+    "トレセン学園 ビコーペガサス": [
+      "10042"
+    ],
+    "トレセン学園 ビワハヤヒデ": [
+      "10029"
+    ],
+    "トレセン学園 ファインモーション": [
+      "10028"
+    ],
+    "トレセン学園 フェノーメノ": [
+      "10139"
+    ],
+    "トレセン学園 フォーエバーヤング": [
+      "10140"
+    ],
+    "トレセン学園 フサイチパンドラ": [
+      "10129"
+    ],
+    "トレセン学園 フジキセキ": [
+      "10049"
+    ],
+    "トレセン学園 ブエナビスタ": [
+      "10118"
+    ],
+    "トレセン学園 ブラストワンピース": [
+      "10116"
+    ],
+    "トレセン学園 ホッコータルマエ": [
+      "10090"
+    ],
+    "トレセン学園 マチカネタンホイザ": [
+      "10057"
+    ],
+    "トレセン学園 マチカネフクキタル": [
+      "10044"
+    ],
+    "トレセン学園 マヤノトップガン": [
+      "10030"
+    ],
+    "トレセン学園 マルシュロレーヌ": [
+      "10144"
+    ],
+    "トレセン学園 マルゼンスキー": [
+      "10004"
+    ],
+    "トレセン学園 マンハッタンカフェ": [
+      "10031"
+    ],
+    "トレセン学園 マーベラスサンデー": [
+      "10043"
+    ],
+    "トレセン学園 ミスターシービー": [
+      "10078"
+    ],
+    "トレセン学園 ミホノブルボン": [
+      "10032"
+    ],
+    "トレセン学園 メイショウドトウ": [
+      "10045"
+    ],
+    "トレセン学園 メジロアルダン": [
+      "10069"
+    ],
+    "トレセン学園 メジロドーベル": [
+      "10046"
+    ],
+    "トレセン学園 メジロパーマー": [
+      "10054"
+    ],
+    "トレセン学園 メジロブライト": [
+      "10076"
+    ],
+    "トレセン学園 メジロマックイーン": [
+      "10010"
+    ],
+    "トレセン学園 メジロライアン": [
+      "10033"
+    ],
+    "トレセン学園 メジロラモーヌ": [
+      "10088"
+    ],
+    "トレセン学園 ヤエノムテキ": [
+      "10058"
+    ],
+    "トレセン学園 ヤマニンゼファー": [
+      "10086"
+    ],
+    "トレセン学園 ユキノビジン": [
+      "10034"
+    ],
+    "トレセン学園 ライスシャワー": [
+      "10015"
+    ],
+    "トレセン学園 ラインクラフト": [
+      "10114"
+    ],
+    "トレセン学園 ラッキーライラック": [
+      "10123"
+    ],
+    "トレセン学園 ルーラーシップ": [
+      "10147"
+    ],
+    "トレセン学園 レッドディザイア": [
+      "10142"
+    ],
+    "トレセン学園 ロイスアンドロイス": [
+      "10100"
+    ],
+    "トレセン学園 ワンダーアキュート": [
+      "10093"
+    ],
+    "トレセン学園 ヴィクトワールピサ": [
+      "10143"
+    ],
+    "トレセン学園 ヴィブロス": [
+      "10099"
+    ],
+    "トレセン学園 ヴィルシーナ": [
+      "10097"
+    ],
+    "トレセン学園 桐生院葵": [
+      "10022"
+    ],
+    "トレセン学園 樫本理子": [
+      "10060"
+    ],
+    "トレセン学園 秋川理事長": [
+      "10109"
+    ],
+    "トレセン学園 駿川たづな": [
+      "10021"
+    ],
+    "トーセンジョーダン": [
+      "10070",
+      "20035",
+      "20073",
+      "30084",
+      "30273"
+    ],
+    "ドゥラメンテ": [
+      "10101",
+      "30178",
+      "30190",
+      "30262",
+      "30321"
+    ],
+    "ドリームジャーニー": [
+      "10119",
+      "30246"
+    ],
+    "ナイスネイチャ": [
+      "10047",
+      "20019",
+      "20026",
+      "20068",
+      "30054",
+      "30138",
+      "30239",
+      "30306"
+    ],
+    "ナカヤマフェスタ": [
+      "10067",
+      "30043",
+      "30108",
+      "30163"
+    ],
+    "ナリタタイシン": [
+      "10040",
+      "20014",
+      "30073",
+      "30201"
+    ],
+    "ナリタトップロード": [
+      "10077",
+      "20053",
+      "30086"
+    ],
+    "ナリタブライアン": [
+      "10072",
+      "30044",
+      "30069",
+      "30123",
+      "30224",
+      "30319"
+    ],
+    "ニシノフラワー": [
+      "10041",
+      "20027",
+      "30018",
+      "30082",
+      "30208"
+    ],
+    "ニャンともイカすヒーローさ": [
+      "20090"
+    ],
+    "ニャンともイカすヒーローさ ビコーペガサス": [
+      "20090"
+    ],
+    "ネオユニヴァース": [
+      "10106",
+      "30198",
+      "30287"
+    ],
+    "ノースフライト": [
+      "10102",
+      "20081",
+      "30185"
+    ],
+    "ノーリーズン": [
+      "10117",
+      "30200"
+    ],
+    "ハネ退け魔を退け願い込め": [
+      "30127"
+    ],
+    "ハネ退け魔を退け願い込め スペシャルウィーク": [
+      "30127"
+    ],
+    "ハルウララ": [
+      "10020",
+      "30019",
+      "30098",
+      "30171",
+      "30314"
+    ],
+    "ハート イグニッション": [
+      "30150"
+    ],
+    "ハート イグニッション ウオッカ": [
+      "30150"
+    ],
+    "バカと笑え": [
+      "30027"
+    ],
+    "バカと笑え メジロパーマー": [
+      "30027"
+    ],
+    "バブルガムフェロー": [
+      "10111",
+      "20082",
+      "30284"
+    ],
+    "バンブーメモリー": [
+      "10065",
+      "30042",
+      "30094",
+      "30197"
+    ],
+    "パッションチャンピオーナ": [
+      "30007"
+    ],
+    "パッションチャンピオーナ エルコンドルパサー": [
+      "30007"
+    ],
+    "パリピ ぱーりないと": [
+      "20024"
+    ],
+    "パリピ ぱーりないと ダイタクヘリオス": [
+      "20024"
+    ],
+    "ヒシアケボノ": [
+      "10064",
+      "20060",
+      "30040",
+      "30133"
+    ],
+    "ヒシアマゾン": [
+      "10024",
+      "20003",
+      "20098",
+      "30164",
+      "30223"
+    ],
+    "ヒシミラクル": [
+      "10107",
+      "30199"
+    ],
+    "ビコーペガサス": [
+      "10042",
+      "20090",
+      "30020",
+      "30132",
+      "30315"
+    ],
+    "ビワハヤヒデ": [
+      "10029",
+      "20006",
+      "30061",
+      "30113"
+    ],
+    "ファインモーション": [
+      "10028",
+      "20037",
+      "30010",
+      "30167",
+      "30214",
+      "30283"
+    ],
+    "フェノーメノ": [
+      "10139",
+      "30279"
+    ],
+    "フォルトゥーナの喝采": [
+      "30165"
+    ],
+    "フォルトゥーナの喝采 タニノギムレット": [
+      "30165"
+    ],
+    "フォンデンテで笑って": [
+      "30133"
+    ],
+    "フォンデンテで笑って ヒシアケボノ": [
+      "30133"
+    ],
+    "フォーエバーヤング": [
+      "10140",
+      "30289"
+    ],
+    "フォーメーション party": [
+      "30072"
+    ],
+    "フォーメーション party マヤノトップガン": [
+      "30072"
+    ],
+    "フサイチパンドラ": [
+      "10129",
+      "30259",
+      "30309"
+    ],
+    "フジキセキ": [
+      "10049",
+      "20001",
+      "30219",
+      "30271"
+    ],
+    "フレフレ ツヨシ": [
+      "20052"
+    ],
+    "フレフレ ツヨシ ツルマルツヨシ": [
+      "20052"
+    ],
+    "フレフレ プリンセス": [
+      "30096"
+    ],
+    "フレフレ プリンセス カワカミプリンセス": [
+      "30096"
+    ],
+    "ブエナビスタ": [
+      "10118",
+      "30216",
+      "30250"
+    ],
+    "ブスッといっとく": [
+      "30080"
+    ],
+    "ブスッといっとく 安心沢刺々美": [
+      "30080"
+    ],
+    "ブラストワンピース": [
+      "10116",
+      "30232",
+      "30303"
+    ],
+    "ブリッランテな旋律を君と": [
+      "30191"
+    ],
+    "ブリッランテな旋律を君と サウンズオブアース": [
+      "30191"
+    ],
+    "プロデューサー": [
+      "10104"
+    ],
+    "プロデューサー 都留岐涼花": [
+      "10104"
+    ],
+    "ホッコータルマエ": [
+      "10090",
+      "20092",
+      "30182"
+    ],
+    "マチカネタンホイザ": [
+      "10057",
+      "20069",
+      "30030",
+      "30103",
+      "30317"
+    ],
+    "マチカネフクキタル": [
+      "10044",
+      "20016",
+      "20078",
+      "30078",
+      "30225",
+      "30286"
+    ],
+    "マチタン アドベンチャー": [
+      "30103"
+    ],
+    "マチタン アドベンチャー マチカネタンホイザ": [
+      "30103"
+    ],
+    "マヤノトップガン": [
+      "10030",
+      "20007",
+      "30072",
+      "30151"
+    ],
+    "マルシュロレーヌ": [
+      "10144",
+      "30292"
+    ],
+    "マルゼンスキー": [
+      "10004",
+      "20062",
+      "30107",
+      "30235"
+    ],
+    "マンハッタンカフェ": [
+      "10031",
+      "20008",
+      "30075",
+      "30110",
+      "30157"
+    ],
+    "マーベラス ショコラshow": [
+      "30131"
+    ],
+    "マーベラス ショコラshow マーベラスサンデー": [
+      "30131"
+    ],
+    "マーベラス 大作戦": [
+      "20015"
+    ],
+    "マーベラス 大作戦 マーベラスサンデー": [
+      "20015"
+    ],
+    "マーベラスサンデー": [
+      "10043",
+      "20015",
+      "20079",
+      "30074",
+      "30089",
+      "30131"
+    ],
+    "ミスターシービー": [
+      "10078",
+      "30097",
+      "30312"
+    ],
+    "ミッション 心の栄養補給": [
+      "30141"
+    ],
+    "ミッション 心の栄養補給 ミホノブルボン": [
+      "30141"
+    ],
+    "ミホノブルボン": [
+      "10032",
+      "20009",
+      "30059",
+      "30066",
+      "30121",
+      "30141",
+      "30277"
+    ],
+    "メイショウドトウ": [
+      "10045",
+      "20017",
+      "30079",
+      "30230",
+      "30304"
+    ],
+    "メジロアルダン": [
+      "10069",
+      "20034",
+      "20099",
+      "30119",
+      "30234"
+    ],
+    "メジロドーベル": [
+      "10046",
+      "20018",
+      "20057",
+      "20093",
+      "30041",
+      "30174"
+    ],
+    "メジロパーマー": [
+      "10054",
+      "20036",
+      "30027",
+      "30115",
+      "30154"
+    ],
+    "メジロブライト": [
+      "10076",
+      "30087",
+      "30244"
+    ],
+    "メジロマックイーン": [
+      "10010",
+      "20085",
+      "30022",
+      "30139",
+      "30172",
+      "30260"
+    ],
+    "メジロライアン": [
+      "10033",
+      "20010",
+      "20040",
+      "30048",
+      "30176",
+      "30258"
+    ],
+    "メジロラモーヌ": [
+      "10088",
+      "20083",
+      "30134",
+      "30175"
+    ],
+    "メロンなささやき": [
+      "20085"
+    ],
+    "メロンなささやき メジロマックイーン": [
+      "20085"
+    ],
+    "メークパワートリオ": [
+      "30225"
+    ],
+    "メークパワートリオ マチカネフクキタル": [
+      "30225"
+    ],
+    "ヤエノムテキ": [
+      "10058",
+      "20074",
+      "30032",
+      "30120"
+    ],
+    "ヤマニンゼファー": [
+      "10086",
+      "30126",
+      "30196"
+    ],
+    "ユキノビジン": [
+      "10034",
+      "20011",
+      "30031",
+      "30070"
+    ],
+    "ユークロニア アーキテクト": [
+      "30113"
+    ],
+    "ユークロニア アーキテクト ビワハヤヒデ": [
+      "30113"
+    ],
+    "ライスシャワー": [
+      "10015",
+      "20086",
+      "30023",
+      "30034",
+      "30100",
+      "30318"
+    ],
+    "ライトハロー": [
+      "10083",
+      "30052"
+    ],
+    "ライフロング ワンダー": [
+      "30156"
+    ],
+    "ライフロング ワンダー ワンダーアキュート": [
+      "30156"
+    ],
+    "ラインクラフト": [
+      "10114",
+      "30194",
+      "30253"
+    ],
+    "ラッキーの神様は早起き": [
+      "20064"
+    ],
+    "ラッキーの神様は早起き コパノリッキー": [
+      "20064"
+    ],
+    "ラッキーライラック": [
+      "10123",
+      "20084"
+    ],
+    "リトル バイ リトル": [
+      "30087"
+    ],
+    "リトル バイ リトル メジロブライト": [
+      "30087"
+    ],
+    "ルーラーシップ": [
+      "10147",
+      "30313"
+    ],
+    "レッドディザイア": [
+      "10142",
+      "20095",
+      "30310"
+    ],
+    "ロイスアンドロイス": [
+      "10100",
+      "20071"
+    ],
+    "ロード オブ ウオッカ": [
+      "30005"
+    ],
+    "ロード オブ ウオッカ ウオッカ": [
+      "30005"
+    ],
+    "ロードナイトと夢の石": [
+      "30104"
+    ],
+    "ロードナイトと夢の石 ゼンノロブロイ": [
+      "30104"
+    ],
+    "ワンダーアキュート": [
+      "10093",
+      "30156",
+      "30212"
+    ],
+    "ヴィクトワールピサ": [
+      "10143",
+      "30291"
+    ],
+    "ヴィブロス": [
+      "10099",
+      "30177",
+      "30192",
+      "30206",
+      "30263"
+    ],
+    "ヴィルシーナ": [
+      "10097",
+      "20070",
+      "30205"
+    ],
+    "一天地六に身を任せ": [
+      "30108"
+    ],
+    "一天地六に身を任せ ナカヤマフェスタ": [
+      "30108"
+    ],
+    "一杯のノスタルジア": [
+      "30305"
+    ],
+    "一杯のノスタルジア 駿川たづな": [
+      "30305"
+    ],
+    "一流プランニング": [
+      "20020"
+    ],
+    "一流プランニング キングヘイロー": [
+      "20020"
+    ],
+    "一等星は揺らがない": [
+      "20038"
+    ],
+    "一等星は揺らがない シリウスシンボリ": [
+      "20038"
+    ],
+    "一等星を目指して": [
+      "20041"
+    ],
+    "一等星を目指して アドマイヤベガ": [
+      "20041"
+    ],
+    "一粒の安らぎ": [
+      "30016"
+    ],
+    "一粒の安らぎ スーパークリーク": [
+      "30016"
+    ],
+    "一輪ずつ 喜びを束ねて": [
+      "20088"
+    ],
+    "一輪ずつ 喜びを束ねて カレンブーケドール": [
+      "20088"
+    ],
+    "不屈の遠吠え": [
+      "30230"
+    ],
+    "不屈の遠吠え メイショウドトウ": [
+      "30230"
+    ],
+    "不沈艦の進撃": [
+      "30004"
+    ],
+    "不沈艦の進撃 ゴールドシップ": [
+      "30004"
+    ],
+    "世界にもっと マーベラス": [
+      "30089"
+    ],
+    "世界にもっと マーベラス マーベラスサンデー": [
+      "30089"
+    ],
+    "世界の真珠 その名は": [
+      "20029"
+    ],
+    "世界の真珠 その名は シーキングザパール": [
+      "20029"
+    ],
+    "世界を変える眼差し": [
+      "30242"
+    ],
+    "世界を変える眼差し アーモンドアイ": [
+      "30242"
+    ],
+    "世界一小さなビッグバン": [
+      "30316"
+    ],
+    "世界一小さなビッグバン サムソンビッグ": [
+      "30316"
+    ],
+    "両手いっぱい 小倉愛": [
+      "30306"
+    ],
+    "両手いっぱい 小倉愛 ナイスネイチャ": [
+      "30306"
+    ],
+    "今ぞ盛りのさくら花": [
+      "30038"
+    ],
+    "今ぞ盛りのさくら花 サクラチヨノオー": [
+      "30038"
+    ],
+    "今は瞳を閉じないで": [
+      "30138"
+    ],
+    "今は瞳を閉じないで ナイスネイチャ": [
+      "30138"
+    ],
+    "今宵 円舞曲にのせて": [
+      "30056"
+    ],
+    "今宵 円舞曲にのせて キングヘイロー": [
+      "30056"
+    ],
+    "今宵 我が君のために": [
+      "30268"
+    ],
+    "今宵 我が君のために デュランダル": [
+      "30268"
+    ],
+    "今日が楽しかったから": [
+      "30269"
+    ],
+    "今日が楽しかったから ダンツフレーム": [
+      "30269"
+    ],
+    "今日もたのしく おいしく": [
+      "30221"
+    ],
+    "今日もたのしく おいしく サトノダイヤモンド": [
+      "30221"
+    ],
+    "会心のウイニングスマイル": [
+      "30177"
+    ],
+    "会心のウイニングスマイル ヴィブロス": [
+      "30177"
+    ],
+    "佐岳メイ": [
+      "10094",
+      "30160"
+    ],
+    "保科健子": [
+      "10138",
+      "30276"
+    ],
+    "偉大なるフォトグラフィーア": [
+      "20054"
+    ],
+    "偉大なるフォトグラフィーア テイエムオペラオー": [
+      "20054"
+    ],
+    "優しい月": [
+      "30153"
+    ],
+    "優しい月 ゴールドシチー": [
+      "30153"
+    ],
+    "先陣スプラッシュ": [
+      "20082"
+    ],
+    "先陣スプラッシュ バブルガムフェロー": [
+      "20082"
+    ],
+    "全てに挑む勇ましき者": [
+      "30297"
+    ],
+    "全てに挑む勇ましき者 アグネスデジタル": [
+      "30297"
+    ],
+    "全力 タントラムッッ": [
+      "30046"
+    ],
+    "全力 タントラムッッ ウイニングチケット": [
+      "30046"
+    ],
+    "共に同じ道を": [
+      "20021"
+    ],
+    "共に同じ道を 桐生院葵": [
+      "20021"
+    ],
+    "共に描くキラメキ": [
+      "30188"
+    ],
+    "共に描くキラメキ 都留岐涼花": [
+      "30188"
+    ],
+    "冬溶かす熾火": [
+      "30175"
+    ],
+    "冬溶かす熾火 メジロラモーヌ": [
+      "30175"
+    ],
+    "冷凜なるビスクドール": [
+      "30320"
+    ],
+    "冷凜なるビスクドール アドマイヤグルーヴ": [
+      "30320"
+    ],
+    "刀光散らしてclash": [
+      "30298"
+    ],
+    "刀光散らしてclash タップダンスシチー": [
+      "30298"
+    ],
+    "刻下 桜花爛漫": [
+      "30142"
+    ],
+    "刻下 桜花爛漫 サクラローレル": [
+      "30142"
+    ],
+    "副会長の一刺し": [
+      "20004"
+    ],
+    "副会長の一刺し エアグルーヴ": [
+      "20004"
+    ],
+    "努力は裏切らない": [
+      "20002"
+    ],
+    "努力は裏切らない ダイワスカーレット": [
+      "20002"
+    ],
+    "千紫万紅にまぎれぬ一凛": [
+      "30006"
+    ],
+    "千紫万紅にまぎれぬ一凛 グラスワンダー": [
+      "30006"
+    ],
+    "単焦点でつかまえて": [
+      "30296"
+    ],
+    "単焦点でつかまえて アストンマーチャン": [
+      "30296"
+    ],
+    "只 君臨す": [
+      "30187"
+    ],
+    "只 君臨す オルフェーヴル": [
+      "30187"
+    ],
+    "召しませふぁーすとbite": [
+      "30040"
+    ],
+    "召しませふぁーすとbite ヒシアケボノ": [
+      "30040"
+    ],
+    "吉兆招福チョコ来たる": [
+      "30286"
+    ],
+    "吉兆招福チョコ来たる マチカネフクキタル": [
+      "30286"
+    ],
+    "君と見る泡沫": [
+      "30157"
+    ],
+    "君と見る泡沫 マンハッタンカフェ": [
+      "30157"
+    ],
+    "君の花衣": [
+      "20080"
+    ],
+    "君の花衣 サクラローレル": [
+      "20080"
+    ],
+    "告知 新刊あります": [
+      "30229"
+    ],
+    "告知 新刊あります アグネスデジタル": [
+      "30229"
+    ],
+    "咆哮のアポヤンド": [
+      "30224"
+    ],
+    "咆哮のアポヤンド ナリタブライアン": [
+      "30224"
+    ],
+    "喜びの咲く刻": [
+      "20084"
+    ],
+    "喜びの咲く刻 ラッキーライラック": [
+      "20084"
+    ],
+    "嗚呼素晴らしき甘味哉": [
+      "20059"
+    ],
+    "嗚呼素晴らしき甘味哉 アグネスタキオン": [
+      "20059"
+    ],
+    "嗚呼華麗ナル一族": [
+      "30114"
+    ],
+    "嗚呼華麗ナル一族 ダイイチルビー": [
+      "30114"
+    ],
+    "壇上より魔法を込めて": [
+      "30271"
+    ],
+    "壇上より魔法を込めて フジキセキ": [
+      "30271"
+    ],
+    "変身 ギャルソンフォーム": [
+      "30132"
+    ],
+    "変身 ギャルソンフォーム ビコーペガサス": [
+      "30132"
+    ],
+    "夏 新しい自分": [
+      "30155"
+    ],
+    "夏 新しい自分 ダイタクヘリオス": [
+      "30155"
+    ],
+    "夏空チルタイム": [
+      "30308"
+    ],
+    "夏空チルタイム アーモンドアイ": [
+      "30308"
+    ],
+    "夕映えに身をゆだねて": [
+      "20099"
+    ],
+    "夕映えに身をゆだねて メジロアルダン": [
+      "20099"
+    ],
+    "夕焼けはあこがれの色": [
+      "30025"
+    ],
+    "夕焼けはあこがれの色 スペシャルウィーク": [
+      "30025"
+    ],
+    "夕立の向こうからのぞく": [
+      "20063"
+    ],
+    "夕立の向こうからのぞく サイレンススズカ": [
+      "20063"
+    ],
+    "夜に暁 空に瑞星": [
+      "30077"
+    ],
+    "夜に暁 空に瑞星 アドマイヤベガ": [
+      "30077"
+    ],
+    "夜風に舞うは祈りの花": [
+      "30119"
+    ],
+    "夜風に舞うは祈りの花 メジロアルダン": [
+      "30119"
+    ],
+    "夢はホントに叶うんだ": [
+      "30033"
+    ],
+    "夢はホントに叶うんだ ウイニングチケット": [
+      "30033"
+    ],
+    "夢は掲げるものなのだっ": [
+      "30003"
+    ],
+    "夢は掲げるものなのだっ トウカイテイオー": [
+      "30003"
+    ],
+    "大地と我らのアンサンブル": [
+      "30173"
+    ],
+    "大地と我らのアンサンブル サウンズオブアース": [
+      "30173"
+    ],
+    "大望は飛んでいく": [
+      "30161"
+    ],
+    "大望は飛んでいく エルコンドルパサー": [
+      "30161"
+    ],
+    "大胆不敵の兵よ": [
+      "30200"
+    ],
+    "大胆不敵の兵よ ノーリーズン": [
+      "30200"
+    ],
+    "天まで焦がせ祈りの火": [
+      "30120"
+    ],
+    "天まで焦がせ祈りの火 ヤエノムテキ": [
+      "30120"
+    ],
+    "天より遣われし微笑み": [
+      "30169"
+    ],
+    "天より遣われし微笑み ツルマルツヨシ": [
+      "30169"
+    ],
+    "天をも切り裂くイナズマ娘": [
+      "30009"
+    ],
+    "天をも切り裂くイナズマ娘 タマモクロス": [
+      "30009"
+    ],
+    "天嗤う鏑矢": [
+      "30069"
+    ],
+    "天嗤う鏑矢 ナリタブライアン": [
+      "30069"
+    ],
+    "天才的ガチエモsummer": [
+      "30309"
+    ],
+    "天才的ガチエモsummer フサイチパンドラ": [
+      "30309"
+    ],
+    "天才的ユートピア": [
+      "30275"
+    ],
+    "天才的ユートピア トウカイテイオー": [
+      "30275"
+    ],
+    "好きなんだ ご飯が": [
+      "20048"
+    ],
+    "好きなんだ ご飯が オグリキャップ": [
+      "20048"
+    ],
+    "安心沢刺々美": [
+      "10074",
+      "30080"
+    ],
+    "宵照らす奉納舞": [
+      "30070"
+    ],
+    "宵照らす奉納舞 ユキノビジン": [
+      "30070"
+    ],
+    "尊尚親愛": [
+      "30067"
+    ],
+    "尊尚親愛 玉座に集いし者たち": [
+      "30067"
+    ],
+    "導きの光": [
+      "30241"
+    ],
+    "導きの光 伝説の体現者": [
+      "30241"
+    ],
+    "小さなカップに想いをこめて": [
+      "30082"
+    ],
+    "小さなカップに想いをこめて ニシノフラワー": [
+      "30082"
+    ],
+    "小さな笑顔 2つ": [
+      "30183"
+    ],
+    "小さな笑顔 2つ ウイニングチケット": [
+      "30183"
+    ],
+    "届け このオモイ": [
+      "30094"
+    ],
+    "届け このオモイ バンブーメモリー": [
+      "30094"
+    ],
+    "巻頭カラーの夏": [
+      "30307"
+    ],
+    "巻頭カラーの夏 キセキ": [
+      "30307"
+    ],
+    "幸せ が舞う時": [
+      "30023"
+    ],
+    "幸せ が舞う時 ライスシャワー": [
+      "30023"
+    ],
+    "幸せと背中合わせ": [
+      "20017"
+    ],
+    "幸せと背中合わせ メイショウドトウ": [
+      "20017"
+    ],
+    "幸せは曲がり角の向こう": [
+      "30034"
+    ],
+    "幸せは曲がり角の向こう ライスシャワー": [
+      "30034"
+    ],
+    "幸福の匂いにまどろむ": [
+      "30204"
+    ],
+    "幸福の匂いにまどろむ セイウンスカイ": [
+      "30204"
+    ],
+    "幽霊さんとハロウィンの魔法": [
+      "30066"
+    ],
+    "幽霊さんとハロウィンの魔法 ミホノブルボン": [
+      "30066"
+    ],
+    "待望の大謀": [
+      "30008"
+    ],
+    "待望の大謀 セイウンスカイ": [
+      "30008"
+    ],
+    "徹底管理主義": [
+      "30036"
+    ],
+    "徹底管理主義 樫本理子": [
+      "30036"
+    ],
+    "心 夜風にさらわれて": [
+      "30139"
+    ],
+    "心 夜風にさらわれて メジロマックイーン": [
+      "30139"
+    ],
+    "心と足元は温かく": [
+      "30063"
+    ],
+    "心と足元は温かく イクノディクタス": [
+      "30063"
+    ],
+    "心覚えし 京の華": [
+      "30282"
+    ],
+    "心覚えし 京の華 エアグルーヴ": [
+      "30282"
+    ],
+    "必殺 wキャロットパンチ": [
+      "30020"
+    ],
+    "必殺 wキャロットパンチ ビコーペガサス": [
+      "30020"
+    ],
+    "悩み事かい ポニーちゃん": [
+      "30219"
+    ],
+    "悩み事かい ポニーちゃん フジキセキ": [
+      "30219"
+    ],
+    "愛してもらうんだぞ": [
+      "30024"
+    ],
+    "愛してもらうんだぞ オグリキャップ": [
+      "30024"
+    ],
+    "愛すべき金蘭のつどい": [
+      "30099"
+    ],
+    "愛すべき金蘭のつどい イクノディクタス": [
+      "30099"
+    ],
+    "感謝は指先まで込めて": [
+      "30010"
+    ],
+    "感謝は指先まで込めて ファインモーション": [
+      "30010"
+    ],
+    "感謝感謝 サクラ吹雪": [
+      "30184"
+    ],
+    "感謝感謝 サクラ吹雪 サクラバクシンオー": [
+      "30184"
+    ],
+    "慈恵のmother sea": [
+      "30217"
+    ],
+    "慈恵のmother sea シーザリオ": [
+      "30217"
+    ],
+    "我が学び舎へ 愛をこめて": [
+      "30216"
+    ],
+    "我が学び舎へ 愛をこめて ブエナビスタ": [
+      "30216"
+    ],
+    "我が舞 巡りて": [
+      "30170"
+    ],
+    "我が舞 巡りて キングヘイロー": [
+      "30170"
+    ],
+    "押して忍べど燃ゆるもの": [
+      "30032"
+    ],
+    "押して忍べど燃ゆるもの ヤエノムテキ": [
+      "30032"
+    ],
+    "掲げよ 燃え盛る灯を": [
+      "30135"
+    ],
+    "掲げよ 燃え盛る灯を カツラギエース": [
+      "30135"
+    ],
+    "放課後 君が笑った": [
+      "20058"
+    ],
+    "放課後 君が笑った シンボリルドルフ": [
+      "20058"
+    ],
+    "故郷に錦を飾るんでい": [
+      "30281"
+    ],
+    "故郷に錦を飾るんでい イナリワン": [
+      "30281"
+    ],
+    "救いはあるよっ": [
+      "20036"
+    ],
+    "救いはあるよっ メジロパーマー": [
+      "20036"
+    ],
+    "新時代を開く者": [
+      "30203"
+    ],
+    "新時代を開く者 ジャングルポケット": [
+      "30203"
+    ],
+    "日本一のステージを": [
+      "30001"
+    ],
+    "日本一のステージを スペシャルウィーク": [
+      "30001"
+    ],
+    "明日のライド オン": [
+      "30202"
+    ],
+    "明日のライド オン ウオッカ": [
+      "30202"
+    ],
+    "明日は全国的に赤でしょう": [
+      "30055"
+    ],
+    "明日は全国的に赤でしょう セイウンスカイ": [
+      "30055"
+    ],
+    "星跨ぐメッセージ": [
+      "30287"
+    ],
+    "星跨ぐメッセージ ネオユニヴァース": [
+      "30287"
+    ],
+    "春 来たれり": [
+      "30244"
+    ],
+    "春 来たれり メジロブライト": [
+      "30244"
+    ],
+    "時に交わる海と空": [
+      "30312"
+    ],
+    "時に交わる海と空 ミスターシービー": [
+      "30312"
+    ],
+    "晩餐": [
+      "30319"
+    ],
+    "晩餐 ナリタブライアン": [
+      "30319"
+    ],
+    "最強 なる眷属": [
+      "30321"
+    ],
+    "最強 なる眷属 ドゥラメンテ": [
+      "30321"
+    ],
+    "最強 は作れる": [
+      "20071"
+    ],
+    "最強 は作れる ロイスアンドロイス": [
+      "20071"
+    ],
+    "最強は俺だ": [
+      "30240"
+    ],
+    "最強は俺だ ジャングルポケット": [
+      "30240"
+    ],
+    "月下のsunshine": [
+      "30218"
+    ],
+    "月下のsunshine タイキシャトル": [
+      "30218"
+    ],
+    "月下の悪魔ちゃん": [
+      "30115"
+    ],
+    "月下の悪魔ちゃん メジロパーマー": [
+      "30115"
+    ],
+    "月下麗人": [
+      "20083"
+    ],
+    "月下麗人 メジロラモーヌ": [
+      "20083"
+    ],
+    "朝焼け苺の畑にて": [
+      "30208"
+    ],
+    "朝焼け苺の畑にて ニシノフラワー": [
+      "30208"
+    ],
+    "本能は吼えているか": [
+      "30257"
+    ],
+    "本能は吼えているか タッカーブライン": [
+      "30257"
+    ],
+    "桃色のバックショット": [
+      "30086"
+    ],
+    "桃色のバックショット ナリタトップロード": [
+      "30086"
+    ],
+    "桐生院トレーナー": [
+      "10022",
+      "20021"
+    ],
+    "検証 開始": [
+      "20006"
+    ],
+    "検証 開始 ビワハヤヒデ": [
+      "20006"
+    ],
+    "極上スマイルはっし ん": [
+      "30263"
+    ],
+    "極上スマイルはっし ん ヴィブロス": [
+      "30263"
+    ],
+    "樫本理子": [
+      "10060",
+      "30036"
+    ],
+    "歴史も美食も余すところなく": [
+      "30214"
+    ],
+    "歴史も美食も余すところなく ファインモーション": [
+      "30214"
+    ],
+    "比翼のワルツ": [
+      "30140"
+    ],
+    "比翼のワルツ トウカイテイオー": [
+      "30140"
+    ],
+    "気まぐれ渡り星": [
+      "30264"
+    ],
+    "気まぐれ渡り星 ステイゴールド": [
+      "30264"
+    ],
+    "気まぐれ絶佳": [
+      "30128"
+    ],
+    "気まぐれ絶佳 スイープトウショウ": [
+      "30128"
+    ],
+    "水面のプリンシパル": [
+      "30261"
+    ],
+    "水面のプリンシパル ウインバリアシオン": [
+      "30261"
+    ],
+    "氷結晶の静域": [
+      "30265"
+    ],
+    "氷結晶の静域 アドマイヤグルーヴ": [
+      "30265"
+    ],
+    "永久の誓い 永久の輝き": [
+      "30302"
+    ],
+    "永久の誓い 永久の輝き サトノダイヤモンド": [
+      "30302"
+    ],
+    "永劫続く栄光へ": [
+      "30137"
+    ],
+    "永劫続く栄光へ 祖にして導く者": [
+      "30137"
+    ],
+    "決意のフローラ": [
+      "30274"
+    ],
+    "決意のフローラ カレンブーケドール": [
+      "30274"
+    ],
+    "波をかきわけ夢がゆく": [
+      "30168"
+    ],
+    "波をかきわけ夢がゆく ゴールドシップ": [
+      "30168"
+    ],
+    "波立つキモチ": [
+      "20014"
+    ],
+    "波立つキモチ ナリタタイシン": [
+      "20014"
+    ],
+    "波間のオフショット": [
+      "30210"
+    ],
+    "波間のオフショット スマートファルコン": [
+      "30210"
+    ],
+    "泥まみれのコンパネーロ": [
+      "20033"
+    ],
+    "泥まみれのコンパネーロ エルコンドルパサー": [
+      "20033"
+    ],
+    "泥濘一笑 真っつぐに": [
+      "20032"
+    ],
+    "泥濘一笑 真っつぐに イナリワン": [
+      "20032"
+    ],
+    "浚いの風": [
+      "30196"
+    ],
+    "浚いの風 ヤマニンゼファー": [
+      "30196"
+    ],
+    "深窓の少女へ": [
+      "30234"
+    ],
+    "深窓の少女へ メジロアルダン": [
+      "30234"
+    ],
+    "添付ファイル 温めますか": [
+      "20055"
+    ],
+    "添付ファイル 温めますか アストンマーチャン": [
+      "20055"
+    ],
+    "清く やわらかな夜": [
+      "20101"
+    ],
+    "清く やわらかな夜 ゼンノロブロイ": [
+      "20101"
+    ],
+    "温もりの一皿 召し上がれ": [
+      "20097"
+    ],
+    "温もりの一皿 召し上がれ スーパークリーク": [
+      "20097"
+    ],
+    "準備運動は怠るべからず": [
+      "20025"
+    ],
+    "準備運動は怠るべからず イクノディクタス": [
+      "20025"
+    ],
+    "激マブ ドライブ": [
+      "20062"
+    ],
+    "激マブ ドライブ マルゼンスキー": [
+      "20062"
+    ],
+    "激情のピッツィカ": [
+      "30190"
+    ],
+    "激情のピッツィカ ドゥラメンテ": [
+      "30190"
+    ],
+    "激録 爆走トナカイ事件": [
+      "30278"
+    ],
+    "激録 爆走トナカイ事件 ゴールドシップ": [
+      "30278"
+    ],
+    "炎々 闘志を抱き": [
+      "30164"
+    ],
+    "炎々 闘志を抱き ヒシアマゾン": [
+      "30164"
+    ],
+    "無人島pj責任者": [
+      "10128"
+    ],
+    "無人島pj責任者 タッカーブライン": [
+      "10128"
+    ],
+    "無垢の白妙": [
+      "30248"
+    ],
+    "無垢の白妙 デアリングタクト": [
+      "30248"
+    ],
+    "無機の闘志": [
+      "30277"
+    ],
+    "無機の闘志 ミホノブルボン": [
+      "30277"
+    ],
+    "無辺際ラボラトリィ": [
+      "30299"
+    ],
+    "無辺際ラボラトリィ アグネスタキオン": [
+      "30299"
+    ],
+    "燦爛": [
+      "30134"
+    ],
+    "燦爛 メジロラモーヌ": [
+      "30134"
+    ],
+    "爆速 最速 花あらし": [
+      "30083"
+    ],
+    "爆速 最速 花あらし サクラバクシンオー": [
+      "30083"
+    ],
+    "爽快 ウイニングショット": [
+      "30048"
+    ],
+    "爽快 ウイニングショット メジロライアン": [
+      "30048"
+    ],
+    "牙を立て リフレイン": [
+      "30223"
+    ],
+    "牙を立て リフレイン ヒシアマゾン": [
+      "30223"
+    ],
+    "独奏 螺旋追走曲": [
+      "30075"
+    ],
+    "独奏 螺旋追走曲 マンハッタンカフェ": [
+      "30075"
+    ],
+    "王を統べて覇す者": [
+      "30231"
+    ],
+    "王を統べて覇す者 テイエムオペラオー": [
+      "30231"
+    ],
+    "理想へ向かう青嵐": [
+      "30106"
+    ],
+    "理想へ向かう青嵐 エアグルーヴ": [
+      "30106"
+    ],
+    "琴線弾きて 風光る": [
+      "30284"
+    ],
+    "琴線弾きて 風光る バブルガムフェロー": [
+      "30284"
+    ],
+    "甘 い浮き輪を召し上がれ": [
+      "20060"
+    ],
+    "甘 い浮き輪を召し上がれ ヒシアケボノ": [
+      "20060"
+    ],
+    "生体aに関する実験的研究": [
+      "20012"
+    ],
+    "生体aに関する実験的研究 アグネスタキオン": [
+      "20012"
+    ],
+    "白い翼は舞い戻りて": [
+      "30182"
+    ],
+    "白い翼は舞い戻りて ホッコータルマエ": [
+      "30182"
+    ],
+    "白い鳥のアラベスク": [
+      "30195"
+    ],
+    "白い鳥のアラベスク ケイエスミラクル": [
+      "30195"
+    ],
+    "白き稲妻の如く": [
+      "30256"
+    ],
+    "白き稲妻の如く タマモクロス": [
+      "30256"
+    ],
+    "白に至る純真": [
+      "30293"
+    ],
+    "白に至る純真 デアリングタクト": [
+      "30293"
+    ],
+    "白に至る覚悟": [
+      "30294"
+    ],
+    "白に至る覚悟 デアリングハート": [
+      "30294"
+    ],
+    "百花の願いをこの胸に": [
+      "30179"
+    ],
+    "百花の願いをこの胸に サトノダイヤモンド": [
+      "30179"
+    ],
+    "目線は気にせず": [
+      "20018"
+    ],
+    "目線は気にせず メジロドーベル": [
+      "20018"
+    ],
+    "瞬光": [
+      "20100"
+    ],
+    "瞬光 カルストンライトオ": [
+      "20100"
+    ],
+    "瞳に闘志を胸に勝利の渇望を": [
+      "30258"
+    ],
+    "瞳に闘志を胸に勝利の渇望を メジロライアン": [
+      "30258"
+    ],
+    "祝福はフーガ": [
+      "30059"
+    ],
+    "祝福はフーガ ミホノブルボン": [
+      "30059"
+    ],
+    "私たちと夢 掴みましょう": [
+      "30105"
+    ],
+    "私たちと夢 掴みましょう スペシャルウィーク": [
+      "30105"
+    ],
+    "私たちのアイディアノート": [
+      "20094"
+    ],
+    "私たちのアイディアノート サトノダイヤモンド": [
+      "20094"
+    ],
+    "私たちのプリンセス流儀": [
+      "20089"
+    ],
+    "私たちのプリンセス流儀 カワカミプリンセス": [
+      "20089"
+    ],
+    "私のためのショッピング": [
+      "30285"
+    ],
+    "私のためのショッピング キングヘイロー": [
+      "30285"
+    ],
+    "秋川理事長": [
+      "10109",
+      "30207"
+    ],
+    "笹針師": [
+      "10074"
+    ],
+    "笹針師 安心沢刺々美": [
+      "10074"
+    ],
+    "約束のglitter": [
+      "30251"
+    ],
+    "約束のglitter エスポワールシチー": [
+      "30251"
+    ],
+    "紡がれてゆく想い": [
+      "30081"
+    ],
+    "紡がれてゆく想い チーム シリウス": [
+      "30081"
+    ],
+    "紺碧の戴冠式": [
+      "30205"
+    ],
+    "紺碧の戴冠式 ヴィルシーナ": [
+      "30205"
+    ],
+    "絶対皇帝": [
+      "30037"
+    ],
+    "絶対皇帝 シンボリルドルフ": [
+      "30037"
+    ],
+    "続け故郷へ けっぱり道": [
+      "20092"
+    ],
+    "続け故郷へ けっぱり道 ホッコータルマエ": [
+      "20092"
+    ],
+    "緋色の君へ風が吹く": [
+      "30227"
+    ],
+    "緋色の君へ風が吹く ダイワスカーレット": [
+      "30227"
+    ],
+    "繋がれパレード ノーツ": [
+      "30249"
+    ],
+    "繋がれパレード ノーツ トランセンド": [
+      "30249"
+    ],
+    "聖夜 変わるために": [
+      "30174"
+    ],
+    "聖夜 変わるために メジロドーベル": [
+      "30174"
+    ],
+    "花ども集いて束となる": [
+      "30295"
+    ],
+    "花ども集いて束となる カレンブーケドール": [
+      "30295"
+    ],
+    "花嫁たるもの": [
+      "30039"
+    ],
+    "花嫁たるもの カワカミプリンセス": [
+      "30039"
+    ],
+    "血脈の胎動": [
+      "30178"
+    ],
+    "血脈の胎動 ドゥラメンテ": [
+      "30178"
+    ],
+    "行き先はあたたかな場所": [
+      "30317"
+    ],
+    "行き先はあたたかな場所 マチカネタンホイザ": [
+      "30317"
+    ],
+    "袖振り合えば福となる": [
+      "30078"
+    ],
+    "袖振り合えば福となる マチカネフクキタル": [
+      "30078"
+    ],
+    "見習い魔女と長い夜": [
+      "20023"
+    ],
+    "見習い魔女と長い夜 スイープトウショウ": [
+      "20023"
+    ],
+    "誘うは夢心地": [
+      "30246"
+    ],
+    "誘うは夢心地 ドリームジャーニー": [
+      "30246"
+    ],
+    "誰も知らない風へ": [
+      "30126"
+    ],
+    "誰も知らない風へ ヤマニンゼファー": [
+      "30126"
+    ],
+    "謹製ッ 特大夢にんじん": [
+      "30207"
+    ],
+    "謹製ッ 特大夢にんじん 秋川理事長": [
+      "30207"
+    ],
+    "護るべきは無垢の瞳": [
+      "20074"
+    ],
+    "護るべきは無垢の瞳 ヤエノムテキ": [
+      "20074"
+    ],
+    "賑やかな未来を乗せて走れ": [
+      "30300"
+    ],
+    "賑やかな未来を乗せて走れ サクラチヨノオー": [
+      "30300"
+    ],
+    "輝く景色の その先に": [
+      "30002"
+    ],
+    "輝く景色の その先に サイレンススズカ": [
+      "30002"
+    ],
+    "迫る熱に押されて": [
+      "30028"
+    ],
+    "迫る熱に押されて キタサンブラック": [
+      "30028"
+    ],
+    "運の行方": [
+      "20016"
+    ],
+    "運の行方 マチカネフクキタル": [
+      "20016"
+    ],
+    "道端フィードバック": [
+      "20076"
+    ],
+    "道端フィードバック エアシャカール": [
+      "20076"
+    ],
+    "遥か流るる冬夏青青": [
+      "30129"
+    ],
+    "遥か流るる冬夏青青 グラスワンダー": [
+      "30129"
+    ],
+    "選んで選んで 想いを込めて": [
+      "30176"
+    ],
+    "選んで選んで 想いを込めて メジロライアン": [
+      "30176"
+    ],
+    "都留岐涼花": [
+      "10104",
+      "30188"
+    ],
+    "金色を目指して": [
+      "20049"
+    ],
+    "金色を目指して ゴールドシチー": [
+      "20049"
+    ],
+    "鉄の乙女も微笑んで": [
+      "30238"
+    ],
+    "鉄の乙女も微笑んで イクノディクタス": [
+      "30238"
+    ],
+    "鉄火場に咲く菫": [
+      "30163"
+    ],
+    "鉄火場に咲く菫 ナカヤマフェスタ": [
+      "30163"
+    ],
+    "鍛えて 応えて": [
+      "20010"
+    ],
+    "鍛えて 応えて メジロライアン": [
+      "20010"
+    ],
+    "鍛えぬくトモ": [
+      "20009"
+    ],
+    "鍛えぬくトモ ミホノブルボン": [
+      "20009"
+    ],
+    "長姉は大変": [
+      "20070"
+    ],
+    "長姉は大変 ヴィルシーナ": [
+      "20070"
+    ],
+    "開催 ハチャメチャgp": [
+      "30213"
+    ],
+    "開催 ハチャメチャgp トウカイテイオー": [
+      "30213"
+    ],
+    "集まってコンステレーション": [
+      "30060"
+    ],
+    "集まってコンステレーション ツインターボ": [
+      "30060"
+    ],
+    "雨の独奏 私の独創": [
+      "20008"
+    ],
+    "雨の独奏 私の独創 マンハッタンカフェ": [
+      "20008"
+    ],
+    "雲煙飛動": [
+      "30233"
+    ],
+    "雲煙飛動 シンボリルドルフ": [
+      "30233"
+    ],
+    "静寂を煎じ": [
+      "20091"
+    ],
+    "静寂を煎じ サクラチトセオー": [
+      "20091"
+    ],
+    "響き合うストレイン": [
+      "30061"
+    ],
+    "響き合うストレイン ビワハヤヒデ": [
+      "30061"
+    ],
+    "響け 二人の凱歌": [
+      "30292"
+    ],
+    "響け 二人の凱歌 マルシュロレーヌ": [
+      "30292"
+    ],
+    "響け 模範的あいさつ": [
+      "20042"
+    ],
+    "響け 模範的あいさつ サクラバクシンオー": [
+      "20042"
+    ],
+    "頑張るキミに": [
+      "20030"
+    ],
+    "頑張るキミに アイネスフウジン": [
+      "20030"
+    ],
+    "願いまでは拭わない": [
+      "30054"
+    ],
+    "願いまでは拭わない ナイスネイチャ": [
+      "30054"
+    ],
+    "飛びも出でぬべき心地すれ": [
+      "30079"
+    ],
+    "飛びも出でぬべき心地すれ メイショウドトウ": [
+      "30079"
+    ],
+    "飛び出せ キラメケ": [
+      "30011"
+    ],
+    "飛び出せ キラメケ アイネスフウジン": [
+      "30011"
+    ],
+    "飛び立つヴィーナス": [
+      "30236"
+    ],
+    "飛び立つヴィーナス シーキングザパール": [
+      "30236"
+    ],
+    "駆けよ 駆けよ 駆けよ": [
+      "30146"
+    ],
+    "駆けよ 駆けよ 駆けよ オグリキャップ": [
+      "30146"
+    ],
+    "駿川たづな": [
+      "10021",
+      "30021",
+      "30305"
+    ],
+    "高らかにyo ho": [
+      "30166"
+    ],
+    "高らかにyo ho タップダンスシチー": [
+      "30166"
+    ],
+    "魔力授かりし英雄": [
+      "30065"
+    ],
+    "魔力授かりし英雄 ゼンノロブロイ": [
+      "30065"
+    ],
+    "黄金の夢に溺れよ": [
+      "30280"
+    ],
+    "黄金の夢に溺れよ オルフェーヴル": [
+      "30280"
+    ],
+    "鼓動が速まるクールダウン": [
+      "20040"
+    ],
+    "鼓動が速まるクールダウン メジロライアン": [
+      "20040"
+    ]
+  }
+}

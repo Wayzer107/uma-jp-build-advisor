@@ -1,0 +1,4242 @@
+{
+  "by_id": {
+    "100101": "trainees/100101.json",
+    "100102": "trainees/100102.json",
+    "100103": "trainees/100103.json",
+    "100201": "trainees/100201.json",
+    "100202": "trainees/100202.json",
+    "100301": "trainees/100301.json",
+    "100302": "trainees/100302.json",
+    "100303": "trainees/100303.json",
+    "100401": "trainees/100401.json",
+    "100402": "trainees/100402.json",
+    "100403": "trainees/100403.json",
+    "100501": "trainees/100501.json",
+    "100502": "trainees/100502.json",
+    "100503": "trainees/100503.json",
+    "100601": "trainees/100601.json",
+    "100602": "trainees/100602.json",
+    "100603": "trainees/100603.json",
+    "100701": "trainees/100701.json",
+    "100702": "trainees/100702.json",
+    "100703": "trainees/100703.json",
+    "100801": "trainees/100801.json",
+    "100802": "trainees/100802.json",
+    "100901": "trainees/100901.json",
+    "100902": "trainees/100902.json",
+    "101001": "trainees/101001.json",
+    "101002": "trainees/101002.json",
+    "101003": "trainees/101003.json",
+    "101101": "trainees/101101.json",
+    "101102": "trainees/101102.json",
+    "101103": "trainees/101103.json",
+    "101201": "trainees/101201.json",
+    "101202": "trainees/101202.json",
+    "101301": "trainees/101301.json",
+    "101302": "trainees/101302.json",
+    "101303": "trainees/101303.json",
+    "101401": "trainees/101401.json",
+    "101402": "trainees/101402.json",
+    "101501": "trainees/101501.json",
+    "101502": "trainees/101502.json",
+    "101601": "trainees/101601.json",
+    "101602": "trainees/101602.json",
+    "101701": "trainees/101701.json",
+    "101702": "trainees/101702.json",
+    "101703": "trainees/101703.json",
+    "101801": "trainees/101801.json",
+    "101802": "trainees/101802.json",
+    "101803": "trainees/101803.json",
+    "101901": "trainees/101901.json",
+    "101902": "trainees/101902.json",
+    "102001": "trainees/102001.json",
+    "102002": "trainees/102002.json",
+    "102003": "trainees/102003.json",
+    "102101": "trainees/102101.json",
+    "102102": "trainees/102102.json",
+    "102201": "trainees/102201.json",
+    "102202": "trainees/102202.json",
+    "102203": "trainees/102203.json",
+    "102301": "trainees/102301.json",
+    "102302": "trainees/102302.json",
+    "102303": "trainees/102303.json",
+    "102401": "trainees/102401.json",
+    "102402": "trainees/102402.json",
+    "102403": "trainees/102403.json",
+    "102501": "trainees/102501.json",
+    "102502": "trainees/102502.json",
+    "102503": "trainees/102503.json",
+    "102601": "trainees/102601.json",
+    "102602": "trainees/102602.json",
+    "102701": "trainees/102701.json",
+    "102702": "trainees/102702.json",
+    "102801": "trainees/102801.json",
+    "102802": "trainees/102802.json",
+    "102901": "trainees/102901.json",
+    "102902": "trainees/102902.json",
+    "103001": "trainees/103001.json",
+    "103002": "trainees/103002.json",
+    "103003": "trainees/103003.json",
+    "103101": "trainees/103101.json",
+    "103102": "trainees/103102.json",
+    "103103": "trainees/103103.json",
+    "103201": "trainees/103201.json",
+    "103202": "trainees/103202.json",
+    "103203": "trainees/103203.json",
+    "103301": "trainees/103301.json",
+    "103302": "trainees/103302.json",
+    "103401": "trainees/103401.json",
+    "103402": "trainees/103402.json",
+    "103501": "trainees/103501.json",
+    "103502": "trainees/103502.json",
+    "103503": "trainees/103503.json",
+    "103601": "trainees/103601.json",
+    "103602": "trainees/103602.json",
+    "103701": "trainees/103701.json",
+    "103702": "trainees/103702.json",
+    "103703": "trainees/103703.json",
+    "103801": "trainees/103801.json",
+    "103802": "trainees/103802.json",
+    "103901": "trainees/103901.json",
+    "103902": "trainees/103902.json",
+    "104001": "trainees/104001.json",
+    "104002": "trainees/104002.json",
+    "104003": "trainees/104003.json",
+    "104101": "trainees/104101.json",
+    "104102": "trainees/104102.json",
+    "104103": "trainees/104103.json",
+    "104201": "trainees/104201.json",
+    "104202": "trainees/104202.json",
+    "104301": "trainees/104301.json",
+    "104302": "trainees/104302.json",
+    "104401": "trainees/104401.json",
+    "104402": "trainees/104402.json",
+    "104501": "trainees/104501.json",
+    "104502": "trainees/104502.json",
+    "104503": "trainees/104503.json",
+    "104601": "trainees/104601.json",
+    "104602": "trainees/104602.json",
+    "104603": "trainees/104603.json",
+    "104701": "trainees/104701.json",
+    "104702": "trainees/104702.json",
+    "104801": "trainees/104801.json",
+    "104802": "trainees/104802.json",
+    "104803": "trainees/104803.json",
+    "104901": "trainees/104901.json",
+    "104902": "trainees/104902.json",
+    "105001": "trainees/105001.json",
+    "105002": "trainees/105002.json",
+    "105003": "trainees/105003.json",
+    "105101": "trainees/105101.json",
+    "105102": "trainees/105102.json",
+    "105201": "trainees/105201.json",
+    "105202": "trainees/105202.json",
+    "105301": "trainees/105301.json",
+    "105302": "trainees/105302.json",
+    "105401": "trainees/105401.json",
+    "105501": "trainees/105501.json",
+    "105502": "trainees/105502.json",
+    "105601": "trainees/105601.json",
+    "105602": "trainees/105602.json",
+    "105701": "trainees/105701.json",
+    "105702": "trainees/105702.json",
+    "105801": "trainees/105801.json",
+    "105802": "trainees/105802.json",
+    "105901": "trainees/105901.json",
+    "105902": "trainees/105902.json",
+    "106001": "trainees/106001.json",
+    "106002": "trainees/106002.json",
+    "106003": "trainees/106003.json",
+    "106101": "trainees/106101.json",
+    "106102": "trainees/106102.json",
+    "106103": "trainees/106103.json",
+    "106201": "trainees/106201.json",
+    "106202": "trainees/106202.json",
+    "106301": "trainees/106301.json",
+    "106302": "trainees/106302.json",
+    "106401": "trainees/106401.json",
+    "106402": "trainees/106402.json",
+    "106501": "trainees/106501.json",
+    "106502": "trainees/106502.json",
+    "106601": "trainees/106601.json",
+    "106701": "trainees/106701.json",
+    "106702": "trainees/106702.json",
+    "106703": "trainees/106703.json",
+    "106801": "trainees/106801.json",
+    "106802": "trainees/106802.json",
+    "106803": "trainees/106803.json",
+    "106901": "trainees/106901.json",
+    "106902": "trainees/106902.json",
+    "107001": "trainees/107001.json",
+    "107002": "trainees/107002.json",
+    "107101": "trainees/107101.json",
+    "107102": "trainees/107102.json",
+    "107201": "trainees/107201.json",
+    "107202": "trainees/107202.json",
+    "107301": "trainees/107301.json",
+    "107401": "trainees/107401.json",
+    "107402": "trainees/107402.json",
+    "107403": "trainees/107403.json",
+    "107601": "trainees/107601.json",
+    "107602": "trainees/107602.json",
+    "107701": "trainees/107701.json",
+    "107702": "trainees/107702.json",
+    "107703": "trainees/107703.json",
+    "107801": "trainees/107801.json",
+    "107802": "trainees/107802.json",
+    "107901": "trainees/107901.json",
+    "108001": "trainees/108001.json",
+    "108002": "trainees/108002.json",
+    "108101": "trainees/108101.json",
+    "108201": "trainees/108201.json",
+    "108202": "trainees/108202.json",
+    "108301": "trainees/108301.json",
+    "108302": "trainees/108302.json",
+    "108401": "trainees/108401.json",
+    "108402": "trainees/108402.json",
+    "108501": "trainees/108501.json",
+    "108502": "trainees/108502.json",
+    "108601": "trainees/108601.json",
+    "108602": "trainees/108602.json",
+    "108701": "trainees/108701.json",
+    "108702": "trainees/108702.json",
+    "108801": "trainees/108801.json",
+    "108802": "trainees/108802.json",
+    "108901": "trainees/108901.json",
+    "108902": "trainees/108902.json",
+    "109001": "trainees/109001.json",
+    "109101": "trainees/109101.json",
+    "109102": "trainees/109102.json",
+    "109201": "trainees/109201.json",
+    "109301": "trainees/109301.json",
+    "109302": "trainees/109302.json",
+    "109401": "trainees/109401.json",
+    "109402": "trainees/109402.json",
+    "109501": "trainees/109501.json",
+    "109601": "trainees/109601.json",
+    "109701": "trainees/109701.json",
+    "109801": "trainees/109801.json",
+    "109802": "trainees/109802.json",
+    "109901": "trainees/109901.json",
+    "109902": "trainees/109902.json",
+    "110001": "trainees/110001.json",
+    "110002": "trainees/110002.json",
+    "110201": "trainees/110201.json",
+    "110202": "trainees/110202.json",
+    "110301": "trainees/110301.json",
+    "110401": "trainees/110401.json",
+    "110402": "trainees/110402.json",
+    "110501": "trainees/110501.json",
+    "110502": "trainees/110502.json",
+    "110601": "trainees/110601.json",
+    "110602": "trainees/110602.json",
+    "110701": "trainees/110701.json",
+    "110702": "trainees/110702.json",
+    "110801": "trainees/110801.json",
+    "110802": "trainees/110802.json",
+    "110901": "trainees/110901.json",
+    "110902": "trainees/110902.json",
+    "111001": "trainees/111001.json",
+    "111002": "trainees/111002.json",
+    "111101": "trainees/111101.json",
+    "111201": "trainees/111201.json",
+    "111301": "trainees/111301.json",
+    "111302": "trainees/111302.json",
+    "111401": "trainees/111401.json",
+    "111501": "trainees/111501.json",
+    "111601": "trainees/111601.json",
+    "111602": "trainees/111602.json",
+    "111701": "trainees/111701.json",
+    "111801": "trainees/111801.json",
+    "111901": "trainees/111901.json",
+    "111902": "trainees/111902.json",
+    "112001": "trainees/112001.json",
+    "112101": "trainees/112101.json",
+    "112401": "trainees/112401.json",
+    "112402": "trainees/112402.json",
+    "112701": "trainees/112701.json",
+    "112702": "trainees/112702.json",
+    "112901": "trainees/112901.json",
+    "113001": "trainees/113001.json",
+    "113101": "trainees/113101.json",
+    "113201": "trainees/113201.json",
+    "113202": "trainees/113202.json",
+    "113301": "trainees/113301.json",
+    "113401": "trainees/113401.json",
+    "113501": "trainees/113501.json",
+    "113601": "trainees/113601.json",
+    "113701": "trainees/113701.json",
+    "114101": "trainees/114101.json",
+    "114301": "trainees/114301.json",
+    "114401": "trainees/114401.json",
+    "114501": "trainees/114501.json",
+    "114901": "trainees/114901.json"
+  },
+  "by_name": {
+    "9927 wishes": [
+      "113201"
+    ],
+    "9927 wishes loves only you": [
+      "113201"
+    ],
+    "9927 wishes ラヴズオンリーユー": [
+      "113201"
+    ],
+    "accumulation of wishes": [
+      "106003"
+    ],
+    "accumulation of wishes nice nature": [
+      "106003"
+    ],
+    "adamant sovereign": [
+      "101703"
+    ],
+    "adamant sovereign シンボリルドルフ": [
+      "101703"
+    ],
+    "admire groove": [
+      "111801"
+    ],
+    "admire vega": [
+      "103301",
+      "103302"
+    ],
+    "agnes digital": [
+      "101901",
+      "101902"
+    ],
+    "agnes jiangshi": [
+      "101902"
+    ],
+    "agnes jiangshi agnes digital": [
+      "101902"
+    ],
+    "agnes tachyon": [
+      "103201",
+      "103202",
+      "103203"
+    ],
+    "air groove": [
+      "101801",
+      "101802",
+      "101803"
+    ],
+    "air messiah": [
+      "111101"
+    ],
+    "air shakur": [
+      "103601",
+      "103602"
+    ],
+    "almond eye": [
+      "112901"
+    ],
+    "always electrifying": [
+      "103101"
+    ],
+    "always electrifying ines fujin": [
+      "103101"
+    ],
+    "amazonian lapis": [
+      "101201"
+    ],
+    "amazonian lapis hishi amazon": [
+      "101201"
+    ],
+    "ambition of the black iron": [
+      "105301"
+    ],
+    "ambition of the black iron bamboo memory": [
+      "105301"
+    ],
+    "archer under the glowing moon": [
+      "101702"
+    ],
+    "archer under the glowing moon symboli rudolf": [
+      "101702"
+    ],
+    "assorted cuteness": [
+      "111301"
+    ],
+    "assorted cuteness fusaichi pandora": [
+      "111301"
+    ],
+    "assorted cuteness フサイチパンドラ": [
+      "111301"
+    ],
+    "aston machan": [
+      "108701",
+      "108702"
+    ],
+    "aurore vacances": [
+      "104802"
+    ],
+    "aurore vacances tosen jordan": [
+      "104802"
+    ],
+    "aurore vacances トーセンジョーダン": [
+      "104802"
+    ],
+    "authentic 1928": [
+      "104001"
+    ],
+    "authentic 1928 gold city": [
+      "104001"
+    ],
+    "autumnal andante": [
+      "109302"
+    ],
+    "autumnal andante k s miracle": [
+      "109302"
+    ],
+    "baa baa patisserie": [
+      "101003"
+    ],
+    "baa baa patisserie taiki shuttle": [
+      "101003"
+    ],
+    "baa baa patisserie タイキシャトル": [
+      "101003"
+    ],
+    "bamboo memory": [
+      "105301",
+      "105302"
+    ],
+    "be witched": [
+      "104202"
+    ],
+    "be witched seeking the pearl": [
+      "104202"
+    ],
+    "be witched シーキングザパール": [
+      "104202"
+    ],
+    "believe": [
+      "109501"
+    ],
+    "belphegor s prime": [
+      "103602"
+    ],
+    "belphegor s prime air shakur": [
+      "103602"
+    ],
+    "belphegor s prime エアシャカール": [
+      "103602"
+    ],
+    "bestest prize": [
+      "105201"
+    ],
+    "bestest prize haru urara": [
+      "105201"
+    ],
+    "beyond the horizon": [
+      "100302"
+    ],
+    "beyond the horizon tokai teio": [
+      "100302"
+    ],
+    "biko pegasus": [
+      "105401"
+    ],
+    "biwa hayahide": [
+      "102301",
+      "102302",
+      "102303"
+    ],
+    "black general zen": [
+      "107202"
+    ],
+    "black general zen yaeno muteki": [
+      "107202"
+    ],
+    "blast off turbo engine": [
+      "106601"
+    ],
+    "blast off turbo engine twin turbo": [
+      "106601"
+    ],
+    "blazed head covered fists": [
+      "107201"
+    ],
+    "blazed head covered fists yaeno muteki": [
+      "107201"
+    ],
+    "blooming forward": [
+      "104101"
+    ],
+    "blooming forward sakura bakushin o": [
+      "104101"
+    ],
+    "blue turbulence": [
+      "106202"
+    ],
+    "blue turbulence matikanetannhauser": [
+      "106202"
+    ],
+    "boho flare": [
+      "104003"
+    ],
+    "boho flare gold city": [
+      "104003"
+    ],
+    "boho flare ゴールドシチー": [
+      "104003"
+    ],
+    "brilliant red bijou": [
+      "108501"
+    ],
+    "brilliant red bijou daiichi ruby": [
+      "108501"
+    ],
+    "brunissage line": [
+      "107401"
+    ],
+    "brunissage line mejiro bright": [
+      "107401"
+    ],
+    "bubble gum fellow": [
+      "112401",
+      "112402"
+    ],
+    "bubblegum memories": [
+      "101002"
+    ],
+    "bubblegum memories taiki shuttle": [
+      "101002"
+    ],
+    "bubblegum memories タイキシャトル": [
+      "101002"
+    ],
+    "buena vista": [
+      "111401"
+    ],
+    "buono alla moda": [
+      "102801"
+    ],
+    "buono alla moda hishi akebono": [
+      "102801"
+    ],
+    "butterfly sting": [
+      "110001"
+    ],
+    "butterfly sting wonder acute": [
+      "110001"
+    ],
+    "butterfly sting ワンダーアキュート": [
+      "110001"
+    ],
+    "calend s ma chérie": [
+      "103802"
+    ],
+    "calend s ma chérie curren chan": [
+      "103802"
+    ],
+    "calm summer navy drop": [
+      "108902"
+    ],
+    "calm summer navy drop cheval grand": [
+      "108902"
+    ],
+    "calstone light o": [
+      "112001"
+    ],
+    "carole en rouge noël": [
+      "102302"
+    ],
+    "carole en rouge noël biwa hayahide": [
+      "102302"
+    ],
+    "celestial road": [
+      "107702"
+    ],
+    "celestial road narita top road": [
+      "107702"
+    ],
+    "celestial road ナリタトップロード": [
+      "107702"
+    ],
+    "center stage": [
+      "109201"
+    ],
+    "center stage dantsu flame": [
+      "109201"
+    ],
+    "cesario": [
+      "111001",
+      "111002"
+    ],
+    "cheval grand": [
+      "108901",
+      "108902"
+    ],
+    "chevalier bleu": [
+      "106703"
+    ],
+    "chevalier bleu satono diamond": [
+      "106703"
+    ],
+    "chevalier fidèle": [
+      "112101"
+    ],
+    "chevalier fidèle durandal": [
+      "112101"
+    ],
+    "chevalier fidèle デュランダル": [
+      "112101"
+    ],
+    "chiffon wrapped mummy": [
+      "104502"
+    ],
+    "chiffon wrapped mummy super creek": [
+      "104502"
+    ],
+    "chrono genesis": [
+      "113301"
+    ],
+    "cinderella gray": [
+      "100603"
+    ],
+    "cinderella gray oguri cap": [
+      "100603"
+    ],
+    "claret nosferatu": [
+      "110802"
+    ],
+    "claret nosferatu ドゥラメンテ": [
+      "110802"
+    ],
+    "clear bliss": [
+      "105701"
+    ],
+    "clear bliss mr c b": [
+      "105701"
+    ],
+    "clear bliss ミスターシービー": [
+      "105701"
+    ],
+    "clinochlore line": [
+      "107101"
+    ],
+    "clinochlore line mejiro ardan": [
+      "107101"
+    ],
+    "clippety tippety clop": [
+      "106201"
+    ],
+    "clippety tippety clop matikanetannhauser": [
+      "106201"
+    ],
+    "code glaçage": [
+      "102602"
+    ],
+    "code glaçage mihono bourbon": [
+      "102602"
+    ],
+    "code グラサージュ": [
+      "102602"
+    ],
+    "code グラサージュ ミホノブルボン": [
+      "102602"
+    ],
+    "control": [
+      "111501"
+    ],
+    "control orfevre": [
+      "111501"
+    ],
+    "copano rickey": [
+      "109801",
+      "109802"
+    ],
+    "cosmos danzatrice": [
+      "104002"
+    ],
+    "cosmos danzatrice gold city": [
+      "104002"
+    ],
+    "creeping black": [
+      "102501"
+    ],
+    "creeping black manhattan cafe": [
+      "102501"
+    ],
+    "creeping black マンハッタンカフェ": [
+      "102501"
+    ],
+    "crimson armor of rapidity": [
+      "109601"
+    ],
+    "crimson armor of rapidity no reason": [
+      "109601"
+    ],
+    "crimson vow raiment": [
+      "109701"
+    ],
+    "crimson vow raiment still in love": [
+      "109701"
+    ],
+    "curren bouquetd or": [
+      "113401"
+    ],
+    "curren chan": [
+      "103801",
+      "103802"
+    ],
+    "daiichi ruby": [
+      "108501",
+      "108502"
+    ],
+    "daitaku helios": [
+      "106501",
+      "106502"
+    ],
+    "daiwa scarlet": [
+      "100901",
+      "100902"
+    ],
+    "dantsu flame": [
+      "109201"
+    ],
+    "daring darling": [
+      "111201"
+    ],
+    "daring darling daring heart": [
+      "111201"
+    ],
+    "daring darling デアリングハート": [
+      "111201"
+    ],
+    "daring heart": [
+      "111201"
+    ],
+    "dawnlight": [
+      "112402"
+    ],
+    "dawnlight bubble gum fellow": [
+      "112402"
+    ],
+    "dazzling kabuki flower": [
+      "105702"
+    ],
+    "dazzling kabuki flower mr c b": [
+      "105702"
+    ],
+    "devoted reindeer": [
+      "106402"
+    ],
+    "devoted reindeer mejiro palmer": [
+      "106402"
+    ],
+    "difference engineer": [
+      "105002"
+    ],
+    "difference engineer narita taishin": [
+      "105002"
+    ],
+    "divine fox in edo violet": [
+      "103401"
+    ],
+    "divine fox in edo violet inari one": [
+      "103401"
+    ],
+    "divine raiment": [
+      "113601"
+    ],
+    "divine raiment red desire": [
+      "113601"
+    ],
+    "divine raiment レッドディザイア": [
+      "113601"
+    ],
+    "dot o lantern": [
+      "105802"
+    ],
+    "dot o lantern meisho doto": [
+      "105802"
+    ],
+    "dot o lantern メイショウドトウ": [
+      "105802"
+    ],
+    "dragon rising above": [
+      "110401"
+    ],
+    "dragon rising above katsuragi ace": [
+      "110401"
+    ],
+    "dramatic tutu": [
+      "111701"
+    ],
+    "dramatic tutu win variation": [
+      "111701"
+    ],
+    "dream bold stand tall tsuyoshi": [
+      "107301"
+    ],
+    "dream bold stand tall tsuyoshi tsurumaru tsuyoshi": [
+      "107301"
+    ],
+    "dream deliverer": [
+      "103502"
+    ],
+    "dream deliverer winning ticket": [
+      "103502"
+    ],
+    "dream deliverer ウイニングチケット": [
+      "103502"
+    ],
+    "dream journey": [
+      "111901",
+      "111902"
+    ],
+    "dream successor": [
+      "110901"
+    ],
+    "dream successor rhein kraft": [
+      "110901"
+    ],
+    "dream successor ラインクラフト": [
+      "110901"
+    ],
+    "dreamchaser on purple clouds": [
+      "100303"
+    ],
+    "dreamchaser on purple clouds tokai teio": [
+      "100303"
+    ],
+    "dreamland memento": [
+      "111901"
+    ],
+    "dreamland memento dream journey": [
+      "111901"
+    ],
+    "dreams of roses": [
+      "103001"
+    ],
+    "dreams of roses rice shower": [
+      "103001"
+    ],
+    "duramente": [
+      "110801",
+      "110802"
+    ],
+    "durandal": [
+      "112101"
+    ],
+    "effulgent curator": [
+      "113301"
+    ],
+    "effulgent curator chrono genesis": [
+      "113301"
+    ],
+    "eishin flash": [
+      "103701",
+      "103702",
+      "103703"
+    ],
+    "el condor pasa": [
+      "101401",
+      "101402"
+    ],
+    "el número 1": [
+      "101401"
+    ],
+    "el número 1 el condor pasa": [
+      "101401"
+    ],
+    "elegance line": [
+      "101301"
+    ],
+    "elegance line mejiro mcqueen": [
+      "101301"
+    ],
+    "embodiment of keravnos": [
+      "108401"
+    ],
+    "embodiment of keravnos tanino gimlet": [
+      "108401"
+    ],
+    "emerald among the waves": [
+      "100202"
+    ],
+    "emerald among the waves silence suzuka": [
+      "100202"
+    ],
+    "emperor s path": [
+      "101701"
+    ],
+    "emperor s path symboli rudolf": [
+      "101701"
+    ],
+    "empress road": [
+      "101801"
+    ],
+    "empress road air groove": [
+      "101801"
+    ],
+    "engineered victory": [
+      "102303"
+    ],
+    "engineered victory biwa hayahide": [
+      "102303"
+    ],
+    "engineered victory ビワハヤヒデ": [
+      "102303"
+    ],
+    "entrancing rose": [
+      "102503"
+    ],
+    "entrancing rose manhattan cafe": [
+      "102503"
+    ],
+    "epiphaneia": [
+      "114101"
+    ],
+    "espoir city": [
+      "108101"
+    ],
+    "eternal fairytale": [
+      "110902"
+    ],
+    "eternal fairytale rhein kraft": [
+      "110902"
+    ],
+    "eternal fairytale ラインクラフト": [
+      "110902"
+    ],
+    "evergreen identity": [
+      "106103"
+    ],
+    "evergreen identity king halo": [
+      "106103"
+    ],
+    "evergreen identity キングヘイロー": [
+      "106103"
+    ],
+    "everlasting sweet treat": [
+      "108702"
+    ],
+    "everlasting sweet treat aston machan": [
+      "108702"
+    ],
+    "exceptional strength in full bloom": [
+      "106901"
+    ],
+    "exceptional strength in full bloom sakura chiyono o": [
+      "106901"
+    ],
+    "fair lady of the waves": [
+      "101303"
+    ],
+    "fair lady of the waves mejiro mcqueen": [
+      "101303"
+    ],
+    "fast as lightning": [
+      "102101"
+    ],
+    "fast as lightning tamamo cross": [
+      "102101"
+    ],
+    "fate s chosen star": [
+      "114101"
+    ],
+    "fate s chosen star エピファネイア": [
+      "114101"
+    ],
+    "fenomeno": [
+      "112701",
+      "112702"
+    ],
+    "ferocious thunder": [
+      "102102"
+    ],
+    "ferocious thunder tamamo cross": [
+      "102102"
+    ],
+    "festive games": [
+      "104902"
+    ],
+    "festive games nakayama festa": [
+      "104902"
+    ],
+    "fille éclair": [
+      "103801"
+    ],
+    "fille éclair curren chan": [
+      "103801"
+    ],
+    "fine motion": [
+      "102201",
+      "102202",
+      "102203"
+    ],
+    "flare": [
+      "108701"
+    ],
+    "flare aston machan": [
+      "108701"
+    ],
+    "flare アストンマーチャン": [
+      "108701"
+    ],
+    "fleur enneigée": [
+      "106902"
+    ],
+    "fleur enneigée sakura chiyono o": [
+      "106902"
+    ],
+    "fleur enneigée サクラチヨノオー": [
+      "106902"
+    ],
+    "floor it into summer nights": [
+      "100402"
+    ],
+    "floor it into summer nights maruzensky": [
+      "100402"
+    ],
+    "floral star prosperous green": [
+      "106702"
+    ],
+    "floral star prosperous green satono diamond": [
+      "106702"
+    ],
+    "flower mirage in blessed rain": [
+      "104503"
+    ],
+    "flower mirage in blessed rain super creek": [
+      "104503"
+    ],
+    "flowing blue": [
+      "108502"
+    ],
+    "flowing blue daiichi ruby": [
+      "108502"
+    ],
+    "flowing blue ダイイチルビー": [
+      "108502"
+    ],
+    "fluttertail spirit": [
+      "107801"
+    ],
+    "fluttertail spirit yamanin zephyr": [
+      "107801"
+    ],
+    "fluttertail spirit ヤマニンゼファー": [
+      "107801"
+    ],
+    "foiling fiasco": [
+      "104901"
+    ],
+    "foiling fiasco nakayama festa": [
+      "104901"
+    ],
+    "formula rouge": [
+      "100401"
+    ],
+    "formula rouge maruzensky": [
+      "100401"
+    ],
+    "fortune in the fall air": [
+      "105602"
+    ],
+    "fortune in the fall air matikanefukukitaru": [
+      "105602"
+    ],
+    "fuji kiseki": [
+      "100501",
+      "100502",
+      "100503"
+    ],
+    "fun fun party night": [
+      "106501"
+    ],
+    "fun fun party night daitaku helios": [
+      "106501"
+    ],
+    "fun fun ぱりない": [
+      "106501"
+    ],
+    "fun fun ぱりない ダイタクヘリオス": [
+      "106501"
+    ],
+    "furioso": [
+      "107901"
+    ],
+    "fusaichi pandora": [
+      "111301",
+      "111302"
+    ],
+    "future weaver": [
+      "111001"
+    ],
+    "future weaver cesario": [
+      "111001"
+    ],
+    "future weaver シーザリオ": [
+      "111001"
+    ],
+    "féroce": [
+      "107001"
+    ],
+    "féroce sirius symboli": [
+      "107001"
+    ],
+    "féroce シリウスシンボリ": [
+      "107001"
+    ],
+    "gentildonna": [
+      "111601",
+      "111602"
+    ],
+    "gentle hot spring fragrance": [
+      "110002"
+    ],
+    "gentle hot spring fragrance wonder acute": [
+      "110002"
+    ],
+    "get to winning": [
+      "103501"
+    ],
+    "get to winning winning ticket": [
+      "103501"
+    ],
+    "gilded shrine to glory": [
+      "106801"
+    ],
+    "gilded shrine to glory kitasan black": [
+      "106801"
+    ],
+    "glacial queen": [
+      "111801"
+    ],
+    "glacial queen admire groove": [
+      "111801"
+    ],
+    "glacial queen アドマイヤグルーヴ": [
+      "111801"
+    ],
+    "glacialis vega": [
+      "103302"
+    ],
+    "glacialis vega admire vega": [
+      "103302"
+    ],
+    "glacialis vega アドマイヤベガ": [
+      "103302"
+    ],
+    "glitter": [
+      "110701"
+    ],
+    "glitter tap dance city": [
+      "110701"
+    ],
+    "glitter タップダンスシチー": [
+      "110701"
+    ],
+    "glorious coat": [
+      "103503"
+    ],
+    "glorious coat winning ticket": [
+      "103503"
+    ],
+    "glorious coat ウイニングチケット": [
+      "103503"
+    ],
+    "go to winning": [
+      "103501"
+    ],
+    "go to winning ウイニングチケット": [
+      "103501"
+    ],
+    "gold city": [
+      "104001",
+      "104002",
+      "104003"
+    ],
+    "gold ship": [
+      "100701",
+      "100702",
+      "100703"
+    ],
+    "golden fields": [
+      "103402"
+    ],
+    "golden fields inari one": [
+      "103402"
+    ],
+    "gran alegria": [
+      "113101"
+    ],
+    "grand itinéraire": [
+      "108901"
+    ],
+    "grand itinéraire cheval grand": [
+      "108901"
+    ],
+    "grand itinéraire シュヴァルグラン": [
+      "108901"
+    ],
+    "grass wonder": [
+      "101101",
+      "101102",
+      "101103"
+    ],
+    "happy little notes": [
+      "110602"
+    ],
+    "happy little notes hishi miracle": [
+      "110602"
+    ],
+    "haru urara": [
+      "105201",
+      "105202"
+    ],
+    "hello hello island": [
+      "103103"
+    ],
+    "hello hello island ines fujin": [
+      "103103"
+    ],
+    "hello hello island アイネスフウジン": [
+      "103103"
+    ],
+    "heroic author": [
+      "104701"
+    ],
+    "heroic author zenno rob roy": [
+      "104701"
+    ],
+    "heroic author ゼンノロブロイ": [
+      "104701"
+    ],
+    "heroína inocente": [
+      "111401"
+    ],
+    "heroína inocente buena vista": [
+      "111401"
+    ],
+    "heroína inocente ブエナビスタ": [
+      "111401"
+    ],
+    "highkey hallowed": [
+      "104803"
+    ],
+    "highkey hallowed tosen jordan": [
+      "104803"
+    ],
+    "highkey hallowed トーセンジョーダン": [
+      "104803"
+    ],
+    "hishi akebono": [
+      "102801",
+      "102802"
+    ],
+    "hishi amazon": [
+      "101201",
+      "101202"
+    ],
+    "hishi miracle": [
+      "110601",
+      "110602"
+    ],
+    "hokko tarumae": [
+      "109901",
+      "109902"
+    ],
+    "honor of the blue flame": [
+      "101103"
+    ],
+    "honor of the blue flame grass wonder": [
+      "101103"
+    ],
+    "hopp n happy heart": [
+      "100102"
+    ],
+    "hopp n happy heart special week": [
+      "100102"
+    ],
+    "hungering wolf": [
+      "101602"
+    ],
+    "hungering wolf narita brian": [
+      "101602"
+    ],
+    "hungry veil": [
+      "101202"
+    ],
+    "hungry veil hishi amazon": [
+      "101202"
+    ],
+    "hungry veil ヒシアマゾン": [
+      "101202"
+    ],
+    "ikuno dictus": [
+      "106301",
+      "106302"
+    ],
+    "inari one": [
+      "103401",
+      "103402"
+    ],
+    "ines fujin": [
+      "103101",
+      "103102",
+      "103103"
+    ],
+    "inherited hope": [
+      "111101"
+    ],
+    "inherited hope air messiah": [
+      "111101"
+    ],
+    "inherited hope エアメサイア": [
+      "111101"
+    ],
+    "inlaid stories": [
+      "104702"
+    ],
+    "inlaid stories zenno rob roy": [
+      "104702"
+    ],
+    "inlaid stories ゼンノロブロイ": [
+      "104702"
+    ],
+    "inspiring genius": [
+      "110301"
+    ],
+    "inspiring genius royce and royce": [
+      "110301"
+    ],
+    "inspiring genius ロイスアンドロイス": [
+      "110301"
+    ],
+    "jet black automaton": [
+      "108302"
+    ],
+    "jet black automaton symboli kris s": [
+      "108302"
+    ],
+    "jetblack automaton": [
+      "108302"
+    ],
+    "jetblack automaton シンボリクリスエス": [
+      "108302"
+    ],
+    "jokester vibes": [
+      "104801"
+    ],
+    "jokester vibes tosen jordan": [
+      "104801"
+    ],
+    "joyful jamboree": [
+      "106502"
+    ],
+    "joyful jamboree daitaku helios": [
+      "106502"
+    ],
+    "joyful jamboree ダイタクヘリオス": [
+      "106502"
+    ],
+    "jubilant star auspicious crane": [
+      "106802"
+    ],
+    "jubilant star auspicious crane kitasan black": [
+      "106802"
+    ],
+    "jungle pocket": [
+      "109401",
+      "109402"
+    ],
+    "k s miracle": [
+      "109301",
+      "109302"
+    ],
+    "katsuragi ace": [
+      "110401",
+      "110402"
+    ],
+    "kawakami princess": [
+      "103901",
+      "103902"
+    ],
+    "king halo": [
+      "106101",
+      "106102",
+      "106103"
+    ],
+    "king of emeralds": [
+      "106101"
+    ],
+    "king of emeralds king halo": [
+      "106101"
+    ],
+    "kiseki": [
+      "113701"
+    ],
+    "kitasan black": [
+      "106801",
+      "106802",
+      "106803"
+    ],
+    "kukulkan monk": [
+      "101402"
+    ],
+    "kukulkan monk el condor pasa": [
+      "101402"
+    ],
+    "la dama perfetta": [
+      "111602"
+    ],
+    "la dama perfetta gentildonna": [
+      "111602"
+    ],
+    "la dama perfetta ジェンティルドンナ": [
+      "111602"
+    ],
+    "la mode 564": [
+      "100703"
+    ],
+    "la mode 564 gold ship": [
+      "100703"
+    ],
+    "la mode 564 ゴールドシップ": [
+      "100703"
+    ],
+    "layered petals": [
+      "105101"
+    ],
+    "layered petals nishino flower": [
+      "105101"
+    ],
+    "le beau sommet": [
+      "109001"
+    ],
+    "le beau sommet verxina": [
+      "109001"
+    ],
+    "le beau sommet ヴィルシーナ": [
+      "109001"
+    ],
+    "like zeer": [
+      "110502"
+    ],
+    "like zeer neo universe": [
+      "110502"
+    ],
+    "like zeer ネオユニヴァース": [
+      "110502"
+    ],
+    "line breakthrough": [
+      "106401"
+    ],
+    "line breakthrough mejiro palmer": [
+      "106401"
+    ],
+    "line breakthrough メジロパーマー": [
+      "106401"
+    ],
+    "looking fly": [
+      "108201"
+    ],
+    "looking fly north flight": [
+      "108201"
+    ],
+    "looking fly ノースフライト": [
+      "108201"
+    ],
+    "louve stellaire": [
+      "107002"
+    ],
+    "louve stellaire sirius symboli": [
+      "107002"
+    ],
+    "louve stellaire シリウスシンボリ": [
+      "107002"
+    ],
+    "love forever": [
+      "104601"
+    ],
+    "love forever smart falcon": [
+      "104601"
+    ],
+    "love linked aster": [
+      "113202"
+    ],
+    "love linked aster loves only you": [
+      "113202"
+    ],
+    "love linked aster ラヴズオンリーユー": [
+      "113202"
+    ],
+    "loves only you": [
+      "113201",
+      "113202"
+    ],
+    "lucky lilac": [
+      "113001"
+    ],
+    "lueur angélique": [
+      "114301"
+    ],
+    "lueur angélique victoire pisa": [
+      "114301"
+    ],
+    "lueur angélique ヴィクトワールピサ": [
+      "114301"
+    ],
+    "luminous baton twirler": [
+      "104603"
+    ],
+    "luminous baton twirler smart falcon": [
+      "104603"
+    ],
+    "lunatic lab": [
+      "103202"
+    ],
+    "lunatic lab agnes tachyon": [
+      "103202"
+    ],
+    "lunatic lab アグネスタキオン": [
+      "103202"
+    ],
+    "magic night garland": [
+      "102802"
+    ],
+    "magic night garland hishi akebono": [
+      "102802"
+    ],
+    "maiden of snow cake and tea": [
+      "102902"
+    ],
+    "maiden of snow cake and tea yukino bijin": [
+      "102902"
+    ],
+    "make up vampire": [
+      "103002"
+    ],
+    "make up vampire ライスシャワー": [
+      "103002"
+    ],
+    "manhattan cafe": [
+      "102501",
+      "102502",
+      "102503"
+    ],
+    "mantle of steel": [
+      "106301"
+    ],
+    "mantle of steel ikuno dictus": [
+      "106301"
+    ],
+    "mantle of steel イクノディクタス": [
+      "106301"
+    ],
+    "marguerite latte": [
+      "102702"
+    ],
+    "marguerite latte mejiro ryan": [
+      "102702"
+    ],
+    "maruzensky": [
+      "100401",
+      "100402",
+      "100403"
+    ],
+    "marvelous sunday": [
+      "105501",
+      "105502"
+    ],
+    "matikanefukukitaru": [
+      "105601",
+      "105602"
+    ],
+    "matikanetannhauser": [
+      "106201",
+      "106202"
+    ],
+    "maverick": [
+      "101601"
+    ],
+    "maverick narita brian": [
+      "101601"
+    ],
+    "maverick ナリタブライアン": [
+      "101601"
+    ],
+    "mayano top gun": [
+      "102401",
+      "102402",
+      "102403"
+    ],
+    "mb 19890425": [
+      "102601"
+    ],
+    "mb 19890425 mihono bourbon": [
+      "102601"
+    ],
+    "mb 19890425 ミホノブルボン": [
+      "102601"
+    ],
+    "meisho doto": [
+      "105801",
+      "105802"
+    ],
+    "meisterschaft": [
+      "103701"
+    ],
+    "meisterschaft eishin flash": [
+      "103701"
+    ],
+    "meisterschaft エイシンフラッシュ": [
+      "103701"
+    ],
+    "mejiro ardan": [
+      "107101",
+      "107102"
+    ],
+    "mejiro bright": [
+      "107401",
+      "107402",
+      "107403"
+    ],
+    "mejiro dober": [
+      "105901",
+      "105902"
+    ],
+    "mejiro mcqueen": [
+      "101301",
+      "101302",
+      "101303"
+    ],
+    "mejiro palmer": [
+      "106401",
+      "106402"
+    ],
+    "mejiro ramonu": [
+      "108601",
+      "108602"
+    ],
+    "mejiro ryan": [
+      "102701",
+      "102702"
+    ],
+    "melty gift": [
+      "103102"
+    ],
+    "melty gift ines fujin": [
+      "103102"
+    ],
+    "melty gift アイネスフウジン": [
+      "103102"
+    ],
+    "mihono bourbon": [
+      "102601",
+      "102602"
+    ],
+    "miracle author": [
+      "113701"
+    ],
+    "miracle author kiseki": [
+      "113701"
+    ],
+    "miracle author キセキ": [
+      "113701"
+    ],
+    "miracle make up": [
+      "110601"
+    ],
+    "miracle make up hishi miracle": [
+      "110601"
+    ],
+    "miraculous white star": [
+      "100602"
+    ],
+    "miraculous white star oguri cap": [
+      "100602"
+    ],
+    "monochrome gm": [
+      "114501"
+    ],
+    "monochrome gm ルーラーシップ": [
+      "114501"
+    ],
+    "mr c b": [
+      "105701",
+      "105702"
+    ],
+    "murmuring stream": [
+      "104501"
+    ],
+    "murmuring stream super creek": [
+      "104501"
+    ],
+    "nakayama festa": [
+      "104901",
+      "104902"
+    ],
+    "narita brian": [
+      "101601",
+      "101602"
+    ],
+    "narita taishin": [
+      "105001",
+      "105002",
+      "105003"
+    ],
+    "narita top road": [
+      "107701",
+      "107702",
+      "107703"
+    ],
+    "natural brilliance": [
+      "106701"
+    ],
+    "natural brilliance satono diamond": [
+      "106701"
+    ],
+    "natural brilliance サトノダイヤモンド": [
+      "106701"
+    ],
+    "neige émeraude": [
+      "107102"
+    ],
+    "neige émeraude mejiro ardan": [
+      "107102"
+    ],
+    "neige émeraude メジロアルダン": [
+      "107102"
+    ],
+    "neo universe": [
+      "110501",
+      "110502"
+    ],
+    "nevertheless": [
+      "105001"
+    ],
+    "nevertheless narita taishin": [
+      "105001"
+    ],
+    "nevertheless ナリタタイシン": [
+      "105001"
+    ],
+    "new year s sapphire sun": [
+      "101502"
+    ],
+    "new year s sapphire sun t m opera o": [
+      "101502"
+    ],
+    "new yearura blooming sakura": [
+      "105202"
+    ],
+    "new yearura blooming sakura haru urara": [
+      "105202"
+    ],
+    "nice nature": [
+      "106001",
+      "106002",
+      "106003"
+    ],
+    "nishino flower": [
+      "105101",
+      "105102"
+    ],
+    "no reason": [
+      "109601"
+    ],
+    "noble seamair": [
+      "102201"
+    ],
+    "noble seamair fine motion": [
+      "102201"
+    ],
+    "noble seamair ファインモーション": [
+      "102201"
+    ],
+    "noble white cheering uniform": [
+      "106102"
+    ],
+    "noble white cheering uniform king halo": [
+      "106102"
+    ],
+    "north flight": [
+      "108201",
+      "108202"
+    ],
+    "nouvelle pousse": [
+      "107602"
+    ],
+    "nouvelle pousse sakura laurel": [
+      "107602"
+    ],
+    "nouvelle pousse サクラローレル": [
+      "107602"
+    ],
+    "o sole suo": [
+      "101501"
+    ],
+    "o sole suo t m opera o": [
+      "101501"
+    ],
+    "o twinkling snow lolita": [
+      "107402"
+    ],
+    "o twinkling snow lolita mejiro bright": [
+      "107402"
+    ],
+    "oguri cap": [
+      "100601",
+      "100602",
+      "100603"
+    ],
+    "one true path": [
+      "112001"
+    ],
+    "one true path calstone light o": [
+      "112001"
+    ],
+    "onyx line": [
+      "108601"
+    ],
+    "onyx line mejiro ramonu": [
+      "108601"
+    ],
+    "onyx soldier": [
+      "108301"
+    ],
+    "onyx soldier symboli kris s": [
+      "108301"
+    ],
+    "onyx soldier シンボリクリスエス": [
+      "108301"
+    ],
+    "orfevre": [
+      "111501"
+    ],
+    "pale cerulean streak": [
+      "108202"
+    ],
+    "pale cerulean streak north flight": [
+      "108202"
+    ],
+    "pastel marine locodol": [
+      "109902"
+    ],
+    "pastel marine locodol hokko tarumae": [
+      "109902"
+    ],
+    "peak blue": [
+      "100901"
+    ],
+    "peak blue daiwa scarlet": [
+      "100901"
+    ],
+    "peak joy": [
+      "100301"
+    ],
+    "peak joy tokai teio": [
+      "100301"
+    ],
+    "pen name ink dragon": [
+      "110402"
+    ],
+    "pen name ink dragon katsuragi ace": [
+      "110402"
+    ],
+    "pf victory formula": [
+      "102301"
+    ],
+    "pf victory formula ビワハヤヒデ": [
+      "102301"
+    ],
+    "pf winning equation": [
+      "102301"
+    ],
+    "pf winning equation biwa hayahide": [
+      "102301"
+    ],
+    "phalaenopsis": [
+      "114901"
+    ],
+    "platanus witch": [
+      "104401"
+    ],
+    "platanus witch sweep tosho": [
+      "104401"
+    ],
+    "poinsettia ribbon": [
+      "106001"
+    ],
+    "poinsettia ribbon nice nature": [
+      "106001"
+    ],
+    "popping": [
+      "112401"
+    ],
+    "popping bubble gum fellow": [
+      "112401"
+    ],
+    "popping バブルガムフェロー": [
+      "112401"
+    ],
+    "precise chocolatier": [
+      "103702"
+    ],
+    "precise chocolatier eishin flash": [
+      "103702"
+    ],
+    "princess of pink": [
+      "103901"
+    ],
+    "princess of pink kawakami princess": [
+      "103901"
+    ],
+    "prism": [
+      "109301"
+    ],
+    "prism k s miracle": [
+      "109301"
+    ],
+    "prism ケイエスミラクル": [
+      "109301"
+    ],
+    "quercus civilis": [
+      "101802"
+    ],
+    "quercus civilis air groove": [
+      "101802"
+    ],
+    "realized rune": [
+      "104402"
+    ],
+    "realized rune sweep tosho": [
+      "104402"
+    ],
+    "red desire": [
+      "113601"
+    ],
+    "red devil gear": [
+      "108101"
+    ],
+    "red devil gear espoir city": [
+      "108101"
+    ],
+    "red devil gear エスポワールシチー": [
+      "108101"
+    ],
+    "red hot leader": [
+      "104102"
+    ],
+    "red hot leader sakura bakushin o": [
+      "104102"
+    ],
+    "red in black": [
+      "110801"
+    ],
+    "red in black duramente": [
+      "110801"
+    ],
+    "red in black ドゥラメンテ": [
+      "110801"
+    ],
+    "red strife": [
+      "100701"
+    ],
+    "red strife gold ship": [
+      "100701"
+    ],
+    "regina dei fiori": [
+      "111601"
+    ],
+    "regina dei fiori gentildonna": [
+      "111601"
+    ],
+    "regina dei fiori ジェンティルドンナ": [
+      "111601"
+    ],
+    "reines plätschern": [
+      "103703"
+    ],
+    "reines plätschern eishin flash": [
+      "103703"
+    ],
+    "reines plätschern エイシンフラッシュ": [
+      "103703"
+    ],
+    "resplendent auspicious garments": [
+      "109802"
+    ],
+    "resplendent auspicious garments copano rickey": [
+      "109802"
+    ],
+    "rhein kraft": [
+      "110901",
+      "110902"
+    ],
+    "rice shower": [
+      "103001",
+      "103002",
+      "103003"
+    ],
+    "righteous black flame": [
+      "112701"
+    ],
+    "righteous black flame fenomeno": [
+      "112701"
+    ],
+    "rising fortune bountiful blessings": [
+      "105601"
+    ],
+    "rising fortune bountiful blessings matikanefukukitaru": [
+      "105601"
+    ],
+    "ritmo della terra": [
+      "110201"
+    ],
+    "ritmo della terra sounds of earth": [
+      "110201"
+    ],
+    "rock piercing blue": [
+      "101101"
+    ],
+    "rock piercing blue grass wonder": [
+      "101101"
+    ],
+    "rocket star": [
+      "104201"
+    ],
+    "rocket star seeking the pearl": [
+      "104201"
+    ],
+    "rocket star シーキングザパール": [
+      "104201"
+    ],
+    "rocking mewmeow": [
+      "102403"
+    ],
+    "rocking mewmeow mayano top gun": [
+      "102403"
+    ],
+    "rose kingdom": [
+      "114401"
+    ],
+    "royce and royce": [
+      "110301"
+    ],
+    "ruler s battle cry": [
+      "109401"
+    ],
+    "ruler s battle cry jungle pocket": [
+      "109401"
+    ],
+    "rulership": [
+      "114501"
+    ],
+    "run fun water gun": [
+      "100702"
+    ],
+    "run fun water gun gold ship": [
+      "100702"
+    ],
+    "run win": [
+      "106002"
+    ],
+    "run win nice nature": [
+      "106002"
+    ],
+    "run win ナイスネイチャ": [
+      "106002"
+    ],
+    "run 乱 ランチャー": [
+      "100702"
+    ],
+    "run 乱 ランチャー ゴールドシップ": [
+      "100702"
+    ],
+    "saintly jade cleric": [
+      "101102"
+    ],
+    "saintly jade cleric grass wonder": [
+      "101102"
+    ],
+    "saisir le rêve": [
+      "107601"
+    ],
+    "saisir le rêve sakura laurel": [
+      "107601"
+    ],
+    "saisir le rêve サクラローレル": [
+      "107601"
+    ],
+    "sakura bakushin o": [
+      "104101",
+      "104102",
+      "104103"
+    ],
+    "sakura chiyono o": [
+      "106901",
+      "106902"
+    ],
+    "sakura laurel": [
+      "107601",
+      "107602"
+    ],
+    "satono crown": [
+      "108801",
+      "108802"
+    ],
+    "satono diamond": [
+      "106701",
+      "106702",
+      "106703"
+    ],
+    "scarlet nuit étoilée": [
+      "100902"
+    ],
+    "scarlet nuit étoilée daiwa scarlet": [
+      "100902"
+    ],
+    "scramble zone": [
+      "102401"
+    ],
+    "scramble zone mayano top gun": [
+      "102401"
+    ],
+    "seeking the pearl": [
+      "104201",
+      "104202"
+    ],
+    "seiun sky": [
+      "102001",
+      "102002",
+      "102003"
+    ],
+    "shinko windy": [
+      "104301",
+      "104302"
+    ],
+    "shooting star revue": [
+      "100501"
+    ],
+    "shooting star revue fuji kiseki": [
+      "100501"
+    ],
+    "silence suzuka": [
+      "100201",
+      "100202"
+    ],
+    "silent innocence": [
+      "100201"
+    ],
+    "silent innocence silence suzuka": [
+      "100201"
+    ],
+    "sirius symboli": [
+      "107001",
+      "107002"
+    ],
+    "sky s end": [
+      "101302"
+    ],
+    "sky s end mejiro mcqueen": [
+      "101302"
+    ],
+    "smart falcon": [
+      "104601",
+      "104602",
+      "104603"
+    ],
+    "smile my way": [
+      "113101"
+    ],
+    "smile my way gran alegria": [
+      "113101"
+    ],
+    "snatchin hearts": [
+      "111302"
+    ],
+    "snatchin hearts フサイチパンドラ": [
+      "111302"
+    ],
+    "snow white dreamscape": [
+      "111902"
+    ],
+    "snow white dreamscape dream journey": [
+      "111902"
+    ],
+    "soirée des chatons": [
+      "102002"
+    ],
+    "soirée des chatons seiun sky": [
+      "102002"
+    ],
+    "sonata alla menta": [
+      "110202"
+    ],
+    "sonata alla menta sounds of earth": [
+      "110202"
+    ],
+    "sounds of earth": [
+      "110201",
+      "110202"
+    ],
+    "sparkly fluttery hyper marvs": [
+      "105501"
+    ],
+    "sparkly fluttery hyper marvs marvelous sunday": [
+      "105501"
+    ],
+    "special dreamer": [
+      "100101"
+    ],
+    "special dreamer special week": [
+      "100101"
+    ],
+    "special issue full color w lamination": [
+      "101901"
+    ],
+    "special issue full color w lamination agnes digital": [
+      "101901"
+    ],
+    "special week": [
+      "100101",
+      "100102",
+      "100103"
+    ],
+    "splendor of a vow s conclusion": [
+      "106803"
+    ],
+    "splendor of a vow s conclusion kitasan black": [
+      "106803"
+    ],
+    "spring s lightning bolt": [
+      "104103"
+    ],
+    "spring s lightning bolt sakura bakushin o": [
+      "104103"
+    ],
+    "standout": [
+      "109501"
+    ],
+    "standout believe": [
+      "109501"
+    ],
+    "star light ship": [
+      "109901"
+    ],
+    "star light ship hokko tarumae": [
+      "109901"
+    ],
+    "starlight beat": [
+      "100601"
+    ],
+    "starlight beat oguri cap": [
+      "100601"
+    ],
+    "starry nocturne": [
+      "103301"
+    ],
+    "starry nocturne admire vega": [
+      "103301"
+    ],
+    "starry nocturne アドマイヤベガ": [
+      "103301"
+    ],
+    "stay gold": [
+      "113501"
+    ],
+    "still in love": [
+      "109701"
+    ],
+    "straight line": [
+      "102701"
+    ],
+    "straight line mejiro ryan": [
+      "102701"
+    ],
+    "stray light override": [
+      "105003"
+    ],
+    "stray light override narita taishin": [
+      "105003"
+    ],
+    "succès étoilé": [
+      "100502"
+    ],
+    "succès étoilé fuji kiseki": [
+      "100502"
+    ],
+    "sugary wind": [
+      "107802"
+    ],
+    "sugary wind yamanin zephyr": [
+      "107802"
+    ],
+    "sugary wind ヤマニンゼファー": [
+      "107802"
+    ],
+    "suikan beauty": [
+      "103902"
+    ],
+    "suikan beauty kawakami princess": [
+      "103902"
+    ],
+    "sunlight bouquet": [
+      "102402"
+    ],
+    "sunlight bouquet mayano top gun": [
+      "102402"
+    ],
+    "sunlit outsider": [
+      "113501"
+    ],
+    "sunlit outsider stay gold": [
+      "113501"
+    ],
+    "sunlit outsider ステイゴールド": [
+      "113501"
+    ],
+    "sunny island flower": [
+      "108802"
+    ],
+    "sunny island flower satono crown": [
+      "108802"
+    ],
+    "super creek": [
+      "104501",
+      "104502",
+      "104503"
+    ],
+    "supreme commander of the rising sun": [
+      "100103"
+    ],
+    "supreme commander of the rising sun special week": [
+      "100103"
+    ],
+    "sweep tosho": [
+      "104401",
+      "104402"
+    ],
+    "sweet beloved flower of mutsu": [
+      "102901"
+    ],
+    "sweet beloved flower of mutsu yukino bijin": [
+      "102901"
+    ],
+    "sweet juneberry": [
+      "105102"
+    ],
+    "sweet juneberry nishino flower": [
+      "105102"
+    ],
+    "sweet juneberry ニシノフラワー": [
+      "105102"
+    ],
+    "symboli kris s": [
+      "108301",
+      "108302"
+    ],
+    "symboli rudolf": [
+      "101701",
+      "101702",
+      "101703"
+    ],
+    "t m opera o": [
+      "101501",
+      "101502"
+    ],
+    "tach nology": [
+      "103201"
+    ],
+    "tach nology agnes tachyon": [
+      "103201"
+    ],
+    "tach nology アグネスタキオン": [
+      "103201"
+    ],
+    "taiki shuttle": [
+      "101001",
+      "101002",
+      "101003"
+    ],
+    "tamamo cross": [
+      "102101",
+      "102102"
+    ],
+    "tanino gimlet": [
+      "108401",
+      "108402"
+    ],
+    "tap dance city": [
+      "110701",
+      "110702"
+    ],
+    "tap tap tap": [
+      "110702"
+    ],
+    "tap tap tap tap dance city": [
+      "110702"
+    ],
+    "tap tap tap タップダンスシチー": [
+      "110702"
+    ],
+    "the changer": [
+      "112901"
+    ],
+    "the changer almond eye": [
+      "112901"
+    ],
+    "the changer アーモンドアイ": [
+      "112901"
+    ],
+    "the proud road": [
+      "107701"
+    ],
+    "the proud road narita top road": [
+      "107701"
+    ],
+    "the proud road ナリタトップロード": [
+      "107701"
+    ],
+    "thousand mile s black jade": [
+      "108801"
+    ],
+    "thousand mile s black jade satono crown": [
+      "108801"
+    ],
+    "thumbing under blue skies": [
+      "102001"
+    ],
+    "thumbing under blue skies seiun sky": [
+      "102001"
+    ],
+    "titania": [
+      "102202"
+    ],
+    "titania fine motion": [
+      "102202"
+    ],
+    "titania ファインモーション": [
+      "102202"
+    ],
+    "tokai teio": [
+      "100301",
+      "100302",
+      "100303"
+    ],
+    "tosen jordan": [
+      "104801",
+      "104802",
+      "104803"
+    ],
+    "transcend": [
+      "108001",
+      "108002"
+    ],
+    "trick ribonetta": [
+      "105502"
+    ],
+    "trick ribonetta marvelous sunday": [
+      "105502"
+    ],
+    "triumphant return of the auspicious star": [
+      "107901"
+    ],
+    "triumphant return of the auspicious star furioso": [
+      "107901"
+    ],
+    "tsurumaru tsuyoshi": [
+      "107301"
+    ],
+    "turbulent blue": [
+      "105801"
+    ],
+    "turbulent blue meisho doto": [
+      "105801"
+    ],
+    "twilight triumph": [
+      "104602"
+    ],
+    "twilight triumph smart falcon": [
+      "104602"
+    ],
+    "twilit neo kagura": [
+      "108002"
+    ],
+    "twilit neo kagura transcend": [
+      "108002"
+    ],
+    "twin turbo": [
+      "106601"
+    ],
+    "twinbell queen": [
+      "111002"
+    ],
+    "twinbell queen cesario": [
+      "111002"
+    ],
+    "twinbell queen シーザリオ": [
+      "111002"
+    ],
+    "twisted line": [
+      "105901"
+    ],
+    "twisted line mejiro dober": [
+      "105901"
+    ],
+    "ultra marine": [
+      "105302"
+    ],
+    "ultra marine bamboo memory": [
+      "105302"
+    ],
+    "ultra marine バンブーメモリー": [
+      "105302"
+    ],
+    "unfreezable firewater": [
+      "100802"
+    ],
+    "unfreezable firewater vodka": [
+      "100802"
+    ],
+    "universe naut": [
+      "110501"
+    ],
+    "universe naut neo universe": [
+      "110501"
+    ],
+    "universe naut ネオユニヴァース": [
+      "110501"
+    ],
+    "unsigned": [
+      "103601"
+    ],
+    "unsigned air shakur": [
+      "103601"
+    ],
+    "unsigned エアシャカール": [
+      "103601"
+    ],
+    "untouchable eden": [
+      "108602"
+    ],
+    "untouchable eden mejiro ramonu": [
+      "108602"
+    ],
+    "untouchable eden メジロラモーヌ": [
+      "108602"
+    ],
+    "vacances saphir": [
+      "105902"
+    ],
+    "vacances saphir mejiro dober": [
+      "105902"
+    ],
+    "vampire makeover": [
+      "103002"
+    ],
+    "vampire makeover rice shower": [
+      "103002"
+    ],
+    "vermilion head": [
+      "109402"
+    ],
+    "vermilion head jungle pocket": [
+      "109402"
+    ],
+    "verxina": [
+      "109001"
+    ],
+    "vesture of unfaltering resolve": [
+      "113001"
+    ],
+    "vesture of unfaltering resolve lucky lilac": [
+      "113001"
+    ],
+    "victoire pisa": [
+      "114301"
+    ],
+    "vivlos": [
+      "109101",
+      "109102"
+    ],
+    "vodka": [
+      "100801",
+      "100802"
+    ],
+    "voyage étincelant": [
+      "109101"
+    ],
+    "voyage étincelant vivlos": [
+      "109101"
+    ],
+    "voyage étincelant ヴィブロス": [
+      "109101"
+    ],
+    "wandering a defined path": [
+      "106302"
+    ],
+    "wandering a defined path ikuno dictus": [
+      "106302"
+    ],
+    "well wishing sweetheart of divine speed": [
+      "100403"
+    ],
+    "well wishing sweetheart of divine speed maruzensky": [
+      "100403"
+    ],
+    "wicked punk": [
+      "104301"
+    ],
+    "wicked punk shinko windy": [
+      "104301"
+    ],
+    "wicked punk シンコウウインディ": [
+      "104301"
+    ],
+    "wild frontier": [
+      "101001"
+    ],
+    "wild frontier taiki shuttle": [
+      "101001"
+    ],
+    "wild top gear": [
+      "100801"
+    ],
+    "wild top gear vodka": [
+      "100801"
+    ],
+    "willow green evenfall": [
+      "102502"
+    ],
+    "willow green evenfall manhattan cafe": [
+      "102502"
+    ],
+    "win variation": [
+      "111701"
+    ],
+    "windblast pegasus type 0": [
+      "105401"
+    ],
+    "windblast pegasus type 0 biko pegasus": [
+      "105401"
+    ],
+    "winning ticket": [
+      "103501",
+      "103502",
+      "103503"
+    ],
+    "with a twist": [
+      "108402"
+    ],
+    "with a twist tanino gimlet": [
+      "108402"
+    ],
+    "with a twist タニノギムレット": [
+      "108402"
+    ],
+    "wonder acute": [
+      "110001",
+      "110002"
+    ],
+    "yaeno muteki": [
+      "107201",
+      "107202"
+    ],
+    "yamanin zephyr": [
+      "107801",
+      "107802"
+    ],
+    "yin yang fortune garb": [
+      "109801"
+    ],
+    "yin yang fortune garb copano rickey": [
+      "109801"
+    ],
+    "yukino bijin": [
+      "102901",
+      "102902"
+    ],
+    "yummy dreamy fairy": [
+      "103003"
+    ],
+    "yummy dreamy fairy rice shower": [
+      "103003"
+    ],
+    "yummy dreamy fairy ライスシャワー": [
+      "103003"
+    ],
+    "zenno rob roy": [
+      "104701",
+      "104702"
+    ],
+    "zoku zoku gizmo": [
+      "108001"
+    ],
+    "zoku zoku gizmo transcend": [
+      "108001"
+    ],
+    "zoku zoku gizmo トランセンド": [
+      "108001"
+    ],
+    "éclat d été": [
+      "109102"
+    ],
+    "éclat d été vivlos": [
+      "109102"
+    ],
+    "éclat d été ヴィブロス": [
+      "109102"
+    ],
+    "éclat de roseraie": [
+      "114401"
+    ],
+    "éclat de roseraie ローズキングダム": [
+      "114401"
+    ],
+    "étoile blanche": [
+      "100503"
+    ],
+    "étoile blanche fuji kiseki": [
+      "100503"
+    ],
+    "σ experiment": [
+      "103203"
+    ],
+    "σ experiment agnes tachyon": [
+      "103203"
+    ],
+    "σ experiment アグネスタキオン": [
+      "103203"
+    ],
+    "あおぐもサミング": [
+      "102001"
+    ],
+    "あおぐもサミング セイウンスカイ": [
+      "102001"
+    ],
+    "あぶそりゅーと love": [
+      "104601"
+    ],
+    "あぶそりゅーと love スマートファルコン": [
+      "104601"
+    ],
+    "うららん一等賞": [
+      "105201"
+    ],
+    "うららん一等賞 ハルウララ": [
+      "105201"
+    ],
+    "さざ波フェアレディ": [
+      "101303"
+    ],
+    "さざ波フェアレディ メジロマックイーン": [
+      "101303"
+    ],
+    "すくらんぶる ゾーン": [
+      "102401"
+    ],
+    "すくらんぶる ゾーン マヤノトップガン": [
+      "102401"
+    ],
+    "すまいる まい うぇい": [
+      "113101"
+    ],
+    "すまいる まい うぇい グランアレグリア": [
+      "113101"
+    ],
+    "ぱんぱかティルトット": [
+      "106201"
+    ],
+    "ぱんぱかティルトット マチカネタンホイザ": [
+      "106201"
+    ],
+    "ぶっとび さまーナイト": [
+      "100402"
+    ],
+    "ぶっとび さまーナイト マルゼンスキー": [
+      "100402"
+    ],
+    "ほっぴん ビタミンハート": [
+      "100102"
+    ],
+    "ほっぴん ビタミンハート スペシャルウィーク": [
+      "100102"
+    ],
+    "まんなか スポットライト": [
+      "109201"
+    ],
+    "まんなか スポットライト ダンツフレーム": [
+      "109201"
+    ],
+    "みらくるめーくあっぷ": [
+      "110601"
+    ],
+    "みらくるめーくあっぷ ヒシミラクル": [
+      "110601"
+    ],
+    "めんこいめんこいむつのはな": [
+      "102901"
+    ],
+    "めんこいめんこいむつのはな ユキノビジン": [
+      "102901"
+    ],
+    "ろっきん mewmeow": [
+      "102403"
+    ],
+    "ろっきん mewmeow マヤノトップガン": [
+      "102403"
+    ],
+    "アイネスフウジン": [
+      "103101",
+      "103102",
+      "103103"
+    ],
+    "アグネスタキオン": [
+      "103201",
+      "103202",
+      "103203"
+    ],
+    "アグネスデジタル": [
+      "101901",
+      "101902"
+    ],
+    "アストンマーチャン": [
+      "108701",
+      "108702"
+    ],
+    "アドマイヤグルーヴ": [
+      "111801"
+    ],
+    "アドマイヤベガ": [
+      "103301",
+      "103302"
+    ],
+    "アマゾネス ラピス": [
+      "101201"
+    ],
+    "アマゾネス ラピス ヒシアマゾン": [
+      "101201"
+    ],
+    "アーモンドアイ": [
+      "112901"
+    ],
+    "イクノディクタス": [
+      "106301",
+      "106302"
+    ],
+    "イナリワン": [
+      "103401",
+      "103402"
+    ],
+    "ウイニングチケット": [
+      "103501",
+      "103502",
+      "103503"
+    ],
+    "ウインバリアシオン": [
+      "111701"
+    ],
+    "ウオッカ": [
+      "100801",
+      "100802"
+    ],
+    "エアグルーヴ": [
+      "101801",
+      "101802",
+      "101803"
+    ],
+    "エアシャカール": [
+      "103601",
+      "103602"
+    ],
+    "エアメサイア": [
+      "111101"
+    ],
+    "エイシンフラッシュ": [
+      "103701",
+      "103702",
+      "103703"
+    ],
+    "エスポワールシチー": [
+      "108101"
+    ],
+    "エピファネイア": [
+      "114101"
+    ],
+    "エル número 1": [
+      "101401"
+    ],
+    "エル número 1 エルコンドルパサー": [
+      "101401"
+    ],
+    "エルコンドルパサー": [
+      "101401",
+      "101402"
+    ],
+    "エレガンス ライン": [
+      "101301"
+    ],
+    "エレガンス ライン メジロマックイーン": [
+      "101301"
+    ],
+    "エンド オブ スカイ": [
+      "101302"
+    ],
+    "エンド オブ スカイ メジロマックイーン": [
+      "101302"
+    ],
+    "エンプレスロード": [
+      "101801"
+    ],
+    "エンプレスロード エアグルーヴ": [
+      "101801"
+    ],
+    "オグリキャップ": [
+      "100601",
+      "100602",
+      "100603"
+    ],
+    "オニキス ライン": [
+      "108601"
+    ],
+    "オニキス ライン メジロラモーヌ": [
+      "108601"
+    ],
+    "オルフェーヴル": [
+      "111501"
+    ],
+    "オー ソレ スーオ": [
+      "101501"
+    ],
+    "オー ソレ スーオ テイエムオペラオー": [
+      "101501"
+    ],
+    "オーセンティック 1928": [
+      "104001"
+    ],
+    "オーセンティック 1928 ゴールドシチー": [
+      "104001"
+    ],
+    "オールタイム フィーバー": [
+      "103101"
+    ],
+    "オールタイム フィーバー アイネスフウジン": [
+      "103101"
+    ],
+    "カツラギエース": [
+      "110401",
+      "110402"
+    ],
+    "カルストンライトオ": [
+      "112001"
+    ],
+    "カレンチャン": [
+      "103801",
+      "103802"
+    ],
+    "カレンブーケドール": [
+      "113401"
+    ],
+    "カワカミプリンセス": [
+      "103901",
+      "103902"
+    ],
+    "ガブガブ スキャンプ": [
+      "104302"
+    ],
+    "ガブガブ スキャンプ シンコウウインディ": [
+      "104302"
+    ],
+    "キセキ": [
+      "113701"
+    ],
+    "キセキの白星": [
+      "100602"
+    ],
+    "キセキの白星 オグリキャップ": [
+      "100602"
+    ],
+    "キタサンブラック": [
+      "106801",
+      "106802",
+      "106803"
+    ],
+    "キラ ドキ ワク マベ": [
+      "105501"
+    ],
+    "キラ ドキ ワク マベ マーベラスサンデー": [
+      "105501"
+    ],
+    "キング オブ エメラルド": [
+      "106101"
+    ],
+    "キング オブ エメラルド キングヘイロー": [
+      "106101"
+    ],
+    "キングヘイロー": [
+      "106101",
+      "106102",
+      "106103"
+    ],
+    "クエルクス キウィーリス": [
+      "101802"
+    ],
+    "クエルクス キウィーリス エアグルーヴ": [
+      "101802"
+    ],
+    "ククルカン モンク": [
+      "101402"
+    ],
+    "ククルカン モンク エルコンドルパサー": [
+      "101402"
+    ],
+    "クリノクロア ライン": [
+      "107101"
+    ],
+    "クリノクロア ライン メジロアルダン": [
+      "107101"
+    ],
+    "クロノジェネシス": [
+      "113301"
+    ],
+    "グラスワンダー": [
+      "101101",
+      "101102",
+      "101103"
+    ],
+    "グランアレグリア": [
+      "113101"
+    ],
+    "ケイエスミラクル": [
+      "109301",
+      "109302"
+    ],
+    "コパノリッキー": [
+      "109801",
+      "109802"
+    ],
+    "コレクト ショコラティエ": [
+      "103702"
+    ],
+    "コレクト ショコラティエ エイシンフラッシュ": [
+      "103702"
+    ],
+    "ゴールドシチー": [
+      "104001",
+      "104002",
+      "104003"
+    ],
+    "ゴールドシップ": [
+      "100701",
+      "100702",
+      "100703"
+    ],
+    "サイレンススズカ": [
+      "100201",
+      "100202"
+    ],
+    "サイレントイノセンス": [
+      "100201"
+    ],
+    "サイレントイノセンス サイレンススズカ": [
+      "100201"
+    ],
+    "サウンズオブアース": [
+      "110201",
+      "110202"
+    ],
+    "サクラ すすめ": [
+      "104101"
+    ],
+    "サクラ すすめ サクラバクシンオー": [
+      "104101"
+    ],
+    "サクラチヨノオー": [
+      "106901",
+      "106902"
+    ],
+    "サクラバクシンオー": [
+      "104101",
+      "104102",
+      "104103"
+    ],
+    "サクラローレル": [
+      "107601",
+      "107602"
+    ],
+    "サトノクラウン": [
+      "108801",
+      "108802"
+    ],
+    "サトノダイヤモンド": [
+      "106701",
+      "106702",
+      "106703"
+    ],
+    "サンライト ブーケ": [
+      "102402"
+    ],
+    "サンライト ブーケ マヤノトップガン": [
+      "102402"
+    ],
+    "シフォンリボンマミー": [
+      "104502"
+    ],
+    "シフォンリボンマミー スーパークリーク": [
+      "104502"
+    ],
+    "シュクセ エトワーレ": [
+      "100502"
+    ],
+    "シュクセ エトワーレ フジキセキ": [
+      "100502"
+    ],
+    "シュヴァリエ ブル": [
+      "106703"
+    ],
+    "シュヴァリエ ブル サトノダイヤモンド": [
+      "106703"
+    ],
+    "シュヴァルグラン": [
+      "108901",
+      "108902"
+    ],
+    "シューティンスタァ ルヴュ": [
+      "100501"
+    ],
+    "シューティンスタァ ルヴュ フジキセキ": [
+      "100501"
+    ],
+    "シリウスシンボリ": [
+      "107001",
+      "107002"
+    ],
+    "シンコウウインディ": [
+      "104301",
+      "104302"
+    ],
+    "シンデレラグレイ": [
+      "100603"
+    ],
+    "シンデレラグレイ オグリキャップ": [
+      "100603"
+    ],
+    "シンボリクリスエス": [
+      "108301",
+      "108302"
+    ],
+    "シンボリルドルフ": [
+      "101701",
+      "101702",
+      "101703"
+    ],
+    "シーキングザパール": [
+      "104201",
+      "104202"
+    ],
+    "シーザリオ": [
+      "111001",
+      "111002"
+    ],
+    "ジェンティルドンナ": [
+      "111601",
+      "111602"
+    ],
+    "ジャングルポケット": [
+      "109401",
+      "109402"
+    ],
+    "スイープトウショウ": [
+      "104401",
+      "104402"
+    ],
+    "スター ライト シップ": [
+      "109901"
+    ],
+    "スター ライト シップ ホッコータルマエ": [
+      "109901"
+    ],
+    "スターライトビート": [
+      "100601"
+    ],
+    "スターライトビート オグリキャップ": [
+      "100601"
+    ],
+    "スティルインラブ": [
+      "109701"
+    ],
+    "ステイゴールド": [
+      "113501"
+    ],
+    "ストレート ライン": [
+      "102701"
+    ],
+    "ストレート ライン メジロライアン": [
+      "102701"
+    ],
+    "スペシャルウィーク": [
+      "100101",
+      "100102",
+      "100103"
+    ],
+    "スペシャルドリーマー": [
+      "100101"
+    ],
+    "スペシャルドリーマー スペシャルウィーク": [
+      "100101"
+    ],
+    "スマートファルコン": [
+      "104601",
+      "104602",
+      "104603"
+    ],
+    "スーパークリーク": [
+      "104501",
+      "104502",
+      "104503"
+    ],
+    "セイウンスカイ": [
+      "102001",
+      "102002",
+      "102003"
+    ],
+    "セイントジェード ヒーラー": [
+      "101102"
+    ],
+    "セイントジェード ヒーラー グラスワンダー": [
+      "101102"
+    ],
+    "ゼンノロブロイ": [
+      "104701",
+      "104702"
+    ],
+    "ソナタ アッラ メンタ": [
+      "110202"
+    ],
+    "ソナタ アッラ メンタ サウンズオブアース": [
+      "110202"
+    ],
+    "ソワレ ド シャトン": [
+      "102002"
+    ],
+    "ソワレ ド シャトン セイウンスカイ": [
+      "102002"
+    ],
+    "タイキシャトル": [
+      "101001",
+      "101002",
+      "101003"
+    ],
+    "タップダンスシチー": [
+      "110701",
+      "110702"
+    ],
+    "タニノギムレット": [
+      "108401",
+      "108402"
+    ],
+    "タマモクロス": [
+      "102101",
+      "102102"
+    ],
+    "ダイイチルビー": [
+      "108501",
+      "108502"
+    ],
+    "ダイタクヘリオス": [
+      "106501",
+      "106502"
+    ],
+    "ダイワスカーレット": [
+      "100901",
+      "100902"
+    ],
+    "ダンツフレーム": [
+      "109201"
+    ],
+    "ツイステッド ライン": [
+      "105901"
+    ],
+    "ツイステッド ライン メジロドーベル": [
+      "105901"
+    ],
+    "ツインターボ": [
+      "106601"
+    ],
+    "ツルマルツヨシ": [
+      "107301"
+    ],
+    "ティアード ペタル": [
+      "105101"
+    ],
+    "ティアード ペタル ニシノフラワー": [
+      "105101"
+    ],
+    "テイエムオペラオー": [
+      "101501",
+      "101502"
+    ],
+    "デアリングハート": [
+      "111201"
+    ],
+    "ディファレンス エンジニア": [
+      "105002"
+    ],
+    "ディファレンス エンジニア ナリタタイシン": [
+      "105002"
+    ],
+    "デュランダル": [
+      "112101"
+    ],
+    "トウカイテイオー": [
+      "100301",
+      "100302",
+      "100303"
+    ],
+    "トップ オブ ジョイフル": [
+      "100301"
+    ],
+    "トップ オブ ジョイフル トウカイテイオー": [
+      "100301"
+    ],
+    "トップ オブ ブルー": [
+      "100901"
+    ],
+    "トップ オブ ブルー ダイワスカーレット": [
+      "100901"
+    ],
+    "トランセンド": [
+      "108001",
+      "108002"
+    ],
+    "トリック リボネッタ": [
+      "105502"
+    ],
+    "トリック リボネッタ マーベラスサンデー": [
+      "105502"
+    ],
+    "トーセンジョーダン": [
+      "104801",
+      "104802",
+      "104803"
+    ],
+    "ドゥラメンテ": [
+      "110801",
+      "110802"
+    ],
+    "ドラマティック チュチュ": [
+      "111701"
+    ],
+    "ドラマティック チュチュ ウインバリアシオン": [
+      "111701"
+    ],
+    "ドリームジャーニー": [
+      "111901",
+      "111902"
+    ],
+    "ナイスネイチャ": [
+      "106001",
+      "106002",
+      "106003"
+    ],
+    "ナカヤマフェスタ": [
+      "104901",
+      "104902"
+    ],
+    "ナリタタイシン": [
+      "105001",
+      "105002",
+      "105003"
+    ],
+    "ナリタトップロード": [
+      "107701",
+      "107702",
+      "107703"
+    ],
+    "ナリタブライアン": [
+      "101601",
+      "101602"
+    ],
+    "ニシノフラワー": [
+      "105101",
+      "105102"
+    ],
+    "ネオユニヴァース": [
+      "110501",
+      "110502"
+    ],
+    "ネガイノカサネ": [
+      "106003"
+    ],
+    "ネガイノカサネ ナイスネイチャ": [
+      "106003"
+    ],
+    "ノエルージュ キャロル": [
+      "102302"
+    ],
+    "ノエルージュ キャロル ビワハヤヒデ": [
+      "102302"
+    ],
+    "ノースフライト": [
+      "108201",
+      "108202"
+    ],
+    "ノーリーズン": [
+      "109601"
+    ],
+    "ハッピー リトル ノーツ": [
+      "110602"
+    ],
+    "ハッピー リトル ノーツ ヒシミラクル": [
+      "110602"
+    ],
+    "ハルウララ": [
+      "105201",
+      "105202"
+    ],
+    "バカンス サフィール": [
+      "105902"
+    ],
+    "バカンス サフィール メジロドーベル": [
+      "105902"
+    ],
+    "バブルガムフェロー": [
+      "112401",
+      "112402"
+    ],
+    "バンブーメモリー": [
+      "105301",
+      "105302"
+    ],
+    "パステルマリン ロコドル": [
+      "109902"
+    ],
+    "パステルマリン ロコドル ホッコータルマエ": [
+      "109902"
+    ],
+    "ヒシアケボノ": [
+      "102801",
+      "102802"
+    ],
+    "ヒシアマゾン": [
+      "101201",
+      "101202"
+    ],
+    "ヒシミラクル": [
+      "110601",
+      "110602"
+    ],
+    "ビコーペガサス": [
+      "105401"
+    ],
+    "ビヨンド ザ ホライズン": [
+      "100302"
+    ],
+    "ビヨンド ザ ホライズン トウカイテイオー": [
+      "100302"
+    ],
+    "ビリーヴ": [
+      "109501"
+    ],
+    "ビワハヤヒデ": [
+      "102301",
+      "102302",
+      "102303"
+    ],
+    "ファインモーション": [
+      "102201",
+      "102202",
+      "102203"
+    ],
+    "ファレノプシス": [
+      "114901"
+    ],
+    "フィーユ エクレール": [
+      "103801"
+    ],
+    "フィーユ エクレール カレンチャン": [
+      "103801"
+    ],
+    "フェノーメノ": [
+      "112701",
+      "112702"
+    ],
+    "フォーミュラオブルージュ": [
+      "100401"
+    ],
+    "フォーミュラオブルージュ マルゼンスキー": [
+      "100401"
+    ],
+    "フサイチパンドラ": [
+      "111301",
+      "111302"
+    ],
+    "フジキセキ": [
+      "100501",
+      "100502",
+      "100503"
+    ],
+    "フリオーソ": [
+      "107901"
+    ],
+    "ブエナビスタ": [
+      "111401"
+    ],
+    "ブランシュ エトワール": [
+      "100503"
+    ],
+    "ブランシュ エトワール フジキセキ": [
+      "100503"
+    ],
+    "ブリュニサージュ ライン": [
+      "107401"
+    ],
+    "ブリュニサージュ ライン メジロブライト": [
+      "107401"
+    ],
+    "ブルー タービュランス": [
+      "106202"
+    ],
+    "ブルー タービュランス マチカネタンホイザ": [
+      "106202"
+    ],
+    "ブルー レイジング": [
+      "105801"
+    ],
+    "ブルー レイジング メイショウドトウ": [
+      "105801"
+    ],
+    "プラタナス ウィッチ": [
+      "104401"
+    ],
+    "プラタナス ウィッチ スイープトウショウ": [
+      "104401"
+    ],
+    "プリンセス オブ ピンク": [
+      "103901"
+    ],
+    "プリンセス オブ ピンク カワカミプリンセス": [
+      "103901"
+    ],
+    "ホッコータルマエ": [
+      "109901",
+      "109902"
+    ],
+    "ボーノ アラモーダ": [
+      "102801"
+    ],
+    "ボーノ アラモーダ ヒシアケボノ": [
+      "102801"
+    ],
+    "ポインセチア リボン": [
+      "106001"
+    ],
+    "ポインセチア リボン ナイスネイチャ": [
+      "106001"
+    ],
+    "ポップス ジョーカー": [
+      "104801"
+    ],
+    "ポップス ジョーカー トーセンジョーダン": [
+      "104801"
+    ],
+    "マジックナイトガーランド": [
+      "102802"
+    ],
+    "マジックナイトガーランド ヒシアケボノ": [
+      "102802"
+    ],
+    "マチカネタンホイザ": [
+      "106201",
+      "106202"
+    ],
+    "マチカネフクキタル": [
+      "105601",
+      "105602"
+    ],
+    "マヤノトップガン": [
+      "102401",
+      "102402",
+      "102403"
+    ],
+    "マルゼンスキー": [
+      "100401",
+      "100402",
+      "100403"
+    ],
+    "マンハッタンカフェ": [
+      "102501",
+      "102502",
+      "102503"
+    ],
+    "マーガレット ラッテ": [
+      "102702"
+    ],
+    "マーガレット ラッテ メジロライアン": [
+      "102702"
+    ],
+    "マーベラスサンデー": [
+      "105501",
+      "105502"
+    ],
+    "マーマリングストリーム": [
+      "104501"
+    ],
+    "マーマリングストリーム スーパークリーク": [
+      "104501"
+    ],
+    "ミスターシービー": [
+      "105701",
+      "105702"
+    ],
+    "ミホノブルボン": [
+      "102601",
+      "102602"
+    ],
+    "メイショウドトウ": [
+      "105801",
+      "105802"
+    ],
+    "メジロアルダン": [
+      "107101",
+      "107102"
+    ],
+    "メジロドーベル": [
+      "105901",
+      "105902"
+    ],
+    "メジロパーマー": [
+      "106401",
+      "106402"
+    ],
+    "メジロブライト": [
+      "107401",
+      "107402",
+      "107403"
+    ],
+    "メジロマックイーン": [
+      "101301",
+      "101302",
+      "101303"
+    ],
+    "メジロライアン": [
+      "102701",
+      "102702"
+    ],
+    "メジロラモーヌ": [
+      "108601",
+      "108602"
+    ],
+    "ヤエノムテキ": [
+      "107201",
+      "107202"
+    ],
+    "ヤマニンゼファー": [
+      "107801",
+      "107802"
+    ],
+    "ユキノビジン": [
+      "102901",
+      "102902"
+    ],
+    "ライスシャワー": [
+      "103001",
+      "103002",
+      "103003"
+    ],
+    "ラインクラフト": [
+      "110901",
+      "110902"
+    ],
+    "ラッキーライラック": [
+      "113001"
+    ],
+    "ラヴズオンリーユー": [
+      "113201",
+      "113202"
+    ],
+    "リアライズ ルーン": [
+      "104402"
+    ],
+    "リアライズ ルーン スイープトウショウ": [
+      "104402"
+    ],
+    "リトモ デッラ テッラ": [
+      "110201"
+    ],
+    "リトモ デッラ テッラ サウンズオブアース": [
+      "110201"
+    ],
+    "ルミナス トワラー": [
+      "104603"
+    ],
+    "ルミナス トワラー スマートファルコン": [
+      "104603"
+    ],
+    "ルーラーシップ": [
+      "114501"
+    ],
+    "レッドストライフ": [
+      "100701"
+    ],
+    "レッドストライフ ゴールドシップ": [
+      "100701"
+    ],
+    "レッドディザイア": [
+      "113601"
+    ],
+    "レッドホット リーダー": [
+      "104102"
+    ],
+    "レッドホット リーダー サクラバクシンオー": [
+      "104102"
+    ],
+    "ロイスアンドロイス": [
+      "110301"
+    ],
+    "ローズキングダム": [
+      "114401"
+    ],
+    "ローゼスドリーム": [
+      "103001"
+    ],
+    "ローゼスドリーム ライスシャワー": [
+      "103001"
+    ],
+    "ロード オブ エンペラー": [
+      "101701"
+    ],
+    "ロード オブ エンペラー シンボリルドルフ": [
+      "101701"
+    ],
+    "ワイルド フロンティア": [
+      "101001"
+    ],
+    "ワイルド フロンティア タイキシャトル": [
+      "101001"
+    ],
+    "ワイルドトップギア": [
+      "100801"
+    ],
+    "ワイルドトップギア ウオッカ": [
+      "100801"
+    ],
+    "ワンダーアキュート": [
+      "110001",
+      "110002"
+    ],
+    "ヴァーミリオン ヘッド": [
+      "109402"
+    ],
+    "ヴァーミリオン ヘッド ジャングルポケット": [
+      "109402"
+    ],
+    "ヴィクトワールピサ": [
+      "114301"
+    ],
+    "ヴィブロス": [
+      "109101",
+      "109102"
+    ],
+    "ヴィルシーナ": [
+      "109001"
+    ],
+    "万折不撓の纏": [
+      "113001"
+    ],
+    "万折不撓の纏 ラッキーライラック": [
+      "113001"
+    ],
+    "万福龍湯伝 頂": [
+      "107703"
+    ],
+    "万福龍湯伝 頂 ナリタトップロード": [
+      "107703"
+    ],
+    "不凍のアクア ウィタエ": [
+      "100802"
+    ],
+    "不凍のアクア ウィタエ ウオッカ": [
+      "100802"
+    ],
+    "光彩陸離 招福衣": [
+      "109802"
+    ],
+    "光彩陸離 招福衣 コパノリッキー": [
+      "109802"
+    ],
+    "初うらら さくさくら": [
+      "105202"
+    ],
+    "初うらら さくさくら ハルウララ": [
+      "105202"
+    ],
+    "初晴 青き絢爛": [
+      "101502"
+    ],
+    "初晴 青き絢爛 テイエムオペラオー": [
+      "101502"
+    ],
+    "剛毅なる紫焔": [
+      "112702"
+    ],
+    "剛毅なる紫焔 フェノーメノ": [
+      "112702"
+    ],
+    "吉兆 初あらし": [
+      "105602"
+    ],
+    "吉兆 初あらし マチカネフクキタル": [
+      "105602"
+    ],
+    "四白流星の襲": [
+      "107201"
+    ],
+    "四白流星の襲 ヤエノムテキ": [
+      "107201"
+    ],
+    "夏凪ネイビードロップ": [
+      "108902"
+    ],
+    "夏凪ネイビードロップ シュヴァルグラン": [
+      "108902"
+    ],
+    "夢ノ金原": [
+      "103402"
+    ],
+    "夢ノ金原 イナリワン": [
+      "103402"
+    ],
+    "夢路のよすが": [
+      "111901"
+    ],
+    "夢路のよすが ドリームジャーニー": [
+      "111901"
+    ],
+    "宵闇ネオカグラ": [
+      "108002"
+    ],
+    "宵闇ネオカグラ トランセンド": [
+      "108002"
+    ],
+    "岩穿つ青": [
+      "101101"
+    ],
+    "岩穿つ青 グラスワンダー": [
+      "101101"
+    ],
+    "幽玄薔薇": [
+      "102503"
+    ],
+    "幽玄薔薇 マンハッタンカフェ": [
+      "102503"
+    ],
+    "志 高し 強し": [
+      "107301"
+    ],
+    "志 高し 強し ツルマルツヨシ": [
+      "107301"
+    ],
+    "悠久なるヘカテイア": [
+      "101803"
+    ],
+    "悠久なるヘカテイア エアグルーヴ": [
+      "101803"
+    ],
+    "愛麗 キョンシー": [
+      "101902"
+    ],
+    "愛麗 キョンシー アグネスデジタル": [
+      "101902"
+    ],
+    "慈雨華影": [
+      "104503"
+    ],
+    "慈雨華影 スーパークリーク": [
+      "104503"
+    ],
+    "日下開山 花あかり": [
+      "106901"
+    ],
+    "日下開山 花あかり サクラチヨノオー": [
+      "106901"
+    ],
+    "日之本一の総大将": [
+      "100103"
+    ],
+    "日之本一の総大将 スペシャルウィーク": [
+      "100103"
+    ],
+    "春雷の韋駄天": [
+      "104103"
+    ],
+    "春雷の韋駄天 サクラバクシンオー": [
+      "104103"
+    ],
+    "晴島花麗": [
+      "108802"
+    ],
+    "晴島花麗 サトノクラウン": [
+      "108802"
+    ],
+    "暁光": [
+      "112402"
+    ],
+    "暁光 バブルガムフェロー": [
+      "112402"
+    ],
+    "朔月のマ シェリ": [
+      "103802"
+    ],
+    "朔月のマ シェリ カレンチャン": [
+      "103802"
+    ],
+    "柔灯 湯の香の装い": [
+      "110002"
+    ],
+    "柔灯 湯の香の装い ワンダーアキュート": [
+      "110002"
+    ],
+    "柳緑小夜": [
+      "102502"
+    ],
+    "柳緑小夜 マンハッタンカフェ": [
+      "102502"
+    ],
+    "死中求活": [
+      "104901"
+    ],
+    "死中求活 ナカヤマフェスタ": [
+      "104901"
+    ],
+    "水干撫子": [
+      "103902"
+    ],
+    "水干撫子 カワカミプリンセス": [
+      "103902"
+    ],
+    "水縹の一閃": [
+      "108202"
+    ],
+    "水縹の一閃 ノースフライト": [
+      "108202"
+    ],
+    "波間のエメラルド": [
+      "100202"
+    ],
+    "波間のエメラルド サイレンススズカ": [
+      "100202"
+    ],
+    "海辺のエレガンスシフォン": [
+      "107403"
+    ],
+    "海辺のエレガンスシフォン メジロブライト": [
+      "107403"
+    ],
+    "清らに星澄むスノーロリィタ": [
+      "107402"
+    ],
+    "清らに星澄むスノーロリィタ メジロブライト": [
+      "107402"
+    ],
+    "渚のきまぐれオランジュ": [
+      "102003"
+    ],
+    "渚のきまぐれオランジュ セイウンスカイ": [
+      "102003"
+    ],
+    "溶けない砂糖菓子": [
+      "108702"
+    ],
+    "溶けない砂糖菓子 アストンマーチャン": [
+      "108702"
+    ],
+    "爆走 ターボエンジン": [
+      "106601"
+    ],
+    "爆走 ターボエンジン ツインターボ": [
+      "106601"
+    ],
+    "猛ル鳴神": [
+      "102102"
+    ],
+    "猛ル鳴神 タマモクロス": [
+      "102102"
+    ],
+    "王者の喊声": [
+      "109401"
+    ],
+    "王者の喊声 ジャングルポケット": [
+      "109401"
+    ],
+    "疾風ペガサス 零式": [
+      "105401"
+    ],
+    "疾風ペガサス 零式 ビコーペガサス": [
+      "105401"
+    ],
+    "疾風迅雷": [
+      "102101"
+    ],
+    "疾風迅雷 タマモクロス": [
+      "102101"
+    ],
+    "登竜之頂": [
+      "110401"
+    ],
+    "登竜之頂 カツラギエース": [
+      "110401"
+    ],
+    "白く気高き激励の装": [
+      "106102"
+    ],
+    "白く気高き激励の装 キングヘイロー": [
+      "106102"
+    ],
+    "皓月の弓取り": [
+      "101702"
+    ],
+    "皓月の弓取り シンボリルドルフ": [
+      "101702"
+    ],
+    "真実一路": [
+      "112001"
+    ],
+    "真実一路 カルストンライトオ": [
+      "112001"
+    ],
+    "真打 慶鶴之志": [
+      "106802"
+    ],
+    "真打 慶鶴之志 キタサンブラック": [
+      "106802"
+    ],
+    "祝ひ寿ぐ神速天女": [
+      "100403"
+    ],
+    "祝ひ寿ぐ神速天女 マルゼンスキー": [
+      "100403"
+    ],
+    "祝祭遊戯": [
+      "104902"
+    ],
+    "祝祭遊戯 ナカヤマフェスタ": [
+      "104902"
+    ],
+    "秋日色アンダンテ": [
+      "109302"
+    ],
+    "秋日色アンダンテ ケイエスミラクル": [
+      "109302"
+    ],
+    "秋桜ダンツァトリーチェ": [
+      "104002"
+    ],
+    "秋桜ダンツァトリーチェ ゴールドシチー": [
+      "104002"
+    ],
+    "稲荷所縁江戸紫": [
+      "103401"
+    ],
+    "稲荷所縁江戸紫 イナリワン": [
+      "103401"
+    ],
+    "精粋": [
+      "109501"
+    ],
+    "精粋 ビリーヴ": [
+      "109501"
+    ],
+    "紅色塗早駆具足": [
+      "109601"
+    ],
+    "紅色塗早駆具足 ノーリーズン": [
+      "109601"
+    ],
+    "紫雲の夢見取り": [
+      "100303"
+    ],
+    "紫雲の夢見取り トウカイテイオー": [
+      "100303"
+    ],
+    "結願のしまい華": [
+      "106803"
+    ],
+    "結願のしまい華 キタサンブラック": [
+      "106803"
+    ],
+    "絢爛花道歌舞く君": [
+      "105702"
+    ],
+    "絢爛花道歌舞く君 ミスターシービー": [
+      "105702"
+    ],
+    "絶佳の暁闇": [
+      "114901"
+    ],
+    "絶佳の暁闇 ファレノプシス": [
+      "114901"
+    ],
+    "緋想の誓衣": [
+      "109701"
+    ],
+    "緋想の誓衣 スティルインラブ": [
+      "109701"
+    ],
+    "緋色のニュイ エトワレ": [
+      "100902"
+    ],
+    "緋色のニュイ エトワレ ダイワスカーレット": [
+      "100902"
+    ],
+    "総攬": [
+      "111501"
+    ],
+    "総攬 オルフェーヴル": [
+      "111501"
+    ],
+    "義心の黒焔": [
+      "112701"
+    ],
+    "義心の黒焔 フェノーメノ": [
+      "112701"
+    ],
+    "花宿しのクチュール": [
+      "113401"
+    ],
+    "花宿しのクチュール カレンブーケドール": [
+      "113401"
+    ],
+    "花形 弥栄之翠": [
+      "106702"
+    ],
+    "花形 弥栄之翠 サトノダイヤモンド": [
+      "106702"
+    ],
+    "茶の子雪ん子": [
+      "102902"
+    ],
+    "茶の子雪ん子 ユキノビジン": [
+      "102902"
+    ],
+    "華麗なる紅玉": [
+      "108501"
+    ],
+    "華麗なる紅玉 ダイイチルビー": [
+      "108501"
+    ],
+    "蒼炎の誉": [
+      "101103"
+    ],
+    "蒼炎の誉 グラスワンダー": [
+      "101103"
+    ],
+    "衣錦還郷の瑞星": [
+      "107901"
+    ],
+    "衣錦還郷の瑞星 フリオーソ": [
+      "107901"
+    ],
+    "赤心のトナカイさん": [
+      "106402"
+    ],
+    "赤心のトナカイさん メジロパーマー": [
+      "106402"
+    ],
+    "超特急 フルカラー特殊pp": [
+      "101901"
+    ],
+    "超特急 フルカラー特殊pp アグネスデジタル": [
+      "101901"
+    ],
+    "身に纏うケラヴノス": [
+      "108401"
+    ],
+    "身に纏うケラヴノス タニノギムレット": [
+      "108401"
+    ],
+    "迷光オーヴァライド": [
+      "105003"
+    ],
+    "迷光オーヴァライド ナリタタイシン": [
+      "105003"
+    ],
+    "逍遥 整然たる路を": [
+      "106302"
+    ],
+    "逍遥 整然たる路を イクノディクタス": [
+      "106302"
+    ],
+    "運気上昇 幸福万来": [
+      "105601"
+    ],
+    "運気上昇 幸福万来 マチカネフクキタル": [
+      "105601"
+    ],
+    "錦上 大判御輿": [
+      "106801"
+    ],
+    "錦上 大判御輿 キタサンブラック": [
+      "106801"
+    ],
+    "陰陽八卦 開運衣": [
+      "109801"
+    ],
+    "陰陽八卦 開運衣 コパノリッキー": [
+      "109801"
+    ],
+    "陸離の編纂者": [
+      "113301"
+    ],
+    "陸離の編纂者 クロノジェネシス": [
+      "113301"
+    ],
+    "雅号 墨龍": [
+      "110402"
+    ],
+    "雅号 墨龍 カツラギエース": [
+      "110402"
+    ],
+    "雪白の夢路": [
+      "111902"
+    ],
+    "雪白の夢路 ドリームジャーニー": [
+      "111902"
+    ],
+    "餓狼": [
+      "101602"
+    ],
+    "餓狼 ナリタブライアン": [
+      "101602"
+    ],
+    "麺華煌彩伝 極": [
+      "102203"
+    ],
+    "麺華煌彩伝 極 ファインモーション": [
+      "102203"
+    ],
+    "黄昏トライアンフ": [
+      "104602"
+    ],
+    "黄昏トライアンフ スマートファルコン": [
+      "104602"
+    ],
+    "黒将zen": [
+      "107202"
+    ],
+    "黒将zen ヤエノムテキ": [
+      "107202"
+    ],
+    "黒翠千里行": [
+      "108801"
+    ],
+    "黒翠千里行 サトノクラウン": [
+      "108801"
+    ],
+    "黒鉄の大志": [
+      "105301"
+    ],
+    "黒鉄の大志 バンブーメモリー": [
+      "105301"
+    ]
+  }
+}

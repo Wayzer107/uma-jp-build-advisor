@@ -1,0 +1,760 @@
+{
+  "id": 10066,
+  "kind": "support_card",
+  "kind_path": "support-cards",
+  "server": "ja",
+  "name": "[Tracen Academy] Shinko Windy",
+  "name_text": {
+    "ja": "[トレセン学園]シンコウウインディ",
+    "en": "[Tracen Academy] Shinko Windy",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 75,
+      "index": 10066
+    }
+  },
+  "title_text": {
+    "ja": "[トレセン学園]",
+    "en": "[Tracen Academy]",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 76,
+      "index": 10066
+    }
+  },
+  "character_id": 1043,
+  "character_name_text": {
+    "ja": "シンコウウインディ",
+    "en": "Shinko Windy",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 6,
+      "index": 1043
+    }
+  },
+  "rarity": 1,
+  "rarity_label": "R",
+  "support_type": "Speed",
+  "support_type_raw": {
+    "command_id": 101,
+    "support_card_type": 1
+  },
+  "release_date_jst": "2021-02-24",
+  "effect_table_id": 10066,
+  "effects": [
+    {
+      "type_code": 1,
+      "name_text": {
+        "ja": "友情ボーナス",
+        "en": "Friendship Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 1
+        }
+      },
+      "description_text": {
+        "ja": "友情トレーニング発生による効果アップ",
+        "en": "Increases the effectiveness of Friendship Training.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 1
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "1": 5,
+        "20": 15,
+        "40": 20
+      },
+      "value_at_rarity_cap": 20,
+      "value_level": 40,
+      "raw_game_row": {
+        "id": 10066,
+        "type": 1,
+        "init": 5,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": 15,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": -1,
+        "limit_lv40": 20,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 2,
+      "name_text": {
+        "ja": "やる気効果アップ",
+        "en": "Motivation Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 2
+        }
+      },
+      "description_text": {
+        "ja": "一緒にトレーニングをしたときのやる気による効果アップ",
+        "en": "Amplifies the effect of motivation when training together.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 2
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "5": 10,
+        "15": 15,
+        "20": 15,
+        "35": 25
+      },
+      "value_at_rarity_cap": 25,
+      "value_level": 35,
+      "raw_game_row": {
+        "id": 10066,
+        "type": 2,
+        "init": -1,
+        "limit_lv5": 10,
+        "limit_lv10": -1,
+        "limit_lv15": 15,
+        "limit_lv20": 15,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": 25,
+        "limit_lv40": -1,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 3,
+      "name_text": {
+        "ja": "スピードボーナス",
+        "en": "Speed Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 3
+        }
+      },
+      "description_text": {
+        "ja": "一緒にトレーニングをするとスピードの上昇量がアップ",
+        "en": "Increases Speed gained when training together.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 3
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "40": 1
+      },
+      "value_at_rarity_cap": 1,
+      "value_level": 40,
+      "raw_game_row": {
+        "id": 10066,
+        "type": 3,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": -1,
+        "limit_lv40": 1,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 9,
+      "name_text": {
+        "ja": "初期スピードアップ",
+        "en": "Initial Speed Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 9
+        }
+      },
+      "description_text": {
+        "ja": "育成開始時の初期スピードがアップ",
+        "en": "Increases Speed at the start of a Career.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 9
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "5": 10,
+        "15": 15,
+        "20": 15,
+        "35": 20
+      },
+      "value_at_rarity_cap": 20,
+      "value_level": 35,
+      "raw_game_row": {
+        "id": 10066,
+        "type": 9,
+        "init": -1,
+        "limit_lv5": 10,
+        "limit_lv10": -1,
+        "limit_lv15": 15,
+        "limit_lv20": 15,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": 20,
+        "limit_lv40": -1,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 15,
+      "name_text": {
+        "ja": "レースボーナス",
+        "en": "Race Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 15
+        }
+      },
+      "description_text": {
+        "ja": "レースに出走した結果で得られるステータスの上昇量がアップ",
+        "en": "Increases stats and Skill Pt gained from races.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 15
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "1": 1,
+        "20": 5,
+        "40": 5
+      },
+      "value_at_rarity_cap": 5,
+      "value_level": 40,
+      "raw_game_row": {
+        "id": 10066,
+        "type": 15,
+        "init": 1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": 5,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": -1,
+        "limit_lv40": 5,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 16,
+      "name_text": {
+        "ja": "ファン数ボーナス",
+        "en": "Fan Count Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 16
+        }
+      },
+      "description_text": {
+        "ja": "レースに出走した結果で得られるファンの上昇量がアップ",
+        "en": "Increases fans gained from races.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 16
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "1": 1,
+        "20": 10,
+        "40": 15
+      },
+      "value_at_rarity_cap": 15,
+      "value_level": 40,
+      "raw_game_row": {
+        "id": 10066,
+        "type": 16,
+        "init": 1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": 10,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": -1,
+        "limit_lv40": 15,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 19,
+      "name_text": {
+        "ja": "得意率アップ",
+        "en": "Specialty Rate Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 19
+        }
+      },
+      "description_text": {
+        "ja": "得意トレーニングに配置される確率がアップ",
+        "en": "Increases probability of appearing in training of this card's type.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 19
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "5": 5,
+        "15": 20,
+        "20": 20,
+        "35": 35
+      },
+      "value_at_rarity_cap": 35,
+      "value_level": 35,
+      "raw_game_row": {
+        "id": 10066,
+        "type": 19,
+        "init": -1,
+        "limit_lv5": 5,
+        "limit_lv10": -1,
+        "limit_lv15": 20,
+        "limit_lv20": 20,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": 35,
+        "limit_lv40": -1,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    }
+  ],
+  "unique_effect_id": 0,
+  "unique_effect_rows": [],
+  "hint_id": 9081043,
+  "hints_and_rewards": [
+    {
+      "hint_row_id": 1069,
+      "hint_id": 9081043,
+      "hint_group": 1,
+      "hint_gain_type_raw": 0,
+      "skill_id": 200162,
+      "skill_name": "Bad Track Condition ○",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 200162,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1069,
+        "hint_id": 9081043,
+        "support_card_id": 10066,
+        "hint_group": 1,
+        "hint_gain_type": 0,
+        "hint_value_1": 200162,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1070,
+      "hint_id": 9081043,
+      "hint_group": 2,
+      "hint_gain_type_raw": 0,
+      "skill_id": 200282,
+      "skill_name": "Competitive Spirit ○",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 200282,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1070,
+        "hint_id": 9081043,
+        "support_card_id": 10066,
+        "hint_group": 2,
+        "hint_gain_type": 0,
+        "hint_value_1": 200282,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1071,
+      "hint_id": 9081043,
+      "hint_group": 3,
+      "hint_gain_type_raw": 0,
+      "skill_id": 200582,
+      "skill_name": "Breakaway Prep",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 200582,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1071,
+        "hint_id": 9081043,
+        "support_card_id": 10066,
+        "hint_group": 3,
+        "hint_gain_type": 0,
+        "hint_value_1": 200582,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1072,
+      "hint_id": 9081043,
+      "hint_group": 4,
+      "hint_gain_type_raw": 0,
+      "skill_id": 200851,
+      "skill_name": "Faltering Runners",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 200851,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1072,
+        "hint_id": 9081043,
+        "support_card_id": 10066,
+        "hint_group": 4,
+        "hint_gain_type": 0,
+        "hint_value_1": 200851,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1073,
+      "hint_id": 9081043,
+      "hint_group": 5,
+      "hint_gain_type_raw": 1,
+      "skill_id": null,
+      "skill_name": null,
+      "skill_ref_status": "not_a_skill_hint",
+      "hint_value_1_raw": 1,
+      "hint_value_2_raw": 6,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1073,
+        "hint_id": 9081043,
+        "support_card_id": 10066,
+        "hint_group": 5,
+        "hint_gain_type": 1,
+        "hint_value_1": 1,
+        "hint_value_2": 6,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1074,
+      "hint_id": 9081043,
+      "hint_group": 5,
+      "hint_gain_type_raw": 1,
+      "skill_id": null,
+      "skill_name": null,
+      "skill_ref_status": "not_a_skill_hint",
+      "hint_value_1_raw": 3,
+      "hint_value_2_raw": 2,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1074,
+        "hint_id": 9081043,
+        "support_card_id": 10066,
+        "hint_group": 5,
+        "hint_gain_type": 1,
+        "hint_value_1": 3,
+        "hint_value_2": 2,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    }
+  ],
+  "unresolved_hint_skill_ids": [],
+  "event_skill_ids_gametora": [
+    201072
+  ],
+  "event_skill_links_gametora": [
+    {
+      "skill_id": 201072,
+      "skill_name": "Rival Spirit",
+      "ref_status": "resolved"
+    }
+  ],
+  "gametora_hint_crosscheck": {
+    "status": "exact_id_match",
+    "local_hint_skill_ids": [
+      200162,
+      200282,
+      200582,
+      200851
+    ],
+    "gametora_hint_skill_ids": [
+      200162,
+      200282,
+      200582,
+      200851
+    ],
+    "gametora_only_skill_ids": [],
+    "local_only_skill_ids": []
+  },
+  "group_members": [],
+  "gametora": {
+    "id": 10066,
+    "url": "https://gametora.com/umamusume/supports/10066-shinko-windy",
+    "url_candidate": "https://gametora.com/umamusume/supports/10066-shinko-windy",
+    "url_name": "10066-shinko-windy",
+    "mapping_status": "verified_full_id_set",
+    "source_data_version": "ecbd7dc3",
+    "reconciliation_note": "The complete local support ID set was compared with the versioned GameTora support-cards feed."
+  },
+  "source": {
+    "table": "support_card_data",
+    "row_id": 10066,
+    "effect_table": "support_card_effect_table",
+    "unique_effect_table": "support_card_unique_effect",
+    "hints_table": "single_mode_hint_gain",
+    "text_categories": [
+      75,
+      76,
+      6,
+      182,
+      151,
+      154,
+      150,
+      155
+    ],
+    "gametora_event_skills": "GameTora support-cards feed; source details are recorded in the catalog manifest."
+  },
+  "raw_game_row": {
+    "id": 10066,
+    "chara_id": 1043,
+    "rarity": 1,
+    "exchange_item_id": 48,
+    "exchange_item_num": 10,
+    "effect_table_id": 10066,
+    "unique_effect_id": 0,
+    "command_type": 1,
+    "command_id": 101,
+    "support_card_type": 1,
+    "skill_set_id": 9081043,
+    "detail_pos_x": 0,
+    "detail_pos_y": -650000,
+    "detail_scale": 10000,
+    "detail_rot_z": 0,
+    "start_date": 1614092400,
+    "disp_order": 1001802,
+    "outing_max": 0,
+    "effect_id": 0
+  },
+  "search_names": [
+    "[トレセン学園]シンコウウインディ",
+    "[Tracen Academy] Shinko Windy",
+    "[トレセン学園]",
+    "[Tracen Academy]",
+    "シンコウウインディ",
+    "Shinko Windy"
+  ],
+  "training_event_ids": [],
+  "character_event_ids": [
+    4398,
+    4399,
+    4400,
+    10137,
+    10138,
+    10139,
+    10140,
+    10141,
+    10142,
+    10143,
+    10144,
+    10145,
+    10146,
+    10147,
+    10148,
+    10149,
+    10150,
+    10151,
+    10152,
+    10153,
+    10154,
+    10155,
+    10156,
+    10157,
+    10158,
+    10159,
+    10160,
+    10161,
+    10162,
+    10163,
+    10164,
+    10165,
+    10166,
+    10167,
+    10168,
+    10169,
+    10170,
+    10171,
+    10172,
+    10173,
+    10174,
+    10175,
+    10176,
+    10177,
+    10178,
+    10179,
+    10180,
+    10181,
+    10182,
+    10183,
+    10184,
+    10185,
+    10186,
+    10187,
+    10188,
+    10189,
+    10190,
+    10191,
+    10192,
+    10193,
+    10194,
+    10195,
+    10196,
+    10197,
+    10198,
+    10199,
+    10201,
+    10202,
+    10208,
+    10209,
+    10210,
+    10211,
+    10212,
+    10213,
+    10214,
+    10215,
+    10216,
+    10217,
+    10218,
+    10219,
+    10220,
+    10221,
+    10222,
+    10223,
+    10224,
+    10225,
+    10226,
+    10227,
+    10228,
+    10229,
+    10230,
+    19100,
+    19101,
+    19102,
+    19103,
+    19104,
+    19105,
+    19106,
+    19107,
+    19108,
+    20398,
+    20399,
+    20400,
+    20401,
+    20402,
+    20403,
+    20404,
+    20405,
+    20406,
+    6000313,
+    6000314,
+    6000315,
+    13000356,
+    13000357,
+    13000358
+  ]
+}

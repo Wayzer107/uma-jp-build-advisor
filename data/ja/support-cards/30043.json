@@ -1,0 +1,1096 @@
+{
+  "id": 30043,
+  "kind": "support_card",
+  "kind_path": "support-cards",
+  "server": "ja",
+  "name": "[43, 8, 1] Nakayama Festa",
+  "name_text": {
+    "ja": "[43、8、1]ナカヤマフェスタ",
+    "en": "[43, 8, 1] Nakayama Festa",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 75,
+      "index": 30043
+    }
+  },
+  "title_text": {
+    "ja": "[43、8、1]",
+    "en": "[43, 8, 1]",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 76,
+      "index": 30043
+    }
+  },
+  "character_id": 1049,
+  "character_name_text": {
+    "ja": "ナカヤマフェスタ",
+    "en": "Nakayama Festa",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 6,
+      "index": 1049
+    }
+  },
+  "rarity": 3,
+  "rarity_label": "SSR",
+  "support_type": "Stamina",
+  "support_type_raw": {
+    "command_id": 105,
+    "support_card_type": 1
+  },
+  "release_date_jst": "2021-10-20",
+  "effect_table_id": 30043,
+  "effects": [
+    {
+      "type_code": 1,
+      "name_text": {
+        "ja": "友情ボーナス",
+        "en": "Friendship Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 1
+        }
+      },
+      "description_text": {
+        "ja": "友情トレーニング発生による効果アップ",
+        "en": "Increases the effectiveness of Friendship Training.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 1
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "1": 10,
+        "25": 15,
+        "30": 15,
+        "45": 20
+      },
+      "value_at_rarity_cap": 20,
+      "value_level": 45,
+      "raw_game_row": {
+        "id": 30043,
+        "type": 1,
+        "init": 10,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": 15,
+        "limit_lv30": 15,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": 20,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 2,
+      "name_text": {
+        "ja": "やる気効果アップ",
+        "en": "Motivation Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 2
+        }
+      },
+      "description_text": {
+        "ja": "一緒にトレーニングをしたときのやる気による効果アップ",
+        "en": "Amplifies the effect of motivation when training together.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 2
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "15": 10,
+        "25": 20,
+        "30": 20,
+        "45": 30
+      },
+      "value_at_rarity_cap": 30,
+      "value_level": 45,
+      "raw_game_row": {
+        "id": 30043,
+        "type": 2,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": 10,
+        "limit_lv20": -1,
+        "limit_lv25": 20,
+        "limit_lv30": 20,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": 30,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 4,
+      "name_text": {
+        "ja": "スタミナボーナス",
+        "en": "Stamina Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 4
+        }
+      },
+      "description_text": {
+        "ja": "一緒にトレーニングをするとスタミナの上昇量がアップ",
+        "en": "Increases Stamina gained when training together.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 4
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "35": 1
+      },
+      "value_at_rarity_cap": 1,
+      "value_level": 35,
+      "raw_game_row": {
+        "id": 30043,
+        "type": 4,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": 1,
+        "limit_lv40": -1,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 8,
+      "name_text": {
+        "ja": "トレーニング効果アップ",
+        "en": "Training Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 8
+        }
+      },
+      "description_text": {
+        "ja": "一緒にトレーニングしたときの効果アップ",
+        "en": "Increases training efficiency when training together.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 8
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "45": 5,
+        "50": 10
+      },
+      "value_at_rarity_cap": 10,
+      "value_level": 50,
+      "raw_game_row": {
+        "id": 30043,
+        "type": 8,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": 5,
+        "limit_lv50": 10
+      }
+    },
+    {
+      "type_code": 10,
+      "name_text": {
+        "ja": "初期スタミナアップ",
+        "en": "Initial Stamina Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 10
+        }
+      },
+      "description_text": {
+        "ja": "育成開始時の初期スタミナがアップ",
+        "en": "Increases Stamina at the start of a Career.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 10
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "1": 10,
+        "30": 25,
+        "50": 30
+      },
+      "value_at_rarity_cap": 30,
+      "value_level": 50,
+      "raw_game_row": {
+        "id": 30043,
+        "type": 10,
+        "init": 10,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": 25,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": -1,
+        "limit_lv50": 30
+      }
+    },
+    {
+      "type_code": 14,
+      "name_text": {
+        "ja": "初期絆ゲージアップ",
+        "en": "Starting Friendship Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 14
+        }
+      },
+      "description_text": {
+        "ja": "育成開始時の初期絆ゲージがアップ",
+        "en": "Increases Friendship Gauge at the start of a Career.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 14
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "10": 10,
+        "25": 20,
+        "30": 20,
+        "45": 25
+      },
+      "value_at_rarity_cap": 25,
+      "value_level": 45,
+      "raw_game_row": {
+        "id": 30043,
+        "type": 14,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": 10,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": 20,
+        "limit_lv30": 20,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": 25,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 17,
+      "name_text": {
+        "ja": "ヒントLvアップ",
+        "en": "Hint Lv. Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 17
+        }
+      },
+      "description_text": {
+        "ja": "ヒントイベントで得られるヒントLvがアップ",
+        "en": "Increases Hint level from this card's events.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 17
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "1": 1,
+        "30": 2,
+        "50": 3
+      },
+      "value_at_rarity_cap": 3,
+      "value_level": 50,
+      "raw_game_row": {
+        "id": 30043,
+        "type": 17,
+        "init": 1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": 2,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": -1,
+        "limit_lv50": 3
+      }
+    },
+    {
+      "type_code": 18,
+      "name_text": {
+        "ja": "ヒント発生率アップ",
+        "en": "Hint Rate Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 18
+        }
+      },
+      "description_text": {
+        "ja": "ヒントイベントが発生する確率がアップ",
+        "en": "Increases probability of this card's Hint events.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 18
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "1": 5,
+        "30": 40,
+        "50": 50
+      },
+      "value_at_rarity_cap": 50,
+      "value_level": 50,
+      "raw_game_row": {
+        "id": 30043,
+        "type": 18,
+        "init": 5,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": 40,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": -1,
+        "limit_lv50": 50
+      }
+    },
+    {
+      "type_code": 19,
+      "name_text": {
+        "ja": "得意率アップ",
+        "en": "Specialty Rate Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 19
+        }
+      },
+      "description_text": {
+        "ja": "得意トレーニングに配置される確率がアップ",
+        "en": "Increases probability of appearing in training of this card's type.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 19
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "10": 5,
+        "25": 35,
+        "30": 35,
+        "45": 50
+      },
+      "value_at_rarity_cap": 50,
+      "value_level": 45,
+      "raw_game_row": {
+        "id": 30043,
+        "type": 19,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": 5,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": 35,
+        "limit_lv30": 35,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": 50,
+        "limit_lv50": -1
+      }
+    }
+  ],
+  "unique_effect_id": 30043,
+  "unique_effect_rows": [
+    {
+      "level_requirement_raw": 1,
+      "name_text": {
+        "ja": "43、8、1",
+        "en": "43, 8, 1",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 150,
+          "index": 30043
+        }
+      },
+      "description_text": {
+        "ja": "友情ボーナスと根性ボーナス",
+        "en": "Friendship and Guts bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 155,
+          "index": 30043
+        }
+      },
+      "components": [
+        {
+          "slot": 0,
+          "type_code": 1,
+          "values": [
+            10,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "slot": 1,
+          "type_code": 6,
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "idle_mode_sub_rate_raw": 0,
+      "raw_game_row": {
+        "id": 30043,
+        "lv": 1,
+        "type_0": 1,
+        "value_0": 10,
+        "value_0_1": 0,
+        "value_0_2": 0,
+        "value_0_3": 0,
+        "value_0_4": 0,
+        "type_1": 6,
+        "value_1": 1,
+        "value_1_1": 0,
+        "value_1_2": 0,
+        "value_1_3": 0,
+        "value_1_4": 0,
+        "idle_mode_sub_rate": 0
+      }
+    }
+  ],
+  "hint_id": 9081049,
+  "hints_and_rewards": [
+    {
+      "hint_row_id": 1282,
+      "hint_id": 9081049,
+      "hint_group": 1,
+      "hint_gain_type_raw": 0,
+      "skill_id": 200162,
+      "skill_name": "Bad Track Condition ○",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 200162,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1282,
+        "hint_id": 9081049,
+        "support_card_id": 30043,
+        "hint_group": 1,
+        "hint_gain_type": 0,
+        "hint_value_1": 200162,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1283,
+      "hint_id": 9081049,
+      "hint_group": 2,
+      "hint_gain_type_raw": 0,
+      "skill_id": 200302,
+      "skill_name": "Underdog ○",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 200302,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1283,
+        "hint_id": 9081049,
+        "support_card_id": 30043,
+        "hint_group": 2,
+        "hint_gain_type": 0,
+        "hint_value_1": 200302,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1284,
+      "hint_id": 9081049,
+      "hint_group": 3,
+      "hint_gain_type_raw": 0,
+      "skill_id": 200602,
+      "skill_name": "Between the Lines",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 200602,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1284,
+        "hint_id": 9081049,
+        "support_card_id": 30043,
+        "hint_group": 3,
+        "hint_gain_type": 0,
+        "hint_value_1": 200602,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1285,
+      "hint_id": 9081049,
+      "hint_group": 4,
+      "hint_gain_type_raw": 0,
+      "skill_id": 200612,
+      "skill_name": "Outside Pass Prep",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 200612,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1285,
+        "hint_id": 9081049,
+        "support_card_id": 30043,
+        "hint_group": 4,
+        "hint_gain_type": 0,
+        "hint_value_1": 200612,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1286,
+      "hint_id": 9081049,
+      "hint_group": 5,
+      "hint_gain_type_raw": 0,
+      "skill_id": 200732,
+      "skill_name": "Stand Your Ground",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 200732,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1286,
+        "hint_id": 9081049,
+        "support_card_id": 30043,
+        "hint_group": 5,
+        "hint_gain_type": 0,
+        "hint_value_1": 200732,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1287,
+      "hint_id": 9081049,
+      "hint_group": 6,
+      "hint_gain_type_raw": 0,
+      "skill_id": 201382,
+      "skill_name": "Betweener's Straights ○",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 201382,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1287,
+        "hint_id": 9081049,
+        "support_card_id": 30043,
+        "hint_group": 6,
+        "hint_gain_type": 0,
+        "hint_value_1": 201382,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1288,
+      "hint_id": 9081049,
+      "hint_group": 7,
+      "hint_gain_type_raw": 0,
+      "skill_id": 201442,
+      "skill_name": "Sharp Gaze",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 201442,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1288,
+        "hint_id": 9081049,
+        "support_card_id": 30043,
+        "hint_group": 7,
+        "hint_gain_type": 0,
+        "hint_value_1": 201442,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1289,
+      "hint_id": 9081049,
+      "hint_group": 8,
+      "hint_gain_type_raw": 0,
+      "skill_id": 201562,
+      "skill_name": "Lucky Seven",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 201562,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1289,
+        "hint_id": 9081049,
+        "support_card_id": 30043,
+        "hint_group": 8,
+        "hint_gain_type": 0,
+        "hint_value_1": 201562,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1290,
+      "hint_id": 9081049,
+      "hint_group": 9,
+      "hint_gain_type_raw": 0,
+      "skill_id": 201702,
+      "skill_name": "All I Have",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 201702,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1290,
+        "hint_id": 9081049,
+        "support_card_id": 30043,
+        "hint_group": 9,
+        "hint_gain_type": 0,
+        "hint_value_1": 201702,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1291,
+      "hint_id": 9081049,
+      "hint_group": 10,
+      "hint_gain_type_raw": 1,
+      "skill_id": null,
+      "skill_name": null,
+      "skill_ref_status": "not_a_skill_hint",
+      "hint_value_1_raw": 2,
+      "hint_value_2_raw": 6,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1291,
+        "hint_id": 9081049,
+        "support_card_id": 30043,
+        "hint_group": 10,
+        "hint_gain_type": 1,
+        "hint_value_1": 2,
+        "hint_value_2": 6,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1292,
+      "hint_id": 9081049,
+      "hint_group": 10,
+      "hint_gain_type_raw": 1,
+      "skill_id": null,
+      "skill_name": null,
+      "skill_ref_status": "not_a_skill_hint",
+      "hint_value_1_raw": 4,
+      "hint_value_2_raw": 2,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1292,
+        "hint_id": 9081049,
+        "support_card_id": 30043,
+        "hint_group": 10,
+        "hint_gain_type": 1,
+        "hint_value_1": 4,
+        "hint_value_2": 2,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    }
+  ],
+  "unresolved_hint_skill_ids": [],
+  "event_skill_ids_gametora": [
+    200042,
+    200052,
+    201591,
+    201701,
+    201702
+  ],
+  "event_skill_links_gametora": [
+    {
+      "skill_id": 200042,
+      "skill_name": "Nakayama Racecourse ○",
+      "ref_status": "resolved"
+    },
+    {
+      "skill_id": 200052,
+      "skill_name": "Hanshin Racecourse ○",
+      "ref_status": "resolved"
+    },
+    {
+      "skill_id": 201591,
+      "skill_name": "Big Fan",
+      "ref_status": "resolved"
+    },
+    {
+      "skill_id": 201701,
+      "skill_name": "Do or die",
+      "ref_status": "resolved"
+    },
+    {
+      "skill_id": 201702,
+      "skill_name": "All I Have",
+      "ref_status": "resolved"
+    }
+  ],
+  "gametora_hint_crosscheck": {
+    "status": "exact_id_match",
+    "local_hint_skill_ids": [
+      200162,
+      200302,
+      200602,
+      200612,
+      200732,
+      201382,
+      201442,
+      201562,
+      201702
+    ],
+    "gametora_hint_skill_ids": [
+      200162,
+      200302,
+      200602,
+      200612,
+      200732,
+      201382,
+      201442,
+      201562,
+      201702
+    ],
+    "gametora_only_skill_ids": [],
+    "local_only_skill_ids": []
+  },
+  "group_members": [],
+  "gametora": {
+    "id": 30043,
+    "url": "https://gametora.com/umamusume/supports/30043-nakayama-festa",
+    "url_candidate": "https://gametora.com/umamusume/supports/30043-nakayama-festa",
+    "url_name": "30043-nakayama-festa",
+    "mapping_status": "verified_full_id_set",
+    "source_data_version": "ecbd7dc3",
+    "reconciliation_note": "The complete local support ID set was compared with the versioned GameTora support-cards feed."
+  },
+  "source": {
+    "table": "support_card_data",
+    "row_id": 30043,
+    "effect_table": "support_card_effect_table",
+    "unique_effect_table": "support_card_unique_effect",
+    "hints_table": "single_mode_hint_gain",
+    "text_categories": [
+      75,
+      76,
+      6,
+      182,
+      151,
+      154,
+      150,
+      155
+    ],
+    "gametora_event_skills": "GameTora support-cards feed; source details are recorded in the catalog manifest."
+  },
+  "raw_game_row": {
+    "id": 30043,
+    "chara_id": 1049,
+    "rarity": 3,
+    "exchange_item_id": 50,
+    "exchange_item_num": 10,
+    "effect_table_id": 30043,
+    "unique_effect_id": 30043,
+    "command_type": 1,
+    "command_id": 105,
+    "support_card_type": 1,
+    "skill_set_id": 9081049,
+    "detail_pos_x": -1000000,
+    "detail_pos_y": -2740000,
+    "detail_scale": 12000,
+    "detail_rot_z": 0,
+    "start_date": 1634698800,
+    "disp_order": 1003404,
+    "outing_max": 0,
+    "effect_id": 0
+  },
+  "search_names": [
+    "[43、8、1]ナカヤマフェスタ",
+    "[43, 8, 1] Nakayama Festa",
+    "[43、8、1]",
+    "[43, 8, 1]",
+    "ナカヤマフェスタ",
+    "Nakayama Festa"
+  ],
+  "training_event_ids": [
+    5424,
+    5425,
+    5426,
+    5427
+  ],
+  "character_event_ids": [
+    5419,
+    5420,
+    5421,
+    9550,
+    9551,
+    9552,
+    9553,
+    9554,
+    9555,
+    9556,
+    9557,
+    9558,
+    9559,
+    9560,
+    9561,
+    9562,
+    9563,
+    9564,
+    9565,
+    9566,
+    9567,
+    9568,
+    9569,
+    9570,
+    9571,
+    9572,
+    9573,
+    9574,
+    9575,
+    9576,
+    9577,
+    9578,
+    9579,
+    9580,
+    9581,
+    9582,
+    9583,
+    9584,
+    9585,
+    9586,
+    9587,
+    9588,
+    9589,
+    9590,
+    9591,
+    9592,
+    9593,
+    9594,
+    9595,
+    9596,
+    9597,
+    9598,
+    9599,
+    9600,
+    9601,
+    9602,
+    9603,
+    9604,
+    9605,
+    9606,
+    9607,
+    9608,
+    9609,
+    9610,
+    9611,
+    9612,
+    9614,
+    9615,
+    9621,
+    9622,
+    9623,
+    9624,
+    9625,
+    9626,
+    9627,
+    9628,
+    9629,
+    9630,
+    9631,
+    9632,
+    9633,
+    9634,
+    9635,
+    9636,
+    9637,
+    9638,
+    9639,
+    9640,
+    9641,
+    9642,
+    9643,
+    17575,
+    17576,
+    17577,
+    17581,
+    17582,
+    17583,
+    19154,
+    19155,
+    19156,
+    19157,
+    19158,
+    19159,
+    19160,
+    19161,
+    19162,
+    20386,
+    6000277,
+    6000278,
+    6000279,
+    13000320,
+    13000321,
+    13000322,
+    13000707,
+    13000708,
+    13000709
+  ]
+}

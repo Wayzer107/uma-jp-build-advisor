@@ -1,0 +1,121 @@
+{
+  "id": 18023,
+  "kind": "race",
+  "kind_path": "races",
+  "server": "ja",
+  "course_set_id": 11402,
+  "course": {
+    "id": 11402,
+    "kind": "race_course",
+    "kind_path": "races/courses",
+    "server": "ja",
+    "track_id": 10104,
+    "track_data_raw": {
+      "id": 10104,
+      "initial_lane_type": 2,
+      "enable_half_gate": 0,
+      "horse_num_gate_variation": 1,
+      "turf_vision_type": 2,
+      "footsmoke_color_type": 2,
+      "area": 2,
+      "overrun_result_type": 0,
+      "flag_type": 1,
+      "gate_panel_type": 1,
+      "gate_lamp_type": 1,
+      "board_condition_type": 3,
+      "result_board_type": 0
+    },
+    "distance_m": 1600,
+    "ground_code_raw": 2,
+    "direction_code_raw": 1,
+    "turn_code_raw": 2,
+    "course_parameters_raw": {
+      "id": 11402,
+      "race_track_id": 10104,
+      "distance": 1600,
+      "ground": 2,
+      "inout": 1,
+      "turn": 2,
+      "tight_track": 1,
+      "run_outside": 0,
+      "ex_camera": 0,
+      "run_up": 0,
+      "fence_set": 11401,
+      "float_lane_max": 13500,
+      "course_set_status_id": 0,
+      "finish_time_min": 960000,
+      "finish_time_min_random_range": 10000,
+      "finish_time_max": 1080000,
+      "finish_time_max_random_range": 10000
+    },
+    "source": {
+      "table": "race_course_set",
+      "row_id": 11402
+    },
+    "search_names": []
+  },
+  "instances": [
+    {
+      "id": 682201,
+      "race_id": 18023,
+      "npc_group_id": 682201,
+      "date": 505,
+      "time": 2,
+      "clock_time": 0,
+      "race_number": 11
+    },
+    {
+      "id": 682211,
+      "race_id": 18023,
+      "npc_group_id": 682211,
+      "date": 505,
+      "time": 2,
+      "clock_time": 0,
+      "race_number": 11
+    },
+    {
+      "id": 682221,
+      "race_id": 18023,
+      "npc_group_id": 682221,
+      "date": 505,
+      "time": 2,
+      "clock_time": 0,
+      "race_number": 11
+    }
+  ],
+  "race_group_raw": 15,
+  "grade_raw": 100,
+  "start_date_jst": "2025-03-31",
+  "raw_game_row": {
+    "id": 18023,
+    "group": 15,
+    "grade": 100,
+    "course_set": 11402,
+    "thumbnail_id": 1109,
+    "ff_cue_name": "snd_mfx_1017_CL",
+    "ff_cuesheet_name": "snd_mfx_1017_CL",
+    "real_ff_cue_name": "snd_mfx_r_1017_CL",
+    "real_ff_cuesheet_name": "snd_mfx_r_1017_CL",
+    "ff_anim": 18023,
+    "ff_camera": 232,
+    "ff_camera_sub": 0,
+    "ff_sub": 0,
+    "start_gate": 104,
+    "start_gate_panel": 0,
+    "goal_gate": 1,
+    "goal_flower": 0,
+    "result_podium": -1,
+    "audience_group_id": 0,
+    "paddock_bg_id": 0,
+    "audience": 0,
+    "entry_num": 13,
+    "change_full_gate": 0,
+    "is_dirtgrade": 1,
+    "start_date": 1743390000
+  },
+  "source": {
+    "table": "race",
+    "row_id": 18023
+  },
+  "search_names": []
+}

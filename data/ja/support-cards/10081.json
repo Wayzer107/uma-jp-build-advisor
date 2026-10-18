@@ -1,0 +1,818 @@
+{
+  "id": 10081,
+  "kind": "support_card",
+  "kind_path": "support-cards",
+  "server": "ja",
+  "name": "[Tracen Academy] Tsurumaru Tsuyoshi",
+  "name_text": {
+    "ja": "[トレセン学園]ツルマルツヨシ",
+    "en": "[Tracen Academy] Tsurumaru Tsuyoshi",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 75,
+      "index": 10081
+    }
+  },
+  "title_text": {
+    "ja": "[トレセン学園]",
+    "en": "[Tracen Academy]",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 76,
+      "index": 10081
+    }
+  },
+  "character_id": 1073,
+  "character_name_text": {
+    "ja": "ツルマルツヨシ",
+    "en": "Tsurumaru Tsuyoshi",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 6,
+      "index": 1073
+    }
+  },
+  "rarity": 1,
+  "rarity_label": "R",
+  "support_type": "Guts",
+  "support_type_raw": {
+    "command_id": 103,
+    "support_card_type": 1
+  },
+  "release_date_jst": "2022-07-20",
+  "effect_table_id": 10081,
+  "effects": [
+    {
+      "type_code": 1,
+      "name_text": {
+        "ja": "友情ボーナス",
+        "en": "Friendship Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 1
+        }
+      },
+      "description_text": {
+        "ja": "友情トレーニング発生による効果アップ",
+        "en": "Increases the effectiveness of Friendship Training.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 1
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "1": 5,
+        "15": 10,
+        "20": 10,
+        "35": 15
+      },
+      "value_at_rarity_cap": 15,
+      "value_level": 35,
+      "raw_game_row": {
+        "id": 10081,
+        "type": 1,
+        "init": 5,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": 10,
+        "limit_lv20": 10,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": 15,
+        "limit_lv40": -1,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 2,
+      "name_text": {
+        "ja": "やる気効果アップ",
+        "en": "Motivation Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 2
+        }
+      },
+      "description_text": {
+        "ja": "一緒にトレーニングをしたときのやる気による効果アップ",
+        "en": "Amplifies the effect of motivation when training together.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 2
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "1": 10,
+        "20": 25,
+        "40": 35
+      },
+      "value_at_rarity_cap": 35,
+      "value_level": 40,
+      "raw_game_row": {
+        "id": 10081,
+        "type": 2,
+        "init": 10,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": 25,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": -1,
+        "limit_lv40": 35,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 6,
+      "name_text": {
+        "ja": "根性ボーナス",
+        "en": "Guts Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 6
+        }
+      },
+      "description_text": {
+        "ja": "一緒にトレーニングをすると根性の上昇量がアップ",
+        "en": "Increases Guts gained when training together.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 6
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "40": 1
+      },
+      "value_at_rarity_cap": 1,
+      "value_level": 40,
+      "raw_game_row": {
+        "id": 10081,
+        "type": 6,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": -1,
+        "limit_lv40": 1,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 14,
+      "name_text": {
+        "ja": "初期絆ゲージアップ",
+        "en": "Starting Friendship Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 14
+        }
+      },
+      "description_text": {
+        "ja": "育成開始時の初期絆ゲージがアップ",
+        "en": "Increases Friendship Gauge at the start of a Career.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 14
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "5": 10,
+        "15": 15,
+        "20": 15,
+        "35": 20
+      },
+      "value_at_rarity_cap": 20,
+      "value_level": 35,
+      "raw_game_row": {
+        "id": 10081,
+        "type": 14,
+        "init": -1,
+        "limit_lv5": 10,
+        "limit_lv10": -1,
+        "limit_lv15": 15,
+        "limit_lv20": 15,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": 20,
+        "limit_lv40": -1,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 17,
+      "name_text": {
+        "ja": "ヒントLvアップ",
+        "en": "Hint Lv. Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 17
+        }
+      },
+      "description_text": {
+        "ja": "ヒントイベントで得られるヒントLvがアップ",
+        "en": "Increases Hint level from this card's events.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 17
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "5": 1,
+        "15": 1,
+        "20": 1,
+        "35": 2
+      },
+      "value_at_rarity_cap": 2,
+      "value_level": 35,
+      "raw_game_row": {
+        "id": 10081,
+        "type": 17,
+        "init": -1,
+        "limit_lv5": 1,
+        "limit_lv10": -1,
+        "limit_lv15": 1,
+        "limit_lv20": 1,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": 2,
+        "limit_lv40": -1,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 18,
+      "name_text": {
+        "ja": "ヒント発生率アップ",
+        "en": "Hint Rate Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 18
+        }
+      },
+      "description_text": {
+        "ja": "ヒントイベントが発生する確率がアップ",
+        "en": "Increases probability of this card's Hint events.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 18
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "5": 5,
+        "15": 20,
+        "20": 20,
+        "35": 30
+      },
+      "value_at_rarity_cap": 30,
+      "value_level": 35,
+      "raw_game_row": {
+        "id": 10081,
+        "type": 18,
+        "init": -1,
+        "limit_lv5": 5,
+        "limit_lv10": -1,
+        "limit_lv15": 20,
+        "limit_lv20": 20,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": 30,
+        "limit_lv40": -1,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 19,
+      "name_text": {
+        "ja": "得意率アップ",
+        "en": "Specialty Rate Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 19
+        }
+      },
+      "description_text": {
+        "ja": "得意トレーニングに配置される確率がアップ",
+        "en": "Increases probability of appearing in training of this card's type.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 19
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "5": 5,
+        "15": 20,
+        "20": 20,
+        "35": 35
+      },
+      "value_at_rarity_cap": 35,
+      "value_level": 35,
+      "raw_game_row": {
+        "id": 10081,
+        "type": 19,
+        "init": -1,
+        "limit_lv5": 5,
+        "limit_lv10": -1,
+        "limit_lv15": 20,
+        "limit_lv20": 20,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": 35,
+        "limit_lv40": -1,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    }
+  ],
+  "unique_effect_id": 0,
+  "unique_effect_rows": [],
+  "hint_id": 9081073,
+  "hints_and_rewards": [
+    {
+      "hint_row_id": 1798,
+      "hint_id": 9081073,
+      "hint_group": 1,
+      "hint_gain_type_raw": 0,
+      "skill_id": 200302,
+      "skill_name": "Underdog ○",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 200302,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1798,
+        "hint_id": 9081073,
+        "support_card_id": 10081,
+        "hint_group": 1,
+        "hint_gain_type": 0,
+        "hint_value_1": 200302,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1799,
+      "hint_id": 9081073,
+      "hint_group": 2,
+      "hint_gain_type_raw": 0,
+      "skill_id": 200722,
+      "skill_name": "Uptempo",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 200722,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1799,
+        "hint_id": 9081073,
+        "support_card_id": 10081,
+        "hint_group": 2,
+        "hint_gain_type": 0,
+        "hint_value_1": 200722,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1800,
+      "hint_id": 9081073,
+      "hint_group": 3,
+      "hint_gain_type_raw": 0,
+      "skill_id": 202032,
+      "skill_name": "Questionable Strategy",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 202032,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1800,
+        "hint_id": 9081073,
+        "support_card_id": 10081,
+        "hint_group": 3,
+        "hint_gain_type": 0,
+        "hint_value_1": 202032,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1801,
+      "hint_id": 9081073,
+      "hint_group": 4,
+      "hint_gain_type_raw": 0,
+      "skill_id": 202092,
+      "skill_name": "Fighting Spirit",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 202092,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1801,
+        "hint_id": 9081073,
+        "support_card_id": 10081,
+        "hint_group": 4,
+        "hint_gain_type": 0,
+        "hint_value_1": 202092,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1802,
+      "hint_id": 9081073,
+      "hint_group": 5,
+      "hint_gain_type_raw": 0,
+      "skill_id": 202152,
+      "skill_name": "Full Throttle",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 202152,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1802,
+        "hint_id": 9081073,
+        "support_card_id": 10081,
+        "hint_group": 5,
+        "hint_gain_type": 0,
+        "hint_value_1": 202152,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1803,
+      "hint_id": 9081073,
+      "hint_group": 6,
+      "hint_gain_type_raw": 1,
+      "skill_id": null,
+      "skill_name": null,
+      "skill_ref_status": "not_a_skill_hint",
+      "hint_value_1_raw": 1,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1803,
+        "hint_id": 9081073,
+        "support_card_id": 10081,
+        "hint_group": 6,
+        "hint_gain_type": 1,
+        "hint_value_1": 1,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1804,
+      "hint_id": 9081073,
+      "hint_group": 6,
+      "hint_gain_type_raw": 1,
+      "skill_id": null,
+      "skill_name": null,
+      "skill_ref_status": "not_a_skill_hint",
+      "hint_value_1_raw": 3,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1804,
+        "hint_id": 9081073,
+        "support_card_id": 10081,
+        "hint_group": 6,
+        "hint_gain_type": 1,
+        "hint_value_1": 3,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1805,
+      "hint_id": 9081073,
+      "hint_group": 6,
+      "hint_gain_type_raw": 1,
+      "skill_id": null,
+      "skill_name": null,
+      "skill_ref_status": "not_a_skill_hint",
+      "hint_value_1_raw": 4,
+      "hint_value_2_raw": 6,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1805,
+        "hint_id": 9081073,
+        "support_card_id": 10081,
+        "hint_group": 6,
+        "hint_gain_type": 1,
+        "hint_value_1": 4,
+        "hint_value_2": 6,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    }
+  ],
+  "unresolved_hint_skill_ids": [],
+  "event_skill_ids_gametora": [
+    201402
+  ],
+  "event_skill_links_gametora": [
+    {
+      "skill_id": 201402,
+      "skill_name": "Hard Worker",
+      "ref_status": "resolved"
+    }
+  ],
+  "gametora_hint_crosscheck": {
+    "status": "exact_id_match",
+    "local_hint_skill_ids": [
+      200302,
+      200722,
+      202032,
+      202092,
+      202152
+    ],
+    "gametora_hint_skill_ids": [
+      200302,
+      200722,
+      202032,
+      202092,
+      202152
+    ],
+    "gametora_only_skill_ids": [],
+    "local_only_skill_ids": []
+  },
+  "group_members": [],
+  "gametora": {
+    "id": 10081,
+    "url": "https://gametora.com/umamusume/supports/10081-tsurumaru-tsuyoshi",
+    "url_candidate": "https://gametora.com/umamusume/supports/10081-tsurumaru-tsuyoshi",
+    "url_name": "10081-tsurumaru-tsuyoshi",
+    "mapping_status": "verified_full_id_set",
+    "source_data_version": "ecbd7dc3",
+    "reconciliation_note": "The complete local support ID set was compared with the versioned GameTora support-cards feed."
+  },
+  "source": {
+    "table": "support_card_data",
+    "row_id": 10081,
+    "effect_table": "support_card_effect_table",
+    "unique_effect_table": "support_card_unique_effect",
+    "hints_table": "single_mode_hint_gain",
+    "text_categories": [
+      75,
+      76,
+      6,
+      182,
+      151,
+      154,
+      150,
+      155
+    ],
+    "gametora_event_skills": "GameTora support-cards feed; source details are recorded in the catalog manifest."
+  },
+  "raw_game_row": {
+    "id": 10081,
+    "chara_id": 1073,
+    "rarity": 1,
+    "exchange_item_id": 48,
+    "exchange_item_num": 10,
+    "effect_table_id": 10081,
+    "unique_effect_id": 0,
+    "command_type": 1,
+    "command_id": 103,
+    "support_card_type": 1,
+    "skill_set_id": 9081073,
+    "detail_pos_x": 0,
+    "detail_pos_y": -650000,
+    "detail_scale": 10000,
+    "detail_rot_z": 0,
+    "start_date": 1658286000,
+    "disp_order": 1006601,
+    "outing_max": 0,
+    "effect_id": 0
+  },
+  "search_names": [
+    "[トレセン学園]ツルマルツヨシ",
+    "[Tracen Academy] Tsurumaru Tsuyoshi",
+    "[トレセン学園]",
+    "[Tracen Academy]",
+    "ツルマルツヨシ",
+    "Tsurumaru Tsuyoshi"
+  ],
+  "training_event_ids": [],
+  "character_event_ids": [
+    7754,
+    7755,
+    7756,
+    14704,
+    14705,
+    14706,
+    14707,
+    14708,
+    14709,
+    14710,
+    14711,
+    14712,
+    14713,
+    14714,
+    14715,
+    14716,
+    14717,
+    14718,
+    14719,
+    14720,
+    14721,
+    14722,
+    14723,
+    14724,
+    14725,
+    14726,
+    14727,
+    14728,
+    14729,
+    14730,
+    14731,
+    14732,
+    14733,
+    14734,
+    14735,
+    14736,
+    14737,
+    14738,
+    14739,
+    14740,
+    14741,
+    14742,
+    14743,
+    14744,
+    14745,
+    14746,
+    14747,
+    14748,
+    14749,
+    14750,
+    14751,
+    14752,
+    14753,
+    14754,
+    14755,
+    14756,
+    14757,
+    14758,
+    14759,
+    14760,
+    14761,
+    14762,
+    14763,
+    14764,
+    14765,
+    14766,
+    14768,
+    14769,
+    14775,
+    14776,
+    14777,
+    14778,
+    14779,
+    14780,
+    14781,
+    14782,
+    14783,
+    14784,
+    14785,
+    14786,
+    14787,
+    14788,
+    14789,
+    14790,
+    14791,
+    14792,
+    14793,
+    14794,
+    14795,
+    14796,
+    14797,
+    14798,
+    14799,
+    14800,
+    14801,
+    14802,
+    14803,
+    14804,
+    14805,
+    14806,
+    14807,
+    14808,
+    19370,
+    19371,
+    19372,
+    19373,
+    19374,
+    19375,
+    19376,
+    19377,
+    19378,
+    6000511,
+    6000512,
+    6000513,
+    13000605,
+    13000606,
+    13000607
+  ]
+}

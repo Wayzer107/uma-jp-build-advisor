@@ -21,8 +21,11 @@ node_modules/
 dist/
 mcp-server/dist/
 mcp-server/node_modules/
+!plugin-package/uma-build-advisor/mcp-server/dist/
+!plugin-package/uma-build-advisor/mcp-server/dist/**
 
 # Workspaces and progress notes.
 .worktrees/
+.staging/
 .superpowers/sdd/
 .serena/

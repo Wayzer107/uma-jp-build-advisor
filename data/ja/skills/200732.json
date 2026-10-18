@@ -1,0 +1,392 @@
+{
+  "id": 200732,
+  "kind": "skill",
+  "kind_path": "skills",
+  "name": "Stand Your Ground",
+  "name_text": {
+    "ja": "食い下がり",
+    "en": "Stand Your Ground",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 47,
+      "index": 200732
+    }
+  },
+  "description_text": {
+    "ja": "最終コーナー以降に詰め寄られると\\n速度がわずかに上がり、加速力が\\nほんのちょっと上がる＜中距離＞",
+    "en": "Medium・If someone has been trying to overtake you during the Final Corner or later, your speed and acceleration will slightly increase.",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 48,
+      "index": 200732
+    }
+  },
+  "rarity": 1,
+  "category_code": 3,
+  "group_id": 20073,
+  "grade_value_raw": 217,
+  "display_order": 2690,
+  "activation": {
+    "precondition_1": "",
+    "condition_1": "distance_type==3&is_finalcorner==1&overtake_target_time>=2",
+    "precondition_2": "",
+    "condition_2": ""
+  },
+  "effect_components_raw": {
+    "float_ability_time_1": 30000,
+    "ability_time_usage_1": 1,
+    "ability_type_1_1": 27,
+    "ability_value_usage_1_1": 1,
+    "additional_activate_type_1_1": 0,
+    "ability_value_level_usage_1_1": 1,
+    "float_ability_value_1_1": 1500,
+    "target_type_1_1": 1,
+    "target_value_1_1": 0,
+    "ability_type_1_2": 31,
+    "ability_value_usage_1_2": 1,
+    "additional_activate_type_1_2": 0,
+    "ability_value_level_usage_1_2": 1,
+    "float_ability_value_1_2": 500,
+    "target_type_1_2": 1,
+    "target_value_1_2": 0,
+    "ability_type_1_3": 0,
+    "ability_value_usage_1_3": 1,
+    "additional_activate_type_1_3": 0,
+    "ability_value_level_usage_1_3": 1,
+    "float_ability_value_1_3": 0,
+    "target_type_1_3": 0,
+    "target_value_1_3": 0,
+    "float_ability_time_2": 0,
+    "ability_time_usage_2": 1,
+    "ability_type_2_1": 0,
+    "ability_value_usage_2_1": 1,
+    "additional_activate_type_2_1": 0,
+    "ability_value_level_usage_2_1": 1,
+    "float_ability_value_2_1": 0,
+    "target_type_2_1": 0,
+    "target_value_2_1": 0,
+    "ability_type_2_2": 0,
+    "ability_value_usage_2_2": 1,
+    "additional_activate_type_2_2": 0,
+    "ability_value_level_usage_2_2": 1,
+    "float_ability_value_2_2": 0,
+    "target_type_2_2": 0,
+    "target_value_2_2": 0,
+    "ability_type_2_3": 0,
+    "ability_value_usage_2_3": 1,
+    "additional_activate_type_2_3": 0,
+    "ability_value_level_usage_2_3": 1,
+    "float_ability_value_2_3": 0,
+    "target_type_2_3": 0,
+    "target_value_2_3": 0,
+    "popularity_add_param_1": 1,
+    "popularity_add_value_1": 20,
+    "popularity_add_param_2": 0,
+    "popularity_add_value_2": 0
+  },
+  "related_ids": {
+    "unique_skill_id_1": 0,
+    "unique_skill_id_2": 0,
+    "tag_id": "203/303/401/403"
+  },
+  "raw_game_row": {
+    "id": 200732,
+    "rarity": 1,
+    "group_id": 20073,
+    "group_rate": 1,
+    "filter_switch": 0,
+    "grade_value": 217,
+    "skill_category": 3,
+    "tag_id": "203/303/401/403",
+    "unique_skill_id_1": 0,
+    "unique_skill_id_2": 0,
+    "exp_type": 0,
+    "potential_per_default": 10,
+    "activate_lot": 1,
+    "priority": 0,
+    "precondition_1": "",
+    "condition_1": "distance_type==3&is_finalcorner==1&overtake_target_time>=2",
+    "float_ability_time_1": 30000,
+    "ability_time_usage_1": 1,
+    "float_cooldown_time_1": 5000000,
+    "ability_type_1_1": 27,
+    "ability_value_usage_1_1": 1,
+    "additional_activate_type_1_1": 0,
+    "ability_value_level_usage_1_1": 1,
+    "float_ability_value_1_1": 1500,
+    "target_type_1_1": 1,
+    "target_value_1_1": 0,
+    "ability_type_1_2": 31,
+    "ability_value_usage_1_2": 1,
+    "additional_activate_type_1_2": 0,
+    "ability_value_level_usage_1_2": 1,
+    "float_ability_value_1_2": 500,
+    "target_type_1_2": 1,
+    "target_value_1_2": 0,
+    "ability_type_1_3": 0,
+    "ability_value_usage_1_3": 1,
+    "additional_activate_type_1_3": 0,
+    "ability_value_level_usage_1_3": 1,
+    "float_ability_value_1_3": 0,
+    "target_type_1_3": 0,
+    "target_value_1_3": 0,
+    "precondition_2": "",
+    "condition_2": "",
+    "float_ability_time_2": 0,
+    "ability_time_usage_2": 1,
+    "float_cooldown_time_2": 0,
+    "ability_type_2_1": 0,
+    "ability_value_usage_2_1": 1,
+    "additional_activate_type_2_1": 0,
+    "ability_value_level_usage_2_1": 1,
+    "float_ability_value_2_1": 0,
+    "target_type_2_1": 0,
+    "target_value_2_1": 0,
+    "ability_type_2_2": 0,
+    "ability_value_usage_2_2": 1,
+    "additional_activate_type_2_2": 0,
+    "ability_value_level_usage_2_2": 1,
+    "float_ability_value_2_2": 0,
+    "target_type_2_2": 0,
+    "target_value_2_2": 0,
+    "ability_type_2_3": 0,
+    "ability_value_usage_2_3": 1,
+    "additional_activate_type_2_3": 0,
+    "ability_value_level_usage_2_3": 1,
+    "float_ability_value_2_3": 0,
+    "target_type_2_3": 0,
+    "target_value_2_3": 0,
+    "popularity_add_param_1": 1,
+    "popularity_add_value_1": 20,
+    "popularity_add_param_2": 0,
+    "popularity_add_value_2": 0,
+    "disp_order": 2690,
+    "icon_id": 20011,
+    "plate_type": 0,
+    "disable_singlemode": 0,
+    "disable_count_condition": 0,
+    "is_general_skill": 1,
+    "greater_value_skill_detail": 0,
+    "start_date": 1483196400,
+    "end_date": 2524575600
+  },
+  "source": {
+    "table": "skill_data",
+    "row_id": 200732
+  },
+  "search_names": [
+    "食い下がり",
+    "Stand Your Ground"
+  ],
+  "acquisition_sources": [
+    {
+      "kind": "support_card_hint",
+      "id": 10001,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10034,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10035,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10046,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10057,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10062,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10067,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10091,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10123,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10147,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20011,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20018,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20030,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20043,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20074,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20083,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20084,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20099,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30001,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30011,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30025,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30030,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30031,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30038,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30041,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30043,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30070,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30108,
+      "hint_group": 6
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30135,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30148,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30165,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30169,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30181,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30310,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30313,
+      "hint_group": 3
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 100101,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 101201,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 103501,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 106902,
+      "need_rank": 2
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 107201,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 110401,
+      "need_rank": 4
+    }
+  ]
+}

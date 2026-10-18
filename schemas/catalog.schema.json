@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Wayzer107/uma-jp-build-advisor/blob/main/schemas/catalog.schema.json",
+  "title": "Umamusume Build Advisor Catalog Record or Manifest",
+  "description": "Shared schema for addressable static game records and server catalog manifests. Inventory data is never valid catalog content.",
+  "oneOf": [
+    { "$ref": "#/$defs/catalogRecord" },
+    { "$ref": "#/$defs/manifest" }
+  ],
+  "$defs": {
+    "server": {
+      "type": "string",
+      "enum": ["ja", "global"]
+    },
+    "source": {
+      "type": "object",
+      "description": "Source provenance. Record fields must retain table/key or source URL provenance.",
+      "properties": {
+        "table": { "type": "string" },
+        "row_id": { "type": ["integer", "string"] },
+        "url": { "type": "string", "format": "uri" },
+        "accessed_at": { "type": "string", "format": "date-time" }
+      },
+      "additionalProperties": true
+    },
+    "localizedText": {
+      "type": "object",
+      "required": ["ja", "en", "en_status", "en_source"],
+      "properties": {
+        "ja": { "type": ["string", "null"] },
+        "en": { "type": ["string", "null"] },
+        "en_status": { "type": "string", "enum": ["translated", "unavailable"] },
+        "en_source": { "type": ["object", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "catalogRecord": {
+      "type": "object",
+      "required": ["id", "kind", "server", "source"],
+      "properties": {
+        "schema_version": { "type": "integer", "minimum": 1 },
+        "id": { "type": ["integer", "string"] },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "support_card",
+            "trainee_outfit",
+            "skill",
+            "training_event",
+            "scenario",
+            "race",
+            "race_course",
+            "race_condition",
+            "inheritance_factor"
+          ]
+        },
+        "kind_path": { "type": "string" },
+        "server": { "$ref": "#/$defs/server" },
+        "name": { "type": ["string", "null"] },
+        "name_text": { "$ref": "#/$defs/localizedText" },
+        "title_text": { "$ref": "#/$defs/localizedText" },
+        "description_text": { "$ref": "#/$defs/localizedText" },
+        "source": { "$ref": "#/$defs/source" },
+        "raw_game_row": { "type": "object" },
+        "search_names": { "type": "array", "items": { "type": ["string", "null"] } },
+        "gametora": { "type": "object" }
+      },
+      "additionalProperties": true
+    },
+    "coverage": {
+      "type": "string",
+      "enum": ["complete", "incomplete", "source_unavailable"]
+    },
+    "manifest": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "server",
+        "generated_at_utc",
+        "coverage_status",
+        "source",
+        "counts",
+        "field_coverage",
+        "unresolved_links",
+        "unavailable_fields",
+        "indexes",
+        "generated_files"
+      ],
+      "properties": {
+        "schema_version": { "type": "integer", "minimum": 1 },
+        "server": { "$ref": "#/$defs/server" },
+        "generated_at_utc": { "type": "string", "format": "date-time" },
+        "coverage_status": { "$ref": "#/$defs/coverage" },
+        "source": { "type": "object" },
+        "counts": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 0 } },
+        "source_counts": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 0 } },
+        "field_coverage": { "type": "object" },
+        "translation_coverage": { "type": "object" },
+        "unresolved_links": { "type": "object" },
+        "unavailable_fields": { "type": "array" },
+        "indexes": { "type": "object", "additionalProperties": { "type": "string" } },
+        "generated_files": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": true
+    }
+  }
+}

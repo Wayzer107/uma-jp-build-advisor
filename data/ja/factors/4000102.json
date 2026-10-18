@@ -1,0 +1,40 @@
+{
+  "id": 4000102,
+  "kind": "inheritance_factor",
+  "kind_path": "factors",
+  "server": "ja",
+  "factor_group_id": 40002,
+  "factor_type_raw": 7,
+  "rarity": 1,
+  "grade": 1,
+  "effect_group_id": 0,
+  "hidden": false,
+  "start_date_jst": "2022-04-15",
+  "end_date_jst": "2022-04-22",
+  "effects_raw": [
+    {
+      "id": 1510,
+      "factor_group_id": 40002,
+      "effect_id": 1,
+      "target_type": 51,
+      "value_1": 1000012,
+      "value_2": 1
+    }
+  ],
+  "raw_game_row": {
+    "factor_id": 4000102,
+    "factor_group_id": 40002,
+    "rarity": 1,
+    "grade": 1,
+    "factor_type": 7,
+    "effect_group_id": 0,
+    "succession_search_hidden": 0,
+    "start_date": 1649991600,
+    "end_date": 1650596399
+  },
+  "source": {
+    "table": "succession_factor",
+    "row_id": 4000102
+  },
+  "search_names": []
+}

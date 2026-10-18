@@ -1,0 +1,813 @@
+{
+  "id": 20040,
+  "kind": "support_card",
+  "kind_path": "support-cards",
+  "server": "ja",
+  "name": "[Pulse-Quickening Cooldown] Mejiro Ryan",
+  "name_text": {
+    "ja": "[鼓動が速まるクールダウン]メジロライアン",
+    "en": "[Pulse-Quickening Cooldown] Mejiro Ryan",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 75,
+      "index": 20040
+    }
+  },
+  "title_text": {
+    "ja": "[鼓動が速まるクールダウン]",
+    "en": "[Pulse-Quickening Cooldown]",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 76,
+      "index": 20040
+    }
+  },
+  "character_id": 1027,
+  "character_name_text": {
+    "ja": "メジロライアン",
+    "en": "Mejiro Ryan",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 6,
+      "index": 1027
+    }
+  },
+  "rarity": 2,
+  "rarity_label": "SR",
+  "support_type": "Stamina",
+  "support_type_raw": {
+    "command_id": 105,
+    "support_card_type": 1
+  },
+  "release_date_jst": "2022-02-24",
+  "effect_table_id": 20040,
+  "effects": [
+    {
+      "type_code": 1,
+      "name_text": {
+        "ja": "友情ボーナス",
+        "en": "Friendship Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 1
+        }
+      },
+      "description_text": {
+        "ja": "友情トレーニング発生による効果アップ",
+        "en": "Increases the effectiveness of Friendship Training.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 1
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "1": 10,
+        "20": 15,
+        "25": 15,
+        "40": 20
+      },
+      "value_at_rarity_cap": 20,
+      "value_level": 40,
+      "raw_game_row": {
+        "id": 20040,
+        "type": 1,
+        "init": 10,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": 15,
+        "limit_lv25": 15,
+        "limit_lv30": -1,
+        "limit_lv35": -1,
+        "limit_lv40": 20,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 2,
+      "name_text": {
+        "ja": "やる気効果アップ",
+        "en": "Motivation Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 2
+        }
+      },
+      "description_text": {
+        "ja": "一緒にトレーニングをしたときのやる気による効果アップ",
+        "en": "Amplifies the effect of motivation when training together.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 2
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "1": 10,
+        "25": 40,
+        "45": 50
+      },
+      "value_at_rarity_cap": 50,
+      "value_level": 45,
+      "raw_game_row": {
+        "id": 20040,
+        "type": 2,
+        "init": 10,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": 40,
+        "limit_lv30": -1,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": 50,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 4,
+      "name_text": {
+        "ja": "スタミナボーナス",
+        "en": "Stamina Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 4
+        }
+      },
+      "description_text": {
+        "ja": "一緒にトレーニングをするとスタミナの上昇量がアップ",
+        "en": "Increases Stamina gained when training together.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 4
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "45": 1
+      },
+      "value_at_rarity_cap": 1,
+      "value_level": 45,
+      "raw_game_row": {
+        "id": 20040,
+        "type": 4,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": 1,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 14,
+      "name_text": {
+        "ja": "初期絆ゲージアップ",
+        "en": "Starting Friendship Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 14
+        }
+      },
+      "description_text": {
+        "ja": "育成開始時の初期絆ゲージがアップ",
+        "en": "Increases Friendship Gauge at the start of a Career.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 14
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "30": 10,
+        "40": 20
+      },
+      "value_at_rarity_cap": 20,
+      "value_level": 40,
+      "raw_game_row": {
+        "id": 20040,
+        "type": 14,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": 10,
+        "limit_lv35": -1,
+        "limit_lv40": 20,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 15,
+      "name_text": {
+        "ja": "レースボーナス",
+        "en": "Race Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 15
+        }
+      },
+      "description_text": {
+        "ja": "レースに出走した結果で得られるステータスの上昇量がアップ",
+        "en": "Increases stats and Skill Pt gained from races.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 15
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "1": 1,
+        "25": 5,
+        "45": 5
+      },
+      "value_at_rarity_cap": 5,
+      "value_level": 45,
+      "raw_game_row": {
+        "id": 20040,
+        "type": 15,
+        "init": 1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": 5,
+        "limit_lv30": -1,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": 5,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 16,
+      "name_text": {
+        "ja": "ファン数ボーナス",
+        "en": "Fan Count Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 16
+        }
+      },
+      "description_text": {
+        "ja": "レースに出走した結果で得られるファンの上昇量がアップ",
+        "en": "Increases fans gained from races.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 16
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "1": 1,
+        "25": 10,
+        "45": 15
+      },
+      "value_at_rarity_cap": 15,
+      "value_level": 45,
+      "raw_game_row": {
+        "id": 20040,
+        "type": 16,
+        "init": 1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": 10,
+        "limit_lv30": -1,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": 15,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 19,
+      "name_text": {
+        "ja": "得意率アップ",
+        "en": "Specialty Rate Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 19
+        }
+      },
+      "description_text": {
+        "ja": "得意トレーニングに配置される確率がアップ",
+        "en": "Increases probability of appearing in training of this card's type.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 19
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "10": 5,
+        "20": 20,
+        "25": 20,
+        "40": 35
+      },
+      "value_at_rarity_cap": 35,
+      "value_level": 40,
+      "raw_game_row": {
+        "id": 20040,
+        "type": 19,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": 5,
+        "limit_lv15": -1,
+        "limit_lv20": 20,
+        "limit_lv25": 20,
+        "limit_lv30": -1,
+        "limit_lv35": -1,
+        "limit_lv40": 35,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    }
+  ],
+  "unique_effect_id": 20040,
+  "unique_effect_rows": [
+    {
+      "level_requirement_raw": 1,
+      "name_text": {
+        "ja": "鼓動が速まるクールダウン",
+        "en": "Pulse-Quickening Cooldown",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 150,
+          "index": 20040
+        }
+      },
+      "description_text": {
+        "ja": "友情ボーナスと根性ボーナス",
+        "en": "Friendship and Guts bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 155,
+          "index": 20040
+        }
+      },
+      "components": [
+        {
+          "slot": 0,
+          "type_code": 1,
+          "values": [
+            10,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "slot": 1,
+          "type_code": 6,
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "idle_mode_sub_rate_raw": 0,
+      "raw_game_row": {
+        "id": 20040,
+        "lv": 1,
+        "type_0": 1,
+        "value_0": 10,
+        "value_0_1": 0,
+        "value_0_2": 0,
+        "value_0_3": 0,
+        "value_0_4": 0,
+        "type_1": 6,
+        "value_1": 1,
+        "value_1_1": 0,
+        "value_1_2": 0,
+        "value_1_3": 0,
+        "value_1_4": 0,
+        "idle_mode_sub_rate": 0
+      }
+    }
+  ],
+  "hint_id": 9081027,
+  "hints_and_rewards": [
+    {
+      "hint_row_id": 1549,
+      "hint_id": 9081027,
+      "hint_group": 1,
+      "hint_gain_type_raw": 0,
+      "skill_id": 200602,
+      "skill_name": "Between the Lines",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 200602,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1549,
+        "hint_id": 9081027,
+        "support_card_id": 20040,
+        "hint_group": 1,
+        "hint_gain_type": 0,
+        "hint_value_1": 200602,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1550,
+      "hint_id": 9081027,
+      "hint_group": 2,
+      "hint_gain_type_raw": 0,
+      "skill_id": 200722,
+      "skill_name": "Uptempo",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 200722,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1550,
+        "hint_id": 9081027,
+        "support_card_id": 20040,
+        "hint_group": 2,
+        "hint_gain_type": 0,
+        "hint_value_1": 200722,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1551,
+      "hint_id": 9081027,
+      "hint_group": 3,
+      "hint_gain_type_raw": 0,
+      "skill_id": 201102,
+      "skill_name": "Medium Distance Straights ○",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 201102,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1551,
+        "hint_id": 9081027,
+        "support_card_id": 20040,
+        "hint_group": 3,
+        "hint_gain_type": 0,
+        "hint_value_1": 201102,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1552,
+      "hint_id": 9081027,
+      "hint_group": 4,
+      "hint_gain_type_raw": 1,
+      "skill_id": null,
+      "skill_name": null,
+      "skill_ref_status": "not_a_skill_hint",
+      "hint_value_1_raw": 2,
+      "hint_value_2_raw": 6,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1552,
+        "hint_id": 9081027,
+        "support_card_id": 20040,
+        "hint_group": 4,
+        "hint_gain_type": 1,
+        "hint_value_1": 2,
+        "hint_value_2": 6,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 1553,
+      "hint_id": 9081027,
+      "hint_group": 4,
+      "hint_gain_type_raw": 1,
+      "skill_id": null,
+      "skill_name": null,
+      "skill_ref_status": "not_a_skill_hint",
+      "hint_value_1_raw": 4,
+      "hint_value_2_raw": 2,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 1553,
+        "hint_id": 9081027,
+        "support_card_id": 20040,
+        "hint_group": 4,
+        "hint_gain_type": 1,
+        "hint_value_1": 4,
+        "hint_value_2": 2,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    }
+  ],
+  "unresolved_hint_skill_ids": [],
+  "event_skill_ids_gametora": [
+    200472,
+    201382
+  ],
+  "event_skill_links_gametora": [
+    {
+      "skill_id": 200472,
+      "skill_name": "Pace Keep",
+      "ref_status": "resolved"
+    },
+    {
+      "skill_id": 201382,
+      "skill_name": "Betweener's Straights ○",
+      "ref_status": "resolved"
+    }
+  ],
+  "gametora_hint_crosscheck": {
+    "status": "exact_id_match",
+    "local_hint_skill_ids": [
+      200602,
+      200722,
+      201102
+    ],
+    "gametora_hint_skill_ids": [
+      200602,
+      200722,
+      201102
+    ],
+    "gametora_only_skill_ids": [],
+    "local_only_skill_ids": []
+  },
+  "group_members": [],
+  "gametora": {
+    "id": 20040,
+    "url": "https://gametora.com/umamusume/supports/20040-mejiro-ryan",
+    "url_candidate": "https://gametora.com/umamusume/supports/20040-mejiro-ryan",
+    "url_name": "20040-mejiro-ryan",
+    "mapping_status": "verified_full_id_set",
+    "source_data_version": "ecbd7dc3",
+    "reconciliation_note": "The complete local support ID set was compared with the versioned GameTora support-cards feed."
+  },
+  "source": {
+    "table": "support_card_data",
+    "row_id": 20040,
+    "effect_table": "support_card_effect_table",
+    "unique_effect_table": "support_card_unique_effect",
+    "hints_table": "single_mode_hint_gain",
+    "text_categories": [
+      75,
+      76,
+      6,
+      182,
+      151,
+      154,
+      150,
+      155
+    ],
+    "gametora_event_skills": "GameTora support-cards feed; source details are recorded in the catalog manifest."
+  },
+  "raw_game_row": {
+    "id": 20040,
+    "chara_id": 1027,
+    "rarity": 2,
+    "exchange_item_id": 49,
+    "exchange_item_num": 10,
+    "effect_table_id": 20040,
+    "unique_effect_id": 20040,
+    "command_type": 1,
+    "command_id": 105,
+    "support_card_type": 1,
+    "skill_set_id": 9081027,
+    "detail_pos_x": 0,
+    "detail_pos_y": -2250000,
+    "detail_scale": 11500,
+    "detail_rot_z": 0,
+    "start_date": 1645671600,
+    "disp_order": 1005103,
+    "outing_max": 0,
+    "effect_id": 0
+  },
+  "search_names": [
+    "[鼓動が速まるクールダウン]メジロライアン",
+    "[Pulse-Quickening Cooldown] Mejiro Ryan",
+    "[鼓動が速まるクールダウン]",
+    "[Pulse-Quickening Cooldown]",
+    "メジロライアン",
+    "Mejiro Ryan"
+  ],
+  "training_event_ids": [
+    6529,
+    6530
+  ],
+  "character_event_ids": [
+    47,
+    77,
+    107,
+    137,
+    167,
+    197,
+    257,
+    287,
+    317,
+    347,
+    377,
+    407,
+    437,
+    467,
+    497,
+    534,
+    564,
+    594,
+    624,
+    654,
+    684,
+    714,
+    744,
+    774,
+    804,
+    834,
+    864,
+    894,
+    924,
+    954,
+    984,
+    1014,
+    1044,
+    1074,
+    1104,
+    1134,
+    1164,
+    1194,
+    1224,
+    1254,
+    1284,
+    1314,
+    1344,
+    1374,
+    1404,
+    1434,
+    1464,
+    1494,
+    1524,
+    1554,
+    1614,
+    1644,
+    1854,
+    1884,
+    1914,
+    1944,
+    1974,
+    2088,
+    2089,
+    2212,
+    2640,
+    2641,
+    2642,
+    2643,
+    2644,
+    2645,
+    2646,
+    2647,
+    2648,
+    2649,
+    2650,
+    2651,
+    2652,
+    2653,
+    2654,
+    2655,
+    2656,
+    2657,
+    2658,
+    2659,
+    2660,
+    2712,
+    2713,
+    2714,
+    2715,
+    2716,
+    2769,
+    2772,
+    3127,
+    3157,
+    3187,
+    3217,
+    3310,
+    3340,
+    6026,
+    6183,
+    9015,
+    10118,
+    10119,
+    10120,
+    18965,
+    18966,
+    18967,
+    18968,
+    18969,
+    18970,
+    18971,
+    18972,
+    18973,
+    6000017,
+    6000043,
+    6000069,
+    6000307,
+    6000308,
+    6000309,
+    13000017,
+    13000043,
+    13000069,
+    13000350,
+    13000351,
+    13000352
+  ]
+}

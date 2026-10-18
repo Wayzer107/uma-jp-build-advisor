@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Wayzer107/uma-jp-build-advisor/blob/main/schemas/build-recommendation.schema.json",
+  "title": "Umamusume build recommendation",
+  "type": "object",
+  "required": ["server", "scenario", "target", "generated_at", "evidence_checked_at", "trainee", "deck", "legacy_candidates", "stat_priorities", "skill_priorities", "alternatives", "assumptions", "confidence", "sources"],
+  "properties": {
+    "server": { "enum": ["ja", "global"] },
+    "scenario": { "type": "string" },
+    "target": { "type": "string" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "evidence_checked_at": { "type": "string", "format": "date-time" },
+    "trainee": { "$ref": "#/$defs/trainee" },
+    "deck": { "type": "array", "minItems": 6, "maxItems": 6, "items": { "$ref": "#/$defs/deckSlot" } },
+    "legacy_candidates": { "type": "array", "items": { "$ref": "#/$defs/legacy" } },
+    "stat_priorities": { "type": "array", "items": { "$ref": "#/$defs/priority" } },
+    "skill_priorities": { "type": "array", "items": { "$ref": "#/$defs/priority" } },
+    "alternatives": { "type": "array", "items": { "$ref": "#/$defs/alternative" } },
+    "assumptions": { "type": "array", "items": { "type": "string" } },
+    "confidence": { "$ref": "#/$defs/confidence" },
+    "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "trainee": {
+      "type": "object",
+      "required": ["id", "name", "reason"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "gametora_url": { "type": ["string", "null"], "format": "uri" },
+        "reason": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "deckSlot": {
+      "type": "object",
+      "required": ["support_id", "name", "owned", "limit_break", "effective_level", "role", "reason", "effects", "skills"],
+      "properties": {
+        "support_id": { "type": "string" },
+        "name": { "type": "string" },
+        "gametora_url": { "type": ["string", "null"], "format": "uri" },
+        "owned": { "type": ["boolean", "null"] },
+        "limit_break": { "type": ["integer", "null"], "minimum": 0, "maximum": 4 },
+        "effective_level": { "type": ["integer", "null"], "minimum": 1 },
+        "role": { "type": "string" },
+        "reason": { "type": "string" },
+        "effects": { "type": "array", "items": { "type": "string" } },
+        "skills": { "type": "array", "items": { "type": "string" } },
+        "borrowed_from": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "legacy": {
+      "type": "object",
+      "required": ["id", "name", "reason", "factors", "skills", "owned"],
+      "properties": {
+        "id": { "type": ["string", "null"] },
+        "name": { "type": "string" },
+        "gametora_url": { "type": ["string", "null"], "format": "uri" },
+        "reason": { "type": "string" },
+        "factors": { "type": "array", "items": { "type": "string" } },
+        "skills": { "type": "array", "items": { "type": "string" } },
+        "owned": { "type": ["boolean", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "priority": {
+      "type": "object",
+      "required": ["name", "reason"],
+      "properties": {
+        "name": { "type": "string" },
+        "target": { "type": ["string", "null"] },
+        "reason": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "alternative": {
+      "type": "object",
+      "required": ["label", "changes", "tradeoff"],
+      "properties": {
+        "label": { "type": "string" },
+        "changes": { "type": "string" },
+        "tradeoff": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "confidence": {
+      "type": "object",
+      "required": ["level", "explanation"],
+      "properties": {
+        "level": { "enum": ["high", "medium", "low"] },
+        "explanation": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "required": ["url", "title", "source_type", "context", "retrieved_at", "confidence_note"],
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "title": { "type": "string" },
+        "source_type": { "enum": ["game_data", "official", "community", "inference"] },
+        "context": { "type": "string" },
+        "retrieved_at": { "type": "string", "format": "date-time" },
+        "confidence_note": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

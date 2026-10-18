@@ -1,0 +1,332 @@
+{
+  "id": 202532,
+  "kind": "skill",
+  "kind_path": "skills",
+  "name": "Graceful Step",
+  "name_text": {
+    "ja": "しとやかな足取り",
+    "en": "Graceful Step",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 47,
+      "index": 202532
+    }
+  },
+  "description_text": {
+    "ja": "レース中盤のどこかで速度が\\nわずかに上がる＜マイル/中距離＞",
+    "en": "Mile/Medium・At a random point during the Middle Leg, your speed will slightly increase.",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 48,
+      "index": 202532
+    }
+  },
+  "rarity": 1,
+  "category_code": 2,
+  "group_id": 20253,
+  "grade_value_raw": 217,
+  "display_order": 22290,
+  "activation": {
+    "precondition_1": "",
+    "condition_1": "distance_type==2&phase_random==1@distance_type==3&phase_random==1",
+    "precondition_2": "",
+    "condition_2": ""
+  },
+  "effect_components_raw": {
+    "float_ability_time_1": 24000,
+    "ability_time_usage_1": 1,
+    "ability_type_1_1": 27,
+    "ability_value_usage_1_1": 1,
+    "additional_activate_type_1_1": 0,
+    "ability_value_level_usage_1_1": 1,
+    "float_ability_value_1_1": 1500,
+    "target_type_1_1": 1,
+    "target_value_1_1": 0,
+    "ability_type_1_2": 0,
+    "ability_value_usage_1_2": 1,
+    "additional_activate_type_1_2": 0,
+    "ability_value_level_usage_1_2": 1,
+    "float_ability_value_1_2": 0,
+    "target_type_1_2": 0,
+    "target_value_1_2": 0,
+    "ability_type_1_3": 0,
+    "ability_value_usage_1_3": 1,
+    "additional_activate_type_1_3": 0,
+    "ability_value_level_usage_1_3": 1,
+    "float_ability_value_1_3": 0,
+    "target_type_1_3": 0,
+    "target_value_1_3": 0,
+    "float_ability_time_2": 0,
+    "ability_time_usage_2": 1,
+    "ability_type_2_1": 0,
+    "ability_value_usage_2_1": 1,
+    "additional_activate_type_2_1": 0,
+    "ability_value_level_usage_2_1": 1,
+    "float_ability_value_2_1": 0,
+    "target_type_2_1": 0,
+    "target_value_2_1": 0,
+    "ability_type_2_2": 0,
+    "ability_value_usage_2_2": 1,
+    "additional_activate_type_2_2": 0,
+    "ability_value_level_usage_2_2": 1,
+    "float_ability_value_2_2": 0,
+    "target_type_2_2": 0,
+    "target_value_2_2": 0,
+    "ability_type_2_3": 0,
+    "ability_value_usage_2_3": 1,
+    "additional_activate_type_2_3": 0,
+    "ability_value_level_usage_2_3": 1,
+    "float_ability_value_2_3": 0,
+    "target_type_2_3": 0,
+    "target_value_2_3": 0,
+    "popularity_add_param_1": 1,
+    "popularity_add_value_1": 20,
+    "popularity_add_param_2": 0,
+    "popularity_add_value_2": 0
+  },
+  "related_ids": {
+    "unique_skill_id_1": 0,
+    "unique_skill_id_2": 0,
+    "tag_id": "202/203/302/401"
+  },
+  "raw_game_row": {
+    "id": 202532,
+    "rarity": 1,
+    "group_id": 20253,
+    "group_rate": 1,
+    "filter_switch": 0,
+    "grade_value": 217,
+    "skill_category": 2,
+    "tag_id": "202/203/302/401",
+    "unique_skill_id_1": 0,
+    "unique_skill_id_2": 0,
+    "exp_type": 0,
+    "potential_per_default": 10,
+    "activate_lot": 1,
+    "priority": 0,
+    "precondition_1": "",
+    "condition_1": "distance_type==2&phase_random==1@distance_type==3&phase_random==1",
+    "float_ability_time_1": 24000,
+    "ability_time_usage_1": 1,
+    "float_cooldown_time_1": 5000000,
+    "ability_type_1_1": 27,
+    "ability_value_usage_1_1": 1,
+    "additional_activate_type_1_1": 0,
+    "ability_value_level_usage_1_1": 1,
+    "float_ability_value_1_1": 1500,
+    "target_type_1_1": 1,
+    "target_value_1_1": 0,
+    "ability_type_1_2": 0,
+    "ability_value_usage_1_2": 1,
+    "additional_activate_type_1_2": 0,
+    "ability_value_level_usage_1_2": 1,
+    "float_ability_value_1_2": 0,
+    "target_type_1_2": 0,
+    "target_value_1_2": 0,
+    "ability_type_1_3": 0,
+    "ability_value_usage_1_3": 1,
+    "additional_activate_type_1_3": 0,
+    "ability_value_level_usage_1_3": 1,
+    "float_ability_value_1_3": 0,
+    "target_type_1_3": 0,
+    "target_value_1_3": 0,
+    "precondition_2": "",
+    "condition_2": "",
+    "float_ability_time_2": 0,
+    "ability_time_usage_2": 1,
+    "float_cooldown_time_2": 0,
+    "ability_type_2_1": 0,
+    "ability_value_usage_2_1": 1,
+    "additional_activate_type_2_1": 0,
+    "ability_value_level_usage_2_1": 1,
+    "float_ability_value_2_1": 0,
+    "target_type_2_1": 0,
+    "target_value_2_1": 0,
+    "ability_type_2_2": 0,
+    "ability_value_usage_2_2": 1,
+    "additional_activate_type_2_2": 0,
+    "ability_value_level_usage_2_2": 1,
+    "float_ability_value_2_2": 0,
+    "target_type_2_2": 0,
+    "target_value_2_2": 0,
+    "ability_type_2_3": 0,
+    "ability_value_usage_2_3": 1,
+    "additional_activate_type_2_3": 0,
+    "ability_value_level_usage_2_3": 1,
+    "float_ability_value_2_3": 0,
+    "target_type_2_3": 0,
+    "target_value_2_3": 0,
+    "popularity_add_param_1": 1,
+    "popularity_add_value_1": 20,
+    "popularity_add_param_2": 0,
+    "popularity_add_value_2": 0,
+    "disp_order": 22290,
+    "icon_id": 20011,
+    "plate_type": 0,
+    "disable_singlemode": 0,
+    "disable_count_condition": 0,
+    "is_general_skill": 1,
+    "greater_value_skill_detail": 0,
+    "start_date": 1483196400,
+    "end_date": 2524575600
+  },
+  "source": {
+    "table": "skill_data",
+    "row_id": 202532
+  },
+  "search_names": [
+    "しとやかな足取り",
+    "Graceful Step"
+  ],
+  "acquisition_sources": [
+    {
+      "kind": "support_card_hint",
+      "id": 10088,
+      "hint_group": 9
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10113,
+      "hint_group": 7
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10132,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10137,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20062,
+      "hint_group": 7
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20083,
+      "hint_group": 6
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20091,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30134,
+      "hint_group": 9
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30175,
+      "hint_group": 9
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30186,
+      "hint_group": 7
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30196,
+      "hint_group": 7
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30205,
+      "hint_group": 7
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30214,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30234,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30250,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30264,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30287,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30293,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30294,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30310,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30320,
+      "hint_group": 6
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 107901,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 108201,
+      "need_rank": 4
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 108601,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 109201,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 110502,
+      "need_rank": 4
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 111201,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 113001,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 114401,
+      "need_rank": 4
+    }
+  ]
+}

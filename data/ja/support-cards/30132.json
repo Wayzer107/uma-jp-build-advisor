@@ -1,0 +1,1023 @@
+{
+  "id": 30132,
+  "kind": "support_card",
+  "kind_path": "support-cards",
+  "server": "ja",
+  "name": "[Transform! Garçon Form!] Biko Pegasus",
+  "name_text": {
+    "ja": "[変身！ギャルソンフォーム！]ビコーペガサス",
+    "en": "[Transform! Garçon Form!] Biko Pegasus",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 75,
+      "index": 30132
+    }
+  },
+  "title_text": {
+    "ja": "[変身！ギャルソンフォーム！]",
+    "en": "[Transform! Garçon Form!]",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 76,
+      "index": 30132
+    }
+  },
+  "character_id": 1054,
+  "character_name_text": {
+    "ja": "ビコーペガサス",
+    "en": "Biko Pegasus",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 6,
+      "index": 1054
+    }
+  },
+  "rarity": 3,
+  "rarity_label": "SSR",
+  "support_type": "Power",
+  "support_type_raw": {
+    "command_id": 102,
+    "support_card_type": 1
+  },
+  "release_date_jst": "2023-01-30",
+  "effect_table_id": 30132,
+  "effects": [
+    {
+      "type_code": 1,
+      "name_text": {
+        "ja": "友情ボーナス",
+        "en": "Friendship Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 1
+        }
+      },
+      "description_text": {
+        "ja": "友情トレーニング発生による効果アップ",
+        "en": "Increases the effectiveness of Friendship Training.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 1
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "1": 10,
+        "25": 15,
+        "30": 15,
+        "45": 20
+      },
+      "value_at_rarity_cap": 20,
+      "value_level": 45,
+      "raw_game_row": {
+        "id": 30132,
+        "type": 1,
+        "init": 10,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": 15,
+        "limit_lv30": 15,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": 20,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 2,
+      "name_text": {
+        "ja": "やる気効果アップ",
+        "en": "Motivation Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 2
+        }
+      },
+      "description_text": {
+        "ja": "一緒にトレーニングをしたときのやる気による効果アップ",
+        "en": "Amplifies the effect of motivation when training together.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 2
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "1": 10,
+        "30": 40,
+        "50": 50
+      },
+      "value_at_rarity_cap": 50,
+      "value_level": 50,
+      "raw_game_row": {
+        "id": 30132,
+        "type": 2,
+        "init": 10,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": 40,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": -1,
+        "limit_lv50": 50
+      }
+    },
+    {
+      "type_code": 5,
+      "name_text": {
+        "ja": "パワーボーナス",
+        "en": "Power Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 5
+        }
+      },
+      "description_text": {
+        "ja": "一緒にトレーニングをするとパワーの上昇量がアップ",
+        "en": "Increases Power gained when training together.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 5
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "15": 1,
+        "25": 1,
+        "30": 1,
+        "45": 1
+      },
+      "value_at_rarity_cap": 1,
+      "value_level": 45,
+      "raw_game_row": {
+        "id": 30132,
+        "type": 5,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": 1,
+        "limit_lv20": -1,
+        "limit_lv25": 1,
+        "limit_lv30": 1,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": 1,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 11,
+      "name_text": {
+        "ja": "初期パワーアップ",
+        "en": "Initial Power Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 11
+        }
+      },
+      "description_text": {
+        "ja": "育成開始時の初期パワーがアップ",
+        "en": "Increases Power at the start of a Career.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 11
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "1": 10,
+        "30": 25,
+        "50": 35
+      },
+      "value_at_rarity_cap": 35,
+      "value_level": 50,
+      "raw_game_row": {
+        "id": 30132,
+        "type": 11,
+        "init": 10,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": 25,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": -1,
+        "limit_lv50": 35
+      }
+    },
+    {
+      "type_code": 14,
+      "name_text": {
+        "ja": "初期絆ゲージアップ",
+        "en": "Starting Friendship Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 14
+        }
+      },
+      "description_text": {
+        "ja": "育成開始時の初期絆ゲージがアップ",
+        "en": "Increases Friendship Gauge at the start of a Career.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 14
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "1": 10,
+        "30": 25,
+        "50": 30
+      },
+      "value_at_rarity_cap": 30,
+      "value_level": 50,
+      "raw_game_row": {
+        "id": 30132,
+        "type": 14,
+        "init": 10,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": 25,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": -1,
+        "limit_lv50": 30
+      }
+    },
+    {
+      "type_code": 15,
+      "name_text": {
+        "ja": "レースボーナス",
+        "en": "Race Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 15
+        }
+      },
+      "description_text": {
+        "ja": "レースに出走した結果で得られるステータスの上昇量がアップ",
+        "en": "Increases stats and Skill Pt gained from races.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 15
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "45": 5,
+        "50": 10
+      },
+      "value_at_rarity_cap": 10,
+      "value_level": 50,
+      "raw_game_row": {
+        "id": 30132,
+        "type": 15,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": 5,
+        "limit_lv50": 10
+      }
+    },
+    {
+      "type_code": 16,
+      "name_text": {
+        "ja": "ファン数ボーナス",
+        "en": "Fan Count Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 16
+        }
+      },
+      "description_text": {
+        "ja": "レースに出走した結果で得られるファンの上昇量がアップ",
+        "en": "Increases fans gained from races.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 16
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "45": 10,
+        "50": 15
+      },
+      "value_at_rarity_cap": 15,
+      "value_level": 50,
+      "raw_game_row": {
+        "id": 30132,
+        "type": 16,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": 10,
+        "limit_lv50": 15
+      }
+    },
+    {
+      "type_code": 19,
+      "name_text": {
+        "ja": "得意率アップ",
+        "en": "Specialty Rate Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 19
+        }
+      },
+      "description_text": {
+        "ja": "得意トレーニングに配置される確率がアップ",
+        "en": "Increases probability of appearing in training of this card's type.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 19
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "10": 5,
+        "25": 35,
+        "30": 35,
+        "45": 50
+      },
+      "value_at_rarity_cap": 50,
+      "value_level": 45,
+      "raw_game_row": {
+        "id": 30132,
+        "type": 19,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": 5,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": 35,
+        "limit_lv30": 35,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": 50,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 30,
+      "name_text": {
+        "ja": "スキルPtボーナス",
+        "en": "Skill Point Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 30
+        }
+      },
+      "description_text": {
+        "ja": "一緒にトレーニングをするとスキルPtの上昇量がアップ",
+        "en": "Increases Skill Pt gained when training together.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 30
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "35": 1
+      },
+      "value_at_rarity_cap": 1,
+      "value_level": 35,
+      "raw_game_row": {
+        "id": 30132,
+        "type": 30,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": 1,
+        "limit_lv40": -1,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    }
+  ],
+  "unique_effect_id": 30132,
+  "unique_effect_rows": [
+    {
+      "level_requirement_raw": 1,
+      "name_text": {
+        "ja": "変身！ギャルソンフォーム！",
+        "en": "Transform! Garçon Form!",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 150,
+          "index": 30132
+        }
+      },
+      "description_text": {
+        "ja": "体力最大値が高いほど、\\nトレーニング効果アップ",
+        "en": "Training bonus increases \nbased on max energy",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 155,
+          "index": 30132
+        }
+      },
+      "components": [
+        {
+          "slot": 0,
+          "type_code": 108,
+          "values": [
+            8,
+            100,
+            75,
+            5,
+            20
+          ]
+        }
+      ],
+      "idle_mode_sub_rate_raw": 30,
+      "raw_game_row": {
+        "id": 30132,
+        "lv": 1,
+        "type_0": 108,
+        "value_0": 8,
+        "value_0_1": 100,
+        "value_0_2": 75,
+        "value_0_3": 5,
+        "value_0_4": 20,
+        "type_1": 0,
+        "value_1": 0,
+        "value_1_1": 0,
+        "value_1_2": 0,
+        "value_1_3": 0,
+        "value_1_4": 0,
+        "idle_mode_sub_rate": 30
+      }
+    }
+  ],
+  "hint_id": 9081054,
+  "hints_and_rewards": [
+    {
+      "hint_row_id": 2233,
+      "hint_id": 9081054,
+      "hint_group": 1,
+      "hint_gain_type_raw": 0,
+      "skill_id": 200232,
+      "skill_name": "Rainy Days ○",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 200232,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 2233,
+        "hint_id": 9081054,
+        "support_card_id": 30132,
+        "hint_group": 1,
+        "hint_gain_type": 0,
+        "hint_value_1": 200232,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 2234,
+      "hint_id": 9081054,
+      "hint_group": 2,
+      "hint_gain_type_raw": 0,
+      "skill_id": 200492,
+      "skill_name": "Slight Detour",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 200492,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 2234,
+        "hint_id": 9081054,
+        "support_card_id": 30132,
+        "hint_group": 2,
+        "hint_gain_type": 0,
+        "hint_value_1": 200492,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 2235,
+      "hint_id": 9081054,
+      "hint_group": 3,
+      "hint_gain_type_raw": 0,
+      "skill_id": 200592,
+      "skill_name": "Position Swiper",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 200592,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 2235,
+        "hint_id": 9081054,
+        "support_card_id": 30132,
+        "hint_group": 3,
+        "hint_gain_type": 0,
+        "hint_value_1": 200592,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 2236,
+      "hint_id": 9081054,
+      "hint_group": 4,
+      "hint_gain_type_raw": 0,
+      "skill_id": 200652,
+      "skill_name": "Sprinting Gear",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 200652,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 2236,
+        "hint_id": 9081054,
+        "support_card_id": 30132,
+        "hint_group": 4,
+        "hint_gain_type": 0,
+        "hint_value_1": 200652,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 2237,
+      "hint_id": 9081054,
+      "hint_group": 5,
+      "hint_gain_type_raw": 0,
+      "skill_id": 201392,
+      "skill_name": "Betweener's Corners ○",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 201392,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 2237,
+        "hint_id": 9081054,
+        "support_card_id": 30132,
+        "hint_group": 5,
+        "hint_gain_type": 0,
+        "hint_value_1": 201392,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 2238,
+      "hint_id": 9081054,
+      "hint_group": 6,
+      "hint_gain_type_raw": 0,
+      "skill_id": 202122,
+      "skill_name": "Fearless Heart",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 202122,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 2238,
+        "hint_id": 9081054,
+        "support_card_id": 30132,
+        "hint_group": 6,
+        "hint_gain_type": 0,
+        "hint_value_1": 202122,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 2254,
+      "hint_id": 9081054,
+      "hint_group": 7,
+      "hint_gain_type_raw": 0,
+      "skill_id": 202402,
+      "skill_name": "Mighty Leap",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 202402,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 2254,
+        "hint_id": 9081054,
+        "support_card_id": 30132,
+        "hint_group": 7,
+        "hint_gain_type": 0,
+        "hint_value_1": 202402,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 2255,
+      "hint_id": 9081054,
+      "hint_group": 8,
+      "hint_gain_type_raw": 1,
+      "skill_id": null,
+      "skill_name": null,
+      "skill_ref_status": "not_a_skill_hint",
+      "hint_value_1_raw": 2,
+      "hint_value_2_raw": 2,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 2255,
+        "hint_id": 9081054,
+        "support_card_id": 30132,
+        "hint_group": 8,
+        "hint_gain_type": 1,
+        "hint_value_1": 2,
+        "hint_value_2": 2,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 2256,
+      "hint_id": 9081054,
+      "hint_group": 8,
+      "hint_gain_type_raw": 1,
+      "skill_id": null,
+      "skill_name": null,
+      "skill_ref_status": "not_a_skill_hint",
+      "hint_value_1_raw": 3,
+      "hint_value_2_raw": 6,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 2256,
+        "hint_id": 9081054,
+        "support_card_id": 30132,
+        "hint_group": 8,
+        "hint_gain_type": 1,
+        "hint_value_1": 3,
+        "hint_value_2": 6,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    }
+  ],
+  "unresolved_hint_skill_ids": [],
+  "event_skill_ids_gametora": [
+    200602,
+    200811,
+    200962,
+    201393
+  ],
+  "event_skill_links_gametora": [
+    {
+      "skill_id": 200602,
+      "skill_name": "Between the Lines",
+      "ref_status": "resolved"
+    },
+    {
+      "skill_id": 200811,
+      "skill_name": "Frantic Betweeners",
+      "ref_status": "resolved"
+    },
+    {
+      "skill_id": 200962,
+      "skill_name": "Sprint Straights ○",
+      "ref_status": "resolved"
+    },
+    {
+      "skill_id": 201393,
+      "skill_name": "Incisive Slash",
+      "ref_status": "resolved"
+    }
+  ],
+  "gametora_hint_crosscheck": {
+    "status": "exact_id_match",
+    "local_hint_skill_ids": [
+      200232,
+      200492,
+      200592,
+      200652,
+      201392,
+      202122,
+      202402
+    ],
+    "gametora_hint_skill_ids": [
+      200232,
+      200492,
+      200592,
+      200652,
+      201392,
+      202122,
+      202402
+    ],
+    "gametora_only_skill_ids": [],
+    "local_only_skill_ids": []
+  },
+  "group_members": [],
+  "gametora": {
+    "id": 30132,
+    "url": "https://gametora.com/umamusume/supports/30132-biko-pegasus",
+    "url_candidate": "https://gametora.com/umamusume/supports/30132-biko-pegasus",
+    "url_name": "30132-biko-pegasus",
+    "mapping_status": "verified_full_id_set",
+    "source_data_version": "ecbd7dc3",
+    "reconciliation_note": "The complete local support ID set was compared with the versioned GameTora support-cards feed."
+  },
+  "source": {
+    "table": "support_card_data",
+    "row_id": 30132,
+    "effect_table": "support_card_effect_table",
+    "unique_effect_table": "support_card_unique_effect",
+    "hints_table": "single_mode_hint_gain",
+    "text_categories": [
+      75,
+      76,
+      6,
+      182,
+      151,
+      154,
+      150,
+      155
+    ],
+    "gametora_event_skills": "GameTora support-cards feed; source details are recorded in the catalog manifest."
+  },
+  "raw_game_row": {
+    "id": 30132,
+    "chara_id": 1054,
+    "rarity": 3,
+    "exchange_item_id": 50,
+    "exchange_item_num": 10,
+    "effect_table_id": 30132,
+    "unique_effect_id": 30132,
+    "command_type": 1,
+    "command_id": 102,
+    "support_card_type": 1,
+    "skill_set_id": 9081054,
+    "detail_pos_x": -500000,
+    "detail_pos_y": -1300000,
+    "detail_scale": 12000,
+    "detail_rot_z": 0,
+    "start_date": 1675047600,
+    "disp_order": 1008602,
+    "outing_max": 0,
+    "effect_id": 0
+  },
+  "search_names": [
+    "[変身！ギャルソンフォーム！]ビコーペガサス",
+    "[Transform! Garçon Form!] Biko Pegasus",
+    "[変身！ギャルソンフォーム！]",
+    "[Transform! Garçon Form!]",
+    "ビコーペガサス",
+    "Biko Pegasus"
+  ],
+  "training_event_ids": [
+    10127,
+    10128,
+    10129
+  ],
+  "character_event_ids": [
+    2158,
+    2159,
+    2227,
+    12574,
+    12575,
+    12576,
+    12577,
+    12578,
+    12579,
+    12580,
+    12581,
+    12582,
+    12583,
+    12584,
+    12585,
+    12586,
+    12587,
+    12588,
+    12589,
+    12590,
+    12591,
+    12592,
+    12593,
+    12594,
+    12595,
+    12596,
+    12597,
+    12598,
+    12599,
+    12600,
+    12601,
+    12602,
+    12603,
+    12604,
+    12605,
+    12606,
+    12607,
+    12608,
+    12609,
+    12610,
+    12611,
+    12612,
+    12613,
+    12614,
+    12615,
+    12616,
+    12617,
+    12618,
+    12619,
+    12620,
+    12621,
+    12622,
+    12623,
+    12624,
+    12625,
+    12626,
+    12627,
+    12628,
+    12629,
+    12630,
+    12631,
+    12632,
+    12633,
+    12634,
+    12635,
+    12636,
+    12638,
+    12639,
+    12645,
+    12646,
+    12647,
+    12648,
+    12649,
+    12650,
+    12651,
+    12652,
+    12653,
+    12654,
+    12655,
+    12656,
+    12657,
+    12658,
+    12659,
+    12660,
+    12661,
+    12662,
+    12663,
+    12664,
+    12665,
+    12666,
+    12667,
+    12668,
+    12669,
+    12670,
+    12671,
+    12672,
+    12673,
+    12674,
+    12675,
+    12676,
+    12677,
+    12678,
+    12679,
+    12680,
+    19199,
+    19200,
+    19201,
+    19202,
+    19203,
+    19204,
+    19205,
+    19206,
+    19207,
+    6000409,
+    6000410,
+    6000411,
+    13000479,
+    13000480,
+    13000481
+  ]
+}

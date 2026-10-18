@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "server": "ja",
+  "generated_at_utc": "2026-10-18T21:13:41+00:00",
+  "coverage_status": "incomplete",
+  "source_comparison": {
+    "master_filename": "master.mdb",
+    "master_sha256": "304093fd76d5435e0cd79534078dba12501b5efad2dbaae69aac308f506e6b59",
+    "manifest_master_sha256_matches": true
+  },
+  "entity_coverage": {
+    "support_cards": {
+      "source_ids": 563,
+      "generated_ids": 563,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "malformed_records": []
+    },
+    "trainee_outfits": {
+      "source_ids": 271,
+      "generated_ids": 271,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "malformed_records": []
+    },
+    "skills": {
+      "source_ids": 2200,
+      "generated_ids": 2200,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "malformed_records": []
+    },
+    "events": {
+      "source_ids": 18365,
+      "generated_ids": 18365,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "malformed_records": []
+    },
+    "scenarios": {
+      "source_ids": 14,
+      "generated_ids": 14,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "malformed_records": []
+    },
+    "races": {
+      "source_ids": 2923,
+      "generated_ids": 2923,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "malformed_records": []
+    },
+    "race_courses": {
+      "source_ids": 140,
+      "generated_ids": 140,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "malformed_records": []
+    },
+    "race_conditions": {
+      "source_ids": 119,
+      "generated_ids": 119,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "malformed_records": []
+    },
+    "factors": {
+      "source_ids": 2622,
+      "generated_ids": 2622,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "malformed_records": []
+    }
+  },
+  "unresolved_links": {
+    "support_hint_skills": [],
+    "trainee_available_skills": [],
+    "trainee_rarity_skills": []
+  },
+  "gametora_mapping": {
+    "status": "verified_full_id_set",
+    "status_counts": {
+      "verified_full_id_set": 563
+    },
+    "mapped_support_records": 563,
+    "total_support_records": 563,
+    "support_id_mismatches": [],
+    "duplicate_gametora_ids": [],
+    "full_remote_id_set_reconciliation": "verified_full_id_set",
+    "feed_version_hash": "ecbd7dc3"
+  },
+  "gametora_trainee_mapping": {
+    "status": "verified_full_id_set",
+    "status_counts": {
+      "verified_full_id_set": 271
+    },
+    "mapped_trainee_records": 271,
+    "total_trainee_records": 271,
+    "trainee_id_mismatches": [],
+    "duplicate_gametora_ids": [],
+    "trainee_tid_count": 271,
+    "duplicate_trainee_tids": [],
+    "full_remote_id_set_reconciliation": "verified_full_id_set",
+    "feed_version_hash": "d3ec4f6d"
+  },
+  "unavailable_event_outcomes": {
+    "count": 18365,
+    "sample_event_ids": [
+      "100",
+      "1000",
+      "10000",
+      "10001",
+      "10002",
+      "10003",
+      "10004",
+      "10005",
+      "10006",
+      "10007",
+      "10008",
+      "10009",
+      "1001",
+      "10010",
+      "10011",
+      "10012",
+      "10013",
+      "10014",
+      "10015",
+      "10016",
+      "10017",
+      "10018",
+      "10019",
+      "1002",
+      "10020"
+    ]
+  },
+  "untranslated_fields_by_path": {
+    "character_name_text": 2,
+    "description_text": 344,
+    "name_text": 410,
+    "title_text": 13227,
+    "unique_effect_rows.description_text": 31,
+    "unique_effect_rows.name_text": 67
+  },
+  "blocking_issues": [
+    "Event choice/reward data unavailable for 18365 event records"
+  ],
+  "unavailable_fields": [
+    {
+      "entity": "training_event",
+      "fields": [
+        "choices",
+        "rewards"
+      ],
+      "reason": "No keyed outcome payload was found in the inspected installed master tables; matching extracted story assets are incomplete and do not by themselves provide structured rewards."
+    },
+    {
+      "entity": "interpreted_codes",
+      "fields": [
+        "skill effects",
+        "aptitudes",
+        "race conditions",
+        "inheritance effect labels"
+      ],
+      "reason": "Raw source codes are retained until a decoder is independently reviewed."
+    }
+  ]
+}

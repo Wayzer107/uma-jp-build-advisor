@@ -1,0 +1,932 @@
+{
+  "id": 30213,
+  "kind": "support_card",
+  "kind_path": "support-cards",
+  "server": "ja",
+  "name": "[The Slapdash Grand Prix has Begun] Tokai Teio",
+  "name_text": {
+    "ja": "[開催☆ハチャメチャGP！]トウカイテイオー",
+    "en": "[The Slapdash Grand Prix has Begun] Tokai Teio",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 75,
+      "index": 30213
+    }
+  },
+  "title_text": {
+    "ja": "[開催☆ハチャメチャGP！]",
+    "en": "[The Slapdash Grand Prix has Begun]",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 76,
+      "index": 30213
+    }
+  },
+  "character_id": 1003,
+  "character_name_text": {
+    "ja": "トウカイテイオー",
+    "en": "Tokai Teio",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 6,
+      "index": 1003
+    }
+  },
+  "rarity": 3,
+  "rarity_label": "SSR",
+  "support_type": "Speed",
+  "support_type_raw": {
+    "command_id": 101,
+    "support_card_type": 1
+  },
+  "release_date_jst": "2024-08-30",
+  "effect_table_id": 30213,
+  "effects": [
+    {
+      "type_code": 1,
+      "name_text": {
+        "ja": "友情ボーナス",
+        "en": "Friendship Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 1
+        }
+      },
+      "description_text": {
+        "ja": "友情トレーニング発生による効果アップ",
+        "en": "Increases the effectiveness of Friendship Training.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 1
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "1": 10,
+        "30": 25,
+        "50": 30
+      },
+      "value_at_rarity_cap": 30,
+      "value_level": 50,
+      "raw_game_row": {
+        "id": 30213,
+        "type": 1,
+        "init": 10,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": 25,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": -1,
+        "limit_lv50": 30
+      }
+    },
+    {
+      "type_code": 2,
+      "name_text": {
+        "ja": "やる気効果アップ",
+        "en": "Motivation Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 2
+        }
+      },
+      "description_text": {
+        "ja": "一緒にトレーニングをしたときのやる気による効果アップ",
+        "en": "Amplifies the effect of motivation when training together.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 2
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "15": 10,
+        "25": 20,
+        "30": 20
+      },
+      "value_at_rarity_cap": 20,
+      "value_level": 30,
+      "raw_game_row": {
+        "id": 30213,
+        "type": 2,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": 10,
+        "limit_lv20": -1,
+        "limit_lv25": 20,
+        "limit_lv30": 20,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 8,
+      "name_text": {
+        "ja": "トレーニング効果アップ",
+        "en": "Training Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 8
+        }
+      },
+      "description_text": {
+        "ja": "一緒にトレーニングしたときの効果アップ",
+        "en": "Increases training efficiency when training together.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 8
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "15": 1,
+        "25": 5,
+        "30": 5,
+        "45": 5
+      },
+      "value_at_rarity_cap": 5,
+      "value_level": 45,
+      "raw_game_row": {
+        "id": 30213,
+        "type": 8,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": 1,
+        "limit_lv20": -1,
+        "limit_lv25": 5,
+        "limit_lv30": 5,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": 5,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 9,
+      "name_text": {
+        "ja": "初期スピードアップ",
+        "en": "Initial Speed Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 9
+        }
+      },
+      "description_text": {
+        "ja": "育成開始時の初期スピードがアップ",
+        "en": "Increases Speed at the start of a Career.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 9
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "45": 15,
+        "50": 30
+      },
+      "value_at_rarity_cap": 30,
+      "value_level": 50,
+      "raw_game_row": {
+        "id": 30213,
+        "type": 9,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": 15,
+        "limit_lv50": 30
+      }
+    },
+    {
+      "type_code": 14,
+      "name_text": {
+        "ja": "初期絆ゲージアップ",
+        "en": "Starting Friendship Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 14
+        }
+      },
+      "description_text": {
+        "ja": "育成開始時の初期絆ゲージがアップ",
+        "en": "Increases Friendship Gauge at the start of a Career.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 14
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "15": 10,
+        "25": 15,
+        "30": 15,
+        "45": 20
+      },
+      "value_at_rarity_cap": 20,
+      "value_level": 45,
+      "raw_game_row": {
+        "id": 30213,
+        "type": 14,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": 10,
+        "limit_lv20": -1,
+        "limit_lv25": 15,
+        "limit_lv30": 15,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": 20,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 15,
+      "name_text": {
+        "ja": "レースボーナス",
+        "en": "Race Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 15
+        }
+      },
+      "description_text": {
+        "ja": "レースに出走した結果で得られるステータスの上昇量がアップ",
+        "en": "Increases stats and Skill Pt gained from races.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 15
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "35": 5,
+        "40": 5
+      },
+      "value_at_rarity_cap": 5,
+      "value_level": 40,
+      "raw_game_row": {
+        "id": 30213,
+        "type": 15,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": 5,
+        "limit_lv40": 5,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 16,
+      "name_text": {
+        "ja": "ファン数ボーナス",
+        "en": "Fan Count Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 16
+        }
+      },
+      "description_text": {
+        "ja": "レースに出走した結果で得られるファンの上昇量がアップ",
+        "en": "Increases fans gained from races.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 16
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "35": 10,
+        "40": 15
+      },
+      "value_at_rarity_cap": 15,
+      "value_level": 40,
+      "raw_game_row": {
+        "id": 30213,
+        "type": 16,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": 10,
+        "limit_lv40": 15,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 19,
+      "name_text": {
+        "ja": "得意率アップ",
+        "en": "Specialty Rate Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 19
+        }
+      },
+      "description_text": {
+        "ja": "得意トレーニングに配置される確率がアップ",
+        "en": "Increases probability of appearing in training of this card's type.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 19
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "15": 5,
+        "25": 20,
+        "30": 20,
+        "45": 35
+      },
+      "value_at_rarity_cap": 35,
+      "value_level": 45,
+      "raw_game_row": {
+        "id": 30213,
+        "type": 19,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": 5,
+        "limit_lv20": -1,
+        "limit_lv25": 20,
+        "limit_lv30": 20,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": 35,
+        "limit_lv50": -1
+      }
+    }
+  ],
+  "unique_effect_id": 30213,
+  "unique_effect_rows": [
+    {
+      "level_requirement_raw": 1,
+      "name_text": {
+        "ja": "開催☆ハチャメチャGP！",
+        "en": "The Slapdash Grand Prix has Begun",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 150,
+          "index": 30213
+        }
+      },
+      "description_text": {
+        "ja": "初期パワーアップとスキルPtボーナス",
+        "en": "Initial Power Boost and Skill Point Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 155,
+          "index": 30213
+        }
+      },
+      "components": [
+        {
+          "slot": 0,
+          "type_code": 11,
+          "values": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "slot": 1,
+          "type_code": 30,
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "idle_mode_sub_rate_raw": 0,
+      "raw_game_row": {
+        "id": 30213,
+        "lv": 1,
+        "type_0": 11,
+        "value_0": 20,
+        "value_0_1": 0,
+        "value_0_2": 0,
+        "value_0_3": 0,
+        "value_0_4": 0,
+        "type_1": 30,
+        "value_1": 1,
+        "value_1_1": 0,
+        "value_1_2": 0,
+        "value_1_3": 0,
+        "value_1_4": 0,
+        "idle_mode_sub_rate": 0
+      }
+    }
+  ],
+  "hint_id": 9081003,
+  "hints_and_rewards": [
+    {
+      "hint_row_id": 3228,
+      "hint_id": 9081003,
+      "hint_group": 1,
+      "hint_gain_type_raw": 0,
+      "skill_id": 200042,
+      "skill_name": "Nakayama Racecourse ○",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 200042,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 3228,
+        "hint_id": 9081003,
+        "support_card_id": 30213,
+        "hint_group": 1,
+        "hint_gain_type": 0,
+        "hint_value_1": 200042,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 3229,
+      "hint_id": 9081003,
+      "hint_group": 2,
+      "hint_gain_type_raw": 0,
+      "skill_id": 200332,
+      "skill_name": "Corner Adept ○",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 200332,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 3229,
+        "hint_id": 9081003,
+        "support_card_id": 30213,
+        "hint_group": 2,
+        "hint_gain_type": 0,
+        "hint_value_1": 200332,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 3230,
+      "hint_id": 9081003,
+      "hint_group": 3,
+      "hint_gain_type_raw": 0,
+      "skill_id": 200502,
+      "skill_name": "Improvise",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 200502,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 3230,
+        "hint_id": 9081003,
+        "support_card_id": 30213,
+        "hint_group": 3,
+        "hint_gain_type": 0,
+        "hint_value_1": 200502,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 3231,
+      "hint_id": 9081003,
+      "hint_group": 4,
+      "hint_gain_type_raw": 0,
+      "skill_id": 200722,
+      "skill_name": "Uptempo",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 200722,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 3231,
+        "hint_id": 9081003,
+        "support_card_id": 30213,
+        "hint_group": 4,
+        "hint_gain_type": 0,
+        "hint_value_1": 200722,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 3232,
+      "hint_id": 9081003,
+      "hint_group": 5,
+      "hint_gain_type_raw": 0,
+      "skill_id": 201611,
+      "skill_name": "Hold Your Tail High",
+      "skill_ref_status": "resolved",
+      "hint_value_1_raw": 201611,
+      "hint_value_2_raw": 1,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 3232,
+        "hint_id": 9081003,
+        "support_card_id": 30213,
+        "hint_group": 5,
+        "hint_gain_type": 0,
+        "hint_value_1": 201611,
+        "hint_value_2": 1,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 3233,
+      "hint_id": 9081003,
+      "hint_group": 6,
+      "hint_gain_type_raw": 1,
+      "skill_id": null,
+      "skill_name": null,
+      "skill_ref_status": "not_a_skill_hint",
+      "hint_value_1_raw": 1,
+      "hint_value_2_raw": 6,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 3233,
+        "hint_id": 9081003,
+        "support_card_id": 30213,
+        "hint_group": 6,
+        "hint_gain_type": 1,
+        "hint_value_1": 1,
+        "hint_value_2": 6,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    },
+    {
+      "hint_row_id": 3234,
+      "hint_id": 9081003,
+      "hint_group": 6,
+      "hint_gain_type_raw": 1,
+      "skill_id": null,
+      "skill_name": null,
+      "skill_ref_status": "not_a_skill_hint",
+      "hint_value_1_raw": 3,
+      "hint_value_2_raw": 2,
+      "group_id": 0,
+      "condition_set_id": 0,
+      "priority": 0,
+      "raw_game_row": {
+        "id": 3234,
+        "hint_id": 9081003,
+        "support_card_id": 30213,
+        "hint_group": 6,
+        "hint_gain_type": 1,
+        "hint_value_1": 3,
+        "hint_value_2": 2,
+        "group_id": 0,
+        "condition_set_id": 0,
+        "priority": 0
+      }
+    }
+  ],
+  "unresolved_hint_skill_ids": [],
+  "event_skill_ids_gametora": [
+    201141,
+    201312
+  ],
+  "event_skill_links_gametora": [
+    {
+      "skill_id": 201141,
+      "skill_name": "Miracle Step",
+      "ref_status": "resolved"
+    },
+    {
+      "skill_id": 201312,
+      "skill_name": "Leader's Straights ○",
+      "ref_status": "resolved"
+    }
+  ],
+  "gametora_hint_crosscheck": {
+    "status": "exact_id_match",
+    "local_hint_skill_ids": [
+      200042,
+      200332,
+      200502,
+      200722,
+      201611
+    ],
+    "gametora_hint_skill_ids": [
+      200042,
+      200332,
+      200502,
+      200722,
+      201611
+    ],
+    "gametora_only_skill_ids": [],
+    "local_only_skill_ids": []
+  },
+  "group_members": [],
+  "gametora": {
+    "id": 30213,
+    "url": "https://gametora.com/umamusume/supports/30213-tokai-teio",
+    "url_candidate": "https://gametora.com/umamusume/supports/30213-tokai-teio",
+    "url_name": "30213-tokai-teio",
+    "mapping_status": "verified_full_id_set",
+    "source_data_version": "ecbd7dc3",
+    "reconciliation_note": "The complete local support ID set was compared with the versioned GameTora support-cards feed."
+  },
+  "source": {
+    "table": "support_card_data",
+    "row_id": 30213,
+    "effect_table": "support_card_effect_table",
+    "unique_effect_table": "support_card_unique_effect",
+    "hints_table": "single_mode_hint_gain",
+    "text_categories": [
+      75,
+      76,
+      6,
+      182,
+      151,
+      154,
+      150,
+      155
+    ],
+    "gametora_event_skills": "GameTora support-cards feed; source details are recorded in the catalog manifest."
+  },
+  "raw_game_row": {
+    "id": 30213,
+    "chara_id": 1003,
+    "rarity": 3,
+    "exchange_item_id": 50,
+    "exchange_item_num": 10,
+    "effect_table_id": 30213,
+    "unique_effect_id": 30213,
+    "command_type": 1,
+    "command_id": 101,
+    "support_card_type": 1,
+    "skill_set_id": 9081003,
+    "detail_pos_x": 0,
+    "detail_pos_y": 0,
+    "detail_scale": 10000,
+    "detail_rot_z": 0,
+    "start_date": 1724943600,
+    "disp_order": 1014007,
+    "outing_max": 0,
+    "effect_id": 0
+  },
+  "search_names": [
+    "[開催☆ハチャメチャGP！]トウカイテイオー",
+    "[The Slapdash Grand Prix has Begun] Tokai Teio",
+    "[開催☆ハチャメチャGP！]",
+    "[The Slapdash Grand Prix has Begun]",
+    "トウカイテイオー",
+    "Tokai Teio"
+  ],
+  "training_event_ids": [
+    13271,
+    13272,
+    13273
+  ],
+  "character_event_ids": [
+    30,
+    60,
+    90,
+    120,
+    150,
+    180,
+    240,
+    270,
+    300,
+    330,
+    360,
+    390,
+    420,
+    450,
+    480,
+    517,
+    547,
+    577,
+    607,
+    637,
+    667,
+    697,
+    727,
+    757,
+    787,
+    817,
+    847,
+    877,
+    907,
+    937,
+    967,
+    997,
+    1027,
+    1057,
+    1087,
+    1117,
+    1147,
+    1177,
+    1207,
+    1237,
+    1267,
+    1297,
+    1327,
+    1357,
+    1387,
+    1417,
+    1447,
+    1477,
+    1507,
+    1537,
+    1597,
+    1627,
+    1837,
+    1867,
+    1897,
+    1927,
+    1957,
+    1997,
+    1998,
+    2189,
+    2459,
+    2460,
+    2461,
+    2462,
+    2463,
+    2464,
+    2465,
+    2466,
+    2467,
+    2468,
+    2469,
+    2470,
+    2471,
+    2472,
+    2473,
+    2474,
+    2475,
+    2476,
+    2477,
+    2478,
+    2479,
+    2480,
+    2481,
+    2482,
+    2483,
+    2484,
+    2485,
+    2486,
+    2487,
+    3110,
+    3140,
+    3170,
+    3200,
+    3293,
+    3323,
+    3796,
+    3797,
+    3798,
+    3802,
+    6002,
+    6171,
+    9002,
+    12013,
+    12014,
+    12015,
+    12019,
+    12020,
+    12021,
+    14814,
+    18749,
+    18750,
+    18751,
+    18752,
+    18753,
+    18754,
+    18755,
+    18756,
+    18757,
+    6000003,
+    6000029,
+    6000055,
+    6000085,
+    6000086,
+    6000087,
+    13000003,
+    13000029,
+    13000055,
+    13000085,
+    13000086,
+    13000087,
+    13000443,
+    13000444,
+    13000445
+  ]
+}

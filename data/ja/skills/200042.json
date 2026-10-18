@@ -1,0 +1,272 @@
+{
+  "id": 200042,
+  "kind": "skill",
+  "kind_path": "skills",
+  "name": "Nakayama Racecourse ○",
+  "name_text": {
+    "ja": "中山レース場○",
+    "en": "Nakayama Racecourse ○",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 47,
+      "index": 200042
+    }
+  },
+  "description_text": {
+    "ja": "中山レース場なら\\nスタミナが少し上がる",
+    "en": "Increase performance moderately at the Nakayama racecourse",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 48,
+      "index": 200042
+    }
+  },
+  "rarity": 1,
+  "category_code": 0,
+  "group_id": 20004,
+  "grade_value_raw": 129,
+  "display_order": 1100,
+  "activation": {
+    "precondition_1": "",
+    "condition_1": "track_id==10005",
+    "precondition_2": "",
+    "condition_2": ""
+  },
+  "effect_components_raw": {
+    "float_ability_time_1": -1,
+    "ability_time_usage_1": 1,
+    "ability_type_1_1": 2,
+    "ability_value_usage_1_1": 1,
+    "additional_activate_type_1_1": 0,
+    "ability_value_level_usage_1_1": 1,
+    "float_ability_value_1_1": 400000,
+    "target_type_1_1": 1,
+    "target_value_1_1": 0,
+    "ability_type_1_2": 0,
+    "ability_value_usage_1_2": 1,
+    "additional_activate_type_1_2": 0,
+    "ability_value_level_usage_1_2": 1,
+    "float_ability_value_1_2": 0,
+    "target_type_1_2": 0,
+    "target_value_1_2": 0,
+    "ability_type_1_3": 0,
+    "ability_value_usage_1_3": 1,
+    "additional_activate_type_1_3": 0,
+    "ability_value_level_usage_1_3": 1,
+    "float_ability_value_1_3": 0,
+    "target_type_1_3": 0,
+    "target_value_1_3": 0,
+    "float_ability_time_2": 0,
+    "ability_time_usage_2": 1,
+    "ability_type_2_1": 0,
+    "ability_value_usage_2_1": 1,
+    "additional_activate_type_2_1": 0,
+    "ability_value_level_usage_2_1": 1,
+    "float_ability_value_2_1": 0,
+    "target_type_2_1": 0,
+    "target_value_2_1": 0,
+    "ability_type_2_2": 0,
+    "ability_value_usage_2_2": 1,
+    "additional_activate_type_2_2": 0,
+    "ability_value_level_usage_2_2": 1,
+    "float_ability_value_2_2": 0,
+    "target_type_2_2": 0,
+    "target_value_2_2": 0,
+    "ability_type_2_3": 0,
+    "ability_value_usage_2_3": 1,
+    "additional_activate_type_2_3": 0,
+    "ability_value_level_usage_2_3": 1,
+    "float_ability_value_2_3": 0,
+    "target_type_2_3": 0,
+    "target_value_2_3": 0,
+    "popularity_add_param_1": 2,
+    "popularity_add_value_1": 30,
+    "popularity_add_param_2": 0,
+    "popularity_add_value_2": 0
+  },
+  "related_ids": {
+    "unique_skill_id_1": 0,
+    "unique_skill_id_2": 0,
+    "tag_id": "402/604"
+  },
+  "raw_game_row": {
+    "id": 200042,
+    "rarity": 1,
+    "group_id": 20004,
+    "group_rate": 1,
+    "filter_switch": 0,
+    "grade_value": 129,
+    "skill_category": 0,
+    "tag_id": "402/604",
+    "unique_skill_id_1": 0,
+    "unique_skill_id_2": 0,
+    "exp_type": 0,
+    "potential_per_default": 10,
+    "activate_lot": 0,
+    "priority": 0,
+    "precondition_1": "",
+    "condition_1": "track_id==10005",
+    "float_ability_time_1": -1,
+    "ability_time_usage_1": 1,
+    "float_cooldown_time_1": 0,
+    "ability_type_1_1": 2,
+    "ability_value_usage_1_1": 1,
+    "additional_activate_type_1_1": 0,
+    "ability_value_level_usage_1_1": 1,
+    "float_ability_value_1_1": 400000,
+    "target_type_1_1": 1,
+    "target_value_1_1": 0,
+    "ability_type_1_2": 0,
+    "ability_value_usage_1_2": 1,
+    "additional_activate_type_1_2": 0,
+    "ability_value_level_usage_1_2": 1,
+    "float_ability_value_1_2": 0,
+    "target_type_1_2": 0,
+    "target_value_1_2": 0,
+    "ability_type_1_3": 0,
+    "ability_value_usage_1_3": 1,
+    "additional_activate_type_1_3": 0,
+    "ability_value_level_usage_1_3": 1,
+    "float_ability_value_1_3": 0,
+    "target_type_1_3": 0,
+    "target_value_1_3": 0,
+    "precondition_2": "",
+    "condition_2": "",
+    "float_ability_time_2": 0,
+    "ability_time_usage_2": 1,
+    "float_cooldown_time_2": 0,
+    "ability_type_2_1": 0,
+    "ability_value_usage_2_1": 1,
+    "additional_activate_type_2_1": 0,
+    "ability_value_level_usage_2_1": 1,
+    "float_ability_value_2_1": 0,
+    "target_type_2_1": 0,
+    "target_value_2_1": 0,
+    "ability_type_2_2": 0,
+    "ability_value_usage_2_2": 1,
+    "additional_activate_type_2_2": 0,
+    "ability_value_level_usage_2_2": 1,
+    "float_ability_value_2_2": 0,
+    "target_type_2_2": 0,
+    "target_value_2_2": 0,
+    "ability_type_2_3": 0,
+    "ability_value_usage_2_3": 1,
+    "additional_activate_type_2_3": 0,
+    "ability_value_level_usage_2_3": 1,
+    "float_ability_value_2_3": 0,
+    "target_type_2_3": 0,
+    "target_value_2_3": 0,
+    "popularity_add_param_1": 2,
+    "popularity_add_value_1": 30,
+    "popularity_add_param_2": 0,
+    "popularity_add_value_2": 0,
+    "disp_order": 1100,
+    "icon_id": 10021,
+    "plate_type": 0,
+    "disable_singlemode": 0,
+    "disable_count_condition": 0,
+    "is_general_skill": 1,
+    "greater_value_skill_detail": 0,
+    "start_date": 1483196400,
+    "end_date": 2524575600
+  },
+  "source": {
+    "table": "skill_data",
+    "row_id": 200042
+  },
+  "search_names": [
+    "中山レース場○",
+    "Nakayama Racecourse ○"
+  ],
+  "acquisition_sources": [
+    {
+      "kind": "support_card_hint",
+      "id": 10009,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10034,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10054,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10143,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20011,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20059,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20062,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30006,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30027,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30031,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30037,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30070,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30105,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30152,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30213,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30291,
+      "hint_group": 1
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 108301,
+      "need_rank": 0
+    }
+  ]
+}

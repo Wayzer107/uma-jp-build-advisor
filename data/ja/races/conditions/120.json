@@ -1,0 +1,21 @@
+{
+  "id": 120,
+  "kind": "race_condition",
+  "kind_path": "races/conditions",
+  "server": "ja",
+  "raw_game_row": {
+    "id": 120,
+    "area": 5,
+    "season": 4,
+    "weather": 1,
+    "sub_weather": 0,
+    "ground_type": 999,
+    "ground": 2,
+    "rate": 2880000
+  },
+  "source": {
+    "table": "race_condition",
+    "row_id": 120
+  },
+  "search_names": []
+}

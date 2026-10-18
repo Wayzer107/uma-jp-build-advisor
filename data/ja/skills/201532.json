@@ -1,0 +1,392 @@
+{
+  "id": 201532,
+  "kind": "skill",
+  "kind_path": "skills",
+  "name": "Leader's Tricks ○",
+  "name_text": {
+    "ja": "先行のコツ○",
+    "en": "Leader's Tricks ○",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 47,
+      "index": 201532
+    }
+  },
+  "description_text": {
+    "ja": "賢さが少し上がり\\n視野がわずかに広くなる\\n＜作戦・先行＞",
+    "en": "Leader・Taking a good position becomes a little easier",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 48,
+      "index": 201532
+    }
+  },
+  "rarity": 1,
+  "category_code": 0,
+  "group_id": 20153,
+  "grade_value_raw": 174,
+  "display_order": 21170,
+  "activation": {
+    "precondition_1": "",
+    "condition_1": "running_style==2",
+    "precondition_2": "",
+    "condition_2": ""
+  },
+  "effect_components_raw": {
+    "float_ability_time_1": -1,
+    "ability_time_usage_1": 1,
+    "ability_type_1_1": 5,
+    "ability_value_usage_1_1": 1,
+    "additional_activate_type_1_1": 0,
+    "ability_value_level_usage_1_1": 1,
+    "float_ability_value_1_1": 400000,
+    "target_type_1_1": 1,
+    "target_value_1_1": 0,
+    "ability_type_1_2": 8,
+    "ability_value_usage_1_2": 1,
+    "additional_activate_type_1_2": 0,
+    "ability_value_level_usage_1_2": 1,
+    "float_ability_value_1_2": 50000,
+    "target_type_1_2": 1,
+    "target_value_1_2": 0,
+    "ability_type_1_3": 0,
+    "ability_value_usage_1_3": 1,
+    "additional_activate_type_1_3": 0,
+    "ability_value_level_usage_1_3": 1,
+    "float_ability_value_1_3": 0,
+    "target_type_1_3": 0,
+    "target_value_1_3": 0,
+    "float_ability_time_2": 0,
+    "ability_time_usage_2": 1,
+    "ability_type_2_1": 0,
+    "ability_value_usage_2_1": 1,
+    "additional_activate_type_2_1": 0,
+    "ability_value_level_usage_2_1": 1,
+    "float_ability_value_2_1": 0,
+    "target_type_2_1": 0,
+    "target_value_2_1": 0,
+    "ability_type_2_2": 0,
+    "ability_value_usage_2_2": 1,
+    "additional_activate_type_2_2": 0,
+    "ability_value_level_usage_2_2": 1,
+    "float_ability_value_2_2": 0,
+    "target_type_2_2": 0,
+    "target_value_2_2": 0,
+    "ability_type_2_3": 0,
+    "ability_value_usage_2_3": 1,
+    "additional_activate_type_2_3": 0,
+    "ability_value_level_usage_2_3": 1,
+    "float_ability_value_2_3": 0,
+    "target_type_2_3": 0,
+    "target_value_2_3": 0,
+    "popularity_add_param_1": 3,
+    "popularity_add_value_1": 10,
+    "popularity_add_param_2": 5,
+    "popularity_add_value_2": 20
+  },
+  "related_ids": {
+    "unique_skill_id_1": 0,
+    "unique_skill_id_2": 0,
+    "tag_id": "102/405/612"
+  },
+  "raw_game_row": {
+    "id": 201532,
+    "rarity": 1,
+    "group_id": 20153,
+    "group_rate": 1,
+    "filter_switch": 0,
+    "grade_value": 174,
+    "skill_category": 0,
+    "tag_id": "102/405/612",
+    "unique_skill_id_1": 0,
+    "unique_skill_id_2": 0,
+    "exp_type": 0,
+    "potential_per_default": 10,
+    "activate_lot": 0,
+    "priority": 0,
+    "precondition_1": "",
+    "condition_1": "running_style==2",
+    "float_ability_time_1": -1,
+    "ability_time_usage_1": 1,
+    "float_cooldown_time_1": 0,
+    "ability_type_1_1": 5,
+    "ability_value_usage_1_1": 1,
+    "additional_activate_type_1_1": 0,
+    "ability_value_level_usage_1_1": 1,
+    "float_ability_value_1_1": 400000,
+    "target_type_1_1": 1,
+    "target_value_1_1": 0,
+    "ability_type_1_2": 8,
+    "ability_value_usage_1_2": 1,
+    "additional_activate_type_1_2": 0,
+    "ability_value_level_usage_1_2": 1,
+    "float_ability_value_1_2": 50000,
+    "target_type_1_2": 1,
+    "target_value_1_2": 0,
+    "ability_type_1_3": 0,
+    "ability_value_usage_1_3": 1,
+    "additional_activate_type_1_3": 0,
+    "ability_value_level_usage_1_3": 1,
+    "float_ability_value_1_3": 0,
+    "target_type_1_3": 0,
+    "target_value_1_3": 0,
+    "precondition_2": "",
+    "condition_2": "",
+    "float_ability_time_2": 0,
+    "ability_time_usage_2": 1,
+    "float_cooldown_time_2": 0,
+    "ability_type_2_1": 0,
+    "ability_value_usage_2_1": 1,
+    "additional_activate_type_2_1": 0,
+    "ability_value_level_usage_2_1": 1,
+    "float_ability_value_2_1": 0,
+    "target_type_2_1": 0,
+    "target_value_2_1": 0,
+    "ability_type_2_2": 0,
+    "ability_value_usage_2_2": 1,
+    "additional_activate_type_2_2": 0,
+    "ability_value_level_usage_2_2": 1,
+    "float_ability_value_2_2": 0,
+    "target_type_2_2": 0,
+    "target_value_2_2": 0,
+    "ability_type_2_3": 0,
+    "ability_value_usage_2_3": 1,
+    "additional_activate_type_2_3": 0,
+    "ability_value_level_usage_2_3": 1,
+    "float_ability_value_2_3": 0,
+    "target_type_2_3": 0,
+    "target_value_2_3": 0,
+    "popularity_add_param_1": 3,
+    "popularity_add_value_1": 10,
+    "popularity_add_param_2": 5,
+    "popularity_add_value_2": 20,
+    "disp_order": 21170,
+    "icon_id": 10051,
+    "plate_type": 0,
+    "disable_singlemode": 0,
+    "disable_count_condition": 0,
+    "is_general_skill": 1,
+    "greater_value_skill_detail": 0,
+    "start_date": 1483196400,
+    "end_date": 2524575600
+  },
+  "source": {
+    "table": "skill_data",
+    "row_id": 201532
+  },
+  "search_names": [
+    "先行のコツ○",
+    "Leader's Tricks ○"
+  ],
+  "acquisition_sources": [
+    {
+      "kind": "support_card_hint",
+      "id": 10013,
+      "hint_group": 7
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10024,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10059,
+      "hint_group": 7
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10062,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10069,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10080,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10086,
+      "hint_group": 8
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10092,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20003,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20028,
+      "hint_group": 7
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20034,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20051,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20059,
+      "hint_group": 6
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20064,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20085,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20096,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30038,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30065,
+      "hint_group": 7
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30095,
+      "hint_group": 7
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30100,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30101,
+      "hint_group": 6
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30102,
+      "hint_group": 6
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30104,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30109,
+      "hint_group": 6
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30113,
+      "hint_group": 8
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30119,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30126,
+      "hint_group": 8
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30130,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30159,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30260,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30284,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30318,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30319,
+      "hint_group": 3
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 101001,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 101303,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 101802,
+      "need_rank": 2
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 102302,
+      "need_rank": 2
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 103802,
+      "need_rank": 4
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 106901,
+      "need_rank": 4
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 109801,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 110001,
+      "need_rank": 0
+    }
+  ]
+}

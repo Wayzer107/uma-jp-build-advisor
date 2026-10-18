@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "uma-build-advisor",
+  "version": "0.2.0",
+  "description": "Repository-grounded Umamusume build advice with a ChatGPT build view and private inventory tools.",
+  "author": { "name": "Wayzer107" },
+  "homepage": "https://github.com/Wayzer107/uma-jp-build-advisor",
+  "repository": "https://github.com/Wayzer107/uma-jp-build-advisor",
+  "keywords": ["umamusume", "uma-musume", "build-advice", "game-data", "mcp-app"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Umamusume Build Advisor",
+        "shortDescription": "Umamusume race build advice",
+        "longDescription": "Plan server-specific Umamusume builds in ChatGPT Web chat from the versioned Japanese or Global game-data catalog and your private inventory. Connect the local MCP server through OpenAI Secure MCP Tunnel for private data access and updates. Includes fresh strategy research, six-card deck recommendations, legacy candidates, substitutions, and an interactive recommendation view.",
+        "developerName": "Wayzer107",
+        "category": "Games",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": "Help me plan a Japanese-server Umamusume build using my catalog and inventory."
+      }
+    }
+  }
+}

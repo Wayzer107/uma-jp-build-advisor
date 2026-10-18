@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "server": "global",
+  "generated_at_utc": "2026-10-18T20:36:07+00:00",
+  "coverage_status": "source_unavailable",
+  "source": {
+    "status": "source_unavailable",
+    "reason": "No independent Global install or verified Global export has been established in this workspace.",
+    "jp_data_used": false
+  },
+  "counts": {
+    "support_cards": 0,
+    "trainee_outfits": 0,
+    "skills": 0,
+    "events": 0,
+    "scenarios": 0,
+    "races": 0,
+    "race_courses": 0,
+    "race_conditions": 0,
+    "factors": 0
+  },
+  "field_coverage": {},
+  "unresolved_links": {},
+  "unavailable_fields": [
+    {
+      "entity": "all_global_catalog_entities",
+      "fields": [
+        "support cards",
+        "trainee outfits",
+        "skills",
+        "events",
+        "scenarios",
+        "races",
+        "inheritance factors"
+      ],
+      "reason": "An independently scoped Global source is required; JP rows are not a substitute."
+    }
+  ],
+  "indexes": {
+    "support_cards": "indexes/support_cards.json",
+    "trainee_outfits": "indexes/trainee_outfits.json",
+    "skills": "indexes/skills.json",
+    "events": "indexes/events.json",
+    "scenarios": "indexes/scenarios.json",
+    "races": "indexes/races.json",
+    "race_courses": "indexes/race_courses.json",
+    "race_conditions": "indexes/race_conditions.json",
+    "factors": "indexes/factors.json"
+  },
+  "generated_files": [
+    "coverage-report.json",
+    "indexes/events.json",
+    "indexes/factors.json",
+    "indexes/race_conditions.json",
+    "indexes/race_courses.json",
+    "indexes/races.json",
+    "indexes/scenarios.json",
+    "indexes/skills.json",
+    "indexes/support_cards.json",
+    "indexes/trainee_outfits.json"
+  ],
+  "validation": {
+    "coverage_status": "source_unavailable",
+    "report": "coverage-report.json"
+  }
+}

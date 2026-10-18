@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "server": "global",
+  "generated_at_utc": "2026-10-18T20:44:29+00:00",
+  "coverage_status": "source_unavailable",
+  "source_comparison": "not_run_no_verified_global_source",
+  "entity_coverage": {},
+  "unresolved_links": {},
+  "blocking_issues": [
+    "No independently verified Global source is available; no JP rows were used."
+  ],
+  "unavailable_fields": [
+    {
+      "entity": "all_global_catalog_entities",
+      "fields": [
+        "support cards",
+        "trainee outfits",
+        "skills",
+        "events",
+        "scenarios",
+        "races",
+        "inheritance factors"
+      ],
+      "reason": "An independently scoped Global source is required; JP rows are not a substitute."
+    }
+  ]
+}

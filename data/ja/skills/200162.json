@@ -1,0 +1,432 @@
+{
+  "id": 200162,
+  "kind": "skill",
+  "kind_path": "skills",
+  "name": "Bad Track Condition ○",
+  "name_text": {
+    "ja": "道悪○",
+    "en": "Bad Track Condition ○",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 47,
+      "index": 200162
+    }
+  },
+  "description_text": {
+    "ja": "「稍重」「重」「不良」のバ場状態なら\\nパワーが少し上がる",
+    "en": "Increase performance moderately on tracks in Yielding, Soft, or Heavy condition.",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 48,
+      "index": 200162
+    }
+  },
+  "rarity": 1,
+  "category_code": 0,
+  "group_id": 20016,
+  "grade_value_raw": 129,
+  "display_order": 1490,
+  "activation": {
+    "precondition_1": "",
+    "condition_1": "ground_condition==2@ground_condition==3@ground_condition==4",
+    "precondition_2": "",
+    "condition_2": ""
+  },
+  "effect_components_raw": {
+    "float_ability_time_1": -1,
+    "ability_time_usage_1": 1,
+    "ability_type_1_1": 3,
+    "ability_value_usage_1_1": 1,
+    "additional_activate_type_1_1": 0,
+    "ability_value_level_usage_1_1": 1,
+    "float_ability_value_1_1": 400000,
+    "target_type_1_1": 1,
+    "target_value_1_1": 0,
+    "ability_type_1_2": 0,
+    "ability_value_usage_1_2": 1,
+    "additional_activate_type_1_2": 0,
+    "ability_value_level_usage_1_2": 1,
+    "float_ability_value_1_2": 0,
+    "target_type_1_2": 0,
+    "target_value_1_2": 0,
+    "ability_type_1_3": 0,
+    "ability_value_usage_1_3": 1,
+    "additional_activate_type_1_3": 0,
+    "ability_value_level_usage_1_3": 1,
+    "float_ability_value_1_3": 0,
+    "target_type_1_3": 0,
+    "target_value_1_3": 0,
+    "float_ability_time_2": 0,
+    "ability_time_usage_2": 1,
+    "ability_type_2_1": 0,
+    "ability_value_usage_2_1": 1,
+    "additional_activate_type_2_1": 0,
+    "ability_value_level_usage_2_1": 1,
+    "float_ability_value_2_1": 0,
+    "target_type_2_1": 0,
+    "target_value_2_1": 0,
+    "ability_type_2_2": 0,
+    "ability_value_usage_2_2": 1,
+    "additional_activate_type_2_2": 0,
+    "ability_value_level_usage_2_2": 1,
+    "float_ability_value_2_2": 0,
+    "target_type_2_2": 0,
+    "target_value_2_2": 0,
+    "ability_type_2_3": 0,
+    "ability_value_usage_2_3": 1,
+    "additional_activate_type_2_3": 0,
+    "ability_value_level_usage_2_3": 1,
+    "float_ability_value_2_3": 0,
+    "target_type_2_3": 0,
+    "target_value_2_3": 0,
+    "popularity_add_param_1": 3,
+    "popularity_add_value_1": 30,
+    "popularity_add_param_2": 0,
+    "popularity_add_value_2": 0
+  },
+  "related_ids": {
+    "unique_skill_id_1": 0,
+    "unique_skill_id_2": 0,
+    "tag_id": "403/601"
+  },
+  "raw_game_row": {
+    "id": 200162,
+    "rarity": 1,
+    "group_id": 20016,
+    "group_rate": 1,
+    "filter_switch": 0,
+    "grade_value": 129,
+    "skill_category": 0,
+    "tag_id": "403/601",
+    "unique_skill_id_1": 0,
+    "unique_skill_id_2": 0,
+    "exp_type": 0,
+    "potential_per_default": 10,
+    "activate_lot": 0,
+    "priority": 0,
+    "precondition_1": "",
+    "condition_1": "ground_condition==2@ground_condition==3@ground_condition==4",
+    "float_ability_time_1": -1,
+    "ability_time_usage_1": 1,
+    "float_cooldown_time_1": 0,
+    "ability_type_1_1": 3,
+    "ability_value_usage_1_1": 1,
+    "additional_activate_type_1_1": 0,
+    "ability_value_level_usage_1_1": 1,
+    "float_ability_value_1_1": 400000,
+    "target_type_1_1": 1,
+    "target_value_1_1": 0,
+    "ability_type_1_2": 0,
+    "ability_value_usage_1_2": 1,
+    "additional_activate_type_1_2": 0,
+    "ability_value_level_usage_1_2": 1,
+    "float_ability_value_1_2": 0,
+    "target_type_1_2": 0,
+    "target_value_1_2": 0,
+    "ability_type_1_3": 0,
+    "ability_value_usage_1_3": 1,
+    "additional_activate_type_1_3": 0,
+    "ability_value_level_usage_1_3": 1,
+    "float_ability_value_1_3": 0,
+    "target_type_1_3": 0,
+    "target_value_1_3": 0,
+    "precondition_2": "",
+    "condition_2": "",
+    "float_ability_time_2": 0,
+    "ability_time_usage_2": 1,
+    "float_cooldown_time_2": 0,
+    "ability_type_2_1": 0,
+    "ability_value_usage_2_1": 1,
+    "additional_activate_type_2_1": 0,
+    "ability_value_level_usage_2_1": 1,
+    "float_ability_value_2_1": 0,
+    "target_type_2_1": 0,
+    "target_value_2_1": 0,
+    "ability_type_2_2": 0,
+    "ability_value_usage_2_2": 1,
+    "additional_activate_type_2_2": 0,
+    "ability_value_level_usage_2_2": 1,
+    "float_ability_value_2_2": 0,
+    "target_type_2_2": 0,
+    "target_value_2_2": 0,
+    "ability_type_2_3": 0,
+    "ability_value_usage_2_3": 1,
+    "additional_activate_type_2_3": 0,
+    "ability_value_level_usage_2_3": 1,
+    "float_ability_value_2_3": 0,
+    "target_type_2_3": 0,
+    "target_value_2_3": 0,
+    "popularity_add_param_1": 3,
+    "popularity_add_value_1": 30,
+    "popularity_add_param_2": 0,
+    "popularity_add_value_2": 0,
+    "disp_order": 1490,
+    "icon_id": 10031,
+    "plate_type": 0,
+    "disable_singlemode": 0,
+    "disable_count_condition": 0,
+    "is_general_skill": 1,
+    "greater_value_skill_detail": 0,
+    "start_date": 1483196400,
+    "end_date": 2524575600
+  },
+  "source": {
+    "table": "skill_data",
+    "row_id": 200162
+  },
+  "search_names": [
+    "道悪○",
+    "Bad Track Condition ○"
+  ],
+  "acquisition_sources": [
+    {
+      "kind": "support_card_hint",
+      "id": 10001,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10029,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10031,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10033,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10039,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10066,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10067,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10071,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10087,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10147,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20006,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20008,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20010,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20031,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20038,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20043,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20045,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20055,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20090,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20096,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30001,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30017,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30022,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30025,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30043,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30048,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30053,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30061,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30075,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30091,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30108,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30113,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30117,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30139,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30141,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30313,
+      "hint_group": 1
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 100101,
+      "need_rank": 2
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 100703,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 101002,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 101901,
+      "need_rank": 2
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 102102,
+      "need_rank": 2
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 102301,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 104301,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 104601,
+      "need_rank": 2
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 107002,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 107402,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 108701,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 108801,
+      "need_rank": 2
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 113701,
+      "need_rank": 4
+    }
+  ]
+}

@@ -1,0 +1,473 @@
+{
+  "id": 30080,
+  "kind": "support_card",
+  "kind_path": "support-cards",
+  "server": "ja",
+  "name": "[Want a Stab?] Anshinzawa Sasami",
+  "name_text": {
+    "ja": "[ブスッといっとく？]安心沢刺々美",
+    "en": "[Want a Stab?] Anshinzawa Sasami",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 75,
+      "index": 30080
+    }
+  },
+  "title_text": {
+    "ja": "[ブスッといっとく？]",
+    "en": "[Want a Stab?]",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 76,
+      "index": 30080
+    }
+  },
+  "character_id": 9005,
+  "character_name_text": {
+    "ja": "安心沢刺々美",
+    "en": "Anshinzawa Sasami",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 6,
+      "index": 9005
+    }
+  },
+  "rarity": 3,
+  "rarity_label": "SSR",
+  "support_type": "Pal",
+  "support_type_raw": {
+    "command_id": 0,
+    "support_card_type": 2
+  },
+  "release_date_jst": "2022-01-11",
+  "effect_table_id": 30080,
+  "effects": [
+    {
+      "type_code": 2,
+      "name_text": {
+        "ja": "やる気効果アップ",
+        "en": "Motivation Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 2
+        }
+      },
+      "description_text": {
+        "ja": "一緒にトレーニングをしたときのやる気による効果アップ",
+        "en": "Amplifies the effect of motivation when training together.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 2
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "1": 10,
+        "30": 40,
+        "50": 60
+      },
+      "value_at_rarity_cap": 60,
+      "value_level": 50,
+      "raw_game_row": {
+        "id": 30080,
+        "type": 2,
+        "init": 10,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": 40,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": -1,
+        "limit_lv50": 60
+      }
+    },
+    {
+      "type_code": 14,
+      "name_text": {
+        "ja": "初期絆ゲージアップ",
+        "en": "Starting Friendship Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 14
+        }
+      },
+      "description_text": {
+        "ja": "育成開始時の初期絆ゲージがアップ",
+        "en": "Increases Friendship Gauge at the start of a Career.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 14
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "10": 10,
+        "25": 20,
+        "30": 20,
+        "45": 25
+      },
+      "value_at_rarity_cap": 25,
+      "value_level": 45,
+      "raw_game_row": {
+        "id": 30080,
+        "type": 14,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": 10,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": 20,
+        "limit_lv30": 20,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": 25,
+        "limit_lv50": -1
+      }
+    },
+    {
+      "type_code": 25,
+      "name_text": {
+        "ja": "イベント回復量アップ",
+        "en": "Event Recovery Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 25
+        }
+      },
+      "description_text": {
+        "ja": "このサポートカードのイベントによる回復量がアップ",
+        "en": "Increases energy recovered from this card's events.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 25
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "45": 30,
+        "50": 60
+      },
+      "value_at_rarity_cap": 60,
+      "value_level": 50,
+      "raw_game_row": {
+        "id": 30080,
+        "type": 25,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": -1,
+        "limit_lv40": -1,
+        "limit_lv45": 30,
+        "limit_lv50": 60
+      }
+    },
+    {
+      "type_code": 26,
+      "name_text": {
+        "ja": "イベント効果アップ",
+        "en": "Event Effect Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 26
+        }
+      },
+      "description_text": {
+        "ja": "このサポートカードのイベントによる効果量がアップ",
+        "en": "Increases effects of this card's events.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 26
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "1": 1,
+        "30": 10,
+        "35": 20,
+        "40": 30,
+        "45": 40,
+        "50": 50
+      },
+      "value_at_rarity_cap": 50,
+      "value_level": 50,
+      "raw_game_row": {
+        "id": 30080,
+        "type": 26,
+        "init": 1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": 10,
+        "limit_lv35": 20,
+        "limit_lv40": 30,
+        "limit_lv45": 40,
+        "limit_lv50": 50
+      }
+    },
+    {
+      "type_code": 30,
+      "name_text": {
+        "ja": "スキルPtボーナス",
+        "en": "Skill Point Bonus",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 151,
+          "index": 30
+        }
+      },
+      "description_text": {
+        "ja": "一緒にトレーニングをするとスキルPtの上昇量がアップ",
+        "en": "Increases Skill Pt gained when training together.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 154,
+          "index": 30
+        }
+      },
+      "unit_hint": null,
+      "interpretation_status": "raw values preserved; unit decoder not yet verified",
+      "values_by_level": {
+        "35": 1
+      },
+      "value_at_rarity_cap": 1,
+      "value_level": 35,
+      "raw_game_row": {
+        "id": 30080,
+        "type": 30,
+        "init": -1,
+        "limit_lv5": -1,
+        "limit_lv10": -1,
+        "limit_lv15": -1,
+        "limit_lv20": -1,
+        "limit_lv25": -1,
+        "limit_lv30": -1,
+        "limit_lv35": 1,
+        "limit_lv40": -1,
+        "limit_lv45": -1,
+        "limit_lv50": -1
+      }
+    }
+  ],
+  "unique_effect_id": 30080,
+  "unique_effect_rows": [
+    {
+      "level_requirement_raw": 1,
+      "name_text": {
+        "ja": "ブスッといっとく？",
+        "en": "Want a Stab?",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 150,
+          "index": 30080
+        }
+      },
+      "description_text": {
+        "ja": "あんし～んなイベントが発生しやすくなる",
+        "en": "Acupuncturist events are \nmore likely to occur",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 155,
+          "index": 30080
+        }
+      },
+      "components": [],
+      "idle_mode_sub_rate_raw": 0,
+      "raw_game_row": {
+        "id": 30080,
+        "lv": 1,
+        "type_0": 0,
+        "value_0": 0,
+        "value_0_1": 0,
+        "value_0_2": 0,
+        "value_0_3": 0,
+        "value_0_4": 0,
+        "type_1": 0,
+        "value_1": 0,
+        "value_1_1": 0,
+        "value_1_2": 0,
+        "value_1_3": 0,
+        "value_1_4": 0,
+        "idle_mode_sub_rate": 0
+      }
+    }
+  ],
+  "hint_id": 9089005,
+  "hints_and_rewards": [],
+  "unresolved_hint_skill_ids": [],
+  "event_skill_ids_gametora": [
+    200283,
+    200353,
+    200521,
+    201591,
+    202031,
+    202032
+  ],
+  "event_skill_links_gametora": [
+    {
+      "skill_id": 200283,
+      "skill_name": "Introverted",
+      "ref_status": "resolved"
+    },
+    {
+      "skill_id": 200353,
+      "skill_name": "Corner Recovery ×",
+      "ref_status": "resolved"
+    },
+    {
+      "skill_id": 200521,
+      "skill_name": "Running Idle",
+      "ref_status": "resolved"
+    },
+    {
+      "skill_id": 201591,
+      "skill_name": "Big Fan",
+      "ref_status": "resolved"
+    },
+    {
+      "skill_id": 202031,
+      "skill_name": "Gamester",
+      "ref_status": "resolved"
+    },
+    {
+      "skill_id": 202032,
+      "skill_name": "Questionable Strategy",
+      "ref_status": "resolved"
+    }
+  ],
+  "gametora_hint_crosscheck": {
+    "status": "exact_id_match",
+    "local_hint_skill_ids": [],
+    "gametora_hint_skill_ids": [],
+    "gametora_only_skill_ids": [],
+    "local_only_skill_ids": []
+  },
+  "group_members": [],
+  "gametora": {
+    "id": 30080,
+    "url": "https://gametora.com/umamusume/supports/30080-sasami-anshinzawa",
+    "url_candidate": "https://gametora.com/umamusume/supports/30080-anshinzawa-sasami",
+    "url_name": "30080-sasami-anshinzawa",
+    "mapping_status": "verified_full_id_set",
+    "source_data_version": "ecbd7dc3",
+    "reconciliation_note": "The complete local support ID set was compared with the versioned GameTora support-cards feed."
+  },
+  "source": {
+    "table": "support_card_data",
+    "row_id": 30080,
+    "effect_table": "support_card_effect_table",
+    "unique_effect_table": "support_card_unique_effect",
+    "hints_table": "single_mode_hint_gain",
+    "text_categories": [
+      75,
+      76,
+      6,
+      182,
+      151,
+      154,
+      150,
+      155
+    ],
+    "gametora_event_skills": "GameTora support-cards feed; source details are recorded in the catalog manifest."
+  },
+  "raw_game_row": {
+    "id": 30080,
+    "chara_id": 9005,
+    "rarity": 3,
+    "exchange_item_id": 50,
+    "exchange_item_num": 10,
+    "effect_table_id": 30080,
+    "unique_effect_id": 30080,
+    "command_type": 0,
+    "command_id": 0,
+    "support_card_type": 2,
+    "skill_set_id": 9089005,
+    "detail_pos_x": 0,
+    "detail_pos_y": -550000,
+    "detail_scale": 10000,
+    "detail_rot_z": 0,
+    "start_date": 1641870000,
+    "disp_order": 1004503,
+    "outing_max": 3,
+    "effect_id": 0
+  },
+  "search_names": [
+    "[ブスッといっとく？]安心沢刺々美",
+    "[Want a Stab?] Anshinzawa Sasami",
+    "[ブスッといっとく？]",
+    "[Want a Stab?]",
+    "安心沢刺々美",
+    "Anshinzawa Sasami"
+  ],
+  "training_event_ids": [],
+  "character_event_ids": [
+    5674,
+    5675,
+    5676,
+    5677,
+    5678,
+    5679,
+    5680,
+    5681,
+    5682,
+    5683,
+    5685,
+    5949,
+    11582,
+    11583,
+    12034,
+    16775,
+    16777,
+    16778
+  ]
+}

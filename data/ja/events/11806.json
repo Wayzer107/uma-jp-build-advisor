@@ -1,0 +1,94 @@
+{
+  "id": 11806,
+  "kind": "training_event",
+  "kind_path": "events",
+  "server": "ja",
+  "story_id": 501093709,
+  "title_text": {
+    "ja": "レース入着",
+    "en": "Solid Showing",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 181,
+      "index": 501093709
+    }
+  },
+  "support_card_id": null,
+  "support_chara_id": null,
+  "trainee_outfit_id": null,
+  "trainee_chara_id": 1093,
+  "event_category_raw": 3,
+  "gallery_flag": 1,
+  "chain": {
+    "progress_1_raw": 0,
+    "progress_2_raw": 0,
+    "progress_3_raw": 0
+  },
+  "branch_conditions": {
+    "root": [],
+    "condition_sets": []
+  },
+  "story_asset": {
+    "status": "not_in_extracted_assets",
+    "relative_path": null,
+    "sha256": null,
+    "dialogue_copied": false
+  },
+  "outcomes": {
+    "status": "unavailable_from_installed_master",
+    "choices": null,
+    "rewards": null,
+    "required_source": "Reviewed structured JP event dataset or verified structured rewards extracted from matching installed story data."
+  },
+  "source": {
+    "table": "single_mode_story_data",
+    "row_id": 11806,
+    "title_text_category": 181,
+    "branch_tables": [
+      "single_mode_story_root",
+      "single_mode_story_condition_set"
+    ]
+  },
+  "raw_game_row": {
+    "id": 11806,
+    "story_id": 501093709,
+    "short_story_id": 0,
+    "card_id": 0,
+    "card_chara_id": 1093,
+    "support_card_id": 0,
+    "support_chara_id": 0,
+    "show_progress_1": 0,
+    "show_progress_2": 0,
+    "show_progress_3": 0,
+    "show_clear": 0,
+    "show_succession": 0,
+    "event_title_style": 1,
+    "event_title_dress_icon": 0,
+    "sub_icon_id": 0,
+    "event_title_chara_icon": 0,
+    "se_change": 1,
+    "ending_type": 0,
+    "race_event_flag": 1,
+    "mini_game_result": 0,
+    "gallery_main_scenario": 0,
+    "gallery_flag": 1,
+    "gallery_list_id": 81004,
+    "gallery_gruop_id": 0,
+    "gallery_sort": 0,
+    "gallery_condition": 0,
+    "gallery_suggest_event": 0,
+    "available_gallery_key": 1,
+    "past_race_id": 0,
+    "past_race_id_2": 0,
+    "past_race_id_3": 0,
+    "past_race_id_4": 0,
+    "force_use_race_dress": 0,
+    "event_category": 3
+  },
+  "search_names": [
+    "レース入着",
+    "Solid Showing"
+  ]
+}

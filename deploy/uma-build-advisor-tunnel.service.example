@@ -1,0 +1,20 @@
+[Unit]
+Description=Umamusume Build Advisor Secure MCP Tunnel
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=pi
+Environment=HOME=/home/pi
+EnvironmentFile=/etc/uma-build-advisor/tunnel.env
+WorkingDirectory=/home/pi/uma-jp-build-advisor-public
+ExecStart=/usr/local/bin/tunnel-client run --profile uma-build-advisor
+Restart=on-failure
+RestartSec=10
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+
+[Install]
+WantedBy=multi-user.target

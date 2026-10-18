@@ -1,0 +1,87 @@
+{
+  "id": 13,
+  "kind": "scenario",
+  "kind_path": "scenarios",
+  "server": "ja",
+  "scenario_group_ids": [
+    13,
+    100,
+    601,
+    1801
+  ],
+  "start_date_jst": "2026-02-24",
+  "end_date_jst": "2050-01-01",
+  "skill_upgrade_num": 2,
+  "max_skill_point": 99999,
+  "support_num": 5,
+  "special_skill_upgrades": [
+    {
+      "base_skill_id": 201652,
+      "replacement_skill_id": 413011,
+      "start_date_jst": "2026-02-24",
+      "source_row_id": 413011
+    },
+    {
+      "base_skill_id": 204181,
+      "replacement_skill_id": 413021,
+      "start_date_jst": "2026-02-24",
+      "source_row_id": 413021
+    },
+    {
+      "base_skill_id": 204191,
+      "replacement_skill_id": 413031,
+      "start_date_jst": "2026-02-24",
+      "source_row_id": 413031
+    },
+    {
+      "base_skill_id": 200511,
+      "replacement_skill_id": 413041,
+      "start_date_jst": "2026-02-24",
+      "source_row_id": 413041
+    },
+    {
+      "base_skill_id": 203651,
+      "replacement_skill_id": 413051,
+      "start_date_jst": "2026-02-24",
+      "source_row_id": 413051
+    }
+  ],
+  "raw_parameters": {
+    "id": 13,
+    "sort_id": 13,
+    "scenario_image_id": 13,
+    "prologue_id": 80000013,
+    "turn_set_id": 13,
+    "hint_rate": 0,
+    "start_date": 1771902000,
+    "end_date": 2524575600,
+    "additional_icon_set_id": 0,
+    "bg_id": 371,
+    "bg_sub_id": 110,
+    "bg_offset_x": -100,
+    "sec_bg_id": 371,
+    "sec_bg_sub_id": 110,
+    "label_font_color": "FFFFFF",
+    "label_bg_color": "8568d7",
+    "chara_program_change_flag": 1,
+    "max_speed": 900,
+    "max_stamina": 500,
+    "max_pow": 500,
+    "max_guts": 500,
+    "max_wiz": 600,
+    "gimmick_discount_rate": 5000,
+    "skill_upgrade_num": 2,
+    "upper_limit_speed": 2500,
+    "upper_limit_stamina": 2500,
+    "upper_limit_pow": 2500,
+    "upper_limit_guts": 2500,
+    "upper_limit_wiz": 2500,
+    "max_skill_point": 99999,
+    "support_num": 5
+  },
+  "source": {
+    "table": "single_mode_scenario",
+    "row_id": 13
+  },
+  "search_names": []
+}

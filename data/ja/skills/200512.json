@@ -1,0 +1,477 @@
+{
+  "id": 200512,
+  "kind": "skill",
+  "kind_path": "skills",
+  "name": "Last Leg",
+  "name_text": {
+    "ja": "末脚",
+    "en": "Last Leg",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 47,
+      "index": 200512
+    }
+  },
+  "description_text": {
+    "ja": "レース最終盤始めのどこかで\\nラストスパートの最中なら\\n速度がわずかに上がる",
+    "en": "At a random point in the first half of Last Spurt, your speed will slightly increase.",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 48,
+      "index": 200512
+    }
+  },
+  "rarity": 1,
+  "category_code": 3,
+  "group_id": 20051,
+  "grade_value_raw": 217,
+  "display_order": 2260,
+  "activation": {
+    "precondition_1": "",
+    "condition_1": "is_lastspurt==1&phase_firsthalf_random==3",
+    "precondition_2": "",
+    "condition_2": ""
+  },
+  "effect_components_raw": {
+    "float_ability_time_1": 24000,
+    "ability_time_usage_1": 1,
+    "ability_type_1_1": 27,
+    "ability_value_usage_1_1": 1,
+    "additional_activate_type_1_1": 0,
+    "ability_value_level_usage_1_1": 1,
+    "float_ability_value_1_1": 1500,
+    "target_type_1_1": 1,
+    "target_value_1_1": 0,
+    "ability_type_1_2": 0,
+    "ability_value_usage_1_2": 1,
+    "additional_activate_type_1_2": 0,
+    "ability_value_level_usage_1_2": 1,
+    "float_ability_value_1_2": 0,
+    "target_type_1_2": 0,
+    "target_value_1_2": 0,
+    "ability_type_1_3": 0,
+    "ability_value_usage_1_3": 1,
+    "additional_activate_type_1_3": 0,
+    "ability_value_level_usage_1_3": 1,
+    "float_ability_value_1_3": 0,
+    "target_type_1_3": 0,
+    "target_value_1_3": 0,
+    "float_ability_time_2": 0,
+    "ability_time_usage_2": 1,
+    "ability_type_2_1": 0,
+    "ability_value_usage_2_1": 1,
+    "additional_activate_type_2_1": 0,
+    "ability_value_level_usage_2_1": 1,
+    "float_ability_value_2_1": 0,
+    "target_type_2_1": 0,
+    "target_value_2_1": 0,
+    "ability_type_2_2": 0,
+    "ability_value_usage_2_2": 1,
+    "additional_activate_type_2_2": 0,
+    "ability_value_level_usage_2_2": 1,
+    "float_ability_value_2_2": 0,
+    "target_type_2_2": 0,
+    "target_value_2_2": 0,
+    "ability_type_2_3": 0,
+    "ability_value_usage_2_3": 1,
+    "additional_activate_type_2_3": 0,
+    "ability_value_level_usage_2_3": 1,
+    "float_ability_value_2_3": 0,
+    "target_type_2_3": 0,
+    "target_value_2_3": 0,
+    "popularity_add_param_1": 1,
+    "popularity_add_value_1": 20,
+    "popularity_add_param_2": 0,
+    "popularity_add_value_2": 0
+  },
+  "related_ids": {
+    "unique_skill_id_1": 0,
+    "unique_skill_id_2": 0,
+    "tag_id": "303/401"
+  },
+  "raw_game_row": {
+    "id": 200512,
+    "rarity": 1,
+    "group_id": 20051,
+    "group_rate": 1,
+    "filter_switch": 0,
+    "grade_value": 217,
+    "skill_category": 3,
+    "tag_id": "303/401",
+    "unique_skill_id_1": 0,
+    "unique_skill_id_2": 0,
+    "exp_type": 0,
+    "potential_per_default": 10,
+    "activate_lot": 1,
+    "priority": 0,
+    "precondition_1": "",
+    "condition_1": "is_lastspurt==1&phase_firsthalf_random==3",
+    "float_ability_time_1": 24000,
+    "ability_time_usage_1": 1,
+    "float_cooldown_time_1": 5000000,
+    "ability_type_1_1": 27,
+    "ability_value_usage_1_1": 1,
+    "additional_activate_type_1_1": 0,
+    "ability_value_level_usage_1_1": 1,
+    "float_ability_value_1_1": 1500,
+    "target_type_1_1": 1,
+    "target_value_1_1": 0,
+    "ability_type_1_2": 0,
+    "ability_value_usage_1_2": 1,
+    "additional_activate_type_1_2": 0,
+    "ability_value_level_usage_1_2": 1,
+    "float_ability_value_1_2": 0,
+    "target_type_1_2": 0,
+    "target_value_1_2": 0,
+    "ability_type_1_3": 0,
+    "ability_value_usage_1_3": 1,
+    "additional_activate_type_1_3": 0,
+    "ability_value_level_usage_1_3": 1,
+    "float_ability_value_1_3": 0,
+    "target_type_1_3": 0,
+    "target_value_1_3": 0,
+    "precondition_2": "",
+    "condition_2": "",
+    "float_ability_time_2": 0,
+    "ability_time_usage_2": 1,
+    "float_cooldown_time_2": 0,
+    "ability_type_2_1": 0,
+    "ability_value_usage_2_1": 1,
+    "additional_activate_type_2_1": 0,
+    "ability_value_level_usage_2_1": 1,
+    "float_ability_value_2_1": 0,
+    "target_type_2_1": 0,
+    "target_value_2_1": 0,
+    "ability_type_2_2": 0,
+    "ability_value_usage_2_2": 1,
+    "additional_activate_type_2_2": 0,
+    "ability_value_level_usage_2_2": 1,
+    "float_ability_value_2_2": 0,
+    "target_type_2_2": 0,
+    "target_value_2_2": 0,
+    "ability_type_2_3": 0,
+    "ability_value_usage_2_3": 1,
+    "additional_activate_type_2_3": 0,
+    "ability_value_level_usage_2_3": 1,
+    "float_ability_value_2_3": 0,
+    "target_type_2_3": 0,
+    "target_value_2_3": 0,
+    "popularity_add_param_1": 1,
+    "popularity_add_value_1": 20,
+    "popularity_add_param_2": 0,
+    "popularity_add_value_2": 0,
+    "disp_order": 2260,
+    "icon_id": 20011,
+    "plate_type": 0,
+    "disable_singlemode": 0,
+    "disable_count_condition": 0,
+    "is_general_skill": 1,
+    "greater_value_skill_detail": 0,
+    "start_date": 1483196400,
+    "end_date": 2524575600
+  },
+  "source": {
+    "table": "skill_data",
+    "row_id": 200512
+  },
+  "search_names": [
+    "末脚",
+    "Last Leg"
+  ],
+  "acquisition_sources": [
+    {
+      "kind": "support_card_hint",
+      "id": 10001,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10005,
+      "hint_group": 6
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10007,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10009,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10019,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10058,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10078,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10098,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10113,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10115,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10129,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10143,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10147,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20039,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20043,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20048,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20074,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20101,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30001,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30005,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30006,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30016,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30024,
+      "hint_group": 6
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30025,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30032,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30094,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30097,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30103,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30120,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30127,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30138,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30163,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30164,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30168,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30169,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30173,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30186,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30190,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30191,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30203,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30217,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30221,
+      "hint_group": 1
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30226,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30240,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30247,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30256,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30259,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30291,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30313,
+      "hint_group": 2
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30321,
+      "hint_group": 1
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 100101,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 101101,
+      "need_rank": 2
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 101402,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 101601,
+      "need_rank": 2
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 102302,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 103701,
+      "need_rank": 2
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 106201,
+      "need_rank": 4
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 108901,
+      "need_rank": 0
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "id": 202092,
+  "kind": "skill",
+  "kind_path": "skills",
+  "name": "Fighting Spirit",
+  "name_text": {
+    "ja": "闘争心",
+    "en": "Fighting Spirit",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 47,
+      "index": 202092
+    }
+  },
+  "description_text": {
+    "ja": "レース中盤に中団で競り合うと\\n持久力をちょっと回復し\\n速度がわずかに上がる＜中距離＞",
+    "en": "Mid・Restore a little bit of energy and very slightly increase speed when battling in the midfield during the Middle Leg",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 48,
+      "index": 202092
+    }
+  },
+  "rarity": 1,
+  "category_code": 2,
+  "group_id": 20209,
+  "grade_value_raw": 217,
+  "display_order": 21620,
+  "activation": {
+    "precondition_1": "",
+    "condition_1": "distance_type==3&phase==1&order_rate<=80&order_rate>=30&blocked_side_continuetime>=2",
+    "precondition_2": "",
+    "condition_2": ""
+  },
+  "effect_components_raw": {
+    "float_ability_time_1": 24000,
+    "ability_time_usage_1": 1,
+    "ability_type_1_1": 27,
+    "ability_value_usage_1_1": 1,
+    "additional_activate_type_1_1": 0,
+    "ability_value_level_usage_1_1": 1,
+    "float_ability_value_1_1": 1500,
+    "target_type_1_1": 1,
+    "target_value_1_1": 0,
+    "ability_type_1_2": 9,
+    "ability_value_usage_1_2": 1,
+    "additional_activate_type_1_2": 0,
+    "ability_value_level_usage_1_2": 1,
+    "float_ability_value_1_2": 50,
+    "target_type_1_2": 1,
+    "target_value_1_2": 0,
+    "ability_type_1_3": 0,
+    "ability_value_usage_1_3": 1,
+    "additional_activate_type_1_3": 0,
+    "ability_value_level_usage_1_3": 1,
+    "float_ability_value_1_3": 0,
+    "target_type_1_3": 0,
+    "target_value_1_3": 0,
+    "float_ability_time_2": 0,
+    "ability_time_usage_2": 1,
+    "ability_type_2_1": 0,
+    "ability_value_usage_2_1": 1,
+    "additional_activate_type_2_1": 0,
+    "ability_value_level_usage_2_1": 1,
+    "float_ability_value_2_1": 0,
+    "target_type_2_1": 0,
+    "target_value_2_1": 0,
+    "ability_type_2_2": 0,
+    "ability_value_usage_2_2": 1,
+    "additional_activate_type_2_2": 0,
+    "ability_value_level_usage_2_2": 1,
+    "float_ability_value_2_2": 0,
+    "target_type_2_2": 0,
+    "target_value_2_2": 0,
+    "ability_type_2_3": 0,
+    "ability_value_usage_2_3": 1,
+    "additional_activate_type_2_3": 0,
+    "ability_value_level_usage_2_3": 1,
+    "float_ability_value_2_3": 0,
+    "target_type_2_3": 0,
+    "target_value_2_3": 0,
+    "popularity_add_param_1": 1,
+    "popularity_add_value_1": 10,
+    "popularity_add_param_2": 2,
+    "popularity_add_value_2": 10
+  },
+  "related_ids": {
+    "unique_skill_id_1": 0,
+    "unique_skill_id_2": 0,
+    "tag_id": "203/302/401/402"
+  },
+  "raw_game_row": {
+    "id": 202092,
+    "rarity": 1,
+    "group_id": 20209,
+    "group_rate": 1,
+    "filter_switch": 0,
+    "grade_value": 217,
+    "skill_category": 2,
+    "tag_id": "203/302/401/402",
+    "unique_skill_id_1": 0,
+    "unique_skill_id_2": 0,
+    "exp_type": 0,
+    "potential_per_default": 10,
+    "activate_lot": 1,
+    "priority": 0,
+    "precondition_1": "",
+    "condition_1": "distance_type==3&phase==1&order_rate<=80&order_rate>=30&blocked_side_continuetime>=2",
+    "float_ability_time_1": 24000,
+    "ability_time_usage_1": 1,
+    "float_cooldown_time_1": 5000000,
+    "ability_type_1_1": 27,
+    "ability_value_usage_1_1": 1,
+    "additional_activate_type_1_1": 0,
+    "ability_value_level_usage_1_1": 1,
+    "float_ability_value_1_1": 1500,
+    "target_type_1_1": 1,
+    "target_value_1_1": 0,
+    "ability_type_1_2": 9,
+    "ability_value_usage_1_2": 1,
+    "additional_activate_type_1_2": 0,
+    "ability_value_level_usage_1_2": 1,
+    "float_ability_value_1_2": 50,
+    "target_type_1_2": 1,
+    "target_value_1_2": 0,
+    "ability_type_1_3": 0,
+    "ability_value_usage_1_3": 1,
+    "additional_activate_type_1_3": 0,
+    "ability_value_level_usage_1_3": 1,
+    "float_ability_value_1_3": 0,
+    "target_type_1_3": 0,
+    "target_value_1_3": 0,
+    "precondition_2": "",
+    "condition_2": "",
+    "float_ability_time_2": 0,
+    "ability_time_usage_2": 1,
+    "float_cooldown_time_2": 0,
+    "ability_type_2_1": 0,
+    "ability_value_usage_2_1": 1,
+    "additional_activate_type_2_1": 0,
+    "ability_value_level_usage_2_1": 1,
+    "float_ability_value_2_1": 0,
+    "target_type_2_1": 0,
+    "target_value_2_1": 0,
+    "ability_type_2_2": 0,
+    "ability_value_usage_2_2": 1,
+    "additional_activate_type_2_2": 0,
+    "ability_value_level_usage_2_2": 1,
+    "float_ability_value_2_2": 0,
+    "target_type_2_2": 0,
+    "target_value_2_2": 0,
+    "ability_type_2_3": 0,
+    "ability_value_usage_2_3": 1,
+    "additional_activate_type_2_3": 0,
+    "ability_value_level_usage_2_3": 1,
+    "float_ability_value_2_3": 0,
+    "target_type_2_3": 0,
+    "target_value_2_3": 0,
+    "popularity_add_param_1": 1,
+    "popularity_add_value_1": 10,
+    "popularity_add_param_2": 2,
+    "popularity_add_value_2": 10,
+    "disp_order": 21620,
+    "icon_id": 20011,
+    "plate_type": 0,
+    "disable_singlemode": 0,
+    "disable_count_condition": 0,
+    "is_general_skill": 1,
+    "greater_value_skill_detail": 0,
+    "start_date": 1483196400,
+    "end_date": 2524575600
+  },
+  "source": {
+    "table": "skill_data",
+    "row_id": 202092
+  },
+  "search_names": [
+    "闘争心",
+    "Fighting Spirit"
+  ],
+  "acquisition_sources": [
+    {
+      "kind": "support_card_hint",
+      "id": 10081,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10108,
+      "hint_group": 6
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10115,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 10117,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20052,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20074,
+      "hint_group": 6
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20077,
+      "hint_group": 6
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20083,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 20094,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30037,
+      "hint_group": 7
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30127,
+      "hint_group": 10
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30136,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30176,
+      "hint_group": 6
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30179,
+      "hint_group": 4
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30200,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30217,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30282,
+      "hint_group": 5
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30300,
+      "hint_group": 3
+    },
+    {
+      "kind": "support_card_hint",
+      "id": 30306,
+      "hint_group": 3
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 101703,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 106902,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 107201,
+      "need_rank": 2
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 108302,
+      "need_rank": 0
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 109402,
+      "need_rank": 4
+    },
+    {
+      "kind": "trainee_unlock",
+      "id": 109601,
+      "need_rank": 0
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": 12,
+  "kind": "scenario",
+  "kind_path": "scenarios",
+  "server": "ja",
+  "scenario_group_ids": [
+    12,
+    100,
+    701,
+    801,
+    901,
+    1801,
+    1901
+  ],
+  "start_date_jst": "2025-10-29",
+  "end_date_jst": "2050-01-01",
+  "skill_upgrade_num": 2,
+  "max_skill_point": 9999,
+  "support_num": 5,
+  "special_skill_upgrades": [
+    {
+      "base_skill_id": 201662,
+      "replacement_skill_id": 412011,
+      "start_date_jst": "2025-10-29",
+      "source_row_id": 412011
+    },
+    {
+      "base_skill_id": 200531,
+      "replacement_skill_id": 412021,
+      "start_date_jst": "2025-10-29",
+      "source_row_id": 412021
+    },
+    {
+      "base_skill_id": 204001,
+      "replacement_skill_id": 412031,
+      "start_date_jst": "2025-10-29",
+      "source_row_id": 412031
+    },
+    {
+      "base_skill_id": 202791,
+      "replacement_skill_id": 412041,
+      "start_date_jst": "2025-10-29",
+      "source_row_id": 412041
+    },
+    {
+      "base_skill_id": 203361,
+      "replacement_skill_id": 412051,
+      "start_date_jst": "2025-10-29",
+      "source_row_id": 412051
+    }
+  ],
+  "raw_parameters": {
+    "id": 12,
+    "sort_id": 12,
+    "scenario_image_id": 12,
+    "prologue_id": 80000012,
+    "turn_set_id": 12,
+    "hint_rate": 0,
+    "start_date": 1761706800,
+    "end_date": 2524575600,
+    "additional_icon_set_id": 0,
+    "bg_id": 362,
+    "bg_sub_id": 110,
+    "bg_offset_x": 0,
+    "sec_bg_id": 362,
+    "sec_bg_sub_id": 110,
+    "label_font_color": "FFFFFF",
+    "label_bg_color": "FFAD01",
+    "chara_program_change_flag": 0,
+    "max_speed": 700,
+    "max_stamina": 600,
+    "max_pow": 500,
+    "max_guts": 500,
+    "max_wiz": 200,
+    "gimmick_discount_rate": 5000,
+    "skill_upgrade_num": 2,
+    "upper_limit_speed": 2000,
+    "upper_limit_stamina": 2000,
+    "upper_limit_pow": 2000,
+    "upper_limit_guts": 2000,
+    "upper_limit_wiz": 2000,
+    "max_skill_point": 9999,
+    "support_num": 5
+  },
+  "source": {
+    "table": "single_mode_scenario",
+    "row_id": 12
+  },
+  "search_names": []
+}

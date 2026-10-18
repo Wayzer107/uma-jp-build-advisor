@@ -1,0 +1,128 @@
+{
+  "id": 11240202,
+  "kind": "inheritance_factor",
+  "kind_path": "factors",
+  "server": "ja",
+  "factor_group_id": 112402,
+  "factor_type_raw": 3,
+  "rarity": 2,
+  "grade": 2,
+  "effect_group_id": 32,
+  "hidden": false,
+  "start_date_jst": "2017-01-01",
+  "end_date_jst": "2050-01-01",
+  "effects_raw": [
+    {
+      "id": 6292,
+      "factor_group_id": 112402,
+      "effect_id": 1,
+      "target_type": 41,
+      "value_1": 911241,
+      "value_2": 1
+    },
+    {
+      "id": 6293,
+      "factor_group_id": 112402,
+      "effect_id": 1,
+      "target_type": 64,
+      "value_1": 2,
+      "value_2": 0
+    },
+    {
+      "id": 6294,
+      "factor_group_id": 112402,
+      "effect_id": 1,
+      "target_type": 63,
+      "value_1": 1,
+      "value_2": 0
+    },
+    {
+      "id": 6295,
+      "factor_group_id": 112402,
+      "effect_id": 2,
+      "target_type": 41,
+      "value_1": 911241,
+      "value_2": 2
+    },
+    {
+      "id": 6296,
+      "factor_group_id": 112402,
+      "effect_id": 2,
+      "target_type": 64,
+      "value_1": 3,
+      "value_2": 0
+    },
+    {
+      "id": 6297,
+      "factor_group_id": 112402,
+      "effect_id": 2,
+      "target_type": 63,
+      "value_1": 1,
+      "value_2": 0
+    },
+    {
+      "id": 6298,
+      "factor_group_id": 112402,
+      "effect_id": 3,
+      "target_type": 41,
+      "value_1": 911241,
+      "value_2": 3
+    },
+    {
+      "id": 6299,
+      "factor_group_id": 112402,
+      "effect_id": 3,
+      "target_type": 64,
+      "value_1": 4,
+      "value_2": 0
+    },
+    {
+      "id": 6300,
+      "factor_group_id": 112402,
+      "effect_id": 3,
+      "target_type": 63,
+      "value_1": 1,
+      "value_2": 0
+    },
+    {
+      "id": 6301,
+      "factor_group_id": 112402,
+      "effect_id": 4,
+      "target_type": 41,
+      "value_1": 911241,
+      "value_2": 3
+    },
+    {
+      "id": 6302,
+      "factor_group_id": 112402,
+      "effect_id": 4,
+      "target_type": 64,
+      "value_1": 4,
+      "value_2": 0
+    },
+    {
+      "id": 6303,
+      "factor_group_id": 112402,
+      "effect_id": 4,
+      "target_type": 63,
+      "value_1": 2,
+      "value_2": 0
+    }
+  ],
+  "raw_game_row": {
+    "factor_id": 11240202,
+    "factor_group_id": 112402,
+    "rarity": 2,
+    "grade": 2,
+    "factor_type": 3,
+    "effect_group_id": 32,
+    "succession_search_hidden": 0,
+    "start_date": 1483196400,
+    "end_date": 2524575600
+  },
+  "source": {
+    "table": "succession_factor",
+    "row_id": 11240202
+  },
+  "search_names": []
+}

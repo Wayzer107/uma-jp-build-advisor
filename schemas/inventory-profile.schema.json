@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Wayzer107/uma-jp-build-advisor/blob/main/schemas/inventory-profile.schema.json",
+  "title": "Umamusume private inventory profile",
+  "description": "A server-separated private collection/profile normalized from an explicit export. Store only in the private profile repository.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "server",
+    "source_format",
+    "imported_at_utc",
+    "source_version",
+    "source_server_key",
+    "supports",
+    "trainees",
+    "veterans",
+    "partial_sections",
+    "unresolved_ids",
+    "raw_source_reference"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "server": { "type": "string", "enum": ["ja", "global"] },
+    "source_format": { "type": "string", "minLength": 1 },
+    "imported_at_utc": { "type": "string", "format": "date-time" },
+    "source_timestamp": { "type": ["string", "null"] },
+    "source_version": { "type": ["integer", "string", "null"] },
+    "source_server_key": { "type": "string" },
+    "catalog_generated_at_utc": { "type": ["string", "null"] },
+    "supports": { "type": ["array", "null"], "items": { "$ref": "#/$defs/support" } },
+    "trainees": { "type": ["array", "null"], "items": { "$ref": "#/$defs/trainee" } },
+    "veterans": { "type": ["array", "null"], "items": { "$ref": "#/$defs/veteran" } },
+    "partial_sections": { "type": "array", "uniqueItems": true, "items": { "enum": ["supports", "trainees", "veterans"] } },
+    "unresolved_ids": { "type": "array", "items": { "$ref": "#/$defs/unresolved" } },
+    "source_unknown_fields": { "type": "object" },
+    "unknown_server_fields": { "type": "object" },
+    "warnings": { "type": "array", "items": { "type": "string" } },
+    "raw_source_reference": { "$ref": "#/$defs/rawSourceReference" }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "catalogMatch": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": { "enum": ["resolved", "unresolved", "source_unavailable"] },
+        "record_path": { "type": ["string", "null"] },
+        "name": { "type": ["string", "null"] },
+        "gametora_url": { "type": ["string", "null"], "format": "uri" }
+      },
+      "additionalProperties": false
+    },
+    "support": {
+      "type": "object",
+      "required": ["support_id", "owned", "limit_break", "level", "raw_value", "catalog_match"],
+      "properties": {
+        "support_id": { "type": "string", "pattern": "^[0-9]+$" },
+        "owned": { "const": true },
+        "limit_break": { "type": ["integer", "null"], "minimum": 0, "maximum": 4 },
+        "level": { "type": ["integer", "null"], "minimum": 1 },
+        "raw_value": {},
+        "catalog_match": { "$ref": "#/$defs/catalogMatch" }
+      },
+      "additionalProperties": false
+    },
+    "trainee": {
+      "type": "object",
+      "required": ["trainee_outfit_id", "owned", "raw_value", "catalog_match"],
+      "properties": {
+        "trainee_outfit_id": { "type": "string", "pattern": "^[0-9]+$" },
+        "owned": { "const": true },
+        "raw_value": {},
+        "catalog_match": { "$ref": "#/$defs/catalogMatch" }
+      },
+      "additionalProperties": false
+    },
+    "veteran": {
+      "type": "object",
+      "required": ["veteran_id", "card_tid", "trainee_outfit_id", "score", "stats", "aptitudes", "skills", "factors", "lineage", "selected_races", "note", "raw_value", "catalog_match"],
+      "properties": {
+        "veteran_id": { "type": "string", "minLength": 1 },
+        "card_tid": { "type": ["string", "null"] },
+        "trainee_outfit_id": { "type": ["string", "null"] },
+        "score": { "type": ["number", "null"] },
+        "stats": {},
+        "aptitudes": {},
+        "skills": {},
+        "factors": {},
+        "lineage": {},
+        "selected_races": {},
+        "note": { "type": ["string", "null"] },
+        "raw_value": {},
+        "catalog_match": { "$ref": "#/$defs/catalogMatch" }
+      },
+      "additionalProperties": false
+    },
+    "unresolved": {
+      "type": "object",
+      "required": ["kind", "id", "reason"],
+      "properties": {
+        "kind": { "enum": ["support", "trainee", "veteran_trainee"] },
+        "id": { "type": "string" },
+        "reason": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "rawSourceReference": {
+      "type": "object",
+      "required": ["file", "sha256"],
+      "properties": {
+        "file": { "type": ["string", "null"] },
+        "sha256": { "type": ["string", "null"], "pattern": "^[a-f0-9]{64}$" },
+        "preserved": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

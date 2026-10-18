@@ -1,0 +1,103 @@
+{
+  "id": 5163,
+  "kind": "race",
+  "kind_path": "races",
+  "server": "ja",
+  "course_set_id": 11621,
+  "course": {
+    "id": 11621,
+    "kind": "race_course",
+    "kind_path": "races/courses",
+    "server": "ja",
+    "track_id": 10202,
+    "track_data_raw": {
+      "id": 10202,
+      "initial_lane_type": 2,
+      "enable_half_gate": 0,
+      "horse_num_gate_variation": 0,
+      "turf_vision_type": 5,
+      "footsmoke_color_type": 2,
+      "area": 6,
+      "overrun_result_type": 2,
+      "flag_type": 2,
+      "gate_panel_type": 1,
+      "gate_lamp_type": 1,
+      "board_condition_type": 4,
+      "result_board_type": 2
+    },
+    "distance_m": 2000,
+    "ground_code_raw": 2,
+    "direction_code_raw": 1,
+    "turn_code_raw": 2,
+    "course_parameters_raw": {
+      "id": 11621,
+      "race_track_id": 10202,
+      "distance": 2000,
+      "ground": 2,
+      "inout": 1,
+      "turn": 2,
+      "tight_track": 1,
+      "run_outside": 0,
+      "ex_camera": 0,
+      "run_up": 0,
+      "fence_set": 11501,
+      "float_lane_max": 135000,
+      "course_set_status_id": 9,
+      "finish_time_min": 1200000,
+      "finish_time_min_random_range": 10000,
+      "finish_time_max": 1230000,
+      "finish_time_max_random_range": 10000
+    },
+    "source": {
+      "table": "race_course_set",
+      "row_id": 11621
+    },
+    "search_names": []
+  },
+  "instances": [
+    {
+      "id": 516301,
+      "race_id": 5163,
+      "npc_group_id": 1007,
+      "date": 1101,
+      "time": 2,
+      "clock_time": 1528,
+      "race_number": -1
+    }
+  ],
+  "race_group_raw": 6,
+  "grade_raw": 100,
+  "start_date_jst": "2026-02-24",
+  "raw_game_row": {
+    "id": 5163,
+    "group": 6,
+    "grade": 100,
+    "course_set": 11621,
+    "thumbnail_id": 17318,
+    "ff_cue_name": "snd_mfx_2009_CL",
+    "ff_cuesheet_name": "snd_mfx_2009_CL",
+    "real_ff_cue_name": "",
+    "real_ff_cuesheet_name": "",
+    "ff_anim": 9115,
+    "ff_camera": 326,
+    "ff_camera_sub": 0,
+    "ff_sub": 0,
+    "start_gate": 202,
+    "start_gate_panel": 100,
+    "goal_gate": 0,
+    "goal_flower": 1,
+    "result_podium": -1,
+    "audience_group_id": 2,
+    "paddock_bg_id": 70004,
+    "audience": 4,
+    "entry_num": 14,
+    "change_full_gate": 0,
+    "is_dirtgrade": 0,
+    "start_date": 1771902000
+  },
+  "source": {
+    "table": "race",
+    "row_id": 5163
+  },
+  "search_names": []
+}

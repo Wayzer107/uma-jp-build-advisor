@@ -1,0 +1,32 @@
+{
+  "name": "uma-build-advisor-mcp",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Local MCP server and ChatGPT MCP App for Umamusume build advice.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "typecheck": "tsc --noEmit && tsc -p tsconfig.app.json",
+    "build:ui": "vite build",
+    "build:server": "esbuild src/index.ts --bundle --platform=node --format=esm --target=node22 --outfile=dist/index.js",
+    "build": "pnpm run typecheck && pnpm run build:ui && pnpm run build:server",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/ext-apps": "2.0.3",
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "@openai/mcp-extensions": "0.2.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "esbuild": "0.28.2",
+    "typescript": "5.9.3",
+    "vite": "8.3.4",
+    "vite-plugin-singlefile": "2.3.4"
+  }
+}

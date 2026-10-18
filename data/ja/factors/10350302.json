@@ -1,0 +1,160 @@
+{
+  "id": 10350302,
+  "kind": "inheritance_factor",
+  "kind_path": "factors",
+  "server": "ja",
+  "factor_group_id": 103503,
+  "factor_type_raw": 3,
+  "rarity": 2,
+  "grade": 2,
+  "effect_group_id": 32,
+  "hidden": false,
+  "start_date_jst": "2017-01-01",
+  "end_date_jst": "2050-01-01",
+  "effects_raw": [
+    {
+      "id": 4274,
+      "factor_group_id": 103503,
+      "effect_id": 1,
+      "target_type": 41,
+      "value_1": 920351,
+      "value_2": 1
+    },
+    {
+      "id": 4275,
+      "factor_group_id": 103503,
+      "effect_id": 1,
+      "target_type": 61,
+      "value_1": 1,
+      "value_2": 0
+    },
+    {
+      "id": 4276,
+      "factor_group_id": 103503,
+      "effect_id": 1,
+      "target_type": 63,
+      "value_1": 1,
+      "value_2": 0
+    },
+    {
+      "id": 4277,
+      "factor_group_id": 103503,
+      "effect_id": 1,
+      "target_type": 62,
+      "value_1": 1,
+      "value_2": 0
+    },
+    {
+      "id": 4278,
+      "factor_group_id": 103503,
+      "effect_id": 2,
+      "target_type": 41,
+      "value_1": 920351,
+      "value_2": 2
+    },
+    {
+      "id": 4279,
+      "factor_group_id": 103503,
+      "effect_id": 2,
+      "target_type": 61,
+      "value_1": 2,
+      "value_2": 0
+    },
+    {
+      "id": 4280,
+      "factor_group_id": 103503,
+      "effect_id": 2,
+      "target_type": 63,
+      "value_1": 1,
+      "value_2": 0
+    },
+    {
+      "id": 4281,
+      "factor_group_id": 103503,
+      "effect_id": 2,
+      "target_type": 62,
+      "value_1": 1,
+      "value_2": 0
+    },
+    {
+      "id": 4282,
+      "factor_group_id": 103503,
+      "effect_id": 3,
+      "target_type": 41,
+      "value_1": 920351,
+      "value_2": 3
+    },
+    {
+      "id": 4283,
+      "factor_group_id": 103503,
+      "effect_id": 3,
+      "target_type": 61,
+      "value_1": 2,
+      "value_2": 0
+    },
+    {
+      "id": 4284,
+      "factor_group_id": 103503,
+      "effect_id": 3,
+      "target_type": 63,
+      "value_1": 2,
+      "value_2": 0
+    },
+    {
+      "id": 4285,
+      "factor_group_id": 103503,
+      "effect_id": 3,
+      "target_type": 62,
+      "value_1": 1,
+      "value_2": 0
+    },
+    {
+      "id": 4286,
+      "factor_group_id": 103503,
+      "effect_id": 4,
+      "target_type": 41,
+      "value_1": 920351,
+      "value_2": 3
+    },
+    {
+      "id": 4287,
+      "factor_group_id": 103503,
+      "effect_id": 4,
+      "target_type": 61,
+      "value_1": 2,
+      "value_2": 0
+    },
+    {
+      "id": 4288,
+      "factor_group_id": 103503,
+      "effect_id": 4,
+      "target_type": 63,
+      "value_1": 2,
+      "value_2": 0
+    },
+    {
+      "id": 4289,
+      "factor_group_id": 103503,
+      "effect_id": 4,
+      "target_type": 62,
+      "value_1": 2,
+      "value_2": 0
+    }
+  ],
+  "raw_game_row": {
+    "factor_id": 10350302,
+    "factor_group_id": 103503,
+    "rarity": 2,
+    "grade": 2,
+    "factor_type": 3,
+    "effect_group_id": 32,
+    "succession_search_hidden": 0,
+    "start_date": 1483196400,
+    "end_date": 2524575600
+  },
+  "source": {
+    "table": "succession_factor",
+    "row_id": 10350302
+  },
+  "search_names": []
+}

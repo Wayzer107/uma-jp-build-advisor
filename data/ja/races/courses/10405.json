@@ -1,0 +1,50 @@
+{
+  "id": 10405,
+  "kind": "race_course",
+  "kind_path": "races/courses",
+  "server": "ja",
+  "track_id": 10004,
+  "track_data_raw": {
+    "id": 10004,
+    "initial_lane_type": 1,
+    "enable_half_gate": 1,
+    "horse_num_gate_variation": 0,
+    "turf_vision_type": 1,
+    "footsmoke_color_type": 1,
+    "area": 1,
+    "overrun_result_type": 0,
+    "flag_type": 0,
+    "gate_panel_type": 1,
+    "gate_lamp_type": 1,
+    "board_condition_type": 2,
+    "result_board_type": 0
+  },
+  "distance_m": 1150,
+  "ground_code_raw": 2,
+  "direction_code_raw": 1,
+  "turn_code_raw": 1,
+  "course_parameters_raw": {
+    "id": 10405,
+    "race_track_id": 10004,
+    "distance": 1150,
+    "ground": 2,
+    "inout": 1,
+    "turn": 1,
+    "tight_track": 1,
+    "run_outside": 0,
+    "ex_camera": 0,
+    "run_up": 0,
+    "fence_set": 10405,
+    "float_lane_max": 11500,
+    "course_set_status_id": 0,
+    "finish_time_min": 666000,
+    "finish_time_min_random_range": 10000,
+    "finish_time_max": 720000,
+    "finish_time_max_random_range": 10000
+  },
+  "source": {
+    "table": "race_course_set",
+    "row_id": 10405
+  },
+  "search_names": []
+}
