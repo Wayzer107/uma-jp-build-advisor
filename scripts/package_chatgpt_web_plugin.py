@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a ChatGPT Web plugin ZIP bound to a user's Secure MCP Tunnel."""
+"""Create a remote ChatGPT plugin ZIP bound to a user's Secure MCP Tunnel."""
 from __future__ import annotations
 
 import argparse
@@ -21,7 +21,7 @@ def default_output_path() -> Path:
         base = Path(os.environ.get("LOCALAPPDATA", Path.home() / "AppData" / "Local"))
     else:
         base = Path(os.environ.get("XDG_STATE_HOME", Path.home() / ".local" / "state"))
-    return base / "UmaBuildAdvisor" / "uma-build-advisor-chatgpt-web.zip"
+    return base / "UmaBuildAdvisor" / "uma-build-advisor-chatgpt-plugin.zip"
 
 
 def build_archive(plugin_root: Path, tunnel_id: str, output_path: Path) -> dict[str, Any]:

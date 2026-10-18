@@ -1,0 +1,21 @@
+[Unit]
+Description=Umamusume Build Advisor GPT Actions API
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=YOUR_LINUX_USER
+Environment=HOME=/home/YOUR_LINUX_USER
+EnvironmentFile=/etc/uma-build-advisor/actions.env
+WorkingDirectory=/home/YOUR_LINUX_USER/Sources/uma/mcp-server
+ExecStart=/usr/bin/node /home/YOUR_LINUX_USER/Sources/uma/mcp-server/dist/actions-api.js
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=read-only
+
+[Install]
+WantedBy=multi-user.target

@@ -9,8 +9,10 @@
     "typecheck": "tsc --noEmit && tsc -p tsconfig.app.json",
     "build:ui": "vite build",
     "build:server": "esbuild src/index.ts --bundle --platform=node --format=esm --target=node22 --outfile=dist/index.js",
-    "build": "pnpm run typecheck && pnpm run build:ui && pnpm run build:server",
-    "start": "node dist/index.js"
+    "build:actions": "esbuild src/actions-api.ts --bundle --platform=node --format=esm --target=node22 --outfile=dist/actions-api.js",
+    "build": "pnpm run typecheck && pnpm run build:ui && pnpm run build:server && pnpm run build:actions",
+    "start": "node dist/index.js",
+    "start:actions": "node dist/actions-api.js"
   },
   "dependencies": {
     "@modelcontextprotocol/ext-apps": "2.0.3",

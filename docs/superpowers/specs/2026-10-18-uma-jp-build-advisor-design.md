@@ -1,13 +1,13 @@
 # Umamusume Build Advisor — Design Specification
 
-**Status:** Approved; ChatGPT Web and 64-bit Raspberry Pi hosting added
+**Status:** Approved; ChatGPT web plugin, mobile compatibility check, and 64-bit Raspberry Pi hosting added
 **Date:** 2026-10-18
 
 ## 1. Purpose
 
 Build a private ChatGPT plugin for useful, evidence-backed Umamusume build advice across the Japanese and Global servers. It must work through ChatGPT chat and provide an interactive in-ChatGPT interface that visually presents suggested trainees (runners), support cards, legacy candidates, and alternatives. A response that only lists IDs is not sufficient.
 
-The plugin reads game facts and supported collection data from the project repositories. It uses current community research to choose builds and explain strategy, but it must not treat web pages as a substitute for missing or stale catalog records. A local MCP service maintains access to both repositories: a data updater reads the installed game data, while inventory adapters accept GameTora collections and compatible formats. ChatGPT Web reaches the service through OpenAI Secure MCP Tunnel; the private repo and local game install are not exposed as public services.
+The plugin reads game facts and supported collection data from the project repositories. It uses current community research to choose builds and explain strategy, but it must not treat web pages as a substitute for missing or stale catalog records. A local MCP service maintains access to both repositories: a data updater reads the installed game data, while inventory adapters accept GameTora collections and compatible formats. ChatGPT web reaches the service through a remote plugin and OpenAI Secure MCP Tunnel; the private repo and local game install are not exposed as public services. Native mobile MCP App availability is a platform compatibility item to verify; current Help Center documentation says custom MCP apps are web-only.
 
 ## 2. Decisions and requirements
 
@@ -19,7 +19,7 @@ The plugin reads game facts and supported collection data from the project repos
 - Provide inventory refresh paths from an opt-in Hachimi Edge exporter or another verified local exporter, and from GameTora collection exports. Support GameTora’s single **Everything** JSON format.
 - The plugin reads the saved inventory profile from the private repository or uses an explicitly supplied chat attachment for the current conversation. Inventory is never written to the public repository.
 - Keep the whole advisor usable in ChatGPT chat; do not build a separate public website UI.
-- Support ChatGPT Web chat through Secure MCP Tunnel. A local `stdio` connection without the tunnel is not the online path; the machine running the tunnel client must remain online during use.
+- Support ChatGPT web chat through a remote MCP plugin, with the private server reached through Secure MCP Tunnel. A local `stdio` connection without the tunnel is only for compatible local hosts; the machine running the tunnel client must remain online during use. Verify native mobile availability independently; if unavailable and mobile chat access is required, use the separate optional GPT Actions text route.
 - Support hosting the same bundled MCP service and tunnel on Windows or 64-bit Raspberry Pi Linux. Raspberry Pi hosts can read and sync repository data but cannot refresh catalog data from the Windows game install.
 - Show recommendations in an interactive ChatGPT-embedded interface, with a complete text response as a fallback.
 - For every build recommendation, check current community sources, including newly found relevant sources, and prioritize Japan-specific research for Japanese-server advice.
@@ -43,7 +43,7 @@ Reference catalog maintenance and inventory maintenance are separate:
 
 The local game updater/exporter does not require ChatGPT to inspect account save databases or to access the game process from a hosted service. It creates local artifacts that can be validated and synchronized through the configured repository workflow. Use the Windows game install for Japanese catalog refresh; a Raspberry Pi MCP host serves the latest published repository catalog and private inventory.
 
-Use the MCP maintenance tool for invoking or reviewing local refreshes when the local service can reach the game files and the connected ChatGPT account permits the requested tool action. Secure MCP Tunnel lets ChatGPT Web reach the private MCP service without a public server. Do not assume the hosted ChatGPT plugin can read a Windows game directory directly. The reliable fallback is a local helper that creates a catalog or inventory package for attachment/import in chat, followed by the configured repository sync. Custom MCP permissions depend on the account/workspace plan, and mobile use is not supported.
+Use the MCP maintenance tool for invoking or reviewing local refreshes when the local service can reach the game files and the connected ChatGPT account permits the requested tool action. Secure MCP Tunnel lets ChatGPT reach the private MCP service without a public server. Do not assume a remote ChatGPT plugin can read a Windows game directory directly. Its embedded view must use the MCP Apps standard and responsive layouts, while native mobile availability remains a separate platform check. A local helper remains available for producing a catalog or inventory package for attachment/import in chat, followed by the configured repository sync. Custom MCP permissions depend on account/workspace plan.
 
 ## 4. User workflow
 

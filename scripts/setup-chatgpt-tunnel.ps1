@@ -43,5 +43,5 @@ if ($LASTEXITCODE -ne 0) {
 
 Write-Host "Created tunnel-client profile '$ProfileName'."
 Write-Host "MCP command: $command"
-Write-Host "Create the ChatGPT Web package with: python `"$PSScriptRoot\package_chatgpt_web_plugin.py`" --tunnel-id `"$TunnelId`""
+Write-Host "Create the remote ChatGPT plugin package with: python `"$PSScriptRoot\package_chatgpt_web_plugin.py`" --tunnel-id `"$TunnelId`""
 Write-Host 'Then run scripts/start-chatgpt-tunnel.ps1 from the public repository clone.'

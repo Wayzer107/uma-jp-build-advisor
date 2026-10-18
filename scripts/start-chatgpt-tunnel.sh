@@ -27,5 +27,5 @@ if ! "$tunnel_client" doctor --profile "$profile_name" --explain; then
   exit 1
 fi
 
-echo "Starting Secure MCP Tunnel. Keep this shell and the Raspberry Pi online while using the advisor in ChatGPT Web. Press Ctrl+C to stop it."
+echo "Starting Secure MCP Tunnel. Keep this shell and the Raspberry Pi online while using the advisor in ChatGPT web. Press Ctrl+C to stop it."
 "$tunnel_client" run --profile "$profile_name"

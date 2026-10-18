@@ -27,5 +27,5 @@ mcp_command="node $mcp_entry"
   --mcp-command "$mcp_command"
 
 echo "Created tunnel-client profile '$profile_name'."
-echo "Create the ChatGPT Web package with: python3 '$repo_root/scripts/package_chatgpt_web_plugin.py' --tunnel-id '$tunnel_id'"
+echo "Create the remote ChatGPT plugin package with: python3 '$repo_root/scripts/package_chatgpt_web_plugin.py' --tunnel-id '$tunnel_id'"
 echo "Start it with: bash '$repo_root/scripts/start-chatgpt-tunnel.sh'"

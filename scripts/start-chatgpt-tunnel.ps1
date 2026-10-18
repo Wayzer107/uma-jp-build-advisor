@@ -34,7 +34,7 @@ try {
         throw "tunnel-client doctor failed with exit code $LASTEXITCODE. Check the profile, tunnel permissions, and runtime key."
     }
 
-    Write-Host 'Starting Secure MCP Tunnel. Keep this PowerShell window open while using the advisor in ChatGPT Web. Press Ctrl+C to stop it.'
+    Write-Host 'Starting Secure MCP Tunnel. Keep this PowerShell window open while using the advisor in ChatGPT web. Press Ctrl+C to stop it.'
     & $clientPath run --profile $ProfileName
     if ($LASTEXITCODE -ne 0) {
         throw "tunnel-client run exited with code $LASTEXITCODE."

@@ -20,8 +20,12 @@ export type LoadedConfig = {
 const defaultRepoHome = process.platform === "win32"
   ? path.join(homedir(), "Documents", "Codex")
   : homedir();
-const defaultPublicRepo = path.join(defaultRepoHome, "uma-jp-build-advisor-public");
-const defaultPrivateRepo = path.join(defaultRepoHome, "uma-jp-build-advisor-private");
+const defaultPublicRepo = process.platform === "win32"
+  ? path.join(defaultRepoHome, "uma-jp-build-advisor-public")
+  : path.join(homedir(), "Sources", "uma");
+const defaultPrivateRepo = process.platform === "win32"
+  ? path.join(defaultRepoHome, "uma-jp-build-advisor-private")
+  : path.join(homedir(), "Sources", "uma-private");
 const defaultGameRoot = process.platform === "win32"
   ? "C:\\Steam\\steamapps\\common\\UmamusumePrettyDerby_Jpn"
   : "";

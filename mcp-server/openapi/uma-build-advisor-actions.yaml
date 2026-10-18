@@ -1,0 +1,136 @@
+openapi: 3.1.0
+info:
+  title: Umamusume Build Advisor
+  version: 1.0.0
+  description: Read-only access to the selected server's versioned Umamusume catalog and private inventory profile for ChatGPT GPT Actions.
+servers:
+  - url: https://uma-pi.example.ts.net
+    description: Replace with the HTTPS hostname shown by Tailscale Funnel.
+security:
+  - BearerAuth: []
+paths:
+  /v1/catalog/manifest:
+    get:
+      operationId: getCatalogManifest
+      summary: Get the selected server catalog manifest
+      description: Reads source provenance, coverage status, record counts, and known data gaps for exactly one server. Never substitutes the other server's data.
+      parameters:
+        - name: server
+          in: query
+          required: true
+          schema:
+            type: string
+            enum: [ja, global]
+      responses:
+        "200":
+          description: Selected server manifest and catalog status.
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+        "401":
+          description: Missing or invalid bearer token.
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+  /v1/catalog/search:
+    get:
+      operationId: searchCatalogRecords
+      summary: Search one server's catalog
+      description: Search by exact numeric ID or Japanese/English name. Use this to find trainee outfits, support cards, skills, events, scenarios, races, courses, conditions, and inheritance factors.
+      parameters:
+        - name: server
+          in: query
+          required: true
+          schema:
+            type: string
+            enum: [ja, global]
+        - name: kind
+          in: query
+          required: true
+          schema:
+            type: string
+            enum: [support_card, trainee_outfit, skill, training_event, scenario, race, race_course, race_condition, inheritance_factor]
+        - name: query
+          in: query
+          required: true
+          schema:
+            type: string
+            minLength: 1
+            maxLength: 120
+        - name: limit
+          in: query
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 25
+      responses:
+        "200":
+          description: Matching catalog record summaries and coverage metadata.
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+  /v1/catalog/record:
+    get:
+      operationId: getCatalogRecord
+      summary: Get a complete catalog record
+      description: Reads one exact record, including available effects, hints, skills, event links, source provenance, and GameTora mapping.
+      parameters:
+        - name: server
+          in: query
+          required: true
+          schema:
+            type: string
+            enum: [ja, global]
+        - name: kind
+          in: query
+          required: true
+          schema:
+            type: string
+            enum: [support_card, trainee_outfit, skill, training_event, scenario, race, race_course, race_condition, inheritance_factor]
+        - name: id
+          in: query
+          required: true
+          schema:
+            type: string
+            pattern: "^\\d+$"
+      responses:
+        "200":
+          description: Exact record or an explicit unavailable/not-found status.
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+  /v1/inventory/profile:
+    get:
+      operationId: getPrivateInventoryProfile
+      summary: Get the selected server's private inventory
+      description: Reads the user's private support cards, owned trainees, and veteran/legacy records. A missing profile means ownership is unknown, not an empty collection.
+      parameters:
+        - name: server
+          in: query
+          required: true
+          schema:
+            type: string
+            enum: [ja, global]
+      responses:
+        "200":
+          description: Available profile, or a missing/invalid status that must not be treated as empty inventory.
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: Random API token

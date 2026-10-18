@@ -4,7 +4,7 @@
 
 **Goal:** Build a private ChatGPT plugin and MCP App that gives sourced, inventory-aware Umamusume build advice from complete server-separated repository data.
 
-**Architecture:** Python refresh and import tools maintain a public static reference catalog and a separate private progress repository. A TypeScript MCP server reads those repositories, serves recommendation tools and the in-chat build view, and invokes local maintenance tools when available. OpenAI Secure MCP Tunnel connects ChatGPT Web to the local server without exposing the server or inventory publicly. The same prebuilt server bundle runs on Windows and 64-bit Raspberry Pi Linux. No separate user-facing site or hosted data backend is introduced.
+**Architecture:** Python refresh and import tools maintain a public static reference catalog and a separate private progress repository. A TypeScript MCP server reads those repositories, serves recommendation tools and the in-chat build view, and invokes local maintenance tools when available. A remote MCP plugin uses OpenAI Secure MCP Tunnel to connect ChatGPT web to the local server without exposing the server or inventory publicly. Native mobile MCP App availability is a separate check; the optional Actions API can provide text access through a Custom GPT where available. The same prebuilt server bundle runs on Windows and 64-bit Raspberry Pi Linux. No separate user-facing site or hosted data backend is introduced.
 
 **Tech Stack:** Existing Python catalog exporter and SQLite/JSON tools; TypeScript with `@modelcontextprotocol/server`, `@modelcontextprotocol/ext-apps`, and `@openai/mcp-extensions`; ChatGPT Plugin Creator package format; Git/GitHub MCP for repository synchronization.
 
@@ -18,7 +18,7 @@
 - Do not use account save databases or send inventory to the public repository.
 - Do not claim catalog completeness unless the source coverage manifest is complete for its declared scope.
 - Use the currently installed Japanese game files as the first reference-data source; establish a verified Global source before claiming Global completeness.
-- Use Secure MCP Tunnel for ChatGPT Web chat and local `stdio` only for compatible local hosts. The tunnel host must remain online during use. Verify ChatGPT account/workspace support for custom MCP connections; full MCP write access is plan and workspace dependent.
+- Use a remote MCP plugin over Secure MCP Tunnel for ChatGPT web chat; reserve local `stdio` for compatible local hosts. The tunnel host must remain online during use. Verify ChatGPT account/workspace support for custom MCP connections; full MCP write access is plan and workspace dependent. Check native mobile MCP availability separately and use the optional GPT Actions path if mobile access is required but unavailable.
 - Support Windows and 64-bit Raspberry Pi Linux for serving the prebuilt MCP bundle. Keep Japanese catalog refresh on a Windows host with the installed game data; publish to the repository and pull the update on the Pi.
 - Hachimi Edge is an exporter candidate. Keep GameTora Everything JSON as the supported import/export route even if Hachimi cannot capture every section.
 - Do not add or run automated tests in this plan. Catalog coverage reports, import summaries, and setup diagnostics are product features required by the spec.
@@ -35,7 +35,7 @@
 
 ## Current Workspace and Decisions
 
-The working folder is `C:\Users\Jamie\Documents\Codex\uma-jp-build-advisor-public`. It contains `scripts/export_catalog.py`, `references/catalog.json`, and the approved spec. It is not currently a Git checkout. The current catalog contains 563 support-card rows and 271 trainee-outfit rows, but it lacks connected support hint and event skill data and is not complete. No Global source has been established in this workspace.
+The working folder is the public project checkout. It contains `scripts/export_catalog.py`, `references/catalog.json`, and the approved spec. The current catalog contains 563 support-card rows and 271 trainee-outfit rows, but it lacks connected support hint and event skill data and is not complete. No Global source has been established in this workspace.
 
 The intended public repository is `Wayzer107/uma-jp-build-advisor`; the private profile repository is `Wayzer107/uma-jp-build-advisor-private`. Confirm the existing private repository and authenticated GitHub access during bootstrap. If repository names or access differ, update the plan before creating remotes.
 
@@ -49,7 +49,7 @@ The catalog schema and profile schema must be agreed before implementing their M
 
 ## Host and Repository Gates
 
-1. Confirm that the ChatGPT Web account/workspace can create a custom MCP app and select a Secure MCP Tunnel. ChatGPT Web uses the tunnel connection; uploading a `stdio` package alone does not connect the local process. Retain ordinary text answers if the embedded app view is unsupported.
+1. Confirm that the ChatGPT account/workspace can create a remote MCP plugin and select a Secure MCP Tunnel. The generated account package binds to the tunnel; uploading the source `stdio` config alone does not connect the local process. Retain ordinary text answers if the embedded app view is unsupported and verify responsive rendering on mobile.
 2. Confirm the tunnel client can reach the local MCP server, the correct ChatGPT workspace is associated with the tunnel, and the required tunnel permissions are available. Keep the service host online during use.
 3. Initialize the public local folder as a Git repository and connect the intended public remote. Clone/configure the private repo separately with the user’s existing authenticated GitHub access. Do not place credentials in project files.
 4. Determine whether the plugin package can use the existing GitHub MCP/app connection directly. Prefer the verified connection. If it cannot be invoked by a local server, use the user-authenticated local Git credential helper for sync; keep the repository split and permissions explicit.

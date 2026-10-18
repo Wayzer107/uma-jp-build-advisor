@@ -4,7 +4,7 @@
 
 **Goal:** Provide a private ChatGPT plugin with read-only repository tools, live-researched build advice, and an interactive in-chat build planner.
 
-**Architecture:** A local TypeScript MCP server reads the two repositories and exposes typed reference, inventory, maintenance, and build-presentation tools. OpenAI Secure MCP Tunnel connects ChatGPT Web to that process without exposing the MCP server publicly. Its MCP App renders the structured recommendation inside the current ChatGPT conversation, while the plugin skill directs the model to use repository facts and current server-specific strategy research. Local `stdio` remains available for compatible hosts. The same prebuilt server bundle supports Windows and 64-bit Raspberry Pi Linux.
+**Architecture:** A local TypeScript MCP server reads the two repositories and exposes typed reference, inventory, maintenance, and build-presentation tools. A remote ChatGPT plugin uses OpenAI Secure MCP Tunnel to connect ChatGPT web to that process without exposing the MCP server publicly. Its MCP App renders the structured recommendation inside the current conversation, while the plugin skill directs the model to use repository facts and current server-specific strategy research. Keep the view responsive, but treat native mobile MCP App availability as unresolved because current OpenAI Help Center documentation says custom MCP apps are web-only. A separate read-only GPT Actions API is an optional text-only mobile fallback where supported. Local `stdio` remains available for compatible hosts. The same prebuilt server bundle supports Windows and 64-bit Raspberry Pi Linux.
 
 **Tech Stack:** TypeScript; `@modelcontextprotocol/server`; `@modelcontextprotocol/ext-apps`; `@openai/mcp-extensions`; React/Vite for the MCP App; Agent Plugins 1.0 package format; Plugin Creator.
 
@@ -17,8 +17,9 @@
 - Keep server selection explicit and thread-local; never blend JP and Global records or inventories.
 - The chat answer remains complete if the app is unavailable.
 - Render trainee, six support slots, legacies, alternatives, priorities, ownership labels, and evidence in the app.
-- Do not introduce a standalone public website or a separate hosted data backend; use Secure MCP Tunnel as private transport for ChatGPT Web.
-- ChatGPT Web must connect through the tunnel; the package's local `stdio` declaration alone does not make tools available online. The tunnel host must remain online, and custom MCP access/write permissions depend on the account and workspace.
+- Do not introduce a standalone public website or a separate hosted data backend; use Secure MCP Tunnel as private transport for ChatGPT web.
+- ChatGPT web connects through the remote tunnel-bound plugin; the source package's local `stdio` declaration alone does not make tools available online. The tunnel host must remain online, and custom MCP access/write permissions depend on the account and workspace.
+- Verify native mobile MCP availability separately. Responsive layout documentation is not evidence that a custom MCP connection is available in the ChatGPT mobile app. If mobile access is required and unavailable, use the optional GPT Actions route after checking account/workspace support.
 - Support Windows and 64-bit Raspberry Pi Linux as MCP hosts. Catalog refresh from the installed Japanese game remains Windows-side; the Pi serves the published catalog and private profile.
 - Do not add or run automated tests in this plan; build-time package/data validation is part of the requested product workflow.
 
@@ -129,7 +130,7 @@
 - Skill instructions cover server separation, repository-only game facts, fresh community research, card-by-card reasoning, app rendering, and the evidence ranking below.
 
 - [ ] Set a private plugin manifest with a concise description and a short description within Plugin Creator’s package length limit.
-- [ ] Package the stdio server bundle and document both the optional compatible-local-host connection and the primary ChatGPT Web Secure MCP Tunnel path.
+- [ ] Package the local stdio server for compatible hosts and document both that local path and the primary remote ChatGPT plugin through Secure MCP Tunnel for web; record native mobile support separately after checking the target client.
 - [ ] In the skill, rank sources explicitly: repository data for static facts; recent, contextualized JP community analysis for JP strategy; Reddit as anecdotal leads requiring corroboration; uma.guide for transferable mechanics rather than current JP meta; and Game8/GameWith only when their claims are reasoned or independently corroborated.
 - [ ] Require a fresh search for each recommendation and recalculation, including new relevant sources; record source date, server, scenario/race context, retrieval date, and confidence.
 - [ ] Keep credentials, private profile contents, game executables, game database files, and local configuration out of the package.
@@ -147,5 +148,5 @@
 - [ ] Build the local MCP server and app resources into the package paths used by `mcp.json`.
 - [ ] Inspect the archive layout and ensure it contains exactly one plugin root with no secrets or unrelated files.
 - [ ] Create the private plugin with `mcp__codex_apps__plugin_creator_create_plugin` after the package is complete.
-- [ ] Connect the custom MCP server to ChatGPT Web through a Secure MCP Tunnel; retain ordinary chat-text output if the interactive view is unavailable. Do not claim mobile support.
+- [ ] Connect the remote MCP plugin through a Secure MCP Tunnel; retain ordinary chat-text output if the interactive view is unavailable. Check native mobile availability separately; verify mobile layout and tool use only if that client exposes the app.
 

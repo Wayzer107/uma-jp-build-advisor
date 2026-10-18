@@ -5,10 +5,10 @@ After=network-online.target
 
 [Service]
 Type=simple
-User=pi
-Environment=HOME=/home/pi
+User=YOUR_LINUX_USER
+Environment=HOME=/home/YOUR_LINUX_USER
 EnvironmentFile=/etc/uma-build-advisor/tunnel.env
-WorkingDirectory=/home/pi/uma-jp-build-advisor-public
+WorkingDirectory=/home/YOUR_LINUX_USER/Sources/uma
 ExecStart=/usr/local/bin/tunnel-client run --profile uma-build-advisor
 Restart=on-failure
 RestartSec=10

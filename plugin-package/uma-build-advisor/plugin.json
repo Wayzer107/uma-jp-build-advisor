@@ -12,7 +12,7 @@
       "interface": {
         "displayName": "Umamusume Build Advisor",
         "shortDescription": "Umamusume race build advice",
-        "longDescription": "Plan server-specific Umamusume builds in ChatGPT Web chat from the versioned Japanese or Global game-data catalog and your private inventory. Connect the local MCP server through OpenAI Secure MCP Tunnel for private data access and updates. Includes fresh strategy research, six-card deck recommendations, legacy candidates, substitutions, and an interactive recommendation view.",
+        "longDescription": "Plan server-specific Umamusume builds in ChatGPT using the versioned Japanese or Global game-data catalog and your private inventory. Connect the remote MCP server through OpenAI Secure MCP Tunnel for private data access and updates. Includes fresh strategy research, six-card deck recommendations, legacy candidates, substitutions, and an interactive recommendation view. Native ChatGPT mobile availability depends on current MCP app support; a separate text-only GPT Actions route is documented as an optional fallback.",
         "developerName": "Wayzer107",
         "category": "Games",
         "capabilities": ["Interactive"],
