@@ -1,0 +1,28 @@
+# Local game and translation sources must never enter this repository.
+UmamusumePrettyDerby_Jpn_Data/
+UmamusumePrettyDerby_Global_Data/
+**/master.mdb
+**/hachimi/
+*.bundle
+
+# Private user data and local credentials.
+profiles/
+private/
+.env
+.env.*
+config.local.json
+*.token
+
+# Generated runtime/build output.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+dist/
+mcp-server/dist/
+mcp-server/node_modules/
+
+# Workspaces and progress notes.
+.worktrees/
+.superpowers/sdd/
+.serena/
