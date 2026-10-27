@@ -4,12 +4,17 @@
   "kind_path": "trainees",
   "server": "ja",
   "chara_id": 1113,
-  "name": "[Snatchin' Hearts ♡]フサイチパンドラ",
+  "name": "[Snatchin' Hearts ♡] Fusaichi Pandora",
   "name_text": {
     "ja": "[Snatchin' Hearts ♡]フサイチパンドラ",
-    "en": null,
-    "en_status": "unavailable",
-    "en_source": null
+    "en": "[Snatchin' Hearts ♡] Fusaichi Pandora",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 4,
+      "index": 111302
+    }
   },
   "title_text": {
     "ja": "[Snatchin' Hearts ♡]",
@@ -319,7 +324,7 @@
     "trainee_tid": "4g",
     "url": "https://gametora.com/umamusume/characters/111302-fusaichi-pandora",
     "url_name": "111302-fusaichi-pandora",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/fusaichi-pandora",
@@ -356,7 +361,7 @@
   },
   "search_names": [
     "[Snatchin' Hearts ♡]フサイチパンドラ",
-    null,
+    "[Snatchin' Hearts ♡] Fusaichi Pandora",
     "[Snatchin' Hearts ♡]",
     null,
     "フサイチパンドラ",

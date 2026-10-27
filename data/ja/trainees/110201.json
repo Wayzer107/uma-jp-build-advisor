@@ -94,7 +94,7 @@
     },
     {
       "skill_id": 202541,
-      "skill_name": "Dignity and grandeur",
+      "skill_name": "Dignity and Grandeur",
       "need_rank": 5,
       "source_row_id": 11020150,
       "ref_status": "resolved"
@@ -329,7 +329,7 @@
     "trainee_tid": "2G",
     "url": "https://gametora.com/umamusume/characters/110201-sounds-of-earth",
     "url_name": "110201-sounds-of-earth",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/sounds-of-earth",

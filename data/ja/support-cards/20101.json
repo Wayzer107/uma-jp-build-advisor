@@ -448,9 +448,14 @@
       },
       "description_text": {
         "ja": "パワーボーナスと初期根性アップ",
-        "en": null,
-        "en_status": "unavailable",
-        "en_source": null
+        "en": "Power Bonus and Initial Guts Boost",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 155,
+          "index": 20101
+        }
       },
       "components": [
         {
@@ -834,7 +839,7 @@
     "url_candidate": "https://gametora.com/umamusume/supports/20101-zenno-rob-roy",
     "url_name": "20101-zenno-rob-roy",
     "mapping_status": "verified_full_id_set",
-    "source_data_version": "ecbd7dc3",
+    "source_data_version": "b0c2fbc7",
     "reconciliation_note": "The complete local support ID set was compared with the versioned GameTora support-cards feed."
   },
   "source": {

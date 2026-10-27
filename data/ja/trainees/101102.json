@@ -140,7 +140,7 @@
           "slot": 1,
           "skill_id": 110111,
           "skill_level": 1,
-          "skill_name": "Gain Superior Heal",
+          "skill_name": "Superior Heal",
           "ref_status": "resolved"
         }
       ],
@@ -213,7 +213,7 @@
           "slot": 1,
           "skill_id": 110111,
           "skill_level": 2,
-          "skill_name": "Gain Superior Heal",
+          "skill_name": "Superior Heal",
           "ref_status": "resolved"
         }
       ],
@@ -286,7 +286,7 @@
           "slot": 1,
           "skill_id": 110111,
           "skill_level": 3,
-          "skill_name": "Gain Superior Heal",
+          "skill_name": "Superior Heal",
           "ref_status": "resolved"
         }
       ],
@@ -329,7 +329,7 @@
     "trainee_tid": "e",
     "url": "https://gametora.com/umamusume/characters/101102-grass-wonder",
     "url_name": "101102-grass-wonder",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/grass-wonder",

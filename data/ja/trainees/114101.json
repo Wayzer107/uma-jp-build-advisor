@@ -4,12 +4,17 @@
   "kind_path": "trainees",
   "server": "ja",
   "chara_id": 1141,
-  "name": "[Fate's Chosen Star]エピファネイア",
+  "name": "[Fate's Chosen Star] Epiphaneia",
   "name_text": {
     "ja": "[Fate's Chosen Star]エピファネイア",
-    "en": null,
-    "en_status": "unavailable",
-    "en_source": null
+    "en": "[Fate's Chosen Star] Epiphaneia",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 4,
+      "index": 114101
+    }
   },
   "title_text": {
     "ja": "[Fate's Chosen Star]",
@@ -326,7 +331,7 @@
     "trainee_tid": "4h",
     "url": "https://gametora.com/umamusume/characters/114101-epiphaneia",
     "url_name": "114101-epiphaneia",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/epiphaneia",
@@ -363,7 +368,7 @@
   },
   "search_names": [
     "[Fate's Chosen Star]エピファネイア",
-    null,
+    "[Fate's Chosen Star] Epiphaneia",
     "[Fate's Chosen Star]",
     null,
     "エピファネイア",

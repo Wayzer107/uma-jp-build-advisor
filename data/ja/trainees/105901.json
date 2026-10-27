@@ -94,7 +94,7 @@
     },
     {
       "skill_id": 200064,
-      "skill_name": "Child of Yodo",
+      "skill_name": "Avatar of Yodo",
       "need_rank": 5,
       "source_row_id": 10590150,
       "ref_status": "resolved"
@@ -140,7 +140,7 @@
           "slot": 1,
           "skill_id": 100591,
           "skill_level": 1,
-          "skill_name": "Beyond the Other Side",
+          "skill_name": "Moving Past, and Beyond",
           "ref_status": "resolved"
         }
       ],
@@ -213,7 +213,7 @@
           "slot": 1,
           "skill_id": 100591,
           "skill_level": 2,
-          "skill_name": "Beyond the Other Side",
+          "skill_name": "Moving Past, and Beyond",
           "ref_status": "resolved"
         }
       ],
@@ -286,7 +286,7 @@
           "slot": 1,
           "skill_id": 100591,
           "skill_level": 3,
-          "skill_name": "Beyond the Other Side",
+          "skill_name": "Moving Past, and Beyond",
           "ref_status": "resolved"
         }
       ],
@@ -329,7 +329,7 @@
     "trainee_tid": "U",
     "url": "https://gametora.com/umamusume/characters/105901-mejiro-dober",
     "url_name": "105901-mejiro-dober",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/mejiro-dober",

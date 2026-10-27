@@ -24,6 +24,7 @@
     "100802": "trainees/100802.json",
     "100901": "trainees/100901.json",
     "100902": "trainees/100902.json",
+    "100903": "trainees/100903.json",
     "101001": "trainees/101001.json",
     "101002": "trainees/101002.json",
     "101003": "trainees/101003.json",
@@ -291,6 +292,9 @@
     "adamant sovereign": [
       "101703"
     ],
+    "adamant sovereign symboli rudolf": [
+      "101703"
+    ],
     "adamant sovereign シンボリルドルフ": [
       "101703"
     ],
@@ -482,6 +486,12 @@
     "boho flare ゴールドシチー": [
       "104003"
     ],
+    "breathtaking moonless dawn": [
+      "114901"
+    ],
+    "breathtaking moonless dawn phalaenopsis": [
+      "114901"
+    ],
     "brilliant red bijou": [
       "108501"
     ],
@@ -590,6 +600,12 @@
     "chiffon wrapped mummy super creek": [
       "104502"
     ],
+    "chompy little scamp": [
+      "104302"
+    ],
+    "chompy little scamp shinko windy": [
+      "104302"
+    ],
     "chrono genesis": [
       "113301"
     ],
@@ -600,6 +616,9 @@
       "100603"
     ],
     "claret nosferatu": [
+      "110802"
+    ],
+    "claret nosferatu duramente": [
       "110802"
     ],
     "claret nosferatu ドゥラメンテ": [
@@ -692,7 +711,8 @@
     ],
     "daiwa scarlet": [
       "100901",
-      "100902"
+      "100902",
+      "100903"
     ],
     "dantsu flame": [
       "109201"
@@ -912,6 +932,12 @@
     "evergreen identity キングヘイロー": [
       "106103"
     ],
+    "everlasting hecate": [
+      "101803"
+    ],
+    "everlasting hecate air groove": [
+      "101803"
+    ],
     "everlasting sweet treat": [
       "108702"
     ],
@@ -937,6 +963,9 @@
       "102101"
     ],
     "fate s chosen star": [
+      "114101"
+    ],
+    "fate s chosen star epiphaneia": [
       "114101"
     ],
     "fate s chosen star エピファネイア": [
@@ -1656,6 +1685,9 @@
     "monochrome gm": [
       "114501"
     ],
+    "monochrome gm rulership": [
+      "114501"
+    ],
     "monochrome gm ルーラーシップ": [
       "114501"
     ],
@@ -2100,6 +2132,12 @@
     "scramble zone mayano top gun": [
       "102401"
     ],
+    "seaside elegance in chiffon": [
+      "107403"
+    ],
+    "seaside elegance in chiffon mejiro bright": [
+      "107403"
+    ],
     "seeking the pearl": [
       "104201",
       "104202"
@@ -2118,6 +2156,12 @@
     ],
     "shooting star revue fuji kiseki": [
       "100501"
+    ],
+    "shoreline whimsy in orange": [
+      "102003"
+    ],
+    "shoreline whimsy in orange seiun sky": [
+      "102003"
     ],
     "silence suzuka": [
       "100201",
@@ -2151,6 +2195,9 @@
       "113101"
     ],
     "snatchin hearts": [
+      "111302"
+    ],
+    "snatchin hearts fusaichi pandora": [
       "111302"
     ],
     "snatchin hearts フサイチパンドラ": [
@@ -2212,6 +2259,12 @@
     ],
     "spring s lightning bolt sakura bakushin o": [
       "104103"
+    ],
+    "stalwart purple flame": [
+      "112702"
+    ],
+    "stalwart purple flame fenomeno": [
+      "112702"
     ],
     "standout": [
       "109501"
@@ -2687,6 +2740,9 @@
       "109102"
     ],
     "éclat de roseraie": [
+      "114401"
+    ],
+    "éclat de roseraie rose kingdom": [
       "114401"
     ],
     "éclat de roseraie ローズキングダム": [
@@ -3248,7 +3304,8 @@
     ],
     "ダイワスカーレット": [
       "100901",
-      "100902"
+      "100902",
+      "100903"
     ],
     "ダンツフレーム": [
       "109201"
@@ -4177,6 +4234,12 @@
     ],
     "錦上 大判御輿 キタサンブラック": [
       "106801"
+    ],
+    "陣風の花紺青": [
+      "100903"
+    ],
+    "陣風の花紺青 ダイワスカーレット": [
+      "100903"
     ],
     "陰陽八卦 開運衣": [
       "109801"

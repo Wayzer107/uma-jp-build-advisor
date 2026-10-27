@@ -556,9 +556,14 @@
       },
       "description_text": {
         "ja": "絆ゲージが80以上の時、\\nトレーニング効果アップ",
-        "en": null,
-        "en_status": "unavailable",
-        "en_source": null
+        "en": "Training Bonus when Friendship over 80.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 155,
+          "index": 30303
+        }
       },
       "components": [
         {
@@ -933,7 +938,7 @@
     "url_candidate": "https://gametora.com/umamusume/supports/30303-blast-onepiece",
     "url_name": "30303-blast-onepiece",
     "mapping_status": "verified_full_id_set",
-    "source_data_version": "ecbd7dc3",
+    "source_data_version": "b0c2fbc7",
     "reconciliation_note": "The complete local support ID set was compared with the versioned GameTora support-cards feed."
   },
   "source": {

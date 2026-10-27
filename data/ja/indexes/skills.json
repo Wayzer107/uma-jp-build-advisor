@@ -266,6 +266,7 @@
     "120051": "skills/120051.json",
     "120061": "skills/120061.json",
     "120071": "skills/120071.json",
+    "120091": "skills/120091.json",
     "120101": "skills/120101.json",
     "120111": "skills/120111.json",
     "120131": "skills/120131.json",
@@ -1157,9 +1158,19 @@
     "204712": "skills/204712.json",
     "204721": "skills/204721.json",
     "204722": "skills/204722.json",
+    "204731": "skills/204731.json",
+    "204732": "skills/204732.json",
+    "204741": "skills/204741.json",
+    "204742": "skills/204742.json",
+    "204751": "skills/204751.json",
+    "204752": "skills/204752.json",
+    "204762": "skills/204762.json",
     "204792": "skills/204792.json",
     "204801": "skills/204801.json",
     "204802": "skills/204802.json",
+    "204811": "skills/204811.json",
+    "204812": "skills/204812.json",
+    "204892": "skills/204892.json",
     "210011": "skills/210011.json",
     "210012": "skills/210012.json",
     "210021": "skills/210021.json",
@@ -1208,6 +1219,8 @@
     "210382": "skills/210382.json",
     "210391": "skills/210391.json",
     "210392": "skills/210392.json",
+    "210401": "skills/210401.json",
+    "210402": "skills/210402.json",
     "300011": "skills/300011.json",
     "300021": "skills/300021.json",
     "300031": "skills/300031.json",
@@ -1271,6 +1284,12 @@
     "414041": "skills/414041.json",
     "414051": "skills/414051.json",
     "414061": "skills/414061.json",
+    "415011": "skills/415011.json",
+    "415021": "skills/415021.json",
+    "415031": "skills/415031.json",
+    "415041": "skills/415041.json",
+    "415051": "skills/415051.json",
+    "415061": "skills/415061.json",
     "900011": "skills/900011.json",
     "900021": "skills/900021.json",
     "900031": "skills/900031.json",
@@ -1515,6 +1534,7 @@
     "920051": "skills/920051.json",
     "920061": "skills/920061.json",
     "920071": "skills/920071.json",
+    "920091": "skills/920091.json",
     "920101": "skills/920101.json",
     "920111": "skills/920111.json",
     "920131": "skills/920131.json",
@@ -1628,6 +1648,8 @@
     "100902111": "skills/100902111.json",
     "100902121": "skills/100902121.json",
     "100902211": "skills/100902211.json",
+    "100903111": "skills/100903111.json",
+    "100903211": "skills/100903211.json",
     "101001111": "skills/101001111.json",
     "101001211": "skills/101001211.json",
     "101002111": "skills/101002111.json",
@@ -1838,6 +1860,7 @@
     "104502111": "skills/104502111.json",
     "104502211": "skills/104502211.json",
     "104503111": "skills/104503111.json",
+    "104503121": "skills/104503121.json",
     "104503211": "skills/104503211.json",
     "104601111": "skills/104601111.json",
     "104601121": "skills/104601121.json",
@@ -2214,11 +2237,11 @@
     "10m horsepower": [
       "103502111"
     ],
-    "113th fall 114th rise": [
+    "113転び114起き": [
       "110521",
       "910521"
     ],
-    "113転び114起き": [
+    "114th time s the charm": [
       "110521",
       "910521"
     ],
@@ -2234,8 +2257,24 @@
     "99 problems": [
       "202181"
     ],
+    "a dance in name of vittoria": [
+      "100151",
+      "900151"
+    ],
+    "a feast for all": [
+      "110681",
+      "910681"
+    ],
+    "a golden arrow to scatter the dark clouds": [
+      "110671",
+      "910671"
+    ],
     "a lady s domain": [
       "111601221"
+    ],
+    "a lifelong dream a moment s flight": [
+      "100711",
+      "900711"
     ],
     "a little break": [
       "201422"
@@ -2243,8 +2282,16 @@
     "a mile a minute": [
       "202281"
     ],
+    "a moment eternal in the summer breeze": [
+      "110181",
+      "910181"
+    ],
     "a page of creation": [
       "113301211"
+    ],
+    "a princess must seize victory": [
+      "100391",
+      "900391"
     ],
     "a satisfying move": [
       "202712"
@@ -2259,10 +2306,6 @@
     "a smile shrouded in snow": [
       "111902111"
     ],
-    "a spring in my step": [
-      "100781",
-      "900781"
-    ],
     "a tad more sunshine and happiness": [
       "120601",
       "920601"
@@ -2274,11 +2317,12 @@
     "a year for flower viewing": [
       "106901111"
     ],
+    "aaa the moe is bringing me back to liiiife": [
+      "110191",
+      "910191"
+    ],
     "acceleration": [
       "201062"
-    ],
-    "accelerator x": [
-      "10081"
     ],
     "accumulative victory": [
       "120231",
@@ -2350,6 +2394,10 @@
     "aim to be the protagonist": [
       "106001211"
     ],
+    "all charged it s go time": [
+      "100311",
+      "900311"
+    ],
     "all direction glare": [
       "201441"
     ],
@@ -2392,6 +2440,10 @@
     ],
     "an unexpected turnabout": [
       "110602211"
+    ],
+    "anchors aweigh": [
+      "100071",
+      "900071"
     ],
     "angelic garment": [
       "100403111"
@@ -2451,9 +2503,9 @@
     "arrow of artemis": [
       "108402211"
     ],
-    "arrow of gold break up the dark clouds": [
-      "110671",
-      "910671"
+    "arrows whistle shadows disperse": [
+      "110171",
+      "910171"
     ],
     "ascendant": [
       "202531"
@@ -2464,10 +2516,6 @@
     "ascension of the scarlet rakshasi": [
       "101081",
       "901081"
-    ],
-    "ash grey critical point": [
-      "110161",
-      "910161"
     ],
     "athlete s spirit": [
       "210311"
@@ -2482,6 +2530,9 @@
       "200191",
       "200192",
       "200193"
+    ],
+    "avatar of yodo": [
+      "200064"
     ],
     "awakened desire": [
       "109701221"
@@ -2503,17 +2554,17 @@
     "bakushin sprint": [
       "104101111"
     ],
-    "bang miracle maker": [
+    "bang miracle shower": [
       "101061",
       "901061"
-    ],
-    "bang pang mun": [
-      "100621",
-      "900621"
     ],
     "bang ミラクるわせ": [
       "101061",
       "901061"
+    ],
+    "barcarole of blessings": [
+      "110151",
+      "910151"
     ],
     "bare passion": [
       "203152"
@@ -2601,15 +2652,6 @@
     "beyond the limits": [
       "210081"
     ],
-    "beyond the ocean s infinity": [
-      "110021",
-      "910021",
-      "100302211"
-    ],
-    "beyond the other side": [
-      "100591",
-      "900591"
-    ],
     "big eater": [
       "201351"
     ],
@@ -2650,22 +2692,18 @@
     "blast mode": [
       "202321"
     ],
-    "blaze of pride": [
-      "100181",
-      "900181"
-    ],
     "blazing brilliance": [
       "110801211"
+    ],
+    "blazing pride": [
+      "100181",
+      "900181"
     ],
     "blazing radiance": [
       "210301"
     ],
     "blazing wolf": [
       "101602111"
-    ],
-    "blessed barcarolle": [
-      "110151",
-      "910151"
     ],
     "blessing of the land": [
       "210282"
@@ -2682,19 +2720,19 @@
     "blitzing spirit": [
       "202621"
     ],
-    "bloom blossom sakura": [
-      "110691",
-      "910691"
+    "blood pumping disciplinary charge": [
+      "100531",
+      "900531"
+    ],
+    "blooming blossom": [
+      "100511",
+      "900511"
     ],
     "blooming in sickness and in health": [
       "105102221"
     ],
     "blossoming": [
       "203992"
-    ],
-    "blossoming world": [
-      "100761",
-      "900761"
     ],
     "blue ray of happiness": [
       "100931",
@@ -2724,6 +2762,10 @@
     "bono gluttony": [
       "102801211"
     ],
+    "boom paka mun": [
+      "100621",
+      "900621"
+    ],
     "brains and beauty": [
       "203841"
     ],
@@ -2745,15 +2787,15 @@
     "breakaway prep": [
       "200582"
     ],
-    "breakaway road": [
-      "100641",
-      "900641"
-    ],
     "breakaway star": [
       "110701111"
     ],
     "breaking free": [
       "203221"
+    ],
+    "breaking through the grey": [
+      "110161",
+      "910161"
     ],
     "breakthrough": [
       "202381"
@@ -2791,10 +2833,6 @@
     "brisk bolting bakushiiin": [
       "104102211"
     ],
-    "bristling lights": [
-      "110341",
-      "910341"
-    ],
     "broken facade": [
       "203972"
     ],
@@ -2806,9 +2844,6 @@
     ],
     "burn down": [
       "108302111"
-    ],
-    "burning muscles": [
-      "10271"
     ],
     "burning soul": [
       "210302"
@@ -2900,10 +2935,6 @@
     "chaotic super lucky power": [
       "105602111"
     ],
-    "charged full speed ahead": [
-      "100311",
-      "900311"
-    ],
     "charm magic": [
       "104401211"
     ],
@@ -2928,6 +2959,10 @@
       "201551",
       "201552"
     ],
+    "chasing after you": [
+      "100251",
+      "900251"
+    ],
     "chasing mother s likeness": [
       "111101111"
     ],
@@ -2943,10 +2978,6 @@
     "chasing the snowlight": [
       "100291",
       "900291"
-    ],
-    "chasing you": [
-      "100251",
-      "900251"
     ],
     "checking the king": [
       "202711"
@@ -2968,10 +2999,7 @@
     "child of longchamp": [
       "202734"
     ],
-    "child of yodo": [
-      "200064"
-    ],
-    "christmas eve miracle run": [
+    "christmas eve s miracle run": [
       "110061",
       "910061"
     ],
@@ -3018,6 +3046,11 @@
     "cling to pride": [
       "203912"
     ],
+    "clockwise": [
+      "200011",
+      "200012",
+      "200013"
+    ],
     "clockwise demon": [
       "200014"
     ],
@@ -3048,9 +3081,6 @@
       "100551",
       "900551"
     ],
-    "come come": [
-      "10561"
-    ],
     "committed to an ideal": [
       "102202221"
     ],
@@ -3076,7 +3106,7 @@
     "condor leap technique": [
       "101402121"
     ],
-    "condor onslaught": [
+    "condor s onslaught": [
       "110141",
       "910141"
     ],
@@ -3104,6 +3134,9 @@
     "copacey stroke of luck": [
       "109801111"
     ],
+    "corazón ardiente": [
+      "10141"
+    ],
     "core distances": [
       "200131",
       "200132",
@@ -3120,6 +3153,11 @@
     "corner recovery": [
       "200352",
       "200353"
+    ],
+    "counterclockwise": [
+      "200021",
+      "200022",
+      "200023"
     ],
     "counterclockwise demon": [
       "200024"
@@ -3189,10 +3227,6 @@
     "cyclogenesis": [
       "106801211"
     ],
-    "dance for vittoria": [
-      "100151",
-      "900151"
-    ],
     "dancer on the sands": [
       "202351"
     ],
@@ -3221,9 +3255,9 @@
     "dawnborne": [
       "110402211"
     ],
-    "dazzling fire invincible dance": [
-      "100721",
-      "900721"
+    "dazzl n diver": [
+      "110011",
+      "910011"
     ],
     "dazzling luxon": [
       "103202211"
@@ -3265,10 +3299,6 @@
     "delightful memory": [
       "102201121"
     ],
-    "delivering beyond dreams": [
-      "110351",
-      "910351"
-    ],
     "deluxe fountain": [
       "100911",
       "900911"
@@ -3282,8 +3312,9 @@
     "designated center": [
       "104602211"
     ],
-    "desire to win": [
-      "10111"
+    "destination dreams": [
+      "110351",
+      "910351"
     ],
     "determined hero": [
       "103001111"
@@ -3295,12 +3326,12 @@
     "devil may care": [
       "202422"
     ],
-    "dignified dreamlike brocade": [
-      "120011",
-      "920011"
-    ],
     "dignity and grandeur": [
       "202541"
+    ],
+    "dignity is fulfilling one s duty": [
+      "100131",
+      "900131"
     ],
     "diligence": [
       "203612"
@@ -3315,7 +3346,7 @@
       "100431",
       "900431"
     ],
-    "dioscuric meteor": [
+    "dioscuric shooting star": [
       "100331",
       "900331"
     ],
@@ -3395,6 +3426,10 @@
     "dreamlike snowscape": [
       "111191",
       "911191"
+    ],
+    "dreams donned with pride": [
+      "120011",
+      "920011"
     ],
     "driven by light the heavenly wolf hunts": [
       "110701",
@@ -3490,12 +3525,9 @@
     "energetic": [
       "203731"
     ],
-    "engine full throttle turbo time": [
+    "engine roaring full power": [
       "100661",
       "900661"
-    ],
-    "engine ignition": [
-      "10661"
     ],
     "enjoy the flight": [
       "108201211"
@@ -3552,13 +3584,17 @@
     "ethereal reflection": [
       "101801211"
     ],
+    "ever supreme": [
+      "100851",
+      "900851"
+    ],
     "everlasting knot": [
       "110861",
       "910861"
     ],
-    "everybody put your hands up": [
-      "100651",
-      "900651"
+    "every rose has its fangs": [
+      "110301",
+      "910301"
     ],
     "exchange races demon": [
       "202254"
@@ -3624,10 +3660,6 @@
     "fanservice for you": [
       "104603211"
     ],
-    "fast moving smooth moving": [
-      "100341",
-      "900341"
-    ],
     "fast paced": [
       "200542"
     ],
@@ -3651,6 +3683,9 @@
     ],
     "fearsome pursuit": [
       "202942"
+    ],
+    "feel the burn": [
+      "10271"
     ],
     "feeling top of the world": [
       "100702221"
@@ -3697,6 +3732,9 @@
     "finishing touch": [
       "202811"
     ],
+    "firing on all cylinders": [
+      "10661"
+    ],
     "firm resolve": [
       "203262"
     ],
@@ -3734,6 +3772,10 @@
     ],
     "flash torrent": [
       "103703211"
+    ],
+    "flashy landing": [
+      "100241",
+      "900241"
     ],
     "flasks up": [
       "100801111"
@@ -3780,6 +3822,9 @@
     "focus": [
       "200432"
     ],
+    "focused mind": [
+      "10111"
+    ],
     "fond of dirt": [
       "1200051"
     ],
@@ -3806,10 +3851,6 @@
     ],
     "for a sparkling miracle": [
       "100501221"
-    ],
-    "for the strongest name": [
-      "110131",
-      "910131"
     ],
     "force of will": [
       "203812"
@@ -3910,10 +3951,6 @@
       "200102",
       "200103"
     ],
-    "fulfilling your noble duty": [
-      "100131",
-      "900131"
-    ],
     "full of zeal": [
       "202312"
     ],
@@ -3925,9 +3962,6 @@
     ],
     "full power santa claus": [
       "102302211"
-    ],
-    "full power v sign": [
-      "10351"
     ],
     "full throttle": [
       "202152"
@@ -3944,6 +3978,11 @@
     "furious sprint": [
       "203471"
     ],
+    "further than the sea horizon": [
+      "110021",
+      "910021",
+      "100302211"
+    ],
     "fuse": [
       "203242"
     ],
@@ -3957,10 +3996,6 @@
     "g1 dislike": [
       "200311"
     ],
-    "gain superior heal": [
-      "110111",
-      "910111"
-    ],
     "gale flash": [
       "201173",
       "201243"
@@ -3973,10 +4008,6 @@
     ],
     "gallant figure": [
       "203391"
-    ],
-    "galmem forever": [
-      "110481",
-      "910481"
     ],
     "galmem ふぉーえば": [
       "110481",
@@ -4046,6 +4077,10 @@
       "203702",
       "407031"
     ],
+    "give mummy a hug": [
+      "110451",
+      "910451"
+    ],
     "give your all star of tomakomai": [
       "109901221"
     ],
@@ -4060,10 +4095,6 @@
     ],
     "glittering doll s stage": [
       "105502111"
-    ],
-    "glittering star vaudeville": [
-      "100051",
-      "900051"
     ],
     "gloire à toi": [
       "120051",
@@ -4135,6 +4166,10 @@
       "202252",
       "202253"
     ],
+    "grains ripen": [
+      "110561",
+      "910561"
+    ],
     "grand jeté": [
       "111701111"
     ],
@@ -4143,6 +4178,10 @@
     ],
     "great haste": [
       "202592"
+    ],
+    "grin when the odds stack against you": [
+      "100491",
+      "900491"
     ],
     "groundbreaker s trail": [
       "411011"
@@ -4196,6 +4235,10 @@
     ],
     "halfway to a dream": [
       "210072"
+    ],
+    "hands in the air like ya don t care": [
+      "100651",
+      "900651"
     ],
     "hanshin racecourse": [
       "200051",
@@ -4299,6 +4342,10 @@
     "hold your tail high": [
       "201611"
     ],
+    "holding high the sword within": [
+      "100471",
+      "900471"
+    ],
     "hometown medley": [
       "109902111"
     ],
@@ -4307,10 +4354,6 @@
     ],
     "honor on the line": [
       "103701211"
-    ],
-    "honor student x bakushin big victory": [
-      "100411",
-      "900411"
     ],
     "hooray wonder doll": [
       "110551",
@@ -4327,13 +4370,6 @@
     "hope always comes around": [
       "110902111"
     ],
-    "hot blooded amigo": [
-      "10141"
-    ],
-    "hot blooded disciplinary attack": [
-      "100531",
-      "900531"
-    ],
     "hot pursuit": [
       "202471"
     ],
@@ -4345,10 +4381,6 @@
     ],
     "hounding shadow": [
       "200641"
-    ],
-    "howling arrow piercing the darkness": [
-      "110171",
-      "910171"
     ],
     "hoy i m fired up": [
       "105301211"
@@ -4364,6 +4396,9 @@
     ],
     "i can fly": [
       "103502211"
+    ],
+    "i can win sometimes right": [
+      "10601"
     ],
     "i copy": [
       "102401211"
@@ -4408,12 +4443,12 @@
       "100281",
       "900281"
     ],
+    "i m going to win this": [
+      "110031",
+      "910031"
+    ],
     "i m not done yet": [
       "105201111"
-    ],
-    "i m not giving up the lead": [
-      "100021",
-      "900021"
     ],
     "i m possible": [
       "100421",
@@ -4425,6 +4460,10 @@
     ],
     "i really wanna win": [
       "105202121"
+    ],
+    "i see victory in my future": [
+      "100561",
+      "900561"
     ],
     "i shall be with you at once": [
       "101502211"
@@ -4453,10 +4492,6 @@
     ],
     "illusionist": [
       "201231"
-    ],
-    "imma show you white lightning": [
-      "100211",
-      "900211"
     ],
     "immense and pleasing power": [
       "110391",
@@ -4550,10 +4585,6 @@
     "innate nature": [
       "210362"
     ],
-    "inner art everlasting burning summer": [
-      "110531",
-      "910531"
-    ],
     "inner experience": [
       "200751"
     ],
@@ -4574,10 +4605,6 @@
     "inside hero": [
       "1300041"
     ],
-    "inspiration landing": [
-      "100241",
-      "900241"
-    ],
     "intelligence specialist": [
       "108001111"
     ],
@@ -4591,6 +4618,9 @@
     "introduction my body": [
       "10321"
     ],
+    "introduction to physiology": [
+      "10321"
+    ],
     "introverted": [
       "200283"
     ],
@@ -4599,10 +4629,6 @@
     ],
     "ironclad": [
       "108301111"
-    ],
-    "it s going to be me": [
-      "110031",
-      "910031"
     ],
     "it s mashup time": [
       "110651",
@@ -4635,6 +4661,10 @@
     "joyful voyage": [
       "110101",
       "910101"
+    ],
+    "just a little farther": [
+      "100601",
+      "900601"
     ],
     "just rule": [
       "203111"
@@ -4697,10 +4727,6 @@
       "200062",
       "200063"
     ],
-    "kyuute last spuu uurt": [
-      "100191",
-      "900191"
-    ],
     "laborious": [
       "201401"
     ],
@@ -4717,23 +4743,11 @@
     "laplace s demon": [
       "103202111"
     ],
-    "large slices at the cake cutting": [
-      "110121",
-      "910121"
-    ],
     "laser focused": [
       "202771"
     ],
     "last leg": [
       "200512"
-    ],
-    "latte art for you": [
-      "110271",
-      "910271"
-    ],
-    "laugh in the face of danger": [
-      "100491",
-      "900491"
     ],
     "lay it all on the line": [
       "111001111"
@@ -4771,20 +4785,11 @@
     "leave the dark nights to me": [
       "107702211"
     ],
-    "left turns": [
-      "200021",
-      "200022",
-      "200023"
-    ],
     "legendary accel": [
       "1400021"
     ],
     "let me win pleeease": [
       "111301211"
-    ],
-    "let s anabolic": [
-      "100271",
-      "900271"
     ],
     "let s bloom in the moment": [
       "107601211"
@@ -4795,12 +4800,16 @@
     "let s keep going": [
       "104902111"
     ],
-    "lifetime dream moment s flight": [
-      "100711",
-      "900711"
+    "let s pump some iron": [
+      "100271",
+      "900271"
     ],
     "light step": [
       "201142"
+    ],
+    "lighting up the vaudeville": [
+      "100051",
+      "900051"
     ],
     "lightning advance": [
       "203011"
@@ -4853,6 +4862,10 @@
     "lively and playful": [
       "100303211"
     ],
+    "living up to my legacy": [
+      "110131",
+      "910131"
+    ],
     "lock on": [
       "202562"
     ],
@@ -4879,10 +4892,6 @@
     "longed for city girl": [
       "102901111"
     ],
-    "longing beyond the sakura": [
-      "100691",
-      "900691"
-    ],
     "look at me look": [
       "105202111"
     ],
@@ -4896,20 +4905,19 @@
     "lose yourself": [
       "202421"
     ],
+    "louder tracen cheering squad": [
+      "110611",
+      "910611"
+    ],
     "love me parade": [
       "111301111"
     ],
-    "lovely spring wind": [
+    "lovely spring breeze": [
       "100741",
       "900741"
     ],
-    "luck comes to the prepared": [
-      "100981",
-      "900981"
-    ],
-    "luck is coming": [
-      "100561",
-      "900561"
+    "luck be with me": [
+      "10561"
     ],
     "lucky race charm": [
       "109802211"
@@ -4923,7 +4931,7 @@
     "luminous spectrum": [
       "110502111"
     ],
-    "lyricism at journey s end": [
+    "lyrical journey": [
       "100571",
       "900571"
     ],
@@ -5023,6 +5031,10 @@
     "model student": [
       "203842"
     ],
+    "model student x bakushin triumph": [
+      "100411",
+      "900411"
+    ],
     "mold breaker": [
       "202522"
     ],
@@ -5061,6 +5073,10 @@
     "mouthwatering tomakomai cuisine": [
       "109901111"
     ],
+    "moving past and beyond": [
+      "100591",
+      "900591"
+    ],
     "mud meister": [
       "202341"
     ],
@@ -5077,6 +5093,10 @@
     ],
     "muscle anthem": [
       "102701111"
+    ],
+    "my ambitions lie beyond the sakura": [
+      "100691",
+      "900691"
     ],
     "my flame lights the way": [
       "100921",
@@ -5212,6 +5232,10 @@
     "now s the time to go wild": [
       "104803211"
     ],
+    "now we re cruisin": [
+      "100341",
+      "900341"
+    ],
     "nox lumina": [
       "104402121"
     ],
@@ -5224,12 +5248,20 @@
     "ode to our predecessors": [
       "102102111"
     ],
+    "off off and away": [
+      "100641",
+      "900641"
+    ],
     "oh bento magic": [
       "110421",
       "910421"
     ],
     "olifant s roar": [
       "112101211"
+    ],
+    "omg the final spriiiint": [
+      "100191",
+      "900191"
     ],
     "on standby": [
       "200622"
@@ -5258,7 +5290,7 @@
     "one more push": [
       "102902111"
     ],
-    "one on one dead heat": [
+    "one on one to the line": [
       "100121",
       "900121"
     ],
@@ -5295,10 +5327,6 @@
     "oopsy doopsy": [
       "106202221"
     ],
-    "opening flower bud": [
-      "100511",
-      "900511"
-    ],
     "opening leg adept": [
       "202802"
     ],
@@ -5317,6 +5345,10 @@
     ],
     "order taken": [
       "103102111"
+    ],
+    "our ticket to victory": [
+      "100351",
+      "900351"
     ],
     "out in front": [
       "202691",
@@ -5432,6 +5464,10 @@
     "peerless bravery": [
       "101402111"
     ],
+    "peerless dance of flowering flames": [
+      "100721",
+      "900721"
+    ],
     "peerless heroine": [
       "101291",
       "901291"
@@ -5541,10 +5577,6 @@
     ],
     "prelude": [
       "203922"
-    ],
-    "presenting tomakomai": [
-      "100991",
-      "900991"
     ],
     "presents from x": [
       "110231",
@@ -5685,10 +5717,6 @@
     "rainy hero": [
       "1300031"
     ],
-    "raise thy soul s sword": [
-      "100471",
-      "900471"
-    ],
     "rapid": [
       "202552"
     ],
@@ -5696,10 +5724,6 @@
       "202322"
     ],
     "ravissant": [
-      "110051",
-      "910051"
-    ],
-    "ravissante": [
       "110051",
       "910051"
     ],
@@ -5712,11 +5736,8 @@
     "reading comprehension": [
       "201432"
     ],
-    "ready bang": [
+    "ready go": [
       "10621"
-    ],
-    "ready steady go": [
-      "10521"
     ],
     "recombustion": [
       "201291"
@@ -5733,12 +5754,12 @@
     "red ace": [
       "10091"
     ],
-    "red flame gear lp1211 m": [
-      "100041",
-      "900041"
-    ],
     "red hot spark": [
       "106301211"
+    ],
+    "redline shifting lp1211 m": [
+      "100041",
+      "900041"
     ],
     "redo": [
       "201362"
@@ -5748,10 +5769,6 @@
     ],
     "regnant": [
       "202871"
-    ],
-    "reign supreme": [
-      "100851",
-      "900851"
     ],
     "relax": [
       "201421"
@@ -5802,16 +5819,8 @@
     "reviiive in search of preciousness": [
       "101902211"
     ],
-    "revived by moe": [
-      "110191",
-      "910191"
-    ],
     "revolutionary presence": [
       "108301211"
-    ],
-    "rice becomes ripe": [
-      "110561",
-      "910561"
     ],
     "riding the mistral": [
       "104202111"
@@ -5821,11 +5830,6 @@
     ],
     "riding with renewed passion": [
       "105302111"
-    ],
-    "right turns": [
-      "200011",
-      "200012",
-      "200013"
     ],
     "righteous path": [
       "107701211"
@@ -5856,19 +5860,11 @@
       "100771",
       "900771"
     ],
-    "roar tracen cheerleading squad": [
-      "110611",
-      "910611"
-    ],
     "rock solid stance": [
       "201602"
     ],
     "rocket start": [
       "202861"
-    ],
-    "rolling power drive": [
-      "110621",
-      "910621"
     ],
     "romantic horizon": [
       "111071",
@@ -5919,6 +5915,10 @@
     ],
     "running idle": [
       "200521"
+    ],
+    "running in luck s trail": [
+      "100981",
+      "900981"
     ],
     "running outpaces worrying": [
       "106901121"
@@ -6078,6 +6078,10 @@
     "shift gears": [
       "201052"
     ],
+    "shine bright tomakomai": [
+      "100991",
+      "900991"
+    ],
     "shine on forever": [
       "111091",
       "911091",
@@ -6225,6 +6229,10 @@
     ],
     "special move lightning kiiick": [
       "105401211"
+    ],
+    "special skill bringing the summer heat": [
+      "110531",
+      "910531"
     ],
     "speed eater": [
       "201082"
@@ -6429,10 +6437,6 @@
     "sum of small efforts": [
       "203611"
     ],
-    "summer breeze an eternal moment": [
-      "110181",
-      "910181"
-    ],
     "summer eminence": [
       "101303111"
     ],
@@ -6441,7 +6445,7 @@
       "200182",
       "200183"
     ],
-    "summer sky halation": [
+    "summer halation": [
       "110321",
       "910321"
     ],
@@ -6452,6 +6456,10 @@
     "summit meal": [
       "103003111"
     ],
+    "sunny breeze": [
+      "100781",
+      "900781"
+    ],
     "sunny days": [
       "200211",
       "200212"
@@ -6459,11 +6467,18 @@
     "sunrise hero": [
       "1300021"
     ],
+    "super duper stoked": [
+      "10521"
+    ],
     "super express manuscript handling": [
       "101902111"
     ],
     "super lucky seven": [
       "201561"
+    ],
+    "superior heal": [
+      "110111",
+      "910111"
     ],
     "superluminal particle": [
       "103203111"
@@ -6486,10 +6501,6 @@
     ],
     "supreme worldwide luster": [
       "104201111"
-    ],
-    "surely beyond": [
-      "100601",
-      "900601"
     ],
     "surge of spirit": [
       "110001111"
@@ -6601,10 +6612,6 @@
     "the art of photobombing": [
       "108702111"
     ],
-    "the beat of victory": [
-      "100061",
-      "900061"
-    ],
     "the fierce beast howls at the sun": [
       "112701211"
     ],
@@ -6619,10 +6626,6 @@
     ],
     "the future i grasped": [
       "203721"
-    ],
-    "the great feast": [
-      "110681",
-      "910681"
     ],
     "the greeaaatest princess": [
       "103902121"
@@ -6642,16 +6645,12 @@
     "the races we run": [
       "210321"
     ],
-    "the sea sparkles but you re dazzling": [
-      "120131",
-      "920131"
-    ],
     "the stormforged hero advances": [
       "104702211"
     ],
-    "the ticket to victory for you": [
-      "100351",
-      "900351"
+    "the view from the lead is mine": [
+      "100021",
+      "900021"
     ],
     "the will and a way": [
       "110801111"
@@ -6669,11 +6668,19 @@
     "thirsting monster": [
       "101602211"
     ],
+    "this cake s first slice is ours": [
+      "110121",
+      "910121"
+    ],
     "this is my full speed": [
       "104301111"
     ],
     "this is my win": [
       "100901211"
+    ],
+    "this latte art is for you": [
+      "110271",
+      "910271"
     ],
     "thorough planning": [
       "106301111"
@@ -6828,6 +6835,10 @@
     "triple 7s": [
       "201571"
     ],
+    "triumphant pulse": [
+      "100061",
+      "900061"
+    ],
     "trophy catcher s wisdom": [
       "102001121"
     ],
@@ -6846,6 +6857,10 @@
     ],
     "trying my best": [
       "105202211"
+    ],
+    "tumbly power drive": [
+      "110621",
+      "910621"
     ],
     "turbulent pororoca": [
       "101201211"
@@ -6966,10 +6981,6 @@
     "unshakeable faith": [
       "203052"
     ],
-    "unsinkable ship anchored": [
-      "100071",
-      "900071"
-    ],
     "unstoppable": [
       "202371"
     ],
@@ -7006,6 +7017,13 @@
     "uptempo": [
       "200722"
     ],
+    "us girlies ll never die": [
+      "110481",
+      "910481"
+    ],
+    "v for victory": [
+      "10351"
+    ],
     "valiant flash": [
       "201313"
     ],
@@ -7033,13 +7051,6 @@
     "vibrant battle formation": [
       "104002111"
     ],
-    "victory befitting a princess": [
-      "100391",
-      "900391"
-    ],
-    "victory kiss": [
-      "10241"
-    ],
     "victory opportunity": [
       "202261"
     ],
@@ -7055,13 +7066,16 @@
     "victory s fleeting thread": [
       "203741"
     ],
+    "victory s kiss": [
+      "10241"
+    ],
+    "victory s mine strelitzia": [
+      "100441",
+      "900441"
+    ],
     "victory shot": [
       "100101",
       "900101"
-    ],
-    "victory shout wasshoi": [
-      "100681",
-      "900681"
     ],
     "vip pass": [
       "201201"
@@ -7104,16 +7118,24 @@
     "wannagetcurren d": [
       "103802111"
     ],
+    "warmth of the grain": [
+      "110341",
+      "910341"
+    ],
     "warning shot": [
       "10071"
+    ],
+    "wasshoi for victory": [
+      "100681",
+      "900681"
+    ],
+    "watch me bloom": [
+      "110691",
+      "910691"
     ],
     "watch us flourish": [
       "111321",
       "911321"
-    ],
-    "wayakawa marine dive": [
-      "110011",
-      "910011"
     ],
     "weaving history": [
       "101331",
@@ -7125,6 +7147,10 @@
     "where there s a will there s a way": [
       "100111",
       "900111"
+    ],
+    "white lightning comin through": [
+      "100211",
+      "900211"
     ],
     "wild at heart": [
       "411051"
@@ -7218,9 +7244,12 @@
     "with you beyond the milky way": [
       "110501111"
     ],
-    "wrapping mummy trick": [
-      "110451",
-      "910451"
+    "world in bloom": [
+      "100761",
+      "900761"
+    ],
+    "xceleration": [
+      "10081"
     ],
     "yamato nadeshiko": [
       "101101111"
@@ -7235,15 +7264,12 @@
     "you copy": [
       "102401111"
     ],
-    "you know sometimes even i can": [
-      "10601"
-    ],
-    "you re mine strelitzia": [
-      "100441",
-      "900441"
-    ],
     "you shall kneel in reverence": [
       "111501221"
+    ],
+    "you sparkle brighter than the sea": [
+      "120131",
+      "920131"
     ],
     "zero latency": [
       "105003111"
@@ -7762,6 +7788,9 @@
     "アド アストラ": [
       "101051",
       "901051"
+    ],
+    "アドバンテージ": [
+      "204751"
     ],
     "アドベンチャーの先導者": [
       "101002111"
@@ -8882,6 +8911,9 @@
       "201101",
       "201102"
     ],
+    "主導権": [
+      "204752"
+    ],
     "久遠の天際": [
       "114101221"
     ],
@@ -9447,6 +9479,12 @@
     "吉兆です": [
       "105601111"
     ],
+    "吉兆の駆け手": [
+      "415021"
+    ],
+    "名にし負う夢": [
+      "210401"
+    ],
     "名優 昇るは天の果て": [
       "101301311"
     ],
@@ -9811,6 +9849,9 @@
     "好転一息": [
       "200381"
     ],
+    "如才なし": [
+      "204732"
+    ],
     "妙技 坂落とし": [
       "114901111"
     ],
@@ -9978,6 +10019,9 @@
     "布陣": [
       "201091"
     ],
+    "希代の才覚": [
+      "204741"
+    ],
     "希望は巡る 何度でも": [
       "110902111"
     ],
@@ -9986,6 +10030,9 @@
     ],
     "常に最たる輝きを": [
       "108501211"
+    ],
+    "常磐なる誓い": [
+      "415061"
     ],
     "幕引き": [
       "203131"
@@ -10014,6 +10061,9 @@
     ],
     "引っ込み思案": [
       "200283"
+    ],
+    "弧を描いて": [
+      "204812"
     ],
     "弧線のトップスカラー": [
       "409061"
@@ -10070,6 +10120,9 @@
       "100591",
       "900591"
     ],
+    "彼方の呼び声": [
+      "210402"
+    ],
     "待ったなし": [
       "203882"
     ],
@@ -10084,6 +10137,9 @@
     ],
     "後方釘付": [
       "201012"
+    ],
+    "御覧じろ 緋色の疾風": [
+      "100903211"
     ],
     "徹底マーク": [
       "200291",
@@ -10189,6 +10245,9 @@
     ],
     "急ぎ足": [
       "200542"
+    ],
+    "急之舞": [
+      "415011"
     ],
     "急先鋒": [
       "204541"
@@ -10408,6 +10467,9 @@
     ],
     "捕捉": [
       "203582"
+    ],
+    "捧ぐる願い": [
+      "415041"
     ],
     "捲土重来": [
       "202271"
@@ -10738,6 +10800,9 @@
     "機先の勝負": [
       "202801"
     ],
+    "機転": [
+      "204731"
+    ],
     "歌劇王の行進": [
       "101501211"
     ],
@@ -10756,6 +10821,9 @@
     ],
     "正面突破": [
       "203112"
+    ],
+    "死力を尽くして": [
+      "204762"
     ],
     "残影": [
       "203751"
@@ -10898,6 +10966,9 @@
       "120201",
       "920201"
     ],
+    "淀にて大河となりて": [
+      "104503121"
+    ],
     "淀の女王": [
       "105901211"
     ],
@@ -10957,6 +11028,9 @@
     ],
     "満たせ ぱんぷきんパワー": [
       "102802211"
+    ],
+    "満願成就": [
+      "415031"
     ],
     "溌剌": [
       "204172"
@@ -11367,6 +11441,12 @@
     "目覚めの時": [
       "203992"
     ],
+    "直情": [
+      "204892"
+    ],
+    "直感力": [
+      "204742"
+    ],
     "直滑降": [
       "201342"
     ],
@@ -11493,6 +11573,9 @@
     "礎たれ": [
       "111001111"
     ],
+    "祈りの篝火": [
+      "415051"
+    ],
     "祝宴の征服者": [
       "108602211"
     ],
@@ -11501,6 +11584,9 @@
     ],
     "神仙蝶変の術": [
       "104503211"
+    ],
+    "神代も聞かず この御業": [
+      "100903111"
     ],
     "神業ステップ": [
       "201141"
@@ -11573,6 +11659,10 @@
     "究極テイオーステップ": [
       "100031",
       "900031"
+    ],
+    "究竟の弓勢": [
+      "120091",
+      "920091"
     ],
     "空の果てまで": [
       "101302211"
@@ -11867,6 +11957,9 @@
     ],
     "虎視眈々": [
       "104002211"
+    ],
+    "螺旋のエキスパート": [
+      "204811"
     ],
     "行雲流水": [
       "204111"

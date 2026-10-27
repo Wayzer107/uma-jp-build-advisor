@@ -4,12 +4,17 @@
   "kind_path": "trainees",
   "server": "ja",
   "chara_id": 1144,
-  "name": "[Éclat de Roseraie]ローズキングダム",
+  "name": "[Éclat de Roseraie] Rose Kingdom",
   "name_text": {
     "ja": "[Éclat de Roseraie]ローズキングダム",
-    "en": null,
-    "en_status": "unavailable",
-    "en_source": null
+    "en": "[Éclat de Roseraie] Rose Kingdom",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 4,
+      "index": 114401
+    }
   },
   "title_text": {
     "ja": "[Éclat de Roseraie]",
@@ -319,7 +324,7 @@
     "trainee_tid": "4l",
     "url": "https://gametora.com/umamusume/characters/114401-rose-kingdom",
     "url_name": "114401-rose-kingdom",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/rose-kingdom",
@@ -356,7 +361,7 @@
   },
   "search_names": [
     "[Éclat de Roseraie]ローズキングダム",
-    null,
+    "[Éclat de Roseraie] Rose Kingdom",
     "[Éclat de Roseraie]",
     null,
     "ローズキングダム",

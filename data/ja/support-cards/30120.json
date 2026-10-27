@@ -924,7 +924,7 @@
   "event_skill_links_gametora": [
     {
       "skill_id": 200022,
-      "skill_name": "Left Turns ○",
+      "skill_name": "Counterclockwise ○",
       "ref_status": "resolved"
     },
     {
@@ -973,7 +973,7 @@
     "url_candidate": "https://gametora.com/umamusume/supports/30120-yaeno-muteki",
     "url_name": "30120-yaeno-muteki",
     "mapping_status": "verified_full_id_set",
-    "source_data_version": "ecbd7dc3",
+    "source_data_version": "b0c2fbc7",
     "reconciliation_note": "The complete local support ID set was compared with the versioned GameTora support-cards feed."
   },
   "source": {

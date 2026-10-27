@@ -140,7 +140,7 @@
           "slot": 1,
           "skill_id": 10621,
           "skill_level": 2,
-          "skill_name": "Ready, Bang!",
+          "skill_name": "Ready, Go!",
           "ref_status": "resolved"
         }
       ],
@@ -213,7 +213,7 @@
           "slot": 1,
           "skill_id": 100621,
           "skill_level": 1,
-          "skill_name": "Bang, Pang, Mun",
+          "skill_name": "Boom Paka Mun!",
           "ref_status": "resolved"
         }
       ],
@@ -286,7 +286,7 @@
           "slot": 1,
           "skill_id": 100621,
           "skill_level": 2,
-          "skill_name": "Bang, Pang, Mun",
+          "skill_name": "Boom Paka Mun!",
           "ref_status": "resolved"
         }
       ],
@@ -359,7 +359,7 @@
           "slot": 1,
           "skill_id": 100621,
           "skill_level": 3,
-          "skill_name": "Bang, Pang, Mun",
+          "skill_name": "Boom Paka Mun!",
           "ref_status": "resolved"
         }
       ],
@@ -402,7 +402,7 @@
     "trainee_tid": "16",
     "url": "https://gametora.com/umamusume/characters/106201-matikanetannhauser",
     "url_name": "106201-matikanetannhauser",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/matikanetannhauser",

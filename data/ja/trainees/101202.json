@@ -135,7 +135,7 @@
           "slot": 1,
           "skill_id": 110121,
           "skill_level": 1,
-          "skill_name": "Large slices at the Cake Cutting!",
+          "skill_name": "This Cake's First Slice Is Ours!",
           "ref_status": "resolved"
         }
       ],
@@ -208,7 +208,7 @@
           "slot": 1,
           "skill_id": 110121,
           "skill_level": 2,
-          "skill_name": "Large slices at the Cake Cutting!",
+          "skill_name": "This Cake's First Slice Is Ours!",
           "ref_status": "resolved"
         }
       ],
@@ -281,7 +281,7 @@
           "slot": 1,
           "skill_id": 110121,
           "skill_level": 3,
-          "skill_name": "Large slices at the Cake Cutting!",
+          "skill_name": "This Cake's First Slice Is Ours!",
           "ref_status": "resolved"
         }
       ],
@@ -324,7 +324,7 @@
     "trainee_tid": "26",
     "url": "https://gametora.com/umamusume/characters/101202-hishi-amazon",
     "url_name": "101202-hishi-amazon",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/hishi-amazon",

@@ -87,7 +87,7 @@
     },
     {
       "skill_id": 200012,
-      "skill_name": "Right Turns ○",
+      "skill_name": "Clockwise ○",
       "need_rank": 4,
       "source_row_id": 11270140,
       "ref_status": "resolved"
@@ -329,7 +329,7 @@
     "trainee_tid": "3l",
     "url": "https://gametora.com/umamusume/characters/112701-fenomeno",
     "url_name": "112701-fenomeno",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/fenomeno",

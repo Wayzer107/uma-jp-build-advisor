@@ -4,18 +4,28 @@
   "kind_path": "trainees",
   "server": "ja",
   "chara_id": 1018,
-  "name": "[悠久なるヘカテイア]エアグルーヴ",
+  "name": "[Everlasting Hecate] Air Groove",
   "name_text": {
     "ja": "[悠久なるヘカテイア]エアグルーヴ",
-    "en": null,
-    "en_status": "unavailable",
-    "en_source": null
+    "en": "[Everlasting Hecate] Air Groove",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 4,
+      "index": 101803
+    }
   },
   "title_text": {
     "ja": "[悠久なるヘカテイア]",
-    "en": null,
-    "en_status": "unavailable",
-    "en_source": null
+    "en": "[Everlasting Hecate]",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 5,
+      "index": 101803
+    }
   },
   "character_name_text": {
     "ja": "エアグルーヴ",
@@ -319,7 +329,7 @@
     "trainee_tid": "4n",
     "url": "https://gametora.com/umamusume/characters/101803-air-groove",
     "url_name": "101803-air-groove",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/air-groove",
@@ -356,9 +366,9 @@
   },
   "search_names": [
     "[悠久なるヘカテイア]エアグルーヴ",
-    null,
+    "[Everlasting Hecate] Air Groove",
     "[悠久なるヘカテイア]",
-    null,
+    "[Everlasting Hecate]",
     "エアグルーヴ",
     "Air Groove"
   ],

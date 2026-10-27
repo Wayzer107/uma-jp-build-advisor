@@ -3,12 +3,17 @@
   "kind": "support_card",
   "kind_path": "support-cards",
   "server": "ja",
-  "name": "[Endless Game]ルーラーシップ",
+  "name": "[Endless Game] Rulership",
   "name_text": {
     "ja": "[Endless Game]ルーラーシップ",
-    "en": null,
-    "en_status": "unavailable",
-    "en_source": null
+    "en": "[Endless Game] Rulership",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 75,
+      "index": 30313
+    }
   },
   "title_text": {
     "ja": "[Endless Game]",
@@ -451,9 +456,14 @@
       },
       "description_text": {
         "ja": "絆ゲージが80以上の時、\\nスタミナボーナスと根性ボーナス",
-        "en": null,
-        "en_status": "unavailable",
-        "en_source": null
+        "en": "Stamina Bonus and Guts Bonus when Friendship over 80.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 155,
+          "index": 30313
+        }
       },
       "components": [
         {
@@ -800,7 +810,7 @@
     "url_candidate": "https://gametora.com/umamusume/supports/30313-rulership",
     "url_name": "30313-rulership",
     "mapping_status": "verified_full_id_set",
-    "source_data_version": "ecbd7dc3",
+    "source_data_version": "b0c2fbc7",
     "reconciliation_note": "The complete local support ID set was compared with the versioned GameTora support-cards feed."
   },
   "source": {
@@ -844,7 +854,7 @@
   },
   "search_names": [
     "[Endless Game]ルーラーシップ",
-    null,
+    "[Endless Game] Rulership",
     "[Endless Game]",
     null,
     "ルーラーシップ",

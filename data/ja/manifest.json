@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
   "server": "ja",
-  "generated_at_utc": "2026-10-18T20:54:44+00:00",
+  "generated_at_utc": "2026-10-27T20:23:58+00:00",
   "coverage_status": "incomplete",
   "source": {
     "game": "Umamusume Pretty Derby Japanese server",
     "master_filename": "master.mdb",
-    "master_sha256": "304093fd76d5435e0cd79534078dba12501b5efad2dbaae69aac308f506e6b59",
-    "master_bytes": 45359104,
+    "master_sha256": "5025d7cf8a448d6edfdc54ece62e472e5d249c36c4373252a830a2619e82b47d",
+    "master_bytes": 45785088,
     "translation": {
       "filename": "text_data_dict.json",
-      "sha256": "92820c945619367a7152f5f7077c49405147308f1bd1d3b971bad58d1891b0e8",
+      "sha256": "e4b09f974080b0441d1040536cc7202ddab474088bb68707a26337f0495695d1",
       "available": true,
       "bundle": "localized_data_1/text_data_dict.json"
     },
     "gametora_support_data": {
       "source": "gametora_public_support_cards_feed",
       "manifest_url": "https://gametora.com/data/manifests/umamusume.json",
-      "manifest_sha256": "2667a7194f6416593f6325a43e0975930d05dd44b48490b1b46b21a13103e991",
-      "data_url": "https://gametora.com/data/umamusume/support-cards.ecbd7dc3.json",
-      "data_version_hash": "ecbd7dc3",
-      "data_sha256": "ecbd7dc3152e6f24ef35bc9ea8d89aafca2b2ea46444e762cf23a175ec0ad8b6",
-      "data_bytes": 598440,
-      "row_count": 563,
-      "retrieved_at_utc": "2026-10-18T20:54:43+00:00",
+      "manifest_sha256": "20722309def68d56685717ff1317e74e49df362d9859ab34b566347729c0c00d",
+      "data_url": "https://gametora.com/data/umamusume/support-cards.b0c2fbc7.json",
+      "data_version_hash": "b0c2fbc7",
+      "data_sha256": "b0c2fbc79b5a189d32d5851f0f6684e23f46045183feffcde8664e714394762d",
+      "data_bytes": 601277,
+      "row_count": 566,
+      "retrieved_at_utc": "2026-10-27T20:23:54+00:00",
       "server_scope_note": "Used for exact GameTora support ID/URL reconciliation and event-skill and hint cross-checks; local JP game data remains canonical for game facts."
     },
     "gametora_character_card_data": {
       "source": "gametora_public_character_cards_feed",
       "manifest_url": "https://gametora.com/data/manifests/umamusume.json",
-      "manifest_sha256": "2667a7194f6416593f6325a43e0975930d05dd44b48490b1b46b21a13103e991",
-      "data_url": "https://gametora.com/data/umamusume/character-cards.d3ec4f6d.json",
-      "data_version_hash": "d3ec4f6d",
-      "data_sha256": "d3ec4f6dc16b1e657ddf227a4e03ccc5e5fc5642ded0c12e3fd23939e03ee6f2",
-      "data_bytes": 267883,
-      "row_count": 271,
-      "retrieved_at_utc": "2026-10-18T20:54:44+00:00",
+      "manifest_sha256": "20722309def68d56685717ff1317e74e49df362d9859ab34b566347729c0c00d",
+      "data_url": "https://gametora.com/data/umamusume/character-cards.d645f331.json",
+      "data_version_hash": "d645f331",
+      "data_sha256": "d645f331a2a50ae15b517ce2d98592cff6c887cc403e0ed38a0c1158d67c8d05",
+      "data_bytes": 269002,
+      "row_count": 272,
+      "retrieved_at_utc": "2026-10-27T20:23:54+00:00",
       "server_scope_note": "Used for exact GameTora trainee-outfit ID/URL reconciliation; local JP game data remains canonical for game facts."
     },
     "story_assets": {
@@ -46,60 +46,60 @@
     "inventory_included": false
   },
   "counts": {
-    "support_cards": 563,
-    "trainee_outfits": 271,
-    "skills": 2200,
-    "events": 18365,
-    "scenarios": 14,
-    "races": 2923,
+    "support_cards": 566,
+    "trainee_outfits": 272,
+    "skills": 2223,
+    "events": 18404,
+    "scenarios": 15,
+    "races": 2924,
     "race_courses": 140,
     "race_conditions": 119,
-    "factors": 2622
+    "factors": 2649
   },
   "source_counts": {
-    "support_card_data": 563,
-    "support_card_effect_table": 5163,
-    "support_card_unique_effect": 417,
-    "single_mode_hint_gain": 5200,
-    "single_mode_story_data": 20573,
-    "card_data": 273,
-    "card_rarity_data": 844,
-    "available_skill_set": 1909,
-    "skill_set": 6153,
-    "skill_data": 2200,
-    "single_mode_scenario": 14,
-    "single_mode_scenario_group": 84,
-    "race": 2923,
-    "race_instance": 3411,
+    "support_card_data": 566,
+    "support_card_effect_table": 5198,
+    "support_card_unique_effect": 419,
+    "single_mode_hint_gain": 5216,
+    "single_mode_story_data": 20694,
+    "card_data": 274,
+    "card_rarity_data": 847,
+    "available_skill_set": 1916,
+    "skill_set": 6164,
+    "skill_data": 2223,
+    "single_mode_scenario": 15,
+    "single_mode_scenario_group": 91,
+    "race": 2924,
+    "race_instance": 3413,
     "race_course_set": 140,
     "race_condition": 119,
-    "succession_factor": 2622,
-    "succession_factor_effect": 6826
+    "succession_factor": 2649,
+    "succession_factor_effect": 6883
   },
   "field_coverage": {
     "support_cards": {
-      "generated_records": 563,
-      "source_rows": 563
+      "generated_records": 566,
+      "source_rows": 566
     },
     "trainee_outfits": {
-      "generated_records": 271,
-      "source_rows": 271
+      "generated_records": 272,
+      "source_rows": 272
     },
     "skills": {
-      "generated_records": 2200,
-      "source_rows": 2200
+      "generated_records": 2223,
+      "source_rows": 2223
     },
     "events": {
-      "generated_records": 18365,
-      "source_rows": 18365
+      "generated_records": 18404,
+      "source_rows": 18404
     },
     "scenarios": {
-      "generated_records": 14,
-      "source_rows": 14
+      "generated_records": 15,
+      "source_rows": 15
     },
     "races": {
-      "generated_records": 2923,
-      "source_rows": 2923
+      "generated_records": 2924,
+      "source_rows": 2924
     },
     "race_courses": {
       "generated_records": 140,
@@ -110,53 +110,53 @@
       "source_rows": 119
     },
     "factors": {
-      "generated_records": 2622,
-      "source_rows": 2622
+      "generated_records": 2649,
+      "source_rows": 2649
     }
   },
   "translation_coverage": {
     "4": {
-      "master_text_rows": 273,
-      "translated_keys": 258
+      "master_text_rows": 274,
+      "translated_keys": 270
     },
     "5": {
-      "master_text_rows": 273,
-      "translated_keys": 181
+      "master_text_rows": 274,
+      "translated_keys": 187
     },
     "6": {
-      "master_text_rows": 173,
-      "translated_keys": 172
+      "master_text_rows": 174,
+      "translated_keys": 173
     },
     "47": {
-      "master_text_rows": 2200,
-      "translated_keys": 1860
+      "master_text_rows": 2223,
+      "translated_keys": 1755
     },
     "48": {
-      "master_text_rows": 2200,
+      "master_text_rows": 2223,
       "translated_keys": 1856
     },
     "75": {
-      "master_text_rows": 563,
-      "translated_keys": 508
+      "master_text_rows": 566,
+      "translated_keys": 514
     },
     "76": {
-      "master_text_rows": 563,
-      "translated_keys": 492
+      "master_text_rows": 566,
+      "translated_keys": 496
     },
     "77": {
-      "master_text_rows": 563,
-      "translated_keys": 536
+      "master_text_rows": 566,
+      "translated_keys": 563
     },
     "78": {
-      "master_text_rows": 563,
-      "translated_keys": 536
+      "master_text_rows": 566,
+      "translated_keys": 563
     },
     "88": {
-      "master_text_rows": 563,
+      "master_text_rows": 566,
       "translated_keys": 125
     },
     "150": {
-      "master_text_rows": 417,
+      "master_text_rows": 419,
       "translated_keys": 350
     },
     "151": {
@@ -168,53 +168,53 @@
       "translated_keys": 32
     },
     "155": {
-      "master_text_rows": 417,
-      "translated_keys": 386
+      "master_text_rows": 419,
+      "translated_keys": 408
     },
     "181": {
-      "master_text_rows": 19784,
+      "master_text_rows": 19865,
       "translated_keys": 4973
     },
     "182": {
-      "master_text_rows": 173,
-      "translated_keys": 172
+      "master_text_rows": 174,
+      "translated_keys": 173
     }
   },
   "gametora_reconciliation": {
     "status": "verified_full_id_set",
     "support_cards": {
       "status": "verified_full_id_set",
-      "local_ids": 563,
-      "gametora_ids": 563,
+      "local_ids": 566,
+      "gametora_ids": 566,
       "missing_in_gametora": [],
       "extra_in_gametora": [],
       "duplicate_gametora_ids": [],
-      "data_version_hash": "ecbd7dc3",
-      "source_url": "https://gametora.com/data/umamusume/support-cards.ecbd7dc3.json"
+      "data_version_hash": "b0c2fbc7",
+      "source_url": "https://gametora.com/data/umamusume/support-cards.b0c2fbc7.json"
     },
     "trainee_outfits": {
       "status": "verified_full_id_set",
-      "local_ids": 271,
-      "gametora_ids": 271,
+      "local_ids": 272,
+      "gametora_ids": 272,
       "missing_in_gametora": [],
       "extra_in_gametora": [],
       "duplicate_gametora_ids": [],
-      "data_version_hash": "d3ec4f6d",
-      "source_url": "https://gametora.com/data/umamusume/character-cards.d3ec4f6d.json"
+      "data_version_hash": "d645f331",
+      "source_url": "https://gametora.com/data/umamusume/character-cards.d645f331.json"
     },
-    "local_support_ids": 563,
-    "gametora_support_ids": 563,
+    "local_support_ids": 566,
+    "gametora_support_ids": 566,
     "missing_in_gametora": [],
     "extra_in_gametora": [],
     "duplicate_gametora_ids": [],
-    "data_version_hash": "ecbd7dc3",
-    "source_url": "https://gametora.com/data/umamusume/support-cards.ecbd7dc3.json"
+    "data_version_hash": "b0c2fbc7",
+    "source_url": "https://gametora.com/data/umamusume/support-cards.b0c2fbc7.json"
   },
   "unresolved_links": {
     "support_hint_skills": [],
     "trainee_available_skills": [],
     "missing_story_assets": {
-      "count": 15231,
+      "count": 15240,
       "sample_story_ids": [
         400000046,
         400006114,
@@ -11063,9 +11063,32 @@
     "events/20691.json",
     "events/20692.json",
     "events/20693.json",
+    "events/20695.json",
+    "events/20696.json",
+    "events/20697.json",
+    "events/20698.json",
+    "events/20699.json",
     "events/207.json",
     "events/2070.json",
+    "events/20700.json",
+    "events/20701.json",
+    "events/20702.json",
+    "events/20703.json",
+    "events/20704.json",
+    "events/20705.json",
+    "events/20706.json",
+    "events/20707.json",
+    "events/20708.json",
+    "events/20709.json",
     "events/2071.json",
+    "events/20710.json",
+    "events/20711.json",
+    "events/20712.json",
+    "events/20713.json",
+    "events/20714.json",
+    "events/20715.json",
+    "events/20716.json",
+    "events/20717.json",
     "events/20718.json",
     "events/20719.json",
     "events/2072.json",
@@ -11076,7 +11099,19 @@
     "events/20724.json",
     "events/20725.json",
     "events/20726.json",
+    "events/20727.json",
+    "events/20728.json",
+    "events/20729.json",
     "events/2073.json",
+    "events/20730.json",
+    "events/20731.json",
+    "events/20732.json",
+    "events/20733.json",
+    "events/20734.json",
+    "events/20735.json",
+    "events/20736.json",
+    "events/20737.json",
+    "events/20738.json",
     "events/2074.json",
     "events/2075.json",
     "events/2076.json",
@@ -11154,6 +11189,10 @@
     "events/2148.json",
     "events/2149.json",
     "events/2150.json",
+    "events/215048.json",
+    "events/215075.json",
+    "events/215076.json",
+    "events/215080.json",
     "events/2151.json",
     "events/2152.json",
     "events/2153.json",
@@ -18825,6 +18864,9 @@
     "factors/10090201.json",
     "factors/10090202.json",
     "factors/10090203.json",
+    "factors/10090301.json",
+    "factors/10090302.json",
+    "factors/10090303.json",
     "factors/101.json",
     "factors/10100101.json",
     "factors/10100102.json",
@@ -20820,12 +20862,30 @@
     "factors/2047201.json",
     "factors/2047202.json",
     "factors/2047203.json",
+    "factors/2047301.json",
+    "factors/2047302.json",
+    "factors/2047303.json",
+    "factors/2047401.json",
+    "factors/2047402.json",
+    "factors/2047403.json",
+    "factors/2047501.json",
+    "factors/2047502.json",
+    "factors/2047503.json",
+    "factors/2047601.json",
+    "factors/2047602.json",
+    "factors/2047603.json",
     "factors/2047901.json",
     "factors/2047902.json",
     "factors/2047903.json",
     "factors/2048001.json",
     "factors/2048002.json",
     "factors/2048003.json",
+    "factors/2048101.json",
+    "factors/2048102.json",
+    "factors/2048103.json",
+    "factors/2048901.json",
+    "factors/2048902.json",
+    "factors/2048903.json",
     "factors/2100101.json",
     "factors/2100102.json",
     "factors/2100103.json",
@@ -20940,6 +21000,9 @@
     "factors/2103901.json",
     "factors/2103902.json",
     "factors/2103903.json",
+    "factors/2104001.json",
+    "factors/2104002.json",
+    "factors/2104003.json",
     "factors/2201.json",
     "factors/2202.json",
     "factors/2203.json",
@@ -21059,6 +21122,9 @@
     "factors/3103001.json",
     "factors/3103002.json",
     "factors/3103003.json",
+    "factors/3103101.json",
+    "factors/3103102.json",
+    "factors/3103103.json",
     "factors/3201.json",
     "factors/3202.json",
     "factors/3203.json",
@@ -21631,6 +21697,7 @@
     "races/12046.json",
     "races/12047.json",
     "races/12048.json",
+    "races/12049.json",
     "races/13001.json",
     "races/13002.json",
     "races/13003.json",
@@ -24461,6 +24528,7 @@
     "scenarios/12.json",
     "scenarios/13.json",
     "scenarios/14.json",
+    "scenarios/15.json",
     "scenarios/2.json",
     "scenarios/3.json",
     "scenarios/4.json",
@@ -24628,6 +24696,8 @@
     "skills/100902111.json",
     "skills/100902121.json",
     "skills/100902211.json",
+    "skills/100903111.json",
+    "skills/100903211.json",
     "skills/10091.json",
     "skills/100911.json",
     "skills/100921.json",
@@ -24893,6 +24963,7 @@
     "skills/104502111.json",
     "skills/104502211.json",
     "skills/104503111.json",
+    "skills/104503121.json",
     "skills/104503211.json",
     "skills/10451.json",
     "skills/104601111.json",
@@ -25381,6 +25452,7 @@
     "skills/120051.json",
     "skills/120061.json",
     "skills/120071.json",
+    "skills/120091.json",
     "skills/120101.json",
     "skills/120111.json",
     "skills/120131.json",
@@ -26281,9 +26353,19 @@
     "skills/204712.json",
     "skills/204721.json",
     "skills/204722.json",
+    "skills/204731.json",
+    "skills/204732.json",
+    "skills/204741.json",
+    "skills/204742.json",
+    "skills/204751.json",
+    "skills/204752.json",
+    "skills/204762.json",
     "skills/204792.json",
     "skills/204801.json",
     "skills/204802.json",
+    "skills/204811.json",
+    "skills/204812.json",
+    "skills/204892.json",
     "skills/210011.json",
     "skills/210012.json",
     "skills/210021.json",
@@ -26332,6 +26414,8 @@
     "skills/210382.json",
     "skills/210391.json",
     "skills/210392.json",
+    "skills/210401.json",
+    "skills/210402.json",
     "skills/300011.json",
     "skills/300021.json",
     "skills/300031.json",
@@ -26395,6 +26479,12 @@
     "skills/414041.json",
     "skills/414051.json",
     "skills/414061.json",
+    "skills/415011.json",
+    "skills/415021.json",
+    "skills/415031.json",
+    "skills/415041.json",
+    "skills/415051.json",
+    "skills/415061.json",
     "skills/900011.json",
     "skills/900021.json",
     "skills/900031.json",
@@ -26641,6 +26731,7 @@
     "skills/920051.json",
     "skills/920061.json",
     "skills/920071.json",
+    "skills/920091.json",
     "skills/920101.json",
     "skills/920111.json",
     "skills/920131.json",
@@ -26815,6 +26906,7 @@
     "support-cards/10146.json",
     "support-cards/10147.json",
     "support-cards/10148.json",
+    "support-cards/10149.json",
     "support-cards/20001.json",
     "support-cards/20002.json",
     "support-cards/20003.json",
@@ -27232,6 +27324,8 @@
     "support-cards/30319.json",
     "support-cards/30320.json",
     "support-cards/30321.json",
+    "support-cards/30322.json",
+    "support-cards/30323.json",
     "trainees/100101.json",
     "trainees/100102.json",
     "trainees/100103.json",
@@ -27256,6 +27350,7 @@
     "trainees/100802.json",
     "trainees/100901.json",
     "trainees/100902.json",
+    "trainees/100903.json",
     "trainees/101001.json",
     "trainees/101002.json",
     "trainees/101003.json",
@@ -27507,7 +27602,7 @@
   "validation": {
     "coverage_status": "incomplete",
     "report": "coverage-report.json",
-    "generated_at_utc": "2026-10-18T21:13:41+00:00",
+    "generated_at_utc": "2026-10-27T20:28:09+00:00",
     "blocking_issue_count": 1
   }
 }

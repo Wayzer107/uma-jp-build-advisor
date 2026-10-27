@@ -4,18 +4,28 @@
   "kind_path": "trainees",
   "server": "ja",
   "chara_id": 1149,
-  "name": "[絶佳の暁闇]ファレノプシス",
+  "name": "[Breathtaking Moonless Dawn] Phalaenopsis",
   "name_text": {
     "ja": "[絶佳の暁闇]ファレノプシス",
-    "en": null,
-    "en_status": "unavailable",
-    "en_source": null
+    "en": "[Breathtaking Moonless Dawn] Phalaenopsis",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 4,
+      "index": 114901
+    }
   },
   "title_text": {
     "ja": "[絶佳の暁闇]",
-    "en": null,
-    "en_status": "unavailable",
-    "en_source": null
+    "en": "[Breathtaking Moonless Dawn]",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 5,
+      "index": 114901
+    }
   },
   "character_name_text": {
     "ja": "ファレノプシス",
@@ -63,7 +73,7 @@
     },
     {
       "skill_id": 200012,
-      "skill_name": "Right Turns ○",
+      "skill_name": "Clockwise ○",
       "need_rank": 2,
       "source_row_id": 11490120,
       "ref_status": "resolved"
@@ -319,7 +329,7 @@
     "trainee_tid": "4k",
     "url": "https://gametora.com/umamusume/characters/114901-phalaenopsis",
     "url_name": "114901-phalaenopsis",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/phalaenopsis",
@@ -356,9 +366,9 @@
   },
   "search_names": [
     "[絶佳の暁闇]ファレノプシス",
-    null,
+    "[Breathtaking Moonless Dawn] Phalaenopsis",
     "[絶佳の暁闇]",
-    null,
+    "[Breathtaking Moonless Dawn]",
     "ファレノプシス",
     "Phalaenopsis"
   ],

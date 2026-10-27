@@ -135,7 +135,7 @@
           "slot": 1,
           "skill_id": 100781,
           "skill_level": 1,
-          "skill_name": "A spring in my step",
+          "skill_name": "Sunny Breeze",
           "ref_status": "resolved"
         }
       ],
@@ -208,7 +208,7 @@
           "slot": 1,
           "skill_id": 100781,
           "skill_level": 2,
-          "skill_name": "A spring in my step",
+          "skill_name": "Sunny Breeze",
           "ref_status": "resolved"
         }
       ],
@@ -281,7 +281,7 @@
           "slot": 1,
           "skill_id": 100781,
           "skill_level": 3,
-          "skill_name": "A spring in my step",
+          "skill_name": "Sunny Breeze",
           "ref_status": "resolved"
         }
       ],
@@ -324,7 +324,7 @@
     "trainee_tid": "1E",
     "url": "https://gametora.com/umamusume/characters/107801-yamanin-zephyr",
     "url_name": "107801-yamanin-zephyr",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/yamanin-zephyr",

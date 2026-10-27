@@ -94,7 +94,7 @@
     },
     {
       "skill_id": 201681,
-      "skill_name": "Aim for the front row!",
+      "skill_name": "Aim For the Front Row!",
       "need_rank": 5,
       "source_row_id": 10190150,
       "ref_status": "resolved"
@@ -140,7 +140,7 @@
           "slot": 1,
           "skill_id": 100191,
           "skill_level": 1,
-          "skill_name": "Kyuute☆Last SpuU(ﾟ∀ﾟ)Uurt!",
+          "skill_name": "OMG! (ﾟ∀ﾟ) The Final Spriiiint!☆",
           "ref_status": "resolved"
         }
       ],
@@ -213,7 +213,7 @@
           "slot": 1,
           "skill_id": 100191,
           "skill_level": 2,
-          "skill_name": "Kyuute☆Last SpuU(ﾟ∀ﾟ)Uurt!",
+          "skill_name": "OMG! (ﾟ∀ﾟ) The Final Spriiiint!☆",
           "ref_status": "resolved"
         }
       ],
@@ -286,7 +286,7 @@
           "slot": 1,
           "skill_id": 100191,
           "skill_level": 3,
-          "skill_name": "Kyuute☆Last SpuU(ﾟ∀ﾟ)Uurt!",
+          "skill_name": "OMG! (ﾟ∀ﾟ) The Final Spriiiint!☆",
           "ref_status": "resolved"
         }
       ],
@@ -329,7 +329,7 @@
     "trainee_tid": "p",
     "url": "https://gametora.com/umamusume/characters/101901-agnes-digital",
     "url_name": "101901-agnes-digital",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/agnes-digital",

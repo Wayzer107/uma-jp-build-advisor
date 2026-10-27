@@ -3,18 +3,28 @@
   "kind": "support_card",
   "kind_path": "support-cards",
   "server": "ja",
-  "name": "[トレセン学園]キセキ",
+  "name": "[Tracen Academy] Kiseki",
   "name_text": {
     "ja": "[トレセン学園]キセキ",
-    "en": null,
-    "en_status": "unavailable",
-    "en_source": null
+    "en": "[Tracen Academy] Kiseki",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 75,
+      "index": 10145
+    }
   },
   "title_text": {
     "ja": "[トレセン学園]",
-    "en": null,
-    "en_status": "unavailable",
-    "en_source": null
+    "en": "[Tracen Academy]",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 76,
+      "index": 10145
+    }
   },
   "character_id": 1137,
   "character_name_text": {
@@ -856,7 +866,7 @@
     "url_candidate": "https://gametora.com/umamusume/supports/10145-kiseki",
     "url_name": "10145-kiseki",
     "mapping_status": "verified_full_id_set",
-    "source_data_version": "ecbd7dc3",
+    "source_data_version": "b0c2fbc7",
     "reconciliation_note": "The complete local support ID set was compared with the versioned GameTora support-cards feed."
   },
   "source": {
@@ -900,9 +910,9 @@
   },
   "search_names": [
     "[トレセン学園]キセキ",
-    null,
+    "[Tracen Academy] Kiseki",
     "[トレセン学園]",
-    null,
+    "[Tracen Academy]",
     "キセキ",
     "Kiseki"
   ],

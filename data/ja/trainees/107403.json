@@ -4,18 +4,28 @@
   "kind_path": "trainees",
   "server": "ja",
   "chara_id": 1074,
-  "name": "[海辺のエレガンスシフォン]メジロブライト",
+  "name": "[Seaside Elegance in Chiffon] Mejiro Bright",
   "name_text": {
     "ja": "[海辺のエレガンスシフォン]メジロブライト",
-    "en": null,
-    "en_status": "unavailable",
-    "en_source": null
+    "en": "[Seaside Elegance in Chiffon] Mejiro Bright",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 4,
+      "index": 107403
+    }
   },
   "title_text": {
     "ja": "[海辺のエレガンスシフォン]",
-    "en": null,
-    "en_status": "unavailable",
-    "en_source": null
+    "en": "[Seaside Elegance in Chiffon]",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 5,
+      "index": 107403
+    }
   },
   "character_name_text": {
     "ja": "メジロブライト",
@@ -63,7 +73,7 @@
     },
     {
       "skill_id": 200012,
-      "skill_name": "Right Turns ○",
+      "skill_name": "Clockwise ○",
       "need_rank": 2,
       "source_row_id": 10740320,
       "ref_status": "resolved"
@@ -319,7 +329,7 @@
     "trainee_tid": "4f",
     "url": "https://gametora.com/umamusume/characters/107403-mejiro-bright",
     "url_name": "107403-mejiro-bright",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/mejiro-bright",
@@ -356,9 +366,9 @@
   },
   "search_names": [
     "[海辺のエレガンスシフォン]メジロブライト",
-    null,
+    "[Seaside Elegance in Chiffon] Mejiro Bright",
     "[海辺のエレガンスシフォン]",
-    null,
+    "[Seaside Elegance in Chiffon]",
     "メジロブライト",
     "Mejiro Bright"
   ],

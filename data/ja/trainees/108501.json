@@ -80,7 +80,7 @@
     },
     {
       "skill_id": 202541,
-      "skill_name": "Dignity and grandeur",
+      "skill_name": "Dignity and Grandeur",
       "need_rank": 3,
       "source_row_id": 10850130,
       "ref_status": "resolved"
@@ -140,7 +140,7 @@
           "slot": 1,
           "skill_id": 100851,
           "skill_level": 1,
-          "skill_name": "Reign Supreme",
+          "skill_name": "Ever Supreme",
           "ref_status": "resolved"
         }
       ],
@@ -213,7 +213,7 @@
           "slot": 1,
           "skill_id": 100851,
           "skill_level": 2,
-          "skill_name": "Reign Supreme",
+          "skill_name": "Ever Supreme",
           "ref_status": "resolved"
         }
       ],
@@ -286,7 +286,7 @@
           "slot": 1,
           "skill_id": 100851,
           "skill_level": 3,
-          "skill_name": "Reign Supreme",
+          "skill_name": "Ever Supreme",
           "ref_status": "resolved"
         }
       ],
@@ -329,7 +329,7 @@
     "trainee_tid": "1W",
     "url": "https://gametora.com/umamusume/characters/108501-daiichi-ruby",
     "url_name": "108501-daiichi-ruby",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/daiichi-ruby",

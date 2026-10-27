@@ -696,9 +696,14 @@
       },
       "description_text": {
         "ja": "絆ゲージが80以上の時、\\nスキルPtボーナス",
-        "en": null,
-        "en_status": "unavailable",
-        "en_source": null
+        "en": "Skill Point Bonus when Friendship over 80.",
+        "en_status": "translated",
+        "en_source": {
+          "kind": "hachimi",
+          "bundle": "localized_data_1",
+          "category": 155,
+          "index": 30308
+        }
       },
       "components": [
         {
@@ -741,7 +746,7 @@
       "hint_group": 1,
       "hint_gain_type_raw": 0,
       "skill_id": 200022,
-      "skill_name": "Left Turns ○",
+      "skill_name": "Counterclockwise ○",
       "skill_ref_status": "resolved",
       "hint_value_1_raw": 200022,
       "hint_value_2_raw": 1,
@@ -1173,7 +1178,7 @@
     "url_candidate": "https://gametora.com/umamusume/supports/30308-almond-eye",
     "url_name": "30308-almond-eye",
     "mapping_status": "verified_full_id_set",
-    "source_data_version": "ecbd7dc3",
+    "source_data_version": "b0c2fbc7",
     "reconciliation_note": "The complete local support ID set was compared with the versioned GameTora support-cards feed."
   },
   "source": {

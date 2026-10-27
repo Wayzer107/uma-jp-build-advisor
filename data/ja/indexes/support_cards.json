@@ -146,6 +146,7 @@
     "10146": "support-cards/10146.json",
     "10147": "support-cards/10147.json",
     "10148": "support-cards/10148.json",
+    "10149": "support-cards/10149.json",
     "20001": "support-cards/20001.json",
     "20002": "support-cards/20002.json",
     "20003": "support-cards/20003.json",
@@ -562,7 +563,9 @@
     "30318": "support-cards/30318.json",
     "30319": "support-cards/30319.json",
     "30320": "support-cards/30320.json",
-    "30321": "support-cards/30321.json"
+    "30321": "support-cards/30321.json",
+    "30322": "support-cards/30322.json",
+    "30323": "support-cards/30323.json"
   },
   "by_name": {
     "0500 just as scheduled": [
@@ -847,6 +850,9 @@
       "30069"
     ],
     "as if guided": [
+      "30311"
+    ],
+    "as if guided efforia": [
       "30311"
     ],
     "as if guided エフフォーリア": [
@@ -1445,6 +1451,9 @@
       "30090"
     ],
     "endless game": [
+      "30313"
+    ],
+    "endless game rulership": [
       "30313"
     ],
     "endless game ルーラーシップ": [
@@ -2340,7 +2349,8 @@
       "10030",
       "20007",
       "30072",
-      "30151"
+      "30151",
+      "30322"
     ],
     "meisho doto": [
       "10045",
@@ -2894,6 +2904,10 @@
       "30125",
       "30142"
     ],
+    "samson big": [
+      "10148",
+      "30316"
+    ],
     "satake mei": [
       "10094",
       "30160"
@@ -3393,6 +3407,12 @@
     "time flies トーセンジョーダン": [
       "20073"
     ],
+    "time of departure": [
+      "30322"
+    ],
+    "time of departure マヤノトップガン": [
+      "30322"
+    ],
     "to polish gjallarhorn": [
       "20072"
     ],
@@ -3608,7 +3628,11 @@
       "10140",
       "10142",
       "10143",
-      "10144"
+      "10144",
+      "10145",
+      "10146",
+      "10147",
+      "10148"
     ],
     "tracen academy admire groove": [
       "10133"
@@ -3706,6 +3730,9 @@
     "tracen academy durandal": [
       "10136"
     ],
+    "tracen academy efforia": [
+      "10146"
+    ],
     "tracen academy eishin flash": [
       "10038"
     ],
@@ -3792,6 +3819,9 @@
     ],
     "tracen academy kiryūin aoi": [
       "10022"
+    ],
+    "tracen academy kiseki": [
+      "10145"
     ],
     "tracen academy kitasan black": [
       "10055"
@@ -3895,6 +3925,9 @@
     "tracen academy royce and royce": [
       "10100"
     ],
+    "tracen academy rulership": [
+      "10147"
+    ],
     "tracen academy sakura bakushin o": [
       "10018"
     ],
@@ -3906,6 +3939,9 @@
     ],
     "tracen academy sakura laurel": [
       "10085"
+    ],
+    "tracen academy samson big": [
+      "10148"
     ],
     "tracen academy satono diamond": [
       "10056"
@@ -4520,6 +4556,12 @@
     ],
     "いつか深まる若草 エアメサイア": [
       "30255"
+    ],
+    "いとどめでたき まつりかな": [
+      "30323"
+    ],
+    "いとどめでたき まつりかな 吾妻": [
+      "30323"
     ],
     "うらら な休日": [
       "30019"
@@ -6372,7 +6414,8 @@
       "10030",
       "20007",
       "30072",
-      "30151"
+      "30151",
+      "30322"
     ],
     "マルシュロレーヌ": [
       "10144",
@@ -6861,6 +6904,10 @@
     "君の花衣 サクラローレル": [
       "20080"
     ],
+    "吾妻": [
+      "10149",
+      "30323"
+    ],
     "告知 新刊あります": [
       "30229"
     ],
@@ -7056,6 +7103,12 @@
     ],
     "届け このオモイ バンブーメモリー": [
       "30094"
+    ],
+    "巫女": [
+      "10149"
+    ],
+    "巫女 吾妻": [
+      "10149"
     ],
     "巻頭カラーの夏": [
       "30307"

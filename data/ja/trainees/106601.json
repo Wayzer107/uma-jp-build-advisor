@@ -140,7 +140,7 @@
           "slot": 1,
           "skill_id": 10661,
           "skill_level": 1,
-          "skill_name": "Engine Ignition!",
+          "skill_name": "Firing on All Cylinders!",
           "ref_status": "resolved"
         }
       ],
@@ -213,7 +213,7 @@
           "slot": 1,
           "skill_id": 10661,
           "skill_level": 2,
-          "skill_name": "Engine Ignition!",
+          "skill_name": "Firing on All Cylinders!",
           "ref_status": "resolved"
         }
       ],
@@ -286,7 +286,7 @@
           "slot": 1,
           "skill_id": 100661,
           "skill_level": 1,
-          "skill_name": "Engine, Full Throttle! Turbo Time!",
+          "skill_name": "Engine Roaring! Full Power!",
           "ref_status": "resolved"
         }
       ],
@@ -359,7 +359,7 @@
           "slot": 1,
           "skill_id": 100661,
           "skill_level": 2,
-          "skill_name": "Engine, Full Throttle! Turbo Time!",
+          "skill_name": "Engine Roaring! Full Power!",
           "ref_status": "resolved"
         }
       ],
@@ -432,7 +432,7 @@
           "slot": 1,
           "skill_id": 100661,
           "skill_level": 3,
-          "skill_name": "Engine, Full Throttle! Turbo Time!",
+          "skill_name": "Engine Roaring! Full Power!",
           "ref_status": "resolved"
         }
       ],
@@ -475,7 +475,7 @@
     "trainee_tid": "1V",
     "url": "https://gametora.com/umamusume/characters/106601-twin-turbo",
     "url_name": "106601-twin-turbo",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/twin-turbo",

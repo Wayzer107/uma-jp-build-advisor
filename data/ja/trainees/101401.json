@@ -154,7 +154,7 @@
           "slot": 1,
           "skill_id": 10141,
           "skill_level": 2,
-          "skill_name": "Hot Blooded ☆ Amigo",
+          "skill_name": "Corazón ☆ Ardiente",
           "ref_status": "resolved"
         }
       ],
@@ -416,7 +416,7 @@
     "trainee_tid": "i",
     "url": "https://gametora.com/umamusume/characters/101401-el-condor-pasa",
     "url_name": "101401-el-condor-pasa",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/el-condor-pasa",

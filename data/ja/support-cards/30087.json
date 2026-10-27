@@ -460,7 +460,7 @@
       "hint_group": 1,
       "hint_gain_type_raw": 0,
       "skill_id": 200012,
-      "skill_name": "Right Turns ○",
+      "skill_name": "Clockwise ○",
       "skill_ref_status": "resolved",
       "hint_value_1_raw": 200012,
       "hint_value_2_raw": 1,
@@ -686,7 +686,7 @@
     "url_candidate": "https://gametora.com/umamusume/supports/30087-mejiro-bright",
     "url_name": "30087-mejiro-bright",
     "mapping_status": "verified_full_id_set",
-    "source_data_version": "ecbd7dc3",
+    "source_data_version": "b0c2fbc7",
     "reconciliation_note": "The complete local support ID set was compared with the versioned GameTora support-cards feed."
   },
   "source": {

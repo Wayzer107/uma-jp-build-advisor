@@ -3,18 +3,28 @@
   "kind": "support_card",
   "kind_path": "support-cards",
   "server": "ja",
-  "name": "[トレセン学園]ルーラーシップ",
+  "name": "[Tracen Academy] Rulership",
   "name_text": {
     "ja": "[トレセン学園]ルーラーシップ",
-    "en": null,
-    "en_status": "unavailable",
-    "en_source": null
+    "en": "[Tracen Academy] Rulership",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 75,
+      "index": 10147
+    }
   },
   "title_text": {
     "ja": "[トレセン学園]",
-    "en": null,
-    "en_status": "unavailable",
-    "en_source": null
+    "en": "[Tracen Academy]",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 76,
+      "index": 10147
+    }
   },
   "character_id": 1145,
   "character_name_text": {
@@ -795,7 +805,7 @@
     "url_candidate": "https://gametora.com/umamusume/supports/10147-rulership",
     "url_name": "10147-rulership",
     "mapping_status": "verified_full_id_set",
-    "source_data_version": "ecbd7dc3",
+    "source_data_version": "b0c2fbc7",
     "reconciliation_note": "The complete local support ID set was compared with the versioned GameTora support-cards feed."
   },
   "source": {
@@ -839,9 +849,9 @@
   },
   "search_names": [
     "[トレセン学園]ルーラーシップ",
-    null,
+    "[Tracen Academy] Rulership",
     "[トレセン学園]",
-    null,
+    "[Tracen Academy]",
     "ルーラーシップ",
     "Rulership"
   ],

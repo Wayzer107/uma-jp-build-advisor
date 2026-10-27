@@ -4,18 +4,28 @@
   "kind_path": "trainees",
   "server": "ja",
   "chara_id": 1127,
-  "name": "[剛毅なる紫焔]フェノーメノ",
+  "name": "[Stalwart Purple Flame] Fenomeno",
   "name_text": {
     "ja": "[剛毅なる紫焔]フェノーメノ",
-    "en": null,
-    "en_status": "unavailable",
-    "en_source": null
+    "en": "[Stalwart Purple Flame] Fenomeno",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 4,
+      "index": 112702
+    }
   },
   "title_text": {
     "ja": "[剛毅なる紫焔]",
-    "en": null,
-    "en_status": "unavailable",
-    "en_source": null
+    "en": "[Stalwart Purple Flame]",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 5,
+      "index": 112702
+    }
   },
   "character_name_text": {
     "ja": "フェノーメノ",
@@ -319,7 +329,7 @@
     "trainee_tid": "4j",
     "url": "https://gametora.com/umamusume/characters/112702-fenomeno",
     "url_name": "112702-fenomeno",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/fenomeno",
@@ -356,9 +366,9 @@
   },
   "search_names": [
     "[剛毅なる紫焔]フェノーメノ",
-    null,
+    "[Stalwart Purple Flame] Fenomeno",
     "[剛毅なる紫焔]",
-    null,
+    "[Stalwart Purple Flame]",
     "フェノーメノ",
     "Fenomeno"
   ],

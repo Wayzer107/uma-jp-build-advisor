@@ -135,7 +135,7 @@
           "slot": 1,
           "skill_id": 100471,
           "skill_level": 1,
-          "skill_name": "Raise Thy Soul's Sword",
+          "skill_name": "Holding High the Sword Within!",
           "ref_status": "resolved"
         }
       ],
@@ -208,7 +208,7 @@
           "slot": 1,
           "skill_id": 100471,
           "skill_level": 2,
-          "skill_name": "Raise Thy Soul's Sword",
+          "skill_name": "Holding High the Sword Within!",
           "ref_status": "resolved"
         }
       ],
@@ -281,7 +281,7 @@
           "slot": 1,
           "skill_id": 100471,
           "skill_level": 3,
-          "skill_name": "Raise Thy Soul's Sword",
+          "skill_name": "Holding High the Sword Within!",
           "ref_status": "resolved"
         }
       ],
@@ -324,7 +324,7 @@
     "trainee_tid": "1L",
     "url": "https://gametora.com/umamusume/characters/104701-zenno-rob-roy",
     "url_name": "104701-zenno-rob-roy",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/zenno-rob-roy",

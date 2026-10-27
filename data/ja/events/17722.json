@@ -26,9 +26,9 @@
     "condition_sets": []
   },
   "story_asset": {
-    "status": "not_in_extracted_assets",
-    "relative_path": null,
-    "sha256": null,
+    "status": "available",
+    "relative_path": "50/1135/storytimeline_501135308.json",
+    "sha256": "6eb411f40f84df9a9983f1df9fe51499119457a3b3c64fb392dc839bd2fe0e57",
     "dialogue_copied": false
   },
   "outcomes": {

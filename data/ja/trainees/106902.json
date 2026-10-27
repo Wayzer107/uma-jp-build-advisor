@@ -135,7 +135,7 @@
           "slot": 1,
           "skill_id": 110691,
           "skill_level": 1,
-          "skill_name": "Bloom! Blossom! Sakura!",
+          "skill_name": "Watch! Me! Bloom!",
           "ref_status": "resolved"
         }
       ],
@@ -208,7 +208,7 @@
           "slot": 1,
           "skill_id": 110691,
           "skill_level": 2,
-          "skill_name": "Bloom! Blossom! Sakura!",
+          "skill_name": "Watch! Me! Bloom!",
           "ref_status": "resolved"
         }
       ],
@@ -281,7 +281,7 @@
           "slot": 1,
           "skill_id": 110691,
           "skill_level": 3,
-          "skill_name": "Bloom! Blossom! Sakura!",
+          "skill_name": "Watch! Me! Bloom!",
           "ref_status": "resolved"
         }
       ],
@@ -324,7 +324,7 @@
     "trainee_tid": "1Y",
     "url": "https://gametora.com/umamusume/characters/106902-sakura-chiyono-o",
     "url_name": "106902-sakura-chiyono-o",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/sakura-chiyono-o",

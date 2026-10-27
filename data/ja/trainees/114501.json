@@ -4,12 +4,17 @@
   "kind_path": "trainees",
   "server": "ja",
   "chara_id": 1145,
-  "name": "[Monochrome GM]ルーラーシップ",
+  "name": "[Monochrome GM] Rulership",
   "name_text": {
     "ja": "[Monochrome GM]ルーラーシップ",
-    "en": null,
-    "en_status": "unavailable",
-    "en_source": null
+    "en": "[Monochrome GM] Rulership",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 4,
+      "index": 114501
+    }
   },
   "title_text": {
     "ja": "[Monochrome GM]",
@@ -319,7 +324,7 @@
     "trainee_tid": "4d",
     "url": "https://gametora.com/umamusume/characters/114501-rulership",
     "url_name": "114501-rulership",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/rulership",
@@ -356,7 +361,7 @@
   },
   "search_names": [
     "[Monochrome GM]ルーラーシップ",
-    null,
+    "[Monochrome GM] Rulership",
     "[Monochrome GM]",
     null,
     "ルーラーシップ",

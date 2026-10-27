@@ -140,7 +140,7 @@
           "slot": 1,
           "skill_id": 110171,
           "skill_level": 1,
-          "skill_name": "Howling Arrow Piercing the Darkness",
+          "skill_name": "Arrows Whistle, Shadows Disperse",
           "ref_status": "resolved"
         }
       ],
@@ -213,7 +213,7 @@
           "slot": 1,
           "skill_id": 110171,
           "skill_level": 2,
-          "skill_name": "Howling Arrow Piercing the Darkness",
+          "skill_name": "Arrows Whistle, Shadows Disperse",
           "ref_status": "resolved"
         }
       ],
@@ -286,7 +286,7 @@
           "slot": 1,
           "skill_id": 110171,
           "skill_level": 3,
-          "skill_name": "Howling Arrow Piercing the Darkness",
+          "skill_name": "Arrows Whistle, Shadows Disperse",
           "ref_status": "resolved"
         }
       ],
@@ -329,7 +329,7 @@
     "trainee_tid": "R",
     "url": "https://gametora.com/umamusume/characters/101702-symboli-rudolf",
     "url_name": "101702-symboli-rudolf",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/symboli-rudolf",
@@ -381,6 +381,8 @@
     12917,
     12918,
     12919,
+    215075,
+    215076,
     13000164,
     13000165,
     13000166,
@@ -520,6 +522,8 @@
     20681,
     20682,
     20683,
+    215075,
+    215076,
     6000014,
     6000040,
     6000066,

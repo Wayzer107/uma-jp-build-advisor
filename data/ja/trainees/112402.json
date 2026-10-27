@@ -73,7 +73,7 @@
     },
     {
       "skill_id": 200022,
-      "skill_name": "Left Turns ○",
+      "skill_name": "Counterclockwise ○",
       "need_rank": 2,
       "source_row_id": 11240220,
       "ref_status": "resolved"
@@ -329,7 +329,7 @@
     "trainee_tid": "3S",
     "url": "https://gametora.com/umamusume/characters/112402-bubble-gum-fellow",
     "url_name": "112402-bubble-gum-fellow",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/bubble-gum-fellow",

@@ -42,9 +42,9 @@
     ]
   },
   "story_asset": {
-    "status": "not_in_extracted_assets",
-    "relative_path": null,
-    "sha256": null,
+    "status": "available",
+    "relative_path": "50/1135/storytimeline_501135307.json",
+    "sha256": "5fd06a2b68a2319f68f9cb43b6fe317f3cd7b1e363f15c52b4adee939507076b",
     "dialogue_copied": false
   },
   "outcomes": {

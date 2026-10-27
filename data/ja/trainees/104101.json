@@ -286,7 +286,7 @@
           "slot": 1,
           "skill_id": 100411,
           "skill_level": 1,
-          "skill_name": "Honor Student x Bakushin = Big Victory",
+          "skill_name": "Model Student x Bakushin = Triumph",
           "ref_status": "resolved"
         }
       ],
@@ -359,7 +359,7 @@
           "slot": 1,
           "skill_id": 100411,
           "skill_level": 2,
-          "skill_name": "Honor Student x Bakushin = Big Victory",
+          "skill_name": "Model Student x Bakushin = Triumph",
           "ref_status": "resolved"
         }
       ],
@@ -432,7 +432,7 @@
           "slot": 1,
           "skill_id": 100411,
           "skill_level": 3,
-          "skill_name": "Honor Student x Bakushin = Big Victory",
+          "skill_name": "Model Student x Bakushin = Triumph",
           "ref_status": "resolved"
         }
       ],
@@ -475,7 +475,7 @@
     "trainee_tid": "D",
     "url": "https://gametora.com/umamusume/characters/104101-sakura-bakushin-o",
     "url_name": "104101-sakura-bakushin-o",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/sakura-bakushin-o",

@@ -140,7 +140,7 @@
           "slot": 1,
           "skill_id": 10561,
           "skill_level": 1,
-          "skill_name": "Come, Come!",
+          "skill_name": "Luck Be With Me!",
           "ref_status": "resolved"
         }
       ],
@@ -213,7 +213,7 @@
           "slot": 1,
           "skill_id": 10561,
           "skill_level": 2,
-          "skill_name": "Come, Come!",
+          "skill_name": "Luck Be With Me!",
           "ref_status": "resolved"
         }
       ],
@@ -286,7 +286,7 @@
           "slot": 1,
           "skill_id": 100561,
           "skill_level": 1,
-          "skill_name": "Luck is Coming!",
+          "skill_name": "I See Victory in My Future!",
           "ref_status": "resolved"
         }
       ],
@@ -359,7 +359,7 @@
           "slot": 1,
           "skill_id": 100561,
           "skill_level": 2,
-          "skill_name": "Luck is Coming!",
+          "skill_name": "I See Victory in My Future!",
           "ref_status": "resolved"
         }
       ],
@@ -432,7 +432,7 @@
           "slot": 1,
           "skill_id": 100561,
           "skill_level": 3,
-          "skill_name": "Luck is Coming!",
+          "skill_name": "I See Victory in My Future!",
           "ref_status": "resolved"
         }
       ],
@@ -475,7 +475,7 @@
     "trainee_tid": "I",
     "url": "https://gametora.com/umamusume/characters/105601-matikanefukukitaru",
     "url_name": "105601-matikanefukukitaru",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/matikanefukukitaru",

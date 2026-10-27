@@ -94,7 +94,7 @@
     },
     {
       "skill_id": 202191,
-      "skill_name": "One-track Mind",
+      "skill_name": "One-Track Mind",
       "need_rank": 5,
       "source_row_id": 10130350,
       "ref_status": "resolved"
@@ -140,7 +140,7 @@
           "slot": 1,
           "skill_id": 120131,
           "skill_level": 1,
-          "skill_name": "The sea sparkles, but you're dazzling",
+          "skill_name": "You Sparkle Brighter Than the Sea",
           "ref_status": "resolved"
         }
       ],
@@ -213,7 +213,7 @@
           "slot": 1,
           "skill_id": 120131,
           "skill_level": 2,
-          "skill_name": "The sea sparkles, but you're dazzling",
+          "skill_name": "You Sparkle Brighter Than the Sea",
           "ref_status": "resolved"
         }
       ],
@@ -286,7 +286,7 @@
           "slot": 1,
           "skill_id": 120131,
           "skill_level": 3,
-          "skill_name": "The sea sparkles, but you're dazzling",
+          "skill_name": "You Sparkle Brighter Than the Sea",
           "ref_status": "resolved"
         }
       ],
@@ -329,7 +329,7 @@
     "trainee_tid": "1t",
     "url": "https://gametora.com/umamusume/characters/101303-mejiro-mcqueen",
     "url_name": "101303-mejiro-mcqueen",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/mejiro-mcqueen",

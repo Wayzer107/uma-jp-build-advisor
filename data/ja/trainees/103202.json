@@ -135,7 +135,7 @@
           "slot": 1,
           "skill_id": 110321,
           "skill_level": 1,
-          "skill_name": "Summer Sky Halation",
+          "skill_name": "Summer Halation",
           "ref_status": "resolved"
         }
       ],
@@ -208,7 +208,7 @@
           "slot": 1,
           "skill_id": 110321,
           "skill_level": 2,
-          "skill_name": "Summer Sky Halation",
+          "skill_name": "Summer Halation",
           "ref_status": "resolved"
         }
       ],
@@ -281,7 +281,7 @@
           "slot": 1,
           "skill_id": 110321,
           "skill_level": 3,
-          "skill_name": "Summer Sky Halation",
+          "skill_name": "Summer Halation",
           "ref_status": "resolved"
         }
       ],
@@ -324,7 +324,7 @@
     "trainee_tid": "2e",
     "url": "https://gametora.com/umamusume/characters/103202-agnes-tachyon",
     "url_name": "103202-agnes-tachyon",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/agnes-tachyon",

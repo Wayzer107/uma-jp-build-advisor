@@ -140,7 +140,7 @@
           "slot": 1,
           "skill_id": 110011,
           "skill_level": 1,
-          "skill_name": "Wayakawa ♪ Marine Dive",
+          "skill_name": "Dazzl'n ♪ Diver",
           "ref_status": "resolved"
         }
       ],
@@ -213,7 +213,7 @@
           "slot": 1,
           "skill_id": 110011,
           "skill_level": 2,
-          "skill_name": "Wayakawa ♪ Marine Dive",
+          "skill_name": "Dazzl'n ♪ Diver",
           "ref_status": "resolved"
         }
       ],
@@ -286,7 +286,7 @@
           "slot": 1,
           "skill_id": 110011,
           "skill_level": 3,
-          "skill_name": "Wayakawa ♪ Marine Dive",
+          "skill_name": "Dazzl'n ♪ Diver",
           "ref_status": "resolved"
         }
       ],
@@ -329,7 +329,7 @@
     "trainee_tid": "1",
     "url": "https://gametora.com/umamusume/characters/100102-special-week",
     "url_name": "100102-special-week",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": "https://gametora.com/umamusume/characters/special-week",
     "character_url_candidate": "https://gametora.com/umamusume/characters/special-week",

@@ -4,12 +4,17 @@
   "kind_path": "trainees",
   "server": "ja",
   "chara_id": 1017,
-  "name": "[Adamant Sovereign]シンボリルドルフ",
+  "name": "[Adamant Sovereign] Symboli Rudolf",
   "name_text": {
     "ja": "[Adamant Sovereign]シンボリルドルフ",
-    "en": null,
-    "en_status": "unavailable",
-    "en_source": null
+    "en": "[Adamant Sovereign] Symboli Rudolf",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 4,
+      "index": 101703
+    }
   },
   "title_text": {
     "ja": "[Adamant Sovereign]",
@@ -319,7 +324,7 @@
     "trainee_tid": "4m",
     "url": "https://gametora.com/umamusume/characters/101703-symboli-rudolf",
     "url_name": "101703-symboli-rudolf",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/symboli-rudolf",
@@ -356,7 +361,7 @@
   },
   "search_names": [
     "[Adamant Sovereign]シンボリルドルフ",
-    null,
+    "[Adamant Sovereign] Symboli Rudolf",
     "[Adamant Sovereign]",
     null,
     "シンボリルドルフ",
@@ -506,6 +511,8 @@
     20681,
     20682,
     20683,
+    215075,
+    215076,
     6000014,
     6000040,
     6000066,

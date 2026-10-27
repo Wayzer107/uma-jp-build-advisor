@@ -1,0 +1,96 @@
+{
+  "id": 15,
+  "kind": "scenario",
+  "kind_path": "scenarios",
+  "server": "ja",
+  "scenario_group_ids": [
+    15,
+    100,
+    701,
+    801,
+    901,
+    1801,
+    1901
+  ],
+  "start_date_jst": "2026-10-26",
+  "end_date_jst": "2050-01-01",
+  "skill_upgrade_num": 2,
+  "max_skill_point": 99999,
+  "support_num": 5,
+  "special_skill_upgrades": [
+    {
+      "base_skill_id": 202551,
+      "replacement_skill_id": 415011,
+      "start_date_jst": "2026-10-26",
+      "source_row_id": 415011
+    },
+    {
+      "base_skill_id": 203501,
+      "replacement_skill_id": 415021,
+      "start_date_jst": "2026-10-26",
+      "source_row_id": 415021
+    },
+    {
+      "base_skill_id": 202721,
+      "replacement_skill_id": 415031,
+      "start_date_jst": "2026-10-26",
+      "source_row_id": 415031
+    },
+    {
+      "base_skill_id": 200511,
+      "replacement_skill_id": 415041,
+      "start_date_jst": "2026-10-26",
+      "source_row_id": 415041
+    },
+    {
+      "base_skill_id": 204051,
+      "replacement_skill_id": 415051,
+      "start_date_jst": "2026-10-26",
+      "source_row_id": 415051
+    },
+    {
+      "base_skill_id": 202751,
+      "replacement_skill_id": 415061,
+      "start_date_jst": "2026-10-26",
+      "source_row_id": 415061
+    }
+  ],
+  "raw_parameters": {
+    "id": 15,
+    "sort_id": 15,
+    "scenario_image_id": 15,
+    "prologue_id": 80000015,
+    "turn_set_id": 15,
+    "hint_rate": 0,
+    "start_date": 1792983600,
+    "end_date": 2524575600,
+    "additional_icon_set_id": 0,
+    "bg_id": 152,
+    "bg_sub_id": 130,
+    "bg_offset_x": -600,
+    "sec_bg_id": 152,
+    "sec_bg_sub_id": 130,
+    "label_font_color": "FFFFFF",
+    "label_bg_color": "d96bb9",
+    "chara_program_change_flag": 0,
+    "max_speed": 1000,
+    "max_stamina": 650,
+    "max_pow": 600,
+    "max_guts": 500,
+    "max_wiz": 600,
+    "gimmick_discount_rate": 5000,
+    "skill_upgrade_num": 2,
+    "upper_limit_speed": 2500,
+    "upper_limit_stamina": 2500,
+    "upper_limit_pow": 2500,
+    "upper_limit_guts": 2500,
+    "upper_limit_wiz": 2500,
+    "max_skill_point": 99999,
+    "support_num": 5
+  },
+  "source": {
+    "table": "single_mode_scenario",
+    "row_id": 15
+  },
+  "search_names": []
+}

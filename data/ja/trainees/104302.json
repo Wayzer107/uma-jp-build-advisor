@@ -4,18 +4,28 @@
   "kind_path": "trainees",
   "server": "ja",
   "chara_id": 1043,
-  "name": "[ガブガブ☆スキャンプ]シンコウウインディ",
+  "name": "[Chompy☆Little☆Scamp] Shinko Windy",
   "name_text": {
     "ja": "[ガブガブ☆スキャンプ]シンコウウインディ",
-    "en": null,
-    "en_status": "unavailable",
-    "en_source": null
+    "en": "[Chompy☆Little☆Scamp] Shinko Windy",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 4,
+      "index": 104302
+    }
   },
   "title_text": {
     "ja": "[ガブガブ☆スキャンプ]",
-    "en": null,
-    "en_status": "unavailable",
-    "en_source": null
+    "en": "[Chompy☆Little☆Scamp]",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 5,
+      "index": 104302
+    }
   },
   "character_name_text": {
     "ja": "シンコウウインディ",
@@ -319,7 +329,7 @@
     "trainee_tid": "4i",
     "url": "https://gametora.com/umamusume/characters/104302-shinko-windy",
     "url_name": "104302-shinko-windy",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/shinko-windy",
@@ -356,9 +366,9 @@
   },
   "search_names": [
     "[ガブガブ☆スキャンプ]シンコウウインディ",
-    null,
+    "[Chompy☆Little☆Scamp] Shinko Windy",
     "[ガブガブ☆スキャンプ]",
-    null,
+    "[Chompy☆Little☆Scamp]",
     "シンコウウインディ",
     "Shinko Windy"
   ],

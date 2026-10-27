@@ -154,7 +154,7 @@
           "slot": 1,
           "skill_id": 100491,
           "skill_level": 1,
-          "skill_name": "Laugh In the Face of Danger",
+          "skill_name": "Grin When the Odds Stack Against You",
           "ref_status": "resolved"
         }
       ],
@@ -227,7 +227,7 @@
           "slot": 1,
           "skill_id": 100491,
           "skill_level": 2,
-          "skill_name": "Laugh In the Face of Danger",
+          "skill_name": "Grin When the Odds Stack Against You",
           "ref_status": "resolved"
         }
       ],
@@ -300,7 +300,7 @@
           "slot": 1,
           "skill_id": 100491,
           "skill_level": 3,
-          "skill_name": "Laugh In the Face of Danger",
+          "skill_name": "Grin When the Odds Stack Against You",
           "ref_status": "resolved"
         }
       ],
@@ -343,7 +343,7 @@
     "trainee_tid": "1H",
     "url": "https://gametora.com/umamusume/characters/104901-nakayama-festa",
     "url_name": "104901-nakayama-festa",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/nakayama-festa",

@@ -140,7 +140,7 @@
           "slot": 1,
           "skill_id": 110621,
           "skill_level": 1,
-          "skill_name": "Rolling Power Drive!?",
+          "skill_name": "Tumbly Power Drive!?",
           "ref_status": "resolved"
         }
       ],
@@ -213,7 +213,7 @@
           "slot": 1,
           "skill_id": 110621,
           "skill_level": 2,
-          "skill_name": "Rolling Power Drive!?",
+          "skill_name": "Tumbly Power Drive!?",
           "ref_status": "resolved"
         }
       ],
@@ -286,7 +286,7 @@
           "slot": 1,
           "skill_id": 110621,
           "skill_level": 3,
-          "skill_name": "Rolling Power Drive!?",
+          "skill_name": "Tumbly Power Drive!?",
           "ref_status": "resolved"
         }
       ],
@@ -329,7 +329,7 @@
     "trainee_tid": "23",
     "url": "https://gametora.com/umamusume/characters/106202-matikanetannhauser",
     "url_name": "106202-matikanetannhauser",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/matikanetannhauser",

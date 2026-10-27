@@ -4,12 +4,17 @@
   "kind_path": "trainees",
   "server": "ja",
   "chara_id": 1108,
-  "name": "[Claret Nosferatu]ドゥラメンテ",
+  "name": "[Claret Nosferatu] Duramente",
   "name_text": {
     "ja": "[Claret Nosferatu]ドゥラメンテ",
-    "en": null,
-    "en_status": "unavailable",
-    "en_source": null
+    "en": "[Claret Nosferatu] Duramente",
+    "en_status": "translated",
+    "en_source": {
+      "kind": "hachimi",
+      "bundle": "localized_data_1",
+      "category": 4,
+      "index": 110802
+    }
   },
   "title_text": {
     "ja": "[Claret Nosferatu]",
@@ -319,7 +324,7 @@
     "trainee_tid": "4o",
     "url": "https://gametora.com/umamusume/characters/110802-duramente",
     "url_name": "110802-duramente",
-    "source_data_version": "d3ec4f6d",
+    "source_data_version": "d645f331",
     "mapping_status": "verified_full_id_set",
     "character_url": null,
     "character_url_candidate": "https://gametora.com/umamusume/characters/duramente",
@@ -356,7 +361,7 @@
   },
   "search_names": [
     "[Claret Nosferatu]ドゥラメンテ",
-    null,
+    "[Claret Nosferatu] Duramente",
     "[Claret Nosferatu]",
     null,
     "ドゥラメンテ",
