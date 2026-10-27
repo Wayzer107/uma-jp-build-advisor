@@ -1,10 +1,10 @@
 # ChatGPT online and local setup
 
-The primary online workflow is a remote advisor plugin in ChatGPT web through OpenAI Secure MCP Tunnel. The MCP server and repository checkouts stay on a host you control; that host can be Windows or a 64-bit Raspberry Pi Linux server. The installed Japanese game remains on Windows for catalog refreshes. The tunnel client opens an outbound connection to OpenAI and forwards tool calls to the local MCP process; it does not require a public MCP endpoint or inbound firewall rule. Native ChatGPT mobile availability for custom MCP apps is not promised by this setup; see [mobile and web setup](mobile-chatgpt-setup.md) for the current platform status and optional Actions fallback.
+The primary online workflow is a remote advisor plugin in ChatGPT web through OpenAI Secure MCP Tunnel. The MCP server and repository checkouts stay on a host you control; that host can be Windows or a 64-bit Raspberry Pi Linux server. The installed Japanese game remains on Windows for catalog refreshes. The tunnel client opens an outbound connection to OpenAI and forwards tool calls to the local MCP process; it does not require a public MCP endpoint or inbound firewall rule. Register the tunnel-backed MCP connection in ChatGPT, then attach its verified app ID to the advisor package through `.app.json`. A bundled `mcp.json` and a healthy tunnel alone do not prove that ordinary ChatGPT has registered the tools.
 
 The source package's `mcp.json` declares a local `stdio` server for compatible local hosts. That declaration alone does not connect a server to ChatGPT. The packaging script replaces it with a remote tunnel-bound MCP config for the account plugin.
 
-The MCP App view should remain responsive, and every MCP recommendation must include complete chat text. Current OpenAI documentation is mixed by scope: developer UI guides discuss mobile layouts, but the Help Center says custom MCP apps are web-only. Verify mobile access on the target account and client rather than assuming that the web connection carries over. Write actions such as GameTora import, catalog refresh, inventory sync, and catalog publication also require an account and workspace that allow those tools. See [mobile and web setup](mobile-chatgpt-setup.md) for details and the optional Custom GPT Actions integration.
+The MCP App view remains responsive, and every MCP recommendation must include complete chat text. Verify connection, tool calls, and rendering separately in ordinary ChatGPT web and the target native mobile client, using current official developer documentation and direct observations. Write actions such as GameTora import, catalog refresh, inventory sync, and catalog publication also require an account and workspace that allow those tools. See [mobile and web setup](mobile-chatgpt-setup.md) for the separate optional Custom GPT Actions integration.
 
 ## Requirements
 
@@ -59,24 +59,25 @@ The MCP App view should remain responsive, and every MCP recommendation must inc
    ```
 
    The script points the profile at `C:\UmaBuildAdvisorPlugin\mcp-server\dist\index.js`. If the package is installed elsewhere, pass `-InstallRoot` with a path that has no spaces.
-4. Generate the remote ChatGPT plugin ZIP with the same tunnel ID:
-
-   ```powershell
-   python .\scripts\package_chatgpt_web_plugin.py --tunnel-id "tunnel_..."
-   ```
-
-   The default archive is `%LOCALAPPDATA%\UmaBuildAdvisor\uma-build-advisor-chatgpt-plugin.zip`. Its `mcp.json` uses the remote `streamable-http` transport with a Secure MCP Tunnel ID; it contains plugin instructions and the tunnel binding, but no catalog, inventory, runtime key, or MCP server executable. Keep the ZIP private because the tunnel ID identifies your private connection.
-5. Start the tunnel from the public repository clone:
+4. Start the tunnel client while registering and using the connection:
 
    ```powershell
    .\scripts\start-chatgpt-tunnel.ps1
    ```
 
-   The script asks for the runtime API key using a hidden prompt, makes it available to `tunnel-client` only for that process session, runs `tunnel-client doctor`, and starts the foreground tunnel. It does not write the key to the repo, profile, or ChatGPT. Keep the PowerShell session and the computer online while using the advisor.
-6. Save the generated archive as a private plugin with Plugin Creator in the account/workspace associated with that tunnel. Install the plugin and wait for tool discovery while `tunnel-client` is running. Review the tools and risk prompt before enabling it.
-7. Use the installed remote plugin in ChatGPT web. Ask for a Japanese-server build; it reads the versioned catalog, checks the matching private inventory, performs fresh strategy research, and returns the recommendation in chat with the embedded build view. Then test native ChatGPT mobile separately. The source folder's local `stdio` config is for compatible local agents; the packaging script substitutes the remote tunnel-bound config for ChatGPT.
+   The script prompts for the runtime API key using a hidden prompt. Keep the foreground process online, or use the documented persistent service on the Pi. It does not save the key in the repository or package.
+5. In ChatGPT web, open **Plugins → + → Add custom MCP server**. Choose **Connection: Tunnel**, select the existing tunnel, configure the intended authentication, review the risk warning, and create the private connection. For this private server, workspace/tunnel access controls protect the connection; MCP-level authentication is set to none. Confirm discovery returns all ten advisor tools. Reuse an existing matching connection instead of creating another one.
+6. Obtain the connection's verified underlying app ID from its `.app.json` using Plugin Creator. The browser's `plugin_asdk_app...` URL identifies the registered connection; it is not the raw `asdk_app_...` value required in the package. Copy the actual app ID from the returned source rather than deriving or inventing it. Generate the account plugin archive with both verified identifiers:
 
-OpenAI's Secure MCP Tunnel documentation gives the current Platform screens, permissions, key setup, and client options: <https://developers.openai.com/api/docs/guides/secure-mcp-tunnels>. The current ChatGPT connection and plan requirements are documented at <https://help.openai.com/en/articles/12584461-connecting-custom-mcp-servers-in-chatgpt>.
+   ```powershell
+   python .\scripts\package_chatgpt_web_plugin.py --tunnel-id "tunnel_..." --app-id "asdk_app_..."
+   ```
+
+   The default archive is `%LOCALAPPDATA%\UmaBuildAdvisor\uma-build-advisor-chatgpt-plugin.zip`. It contains the registered `.app.json` connection, a remote `streamable-http` tunnel binding, and instructions. It contains no catalog, inventory, runtime key, or MCP server executable. Keep it private.
+7. Use Plugin Creator to update the existing private advisor plugin with the archive, preserving its identity and audience. Create a new advisor plugin only for an initial installation. Confirm the saved root manifest references `.app.json`, and verify the raw app ID matches the registered connection. A successful ZIP upload does not prove tool invocation.
+8. Refresh the existing registered MCP connection after server tool/schema updates, then start a new ordinary ChatGPT web conversation with the advisor enabled. Call `reference.get_manifest` and `inventory.get_summary` for `ja`, use `inventory.query_records` for relevant ownership and `reference.get_records` for related catalog facts, then verify a recommendation returns both complete chat text and the embedded Build View. Test native ChatGPT mobile separately. The local `stdio` configuration remains for compatible local hosts.
+
+Use the official [Secure MCP Tunnel guide](https://developers.openai.com/api/docs/guides/secure-mcp-tunnels), [connection and testing guide](https://developers.openai.com/plugins/deploy/connect-chatgpt), and [registered connection packaging guide](https://developers.openai.com/plugins/build/plugins). For a running service, `tunnel-client doctor --profile uma-build-advisor --health.listen-addr 127.0.0.1:0 --explain` checks configuration without conflicting with the daemon's existing health listener. Check the live daemon separately with `tunnel-client health --port 8080 --require-control-plane-poll`.
 
 ## Raspberry Pi host (64-bit Linux)
 
@@ -98,15 +99,20 @@ The Pi can host the MCP server and Secure MCP Tunnel client for ChatGPT web. The
    ~~~sh
    cd ~/Sources/uma
    bash scripts/setup-chatgpt-tunnel.sh tunnel_...
-   python3 scripts/package_chatgpt_web_plugin.py --tunnel-id tunnel_...
    bash scripts/start-chatgpt-tunnel.sh
    ~~~
 
-   Keep the generated plugin archive private. The packaging script uses the package instructions and writes a tunnel-bound remote MCP config; it does not include the executable or private data. To run the tunnel under systemd, use deploy/uma-build-advisor-tunnel.service.example, adjusting the Linux username and tunnel-client location if they differ. Store CONTROL_PLANE_API_KEY only in a root-owned, mode-600 /etc/uma-build-advisor/tunnel.env file.
-6. Test whether the connected MCP plugin is available in the target ChatGPT mobile client. Current Help Center documentation says custom MCP apps are web-only. If mobile access is unavailable and the user wants a mobile chat path, install the optional Actions API service and Tailscale Funnel using docs/mobile-chatgpt-setup.md. The API binds to loopback and requires a private bearer token; do not expose it directly or disable authentication.
+   To run the tunnel under systemd, use deploy/uma-build-advisor-tunnel.service.example, adjusting the Linux username and tunnel-client location if they differ. Store CONTROL_PLANE_API_KEY only in a root-owned, mode-600 /etc/uma-build-advisor/tunnel.env file. Register or reuse the ChatGPT MCP connection as above, then package the verified app binding:
+
+   ~~~sh
+   python3 scripts/package_chatgpt_web_plugin.py --tunnel-id tunnel_... --app-id asdk_app_...
+   ~~~
+
+   Keep the archive private. The package includes the registered connection and tunnel binding, without the executable or private data.
+6. Test the connected advisor in ordinary ChatGPT web, then separately in the target native mobile client. If a client cannot use the MCP app, record the observed limitation. The read-only GPT Actions API remains a separate optional integration; deploy it only if requested. Its default bind is loopback, and it requires authenticated HTTPS ingress.
 7. Update the public catalog after Windows-side review by pulling the approved public commit on the Pi. Inventory sync uses the private checkout and requires its own GitHub authentication.
 
-The generated remote plugin is configured through the web Plugins flow. Its embedded Build View uses the MCP Apps UI bridge and responsive layout. The current Help Center says custom MCP apps are web-only, so do not claim native mobile support before testing. GPT Actions are a distinct REST integration configured in a Custom GPT; they may provide mobile text access where the account, workspace, and mobile client support them. The Action API is read-only and returns the recommendation in chat text.
+The generated remote plugin references the registered ChatGPT connection through `.app.json`. Its embedded Build View uses the MCP Apps UI bridge and responsive layout. Verify native mobile tool access and UI directly before claiming support. GPT Actions are a distinct read-only REST integration configured in a Custom GPT.
 ## Local package setup
 
 For a compatible local MCP host that supports `stdio`, add the bundled `mcp.json` configuration and point it at `node ${PLUGIN_ROOT}/mcp-server/dist/index.js`. This local configuration is useful for local development and is not required when the Web connection is established through Secure MCP Tunnel.

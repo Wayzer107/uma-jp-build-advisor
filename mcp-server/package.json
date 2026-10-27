@@ -1,6 +1,6 @@
 {
   "name": "uma-build-advisor-mcp",
-  "version": "0.2.0",
+  "version": "0.4.3",
   "private": true,
   "type": "module",
   "description": "Local MCP server and ChatGPT MCP App for Umamusume build advice.",

@@ -1,23 +1,24 @@
 # ChatGPT web and mobile access
 
-The web experience is the remote MCP App: the advisor returns an interactive view with the trainee, six-card deck, legacies, substitutions, and evidence. It uses the standard MCP Apps bridge. Configure the private MCP connection on the web using Secure MCP Tunnel, and keep the UI responsive with a complete text response as fallback. Mobile availability needs a separate check: the current OpenAI Help Center says custom MCP apps are web-only, while developer UI guidance documents mobile layouts. Responsive layout guidance does not by itself confirm that the native ChatGPT mobile app can connect to or render this custom MCP app.
+The web experience is the remote MCP App: the advisor returns an interactive view with the trainee, six-card deck, legacies, substitutions, and evidence through the standard MCP Apps bridge. Register the private tunnel-backed MCP connection in ChatGPT, then attach its verified app ID to the advisor through `.app.json`. A skill-only account plugin can load successfully while exposing no remote tools if that registered connection is absent. Verify native mobile access separately using current official developer documentation and direct client checks; responsive layout alone does not prove connection or rendering support.
 
 The project also includes an optional read-only REST API for GPT Actions. It is a separate integration and may provide a text-only mobile route through a Custom GPT if the target mobile client cannot use the MCP app. GPTs can be used in ChatGPT mobile, but create/configure the GPT on the web and verify Actions in the target mobile client. This API does not render the embedded build view. Imports, inventory sync, and catalog publication remain in the MCP plugin.
 
 ## Primary plugin setup for web
 
 1. Keep the MCP server and Secure MCP Tunnel client running on the persistent host. Follow the setup in [local-plugin-setup.md](local-plugin-setup.md).
-2. Create the account plugin archive using the tunnel ID associated with the ChatGPT workspace:
+2. Register or reuse the existing tunnel in **ChatGPT web → Plugins → + → Add custom MCP server → Connection: Tunnel**. Confirm that discovery returns the advisor's ten tools. Obtain the verified raw app ID from that registered connection's `.app.json` through Plugin Creator; do not substitute the browser's plugin ID.
+3. Create the account plugin archive using the same tunnel and registered app:
 
    ~~~sh
-   python3 scripts/package_chatgpt_web_plugin.py --tunnel-id "tunnel_..."
+   python3 scripts/package_chatgpt_web_plugin.py --tunnel-id "tunnel_..." --app-id "asdk_app_..."
    ~~~
 
-   The archive contains plugin instructions and a `mcp.json` tunnel binding. It does not contain the local inventory, game data, tunnel credentials, or server executable.
-3. Use Plugin Creator to save the ZIP as a private plugin in the same ChatGPT account/workspace that owns the tunnel. Install the resulting plugin.
-4. Open a normal ChatGPT web chat and select or mention Umamusume Build Advisor. Ask for a server-specific build and confirm the plugin returns both a text recommendation and the embedded build view.
-5. Test the same connected plugin in the native ChatGPT mobile app. Current Help Center documentation says custom MCP apps are web-only; if the app is unavailable there, record that platform limitation and use the optional Custom GPT Actions route for mobile text access if appropriate.
-6. Check that the trainee, six support slots, legacy suggestions, ownership status, substitutions, and citations remain readable on a narrow screen whenever the view is supported. If the host does not render the view, the text answer must still contain the full recommendation.
+   The archive contains instructions, `.app.json`, and a remote `mcp.json` tunnel binding. It does not contain local inventory, game data, tunnel credentials, or a server executable.
+4. Use Plugin Creator to update the existing private advisor plugin while preserving its ID and audience. Verify the saved manifest references `.app.json` and its app ID matches the registered MCP connection. Create an advisor plugin only for a first installation.
+5. Open a new ordinary ChatGPT web chat with Umamusume Build Advisor enabled. Verify manifest/profile reads, a server-specific recommendation, and the embedded Build View. A successful tool-discovery request alone does not prove these calls or rendering.
+6. Test connection, tool calls, and Build View separately in the target native mobile app. Record observed errors or client limitations. The optional Custom GPT Actions route remains a separate integration, not an automatic fallback.
+7. Check that the trainee, six support slots, legacies, ownership, substitutions, and citations remain readable on a narrow screen. The text response must include the same build facts, alternatives, assumptions, and evidence when the view is not rendered.
 
 The source plugin folder also contains a `stdio` config for compatible local agents. Do not upload that local config as the ChatGPT account plugin; the packaging script replaces it with the remote Secure MCP Tunnel configuration.
 
@@ -82,10 +83,11 @@ All data routes require Authorization: Bearer <token>, disable caching, and expo
 
 ## Official references
 
-- [Custom MCP server connection requirements](https://help.openai.com/en/articles/12584461-connecting-custom-mcp-servers-in-chatgpt) describe connecting a custom MCP server through the web Plugins flow and the account/workspace requirements.
-- [Connecting custom MCP servers in ChatGPT](https://help.openai.com/en/articles/12584461-connecting-custom-mcp-servers-in-chatgpt) currently says custom MCP apps are web-only.
+- [Secure MCP Tunnel](https://developers.openai.com/api/docs/guides/secure-mcp-tunnels) covers private transport, workspace association, runtime permissions, and connection setup.
+- [Connect and test a plugin](https://developers.openai.com/plugins/deploy/connect-chatgpt) covers registration, tool discovery, metadata refresh, and combined tool/UI checks.
+- [Package a registered MCP connection](https://developers.openai.com/plugins/build/plugins) covers the `.app.json` reference linking tools to the plugin.
 - [Add UI to your MCP server](https://developers.openai.com/plugins/build/chatgpt-ui) describes the MCP Apps bridge and says tools should remain useful in clients that do not render components.
-- [UI guidelines](https://developers.openai.com/plugins/concepts/ui-guidelines) and [mobile UI troubleshooting](https://developers.openai.com/plugins/deploy/troubleshooting) describe responsive mobile layouts; they do not override the current client-availability note in the Help Center.
+- [UI guidelines](https://developers.openai.com/plugins/concepts/ui-guidelines) and [mobile UI troubleshooting](https://developers.openai.com/plugins/deploy/troubleshooting) describe layouts and rendering checks; verify the target client's tool connection separately.
 - [Creating and editing GPTs](https://help.openai.com/en/articles/8554397-gpts) says mobile apps support using GPTs but not creating them. GPT Actions remain a separate integration.
 - [GPT Actions introduction](https://developers.openai.com/api/docs/actions/introduction) describes REST API actions in Custom GPTs.
 - [Tailscale Funnel](https://tailscale.com/docs/features/tailscale-funnel) documents exposing a local service to the internet over HTTPS.

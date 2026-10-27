@@ -29,7 +29,7 @@ Maintain Umamusume Build Advisor as a ChatGPT-first reference and build-advice p
 - `mcp-server/openapi/uma-build-advisor-actions.yaml` describes a separate read-only GPT Actions integration; it is not required for the ChatGPT web plugin.
 - The primary ChatGPT experience is a private remote MCP plugin. Configure its remote server through the web Plugins flow and OpenAI Secure MCP Tunnel, then package the plugin with the verified tunnel binding. The Plugin Creator ZIP requirements explicitly support `tunnelId` for remote MCP servers and prohibit combining it with `url` or `server_url`.
 - The Build View uses the standard MCP Apps UI bridge and responsive layout. The MCP tools also return a complete text result. Keep the source folder's local `stdio` config for compatible local hosts; do not use it as the account plugin's online configuration.
-- Keep mobile claims precise: OpenAI's developer UI guides document mobile layouts, but the current Help Center says custom MCP apps are web-only. Do not claim that the native ChatGPT mobile app can use this connection or render the Build View until verified on the target account and client. The optional GPT Actions route may provide text access through a Custom GPT when available; verify mobile Action execution separately.
+- The user explicitly asked us to ignore the Help Center article about custom MCP availability. Use current official OpenAI developer/plugin documentation and direct checks in the target ChatGPT clients when assessing mobile behavior. Keep the Build View responsive and the text response complete; verify the plugin connection, MCP tool calls, and UI rendering separately on web and native mobile before claiming each works. Treat GPT Actions as a separate optional text-only integration, not the mobile fallback by default.
 - The configured Raspberry Pi is the intended persistent runtime host. The target public checkout path is ~/Sources/uma; the private checkout should be separate at ~/Sources/uma-private. The installed Japanese game and catalog refresh remain on Windows.
 - Use Tailscale Funnel or an equivalent authenticated HTTPS ingress only if GPT Actions are deployed. Funnel is public internet exposure; API bearer authentication must remain enabled.
 - The MCP tunnel and Actions API are different transports. Do not assume a Secure MCP Tunnel endpoint can serve the REST Action schema. Local `stdio` plugin execution is for compatible local hosts; the account plugin uses the generated remote tunnel binding.
@@ -75,6 +75,7 @@ Read before changing behavior:
 
 ## Change and verification practice
 
+- The user authorizes deployment as part of requested MCP/plugin changes. Build and deploy the Pi MCP runtime and update the existing account plugin together when affected; verify both without waiting for a separate deployment request. Preserve the existing plugin, app connection, tunnel, and audience. Report any host-side discovery refresh that available tools cannot perform separately from the completed deployment.
 - Preserve the existing public/private repository boundary and server separation in every change.
 - Prefer the existing catalog readers, profile reader, and import/export scripts instead of creating a second interpretation of game or inventory data.
 - Avoid unrelated dependencies. Keep the Pi runtime compatible with Node.js 22 on 64-bit ARM Linux.
@@ -85,7 +86,7 @@ Read before changing behavior:
 
 ## Current known limitations
 
-- OpenAI's developer MCP App docs provide mobile layout and display-mode guidance. The current Help Center says custom MCP apps are web-only; the directory requirement for desktop/mobile applies to public directory submissions, not this private tunnel plugin. Keep the view responsive, but treat native mobile access as unresolved until directly checked.
+- OpenAI's plugin developer docs provide mobile UI guidance and require public submissions to work on desktop and mobile. For this private tunnel plugin, verify connection, tool calls, and UI directly in the target native mobile client. Do not rely on the Help Center article for this compatibility question, as the user explicitly instructed.
 - GPT Actions require a Custom GPT and account/workspace support. The project's REST Action route is optional, text-only, and a possible mobile fallback if the target ChatGPT mobile client cannot use the custom MCP app.
 - The Actions API is read-only. Use the MCP plugin for catalog publication and GameTora inventory import/sync.
 - Global catalog completeness, inventory contents, Pi deployment, and native mobile client support must each be verified independently before claiming support. Tailscale Funnel and a configured Custom GPT are needed only for the optional Actions API route.

@@ -1,6 +1,12 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { useApp } from "@modelcontextprotocol/ext-apps/react";
+import speedIcon from "./assets/stat-icons/speed.png";
+import staminaIcon from "./assets/stat-icons/stamina.png";
+import powerIcon from "./assets/stat-icons/power.png";
+import gutsIcon from "./assets/stat-icons/guts.png";
+import witIcon from "./assets/stat-icons/wit.png";
+import palIcon from "./assets/stat-icons/pal.png";
 import "./styles.css";
 
 type LinkItem = { id: string; name: string; gametora_url?: string | null; reason: string };
@@ -34,6 +40,96 @@ type Recommendation = {
   sources: { url: string; title: string; source_type: "game_data" | "official" | "community" | "inference"; context: string; retrieved_at: string; confidence_note: string }[];
 };
 
+type ImageRequest = { server: "ja" | "global"; kind: "support_card" | "trainee"; catalog_id: string; variant: "thumbnail" | "card" | "icon" | "portrait" };
+type Artwork = { status: string; src?: string; width?: number; height?: number; reason?: string };
+type ArtworkPayload = { assets?: Array<{ key?: string; status?: string; mime_type?: string; data_base64?: string; width?: number; height?: number; reason?: string }>; next_offset?: number; has_more?: boolean };
+type AppBridge = NonNullable<ReturnType<typeof useApp>["app"]>;
+type OpenAiBridge = { callTool?: (name: string, args: Record<string, unknown>) => Promise<unknown> };
+
+const STAT_TYPES = [
+  { key: "speed", label: "Speed", icon: speedIcon, aliases: ["speed"] },
+  { key: "stamina", label: "Stamina", icon: staminaIcon, aliases: ["stamina"] },
+  { key: "power", label: "Power", icon: powerIcon, aliases: ["power"] },
+  { key: "guts", label: "Guts", icon: gutsIcon, aliases: ["guts"] },
+  { key: "wit", label: "Wit", icon: witIcon, aliases: ["wit", "wisdom"] },
+  { key: "pal", label: "Pal", icon: palIcon, aliases: ["pal", "friend", "group"] },
+] as const;
+
+function statType(role: string) {
+  const normalized = role.trim().toLowerCase();
+  return STAT_TYPES.find((item) => item.aliases.some((alias) => normalized === alias || normalized.includes(alias))) || null;
+}
+
+function imageKey(request: ImageRequest): string {
+  return `${request.server}:${request.kind}:${request.catalog_id}:${request.variant}`;
+}
+
+function parseArtwork(result: unknown): ArtworkPayload | null {
+  if (!result || typeof result !== "object") return null;
+  const envelope = result as { structuredContent?: unknown; content?: { type?: string; text?: string }[] };
+  if (envelope.structuredContent && typeof envelope.structuredContent === "object") return envelope.structuredContent as ArtworkPayload;
+  const text = envelope.content?.find((item) => item.type === "text")?.text;
+  if (!text) return null;
+  try { return JSON.parse(text) as ArtworkPayload; } catch { return null; }
+}
+
+async function callArtworkTool(app: AppBridge, requests: ImageRequest[], signal: AbortSignal): Promise<ArtworkPayload> {
+  const args = { requests, offset: 0 };
+  const valid = (payload: ArtworkPayload | null) => payload?.assets?.length && typeof payload.next_offset === "number" && payload.next_offset > 0 && payload.next_offset <= requests.length && payload.assets.every((asset) => requests.some((request) => imageKey(request) === asset.key) && (asset.status !== "available" || (asset.mime_type === "image/webp" && typeof asset.data_base64 === "string")));
+  let standardError: unknown;
+  try {
+    const result = await app.callServerTool({ name: "build.get_game_images", arguments: args }, { signal, timeout: 15000 });
+    const payload = result.isError ? null : parseArtwork(result);
+    if (valid(payload)) {
+      return payload!;
+    }
+    standardError = new Error(result.isError ? "The MCP Apps image call failed." : "The MCP Apps image response was incomplete.");
+  } catch (error) {
+    if (signal.aborted) throw error;
+    standardError = error;
+  }
+
+  if (signal.aborted) throw standardError instanceof Error ? standardError : new Error("The artwork request was cancelled.");
+  const compatibilityBridge = (window as Window & { openai?: OpenAiBridge }).openai;
+  if (!compatibilityBridge?.callTool) {
+    throw standardError instanceof Error ? standardError : new Error("The host could not call the artwork tool.");
+  }
+
+  const result = await new Promise<unknown>((resolve, reject) => {
+    const onAbort = () => finish(new Error("The artwork request was cancelled."));
+    const timer = window.setTimeout(() => finish(new Error("The artwork request timed out.")), 15000);
+    function finish(error?: unknown, value?: unknown) {
+      window.clearTimeout(timer);
+      signal.removeEventListener("abort", onAbort);
+      if (error) reject(error); else resolve(value);
+    }
+    signal.addEventListener("abort", onAbort, { once: true });
+    compatibilityBridge.callTool!("build.get_game_images", args).then((value) => finish(undefined, value), (error) => finish(error));
+  });
+  if (result && typeof result === "object" && "isError" in result && result.isError === true) {
+    throw new Error("The host compatibility image call failed.");
+  }
+  const payload = parseArtwork(result);
+  if (!valid(payload)) {
+    throw new Error("The host compatibility image response was incomplete.");
+  }
+  return payload!;
+}
+
+function base64ToBytes(value: string): Uint8Array {
+  const binary = atob(value);
+  const bytes = new Uint8Array(binary.length);
+  for (let index = 0; index < binary.length; index += 1) bytes[index] = binary.charCodeAt(index);
+  return bytes;
+}
+
+function ArtworkImage({ artwork, className, label }: { artwork?: Artwork; className: string; label: string }) {
+  if (artwork?.status === "available" && artwork.src) {
+    return <img className={className} src={artwork.src} width={artwork.width} height={artwork.height} alt={label} loading="lazy" />;
+  }
+  return <div className={`${className} artwork-placeholder`} role="img" aria-label={`${label}: artwork unavailable`} title="Artwork unavailable on this MCP host"><span aria-hidden="true">✦</span></div>;
+}
+
 function parseRecommendation(result: unknown): Recommendation | null {
   if (!result || typeof result !== "object") return null;
   const envelope = result as { structuredContent?: unknown; content?: { type?: string; text?: string }[] };
@@ -66,22 +162,83 @@ function ExternalLink({ href, children }: { href?: string | null; children: Reac
 
 function AppView() {
   const [recommendation, setRecommendation] = useState<Recommendation | null>(null);
+  const [initialArtwork, setInitialArtwork] = useState<ArtworkPayload | null>(null);
+  const [artwork, setArtwork] = useState<Record<string, Artwork>>({});
+  const [artworkMessage, setArtworkMessage] = useState("");
   const [refinement, setRefinement] = useState("");
   const [sending, setSending] = useState(false);
   const [message, setMessage] = useState("");
   const { app, isConnected, error } = useApp({
-    appInfo: { name: "Umamusume Build Advisor", version: "0.2.0" },
+    appInfo: { name: "Umamusume Build Advisor", version: "0.4.3" },
     capabilities: {},
     onAppCreated: (createdApp) => {
       createdApp.ontoolresult = (result) => {
         const next = parseRecommendation(result);
         if (next?.deck?.length === 6) {
+          const meta = (result as { _meta?: { artwork?: ArtworkPayload } })._meta;
+          setInitialArtwork(meta?.artwork || null);
           setRecommendation(next);
           setMessage("");
         }
       };
     },
   });
+
+  useEffect(() => {
+    if (!app || !recommendation) {
+      setArtwork({});
+      return;
+    }
+    const controller = new AbortController();
+    const objectUrls: string[] = [];
+    const requests: ImageRequest[] = [
+      ...recommendation.deck.map((slot): ImageRequest => ({ server: recommendation.server, kind: "support_card", catalog_id: slot.support_id, variant: "portrait" })),
+      { server: recommendation.server, kind: "trainee", catalog_id: recommendation.trainee.id, variant: "icon" },
+      { server: recommendation.server, kind: "trainee", catalog_id: recommendation.trainee.id, variant: "portrait" },
+    ];
+    setArtwork({});
+    setArtworkMessage("");
+
+    void (async () => {
+      const resolved: Record<string, Artwork> = {};
+      const accept = (payload: ArtworkPayload) => {
+        for (const asset of payload.assets || []) {
+          if (!asset.key || !requests.some((request) => imageKey(request) === asset.key)) continue;
+          if (asset.status === "available" && asset.mime_type === "image/webp" && typeof asset.data_base64 === "string") {
+            const src = URL.createObjectURL(new Blob([base64ToBytes(asset.data_base64).buffer as ArrayBuffer], { type: asset.mime_type }));
+            objectUrls.push(src);
+            resolved[asset.key] = { status: "available", src, width: asset.width, height: asset.height };
+          } else {
+            resolved[asset.key] = { status: asset.status || "unavailable", reason: asset.reason };
+          }
+        }
+        setArtwork({ ...resolved });
+      };
+      // Hydrate from the presentation result without additional host calls.
+      // Older hosts and budget-limited results use bounded batch continuation.
+      if (initialArtwork) accept(initialArtwork);
+      let pending = requests.filter((request) => !resolved[imageKey(request)]);
+      try {
+        while (pending.length && !controller.signal.aborted) {
+          const payload = await callArtworkTool(app, pending, controller.signal);
+          if (controller.signal.aborted) return;
+          accept(payload);
+          pending = pending.slice(payload.next_offset!);
+        }
+      } catch {
+        if (controller.signal.aborted) return;
+      }
+      const unavailableCount = requests.filter((request) => resolved[imageKey(request)]?.status !== "available").length;
+      if (!controller.signal.aborted && unavailableCount > 0) {
+        setArtworkMessage(`${unavailableCount} of ${requests.length} images could not be loaded. The build and card details are still available.`);
+      }
+    })();
+
+    return () => {
+      controller.abort();
+      for (const url of objectUrls) URL.revokeObjectURL(url);
+    };
+  }, [app, recommendation, initialArtwork]);
 
   const bySource = useMemo(() => {
     if (!recommendation) return [];
@@ -98,6 +255,7 @@ function AppView() {
     const prompt = [
       action,
       direction ? `My requested change or preference: ${direction}` : "No additional preference was entered; use the details below and ask only if a critical training constraint is missing.",
+      "Present the completed or revised six-slot build by calling build.present_recommendation before your final answer, so the interactive Build View opens again.",
       "Current recommendation context:",
       JSON.stringify(recommendation),
     ].join("\n\n");
@@ -127,31 +285,58 @@ function AppView() {
   return (
     <main className="shell">
       <header className="hero">
-        <div>
-          <div className="eyebrow">{recommendation.server === "ja" ? "JAPANESE SERVER" : "GLOBAL SERVER"} · {recommendation.scenario}</div>
-          <h1>{recommendation.trainee.name}</h1>
-          <p className="hero-reason"><ExternalLink href={recommendation.trainee.gametora_url}>{recommendation.target}</ExternalLink> · {recommendation.trainee.reason}</p>
+        <div className="hero-main">
+          <div className="trainee-art-pair">
+            <ArtworkImage className="trainee-portrait" artwork={artwork[imageKey({ server: recommendation.server, kind: "trainee", catalog_id: recommendation.trainee.id, variant: "portrait" })]} label={`${recommendation.trainee.name} portrait`} />
+            <ArtworkImage className="trainee-icon" artwork={artwork[imageKey({ server: recommendation.server, kind: "trainee", catalog_id: recommendation.trainee.id, variant: "icon" })]} label={`${recommendation.trainee.name} outfit icon`} />
+          </div>
+          <div className="hero-copy">
+            <div className="eyebrow">BUILD ADVISOR</div>
+            <h1>{recommendation.trainee.name}</h1>
+            <p className="hero-reason">{recommendation.scenario} · {recommendation.server === "ja" ? "Japan" : "Global"} · <ExternalLink href={recommendation.trainee.gametora_url}>{recommendation.target}</ExternalLink></p>
+          </div>
         </div>
-        <div className={`confidence ${recommendation.confidence.level}`}><span>{recommendation.confidence.level} confidence</span><p>{recommendation.confidence.explanation}</p></div>
       </header>
 
-      <section className="section">
-        <div className="section-heading"><div><div className="eyebrow">TRAINING DECK</div><h2>Six support slots</h2></div><span className="count">6 CARDS</span></div>
+      <section className="section deck-section">
+        <div className="section-heading"><h2>Support Deck</h2><span className="count">{recommendation.deck.length} / 6 Cards</span></div>
         <div className="deck-grid">
           {recommendation.deck.map((slot, index) => (
             <article className="support-card" key={`${slot.support_id}-${index}`}>
-              <div className="card-top"><span className="slot-number">{String(index + 1).padStart(2, "0")}</span><Ownership item={slot} /></div>
+              <div className="support-art-wrap">
+                <ArtworkImage className="support-art" artwork={artwork[imageKey({ server: recommendation.server, kind: "support_card", catalog_id: slot.support_id, variant: "portrait" })]} label={`${slot.name} support card`} />
+                {statType(slot.role) && <span className={`stat-icon ${statType(slot.role)!.key}`} title={statType(slot.role)!.label}><img src={statType(slot.role)!.icon} alt="" /></span>}
+              </div>
               <h3><ExternalLink href={slot.gametora_url}>{slot.name}</ExternalLink></h3>
-              <div className="role">{slot.role}</div>
-              <p>{slot.reason}</p>
-              {(slot.effective_level !== null || slot.limit_break !== null) && <div className="level">{slot.effective_level !== null ? `Level ${slot.effective_level}` : ""}{slot.effective_level !== null && slot.limit_break !== null ? " · " : ""}{slot.limit_break !== null ? `LB${slot.limit_break}` : ""}</div>}
-              {slot.effects.length > 0 && <div className="chip-row">{slot.effects.map((effect) => <span className="chip" key={effect}>{effect}</span>)}</div>}
-              {slot.skills.length > 0 && <div className="micro-list"><b>Useful skills</b><span>{slot.skills.join(" · ")}</span></div>}
+              <div className={`role ${statType(slot.role)?.key || "other"}`}>{statType(slot.role)?.label || slot.role}</div>
+              <div className="ownership-line"><Ownership item={slot} /></div>
+              <details className="card-details">
+                <summary>Card details</summary>
+                <p>{slot.reason}</p>
+                {(slot.effective_level !== null || slot.limit_break !== null) && <div className="level">{slot.effective_level !== null ? `Level ${slot.effective_level}` : ""}{slot.effective_level !== null && slot.limit_break !== null ? " · " : ""}{slot.limit_break !== null ? `LB${slot.limit_break}` : ""}</div>}
+                {slot.effects.length > 0 && <div className="chip-row">{slot.effects.map((effect) => <span className="chip" key={effect}>{effect}</span>)}</div>}
+                {slot.skills.length > 0 && <div className="micro-list"><b>Useful skills</b><span>{slot.skills.join(" · ")}</span></div>}
+              </details>
             </article>
           ))}
         </div>
+        {artworkMessage && <p className="artwork-message" role="status">{artworkMessage}</p>}
       </section>
 
+      <div className="deck-footer">
+        <div>Build preview · {recommendation.target}</div>
+        <button type="button" className="refine-cta" onClick={() => {
+          const panel = document.getElementById("recommendation-details");
+          if (panel instanceof HTMLDetailsElement) panel.open = true;
+          document.getElementById("refinement")?.scrollIntoView({ behavior: "smooth", block: "center" });
+          window.setTimeout(() => document.getElementById("refinement")?.focus(), 250);
+        }}>Refine build <span aria-hidden="true">→</span></button>
+      </div>
+      <div className="icon-credit">Stat icons: <a href="https://github.com/Euophrys/umamusume-tierlist" target="_blank" rel="noreferrer">Euophrys / umamusume-tierlist</a> · MIT License</div>
+
+      <details className="recommendation-details" id="recommendation-details">
+        <summary>Recommendation details, rationale and sources</summary>
+        <div className={`confidence ${recommendation.confidence.level}`}><strong>{recommendation.confidence.level} confidence</strong><p>{recommendation.confidence.explanation}</p><p className="trainee-rationale"><b>{recommendation.trainee.name}:</b> {recommendation.trainee.reason}</p></div>
       <div className="detail-grid">
         <section className="section panel">
           <div className="section-heading"><div><div className="eyebrow">INHERITANCE</div><h2>Legacy candidates</h2></div></div>
@@ -191,6 +376,7 @@ function AppView() {
         <div className="source-list">{bySource.map((source, index) => <article className="source-item" key={`${source.url}-${index}`}><div className={`source-tag ${source.source_type}`}>{source.source_type.replace("_", " ")}</div><div><h3><ExternalLink href={source.url}>{source.title}</ExternalLink></h3><p>{source.context}</p><span>{source.confidence_note} · {formatDate(source.retrieved_at)}</span></div></article>)}</div>
       </section>
       <footer>Recommendation generated {formatDate(recommendation.generated_at)} · Catalog facts and live strategy advice are cited separately.</footer>
+      </details>
     </main>
   );
 }

@@ -54,19 +54,40 @@ export const BuildRecommendationSchema = z.object({
 export type BuildRecommendation = z.infer<typeof BuildRecommendationSchema>;
 
 export function recommendationText(value: BuildRecommendation): string {
+  const ownership = (owned: boolean | null) => owned === null ? "ownership unknown" : owned ? "owned" : "not owned";
+  const priorities = (items: BuildRecommendation["stat_priorities"]) => items.map((item) => `${item.name}${item.target ? ` (${item.target})` : ""}: ${item.reason}`).join("; ") || "none supplied";
   const deck = value.deck.map((slot, index) => {
-    const ownership = slot.owned === null ? "ownership unknown" : slot.owned ? `owned, ${slot.limit_break ?? "LB unknown"} LB` : `rental${slot.borrowed_from ? ` from ${slot.borrowed_from}` : ""}`;
-    return `${index + 1}. ${slot.name} — ${slot.role}; ${ownership}. ${slot.reason}`;
+    const status = slot.owned === false ? `rental${slot.borrowed_from ? ` from ${slot.borrowed_from}` : ""}` : ownership(slot.owned);
+    return [
+      `${index + 1}. ${slot.name} (ID ${slot.support_id}) — ${slot.role}; ${status}; ${slot.limit_break === null ? "LB unknown" : `LB${slot.limit_break}`}; ${slot.effective_level === null ? "level unknown" : `level ${slot.effective_level}`}. ${slot.reason}`,
+      slot.effects.length ? `   Effects: ${slot.effects.join("; ")}` : "",
+      slot.skills.length ? `   Skills: ${slot.skills.join("; ")}` : "",
+      slot.gametora_url ? `   Card: ${slot.gametora_url}` : "",
+    ].filter(Boolean).join("\n");
   }).join("\n");
-  const sources = value.sources.map((source) => `- ${source.title}: ${source.url} (${source.context}; ${source.confidence_note})`).join("\n");
+  const legacies = value.legacy_candidates.map((legacy) => [
+    `- ${legacy.name}${legacy.id ? ` (ID ${legacy.id})` : ""} — ${ownership(legacy.owned)}. ${legacy.reason}`,
+    legacy.factors.length ? `  Factors: ${legacy.factors.join("; ")}` : "",
+    legacy.skills.length ? `  Skills: ${legacy.skills.join("; ")}` : "",
+    legacy.gametora_url ? `  Candidate: ${legacy.gametora_url}` : "",
+  ].filter(Boolean).join("\n")).join("\n") || "none supplied";
+  const alternatives = value.alternatives.map((item) => `- ${item.label}: ${item.changes} Tradeoff: ${item.tradeoff}`).join("\n") || "none supplied";
+  const assumptions = value.assumptions.map((item) => `- ${item}`).join("\n") || "none supplied";
+  const sources = value.sources.map((source) => `- [${source.source_type}] ${source.title}: ${source.url} (${source.context}; ${source.confidence_note}; retrieved ${source.retrieved_at})`).join("\n") || "none supplied";
   return [
     `Server: ${value.server} | Scenario: ${value.scenario} | Target: ${value.target}`,
-    `Trainee: ${value.trainee.name} — ${value.trainee.reason}`,
+    `Generated: ${value.generated_at}`,
+    `Trainee: ${value.trainee.name} (ID ${value.trainee.id}) — ${value.trainee.reason}${value.trainee.gametora_url ? ` ${value.trainee.gametora_url}` : ""}`,
     "Six support slots:",
     deck,
-    `Legacy options: ${value.legacy_candidates.map((legacy) => legacy.name).join(", ") || "none supplied"}`,
-    `Stat priorities: ${value.stat_priorities.map((item) => `${item.name}${item.target ? ` (${item.target})` : ""}: ${item.reason}`).join("; ")}`,
-    `Skill priorities: ${value.skill_priorities.map((item) => `${item.name}: ${item.reason}`).join("; ")}`,
+    "Legacy options:",
+    legacies,
+    `Stat priorities: ${priorities(value.stat_priorities)}`,
+    `Skill priorities: ${priorities(value.skill_priorities)}`,
+    "Alternatives and tradeoffs:",
+    alternatives,
+    "Assumptions and gaps:",
+    assumptions,
     `Confidence: ${value.confidence.level} — ${value.confidence.explanation}`,
     `Evidence checked: ${value.evidence_checked_at}`,
     "Sources:",

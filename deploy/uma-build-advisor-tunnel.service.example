@@ -10,7 +10,7 @@ Environment=HOME=/home/YOUR_LINUX_USER
 EnvironmentFile=/etc/uma-build-advisor/tunnel.env
 WorkingDirectory=/home/YOUR_LINUX_USER/Sources/uma
 ExecStart=/usr/local/bin/tunnel-client run --profile uma-build-advisor
-Restart=on-failure
+Restart=always
 RestartSec=10
 NoNewPrivileges=true
 PrivateTmp=true

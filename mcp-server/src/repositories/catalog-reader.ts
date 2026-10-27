@@ -1,6 +1,6 @@
-import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { assertPathWithin, type AdvisorConfig } from "../config.js";
+import { readJsonCached } from "./json-file-cache.js";
 
 export type Server = "ja" | "global";
 export type RecordKind = "support_card" | "trainee_outfit" | "skill" | "training_event" | "scenario" | "race" | "race_course" | "race_condition" | "inheritance_factor";
@@ -54,9 +54,14 @@ export function catalogRoot(config: AdvisorConfig, server: Server): string {
 
 export async function readManifest(config: AdvisorConfig, server: Server): Promise<CatalogManifest> {
   const root = catalogRoot(config, server);
-  const manifest = JSON.parse(await readFile(assertPathWithin(root, path.join(root, "manifest.json")), "utf8")) as CatalogManifest;
+  const manifest = await readJsonCached<CatalogManifest>(assertPathWithin(root, path.join(root, "manifest.json")));
   if (manifest.server !== server) throw new Error(`Catalog server mismatch: expected ${server}, found ${manifest.server}`);
   return manifest;
+}
+
+export function compactManifest(manifest: CatalogManifest): Omit<CatalogManifest, "generated_files"> {
+  const { generated_files, ...summary } = manifest;
+  return summary;
 }
 
 function normalizeName(value: string): string {
@@ -69,7 +74,7 @@ export async function getRecord(config: AdvisorConfig, server: Server, kind: Rec
   const layout = ENTITY_LAYOUT[kind];
   const recordPath = assertPathWithin(root, path.join(root, layout.folder, `${id}.json`));
   try {
-    const record = JSON.parse(await readFile(recordPath, "utf8")) as CatalogRecord;
+    const record = await readJsonCached<CatalogRecord>(recordPath);
     if (record.server !== server || String(record.id) !== id) return null;
     return record;
   } catch (error) {
@@ -84,23 +89,22 @@ export async function searchRecords(
   kind: RecordKind,
   query: string,
   limit = 20,
+  selectedManifest?: CatalogManifest,
 ): Promise<RecordSummary[]> {
-  const manifest = await readManifest(config, server);
+  const manifest = selectedManifest ?? await readManifest(config, server);
+  if (manifest.server !== server) throw new Error("Catalog manifest does not match the selected server.");
   if (manifest.coverage_status === "source_unavailable") return [];
   const root = catalogRoot(config, server);
   const layout = ENTITY_LAYOUT[kind];
   const indexPath = assertPathWithin(root, path.join(root, "indexes", `${layout.entity}.json`));
-  const index = JSON.parse(await readFile(indexPath, "utf8")) as { by_id: Record<string, string>; by_name: Record<string, string[]> };
+  const index = await readJsonCached<{ by_id: Record<string, string>; by_name: Record<string, string[]> }>(indexPath);
   const normalized = normalizeName(query);
   if (!normalized) return [];
 
   const ids = new Map<string, "id" | "name">();
   if (/^\d+$/.test(query.trim()) && index.by_id[query.trim()]) ids.set(query.trim(), "id");
-  for (const [name, matchingIds] of Object.entries(index.by_name)) {
-    if (name === normalized) {
-      for (const id of matchingIds) ids.set(id, "name");
-    }
-  }
+  const exactIds = Object.hasOwn(index.by_name, normalized) ? index.by_name[normalized] : [];
+  for (const id of exactIds) if (!ids.has(id)) ids.set(id, "name");
   if (ids.size === 0 && normalized.length >= 2) {
     for (const [name, matchingIds] of Object.entries(index.by_name)) {
       if (name.includes(normalized)) {
@@ -111,20 +115,27 @@ export async function searchRecords(
   }
 
   const summaries: RecordSummary[] = [];
-  for (const [id, matchType] of [...ids.entries()].slice(0, Math.max(1, Math.min(limit, 50)))) {
-    const record = await getRecord(config, server, kind, id);
-    if (!record) continue;
-    summaries.push({
-      id,
-      kind,
-      server,
-      name: typeof record.name === "string" ? record.name : null,
-      name_text: record.name_text,
-      title_text: record.title_text,
-      gametora: record.gametora,
-      record_path: `${layout.folder}/${id}.json`,
-      match_type: matchType,
-    });
+  const selected = [...ids.entries()].slice(0, Math.max(1, Math.min(limit, 50)));
+  // Read small bounded groups concurrently, preserving the search result order.
+  for (let start = 0; start < selected.length; start += 8) {
+    const group = selected.slice(start, start + 8);
+    const records = await Promise.all(group.map(([id]) => getRecord(config, server, kind, id)));
+    for (let index = 0; index < group.length; index++) {
+      const [id, matchType] = group[index];
+      const record = records[index];
+      if (!record) continue;
+      summaries.push({
+        id,
+        kind,
+        server,
+        name: typeof record.name === "string" ? record.name : null,
+        name_text: record.name_text,
+        title_text: record.title_text,
+        gametora: record.gametora,
+        record_path: `${layout.folder}/${id}.json`,
+        match_type: matchType,
+      });
+    }
   }
   return summaries;
 }

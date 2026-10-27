@@ -6,7 +6,8 @@ import { randomUUID } from "node:crypto";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
 import { assertPathWithin, getStateRoot, loadConfig } from "../config.js";
-import { readProfile } from "../repositories/profile-reader.js";
+import { readMcpProfile } from "../repositories/profile-reader.js";
+import { queryInventory, readInventorySummary } from "../repositories/inventory-query.js";
 import type { Server } from "../repositories/catalog-reader.js";
 
 const execFile = promisify(execFileCallback);
@@ -42,17 +43,69 @@ function profileCandidatePath(server: Server, profileId: string): string {
 
 export function registerInventoryTools(server: McpServer): void {
   server.registerTool(
-    "inventory.get_profile",
+    "inventory.get_summary",
     {
-      title: "Read private inventory profile",
-      description: "Read only the selected server's current profile from the configured private repository. A missing profile is reported as unknown ownership, never as an empty collection.",
+      title: "Read private inventory status and section counts",
+      description: "Start inventory work with this small status-only response. Reports the selected server's profile timestamp, section availability/counts, partial sections, and unresolved-ID count without returning owned records. Missing profiles or sections mean unknown ownership, not empty collections. Use inventory.query_records for relevant ownership and legacy details.",
       annotations: { readOnlyHint: true },
       inputSchema: z.object({ server: z.enum(["ja", "global"]) }),
     },
     async ({ server: selectedServer }) => {
       try {
         const { config } = await loadConfig();
-        const profile = await readProfile(config, selectedServer as Server);
+        return reply(await readInventorySummary(config, selectedServer));
+      } catch (error) {
+        return reply({ server: selectedServer, status: "unavailable", error: String(error) });
+      }
+    },
+  );
+
+  server.registerTool(
+    "inventory.query_records",
+    {
+      title: "Query relevant owned supports, trainees, or veterans",
+      description: "Read a bounded filtered page from the canonical selected-server profile. Choose one section; filter by exact IDs, catalog name substring, support minimum_limit_break, or veteran trainee_outfit_id/skill_id/factor_id. Skill/factor filters match exact stored IDs, not inferred labels or the other server's catalog. Unknown limit breaks do not pass a minimum. Veteran summaries include factors and skills but omit lineage, selected races, and notes; use detail full with specific IDs when needed. Follow pagination.next_offset; pagination.total counts matches, not the whole collection. Missing sections return records null and unknown status. Raw import copies are never included.",
+      annotations: { readOnlyHint: true },
+      inputSchema: z.object({
+        server: z.enum(["ja", "global"]),
+        section: z.enum(["supports", "trainees", "veterans"]),
+        ids: z.array(z.string().min(1).max(120)).min(1).max(50).optional(),
+        query: z.string().trim().min(1).max(120).optional(),
+        minimum_limit_break: z.number().int().min(0).max(4).optional(),
+        trainee_outfit_id: z.string().regex(/^\d+$/).optional(),
+        skill_id: z.string().regex(/^\d+$/).optional(),
+        factor_id: z.string().regex(/^\d+$/).optional(),
+        offset: z.number().int().min(0).max(Number.MAX_SAFE_INTEGER).optional(),
+        limit: z.number().int().min(1).max(50).optional(),
+        detail: z.enum(["summary", "full"]).optional(),
+      }),
+    },
+    async ({ server: selectedServer, ...options }) => {
+      try {
+        const { config } = await loadConfig();
+        return reply(await queryInventory(config, selectedServer, options));
+      } catch (error) {
+        return reply({ server: selectedServer, status: "unavailable", error: String(error) });
+      }
+    },
+  );
+
+  server.registerTool(
+    "inventory.get_profile",
+    {
+      title: "Read private inventory profile",
+      description: "Read the selected server's owned supports and trainees plus a bounded page of veteran/legacy records. Omits raw import copies; the stored profile is unchanged. Veterans default to 25 per page: continue with pagination.veterans.next_offset and veteran_limit (up to 100) when needed. Never treat a partial veteran page as the full collection, or a missing profile as empty ownership.",
+      annotations: { readOnlyHint: true },
+      inputSchema: z.object({
+        server: z.enum(["ja", "global"]),
+        veteran_offset: z.number().int().min(0).max(Number.MAX_SAFE_INTEGER).optional(),
+        veteran_limit: z.number().int().min(1).max(100).optional(),
+      }),
+    },
+    async ({ server: selectedServer, veteran_offset, veteran_limit }) => {
+      try {
+        const { config } = await loadConfig();
+        const profile = await readMcpProfile(config, selectedServer as Server, { veteranOffset: veteran_offset, veteranLimit: veteran_limit });
         return reply(profile);
       } catch (error) {
         return reply({ server: selectedServer, status: "unavailable", error: String(error) });

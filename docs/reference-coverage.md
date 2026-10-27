@@ -56,4 +56,6 @@ This is raw key coverage, not a translation quality rating. Japanese source text
 
 ## Publication rule
 
+For ordinary MCP reads, `reference.get_manifest` returns the manifest with only the internal `generated_files` list omitted. Source hashes, coverage, counts, unavailable fields, and reconciliation remain available; maintenance still reads the full on-disk manifest. `reference.get_records` accepts up to 20 `{kind, id}` requests for one selected server, preserves request order, and reports availability per record. Its reply is capped at 900 KiB; if `pagination.complete` is false, retry the original request array sliced from `pagination.next_index`. Missing records are explicit, and an unavailable Global source is never filled from Japan. Single-record `reference.get_record` remains supported.
+
 JP remains `incomplete` while event choices/rewards have no reviewed structured source. This catalog can still be used for card effects, support hints and event-skill IDs, trainee stats/aptitudes/skills, race/course facts, scenario parameters, and inheritance-factor records. Global remains `source_unavailable`. Build advice must disclose those boundaries and use current community sources for strategy evidence without treating those sources as replacement server data.

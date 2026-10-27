@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "uma-build-advisor",
-  "version": "0.2.0",
+  "version": "0.4.3",
   "description": "Repository-grounded Umamusume build advice with a ChatGPT build view and private inventory tools.",
   "author": { "name": "Wayzer107" },
   "homepage": "https://github.com/Wayzer107/uma-jp-build-advisor",

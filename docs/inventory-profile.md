@@ -69,3 +69,23 @@ profiles/
 ```
 
 Only this private repository stores ownership, veteran/legacy details, and source exports. The public repo contains the profile schema and import/export/sync code, never an actual profile.
+
+For each selected server, `profiles/<server>/current.json` is the sole canonical current inventory/progress record. Import candidates are proposed updates; `history/`, `raw-imports/`, and embedded `raw_value` fields preserve provenance and GameTora round trips. Readers do not merge those archives into the current collection or count them as additional owned records. The MCP projection and its pages are derived reads of `current.json`, not separately maintained profiles.
+
+## MCP response projection
+
+Start with `inventory.get_summary` for profile availability, import time, section status/counts, partial sections, and unresolved-ID count. It returns no owned records. Use `inventory.query_records` to select one section (`supports`, `trainees`, or `veterans`) and fetch relevant records rather than sending the whole collection to ChatGPT.
+
+Queries support exact `ids`, a catalog-name substring `query`, `minimum_limit_break` for supports, and `trainee_outfit_id` for trainees/veterans. Veteran `skill_id` and `factor_id` filters match exact stored IDs in the normalized fields; they do not interpret undocumented codes or search raw import copies. Unknown limit breaks do not pass a minimum filter. Combining filters requires all of them to match. Invalid filter/section combinations return an explicit error.
+
+Query pages default to 20 records and accept `limit` 1–50 plus `offset`. Follow `pagination.next_offset`; `pagination.total` counts filtered matches. Missing sections return `records: null`, `section_status: unknown`, and an unknown total; a known empty section returns an empty array and complete pagination. Veteran summaries include IDs, score, stats, aptitudes, skills, factors, and catalog mapping. Use `detail: full` with selected veteran IDs for lineage, race history, and notes. Raw import copies are omitted in both modes. If `imported_at_utc` changes during inspection, restart paging against the updated collection.
+
+`inventory.get_profile` remains compatible with existing callers. It reads the same stored profile but returns a compact projection for MCP. It omits per-record `raw_value` copies and top-level raw/unknown import fields; the on-disk profile, raw exports, and history are unchanged. Present support and trainee sections retain their normalized ownership data. Missing sections remain `null`, and a missing profile remains unknown ownership.
+
+Veterans default to a page of 25. Use `veteran_offset` and `veteran_limit` (1–100) and follow `pagination.veterans.next_offset` to inspect additional pages. `total`, `returned`, and `complete` distinguish a partial page from the full collection. The server may reduce a page to keep the full text-plus-structured reply below a 900 KiB budget. If even the collection projection exceeds that budget, it returns an explicit unavailable result instead of an oversized reply or an empty inventory.
+
+This bound matters because Secure MCP Tunnel and the SDK have a 10 MiB message ceiling. Returning a large stored profile in both `content` and `structuredContent` can exceed that ceiling even when the file itself is readable. Refresh the registered ChatGPT connection after changes to this tool's schema.
+
+Both query and compatibility pages fit the byte budget using binary search over a contiguous prefix, avoiding repeated removal/serialization of individual veterans. A single record or mandatory metadata that cannot fit returns an explicit unavailable result; the server never silently skips records or returns an empty collection to conceal an oversized response.
+
+Parsed files and compact projections are cached only in process memory. Every file read checks device/inode, size, and nanosecond modification/change times, so private sync, catalog publication, atomic replacement, deletion, and config edits refresh the corresponding cached value. Concurrent reads of the same version share one load. The parsed-file cache is bounded to 256 files and 64 MiB of source bytes (parsed memory can be larger); least-recently-used entries are evicted. No second progress file or database is created.

@@ -1,12 +1,13 @@
 import { homedir } from "node:os";
 import path from "node:path";
-import { readFile } from "node:fs/promises";
+import { readJsonCached } from "./repositories/json-file-cache.js";
 
 export type AdvisorConfig = {
   publicRepoRoot: string;
   privateRepoRoot: string;
   gameRoot: string;
   pythonPath: string;
+  assetRoot: string;
   autoSyncInventory: boolean;
 };
 
@@ -30,6 +31,9 @@ const defaultGameRoot = process.platform === "win32"
   ? "C:\\Steam\\steamapps\\common\\UmamusumePrettyDerby_Jpn"
   : "";
 const defaultPythonPath = process.platform === "win32" ? "python" : "python3";
+const defaultAssetRoot = process.platform === "win32"
+  ? path.join(process.env.LOCALAPPDATA || path.join(homedir(), "AppData", "Local"), "UmaBuildAdvisor", "assets")
+  : path.join(process.env.XDG_DATA_HOME || path.join(homedir(), ".local", "share"), "uma-build-advisor", "assets");
 
 export function getConfigPath(): string {
   if (process.platform === "win32") {
@@ -50,7 +54,7 @@ export async function loadConfig(): Promise<LoadedConfig> {
   let supplied: Partial<AdvisorConfig> = {};
   let configFileExists = false;
   try {
-    supplied = JSON.parse(await readFile(configPath, "utf8")) as Partial<AdvisorConfig>;
+    supplied = await readJsonCached<Partial<AdvisorConfig>>(configPath);
     configFileExists = true;
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code !== "ENOENT") {
@@ -63,6 +67,7 @@ export async function loadConfig(): Promise<LoadedConfig> {
     privateRepoRoot: process.env.UMABUILD_PRIVATE_REPO_ROOT || supplied.privateRepoRoot || defaultPrivateRepo,
     gameRoot: process.env.UMAMUSUME_GAME_ROOT || supplied.gameRoot || defaultGameRoot,
     pythonPath: process.env.UMABUILD_PYTHON || supplied.pythonPath || defaultPythonPath,
+    assetRoot: process.env.UMABUILD_ASSET_ROOT || supplied.assetRoot || defaultAssetRoot,
     autoSyncInventory: process.env.UMABUILD_AUTO_SYNC_INVENTORY === "true" || supplied.autoSyncInventory === true,
   };
   if (!config.gameRoot) warnings.push("No local Japanese game install is configured; catalog refresh is unavailable on this host.");
