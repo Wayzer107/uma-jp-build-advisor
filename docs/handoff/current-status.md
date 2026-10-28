@@ -1,6 +1,6 @@
 # Current handoff status
 
-Updated: 2026-10-27
+Updated: 2026-10-28
 
 This is the canonical project progress record. Other handoff files should link here rather than maintain competing status or task lists. Private deployment identifiers belong only in the private repository's deployment reference.
 
@@ -15,7 +15,9 @@ The Japanese catalog remains incomplete for event-choice/reward outcomes. The Gl
 - Raspberry Pi: Debian 13 ARM64, Node.js 22, official `tunnel-client` v0.0.16. Public checkout `~/Sources/uma`; private checkout is the separate sibling `~/Sources/uma-private`. Exact deployment identifiers remain private.
 - The runtime credential is installed in a protected root-owned file. Do not read or print it. The existing tunnel service is enabled, active, ready, and polling the control plane.
 - The service now uses `Restart=always`. A deliberate clean daemon exit was followed by an automatic restart with a different process ID and restored readiness/polling. Boot enablement was checked; a host reboot was not performed.
-- The existing private USER-scoped account plugin was updated in place to **0.4.3** on 2026-10-19. Its registered connection reference and MCP tunnel binding remain unchanged. The Pi runtime serves the 0.4.3 bundle from the packaged path configured by the existing tunnel profile. Direct MCP SDK discovery confirms fourteen tools and the updated Build View resource; source changes remain uncommitted.
+- The existing private USER-scoped account plugin was updated in place to **0.4.4** on 2026-10-28. Its registered app and MCP bindings, display metadata, and default prompt remain unchanged. The Pi runtime serves package commit `37d88612` from the path configured by the existing tunnel profile; the enabled tunnel service is active and running.
+- The Pi art cache now has 2,247 keys: 2,023 available derivatives and 224 unresolved mappings. The five official Japanese training-type icons and exact support-card portraits are present. The existing package includes `build.present_support_card_artwork` for inline Japanese card images and uses installed-game stat artwork in Build View.
+- This Codex connection still advertises ten cached tunnel tools and does not yet list `build.present_support_card_artwork`. The current Japanese catalog manifest was successfully read through the tunnel after deployment. Host-side tool discovery and actual web/mobile component rendering still need a fresh client conversation.
 - The account package uses remote tunnel/app bindings; the source package retains its local stdio configuration. No public endpoint or Actions API was deployed.
 
 ## Diagnosed failures and repairs
@@ -40,7 +42,7 @@ The Build View's complete text fallback now includes alternatives, assumptions, 
 
 ## Acceptance result and limits
 
-The v0.2.3 connection/oversized-response repair was verified by the user in ordinary ChatGPT web and their native mobile client. The same private account plugin has since been updated in place to 0.4.3; the local Pi service runs its matching MCP bundle, and the existing tunnel is active, ready, and polling. Fresh ChatGPT web/mobile checks of the 0.4.3 Build View are pending: refresh the existing MCP connection, open a new advisor conversation, and confirm the updated view appears. Do not ask for another key or create another plugin/tunnel.
+The v0.2.3 connection/oversized-response repair was verified by the user in ordinary ChatGPT web and their native mobile client. The same private account plugin and Pi runtime now run 0.4.4, and the existing tunnel is active and enabled. The current Codex tool list is stale and still lacks the inline artwork tool; refresh the existing MCP connection and open a new advisor conversation before checking image presentation in ordinary ChatGPT web or native mobile. Do not create another plugin or tunnel.
 
 Detailed strategy quality, current-source citations, and exact support-slot contents were not independently inspected; do not imply those received a separate review. Client confirmation applies to the user's tested clients, not every mobile OS/app version. Catalog coverage limitations remain as documented above.
 
@@ -128,3 +130,15 @@ The Pi artwork cache now matches the refreshed Japanese catalog. Its manifest ha
 The extractor now preserves decoded artwork aspect ratios. The Build View already contains images with object-fit contain, so square full-art textures render without being stretched into the portrait frame. The reviewed update validated file sizes, SHA-256 values, WebP formats, and dimensions for all 2,018 available derivatives. The Pi manifest was replaced atomically after staging the new files; the previous manifest is backed up under the private state backup directory. The Windows artwork cache was refreshed separately with its own rollback manifest. No game files, catalog records, inventory profiles, or public artwork files were changed.
 
 The existing tunnel service remained active. The existing USER-scoped account plugin remains at 0.4.3; the currently installed runtime already contains the image resolver, so this data-only refresh did not require a new plugin release or service restart. This Codex session still exposes the older ten-tool discovery list; host-side MCP discovery refresh remains a client-side step unavailable through the current management tools.
+
+## Correct Japanese artwork presentation (0.4.4, 2026-10-28)
+
+The screenshot used a support-card detail-page capture for SSR Mayano Top Gun and an incorrect ID for SSR Azuma. The installed Japanese catalog resolves Azuma to support card `30323` and Mayano Top Gun (Power) to `30322`; the cache supplies their full portrait artwork. The model-visible `build.present_support_card_artwork` tool returns up to two exact Japanese portraits as inline chat images after the selected catalog confirms their IDs. It does not use guide screenshots, unrelated cards, generated artwork, or cross-server substitutions.
+
+The Build View now reads official Japanese training-type icons from the same installed-game cache. Command IDs `101`, `102`, `103`, `105`, and `106` map to Speed, Stamina, Power, Guts, and Wit. Pal has no matching icon in this game asset set and remains text-only. The display preserves image aspect ratio and leaves unavailable or Global artwork unresolved rather than substituting another server's images.
+
+The Pi cache manifest now contains 2,247 assets: 2,023 available and 224 unresolved. All 2,242 prior keys and entries were preserved; five lossless icons were added from the current Japanese install, whose master database hash matches `data/ja/manifest.json`. The prior Pi manifest is backed up. No game files, catalog records, inventory profiles, or public artwork files were modified.
+
+The public source change was committed and pushed as `37d88612`; the Pi checkout fast-forwarded to that commit, and deployed JavaScript/UI Git object hashes match the published package. The previous runtime bundle was backed up before deployment. Restarting the same enabled tunnel service succeeded; it is active and running, and a connected Japanese catalog read succeeded without reading inventory. The existing private USER-scoped plugin was updated to 0.4.4 with the same app/MCP bindings and default prompt. Readback confirms both manifests at 0.4.4 and the new artwork instructions in the skill.
+
+The local full build/typecheck and direct MCP SDK smoke passed. The smoke found the new inline artwork tool, returned the exact images for cards `30323` and `30322`, and produced a six-slot Build View recommendation with available official icon metadata. This Codex host still advertises the older ten-tool connection cache, so it has not invoked the new tool through the connected account plugin. Ordinary ChatGPT web and native mobile rendering of 0.4.4 remain unverified until the existing connection is refreshed and a new conversation is checked.
