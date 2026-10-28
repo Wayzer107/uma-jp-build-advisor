@@ -28021,7 +28021,7 @@ function visit(schema, fnOrHandlers) {
   return run(schema);
 }
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_@cfworker+json-schema@4.1.1_zod@4.6.7/node_modules/@modelcontextprotocol/sdk/dist/esm/server/zod-compat.js
+// node_modules/.pnpm/@modelcontextprotocol+sdk@1_21094f0cd8613470299b4faa48e81ed4/node_modules/@modelcontextprotocol/sdk/dist/esm/server/zod-compat.js
 function isZ4Schema(s) {
   const schema = s;
   return !!schema._zod;
@@ -31036,7 +31036,7 @@ function date4(params) {
   return _coercedDate(ZodDate2, params);
 }
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_@cfworker+json-schema@4.1.1_zod@4.6.7/node_modules/@modelcontextprotocol/sdk/dist/esm/types.js
+// node_modules/.pnpm/@modelcontextprotocol+sdk@1_21094f0cd8613470299b4faa48e81ed4/node_modules/@modelcontextprotocol/sdk/dist/esm/types.js
 var LATEST_PROTOCOL_VERSION = "2025-11-25";
 var SUPPORTED_PROTOCOL_VERSIONS = [LATEST_PROTOCOL_VERSION, "2025-06-18", "2025-03-26", "2024-11-05", "2024-10-07"];
 var RELATED_TASK_META_KEY = "io.modelcontextprotocol/related-task";
@@ -32567,7 +32567,7 @@ var UrlElicitationRequiredError = class extends McpError {
   }
 };
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_@cfworker+json-schema@4.1.1_zod@4.6.7/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/interfaces.js
+// node_modules/.pnpm/@modelcontextprotocol+sdk@1_21094f0cd8613470299b4faa48e81ed4/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/interfaces.js
 function isTerminal(status) {
   return status === "completed" || status === "failed" || status === "cancelled";
 }
@@ -33856,7 +33856,7 @@ var zodToJsonSchema = (schema, options) => {
   return combined;
 };
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_@cfworker+json-schema@4.1.1_zod@4.6.7/node_modules/@modelcontextprotocol/sdk/dist/esm/server/zod-json-schema-compat.js
+// node_modules/.pnpm/@modelcontextprotocol+sdk@1_21094f0cd8613470299b4faa48e81ed4/node_modules/@modelcontextprotocol/sdk/dist/esm/server/zod-json-schema-compat.js
 function mapMiniTarget(t) {
   if (!t)
     return "draft-7";
@@ -33898,7 +33898,7 @@ function parseWithCompat(schema, data) {
   return result2.data;
 }
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_@cfworker+json-schema@4.1.1_zod@4.6.7/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/protocol.js
+// node_modules/.pnpm/@modelcontextprotocol+sdk@1_21094f0cd8613470299b4faa48e81ed4/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/protocol.js
 var DEFAULT_REQUEST_TIMEOUT_MSEC = 6e4;
 var Protocol = class {
   constructor(_options) {
@@ -34875,7 +34875,7 @@ function mergeCapabilities(base, additional) {
   return result2;
 }
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_@cfworker+json-schema@4.1.1_zod@4.6.7/node_modules/@modelcontextprotocol/sdk/dist/esm/validation/ajv-provider.js
+// node_modules/.pnpm/@modelcontextprotocol+sdk@1_21094f0cd8613470299b4faa48e81ed4/node_modules/@modelcontextprotocol/sdk/dist/esm/validation/ajv-provider.js
 var import_ajv = __toESM(require_ajv(), 1);
 var import_ajv_formats = __toESM(require_dist(), 1);
 function createDefaultAjvInstance() {
@@ -34943,7 +34943,7 @@ var AjvJsonSchemaValidator = class {
   }
 };
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_@cfworker+json-schema@4.1.1_zod@4.6.7/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/server.js
+// node_modules/.pnpm/@modelcontextprotocol+sdk@1_21094f0cd8613470299b4faa48e81ed4/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/server.js
 var ExperimentalServerTasks = class {
   constructor(_server) {
     this._server = _server;
@@ -35156,7 +35156,7 @@ var ExperimentalServerTasks = class {
   }
 };
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_@cfworker+json-schema@4.1.1_zod@4.6.7/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/helpers.js
+// node_modules/.pnpm/@modelcontextprotocol+sdk@1_21094f0cd8613470299b4faa48e81ed4/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/helpers.js
 function assertToolsCallTaskCapability(requests, method, entityName) {
   if (!requests) {
     throw new Error(`${entityName} does not support task creation (required for ${method})`);
@@ -35191,7 +35191,7 @@ function assertClientRequestTaskCapability(requests, method, entityName) {
   }
 }
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_@cfworker+json-schema@4.1.1_zod@4.6.7/node_modules/@modelcontextprotocol/sdk/dist/esm/server/index.js
+// node_modules/.pnpm/@modelcontextprotocol+sdk@1_21094f0cd8613470299b4faa48e81ed4/node_modules/@modelcontextprotocol/sdk/dist/esm/server/index.js
 var Server = class extends Protocol {
   /**
    * Initializes this server with the given name and version information.
@@ -35562,7 +35562,7 @@ var Server = class extends Protocol {
   }
 };
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_@cfworker+json-schema@4.1.1_zod@4.6.7/node_modules/@modelcontextprotocol/sdk/dist/esm/server/completable.js
+// node_modules/.pnpm/@modelcontextprotocol+sdk@1_21094f0cd8613470299b4faa48e81ed4/node_modules/@modelcontextprotocol/sdk/dist/esm/server/completable.js
 var COMPLETABLE_SYMBOL = /* @__PURE__ */ Symbol.for("mcp.completable");
 function isCompletable(schema) {
   return !!schema && typeof schema === "object" && COMPLETABLE_SYMBOL in schema;
@@ -35576,7 +35576,7 @@ var McpZodTypeKind;
   McpZodTypeKind2["Completable"] = "McpCompletable";
 })(McpZodTypeKind || (McpZodTypeKind = {}));
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_@cfworker+json-schema@4.1.1_zod@4.6.7/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/toolNameValidation.js
+// node_modules/.pnpm/@modelcontextprotocol+sdk@1_21094f0cd8613470299b4faa48e81ed4/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/toolNameValidation.js
 var TOOL_NAME_REGEX = /^[A-Za-z0-9._-]{1,128}$/;
 function validateToolName(name) {
   const warnings = [];
@@ -35634,7 +35634,7 @@ function validateAndWarnToolName(name) {
   return result2.isValid;
 }
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_@cfworker+json-schema@4.1.1_zod@4.6.7/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/mcp-server.js
+// node_modules/.pnpm/@modelcontextprotocol+sdk@1_21094f0cd8613470299b4faa48e81ed4/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/mcp-server.js
 var ExperimentalMcpServerTasks = class {
   constructor(_mcpServer) {
     this._mcpServer = _mcpServer;
@@ -35649,7 +35649,7 @@ var ExperimentalMcpServerTasks = class {
   }
 };
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_@cfworker+json-schema@4.1.1_zod@4.6.7/node_modules/@modelcontextprotocol/sdk/dist/esm/server/mcp.js
+// node_modules/.pnpm/@modelcontextprotocol+sdk@1_21094f0cd8613470299b4faa48e81ed4/node_modules/@modelcontextprotocol/sdk/dist/esm/server/mcp.js
 function toolInputElementCount(value, max) {
   let count = 0;
   const stack = [value];
@@ -36481,10 +36481,10 @@ var EMPTY_COMPLETION_RESULT = {
   }
 };
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_@cfworker+json-schema@4.1.1_zod@4.6.7/node_modules/@modelcontextprotocol/sdk/dist/esm/server/stdio.js
+// node_modules/.pnpm/@modelcontextprotocol+sdk@1_21094f0cd8613470299b4faa48e81ed4/node_modules/@modelcontextprotocol/sdk/dist/esm/server/stdio.js
 import process2 from "node:process";
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_@cfworker+json-schema@4.1.1_zod@4.6.7/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/stdio.js
+// node_modules/.pnpm/@modelcontextprotocol+sdk@1_21094f0cd8613470299b4faa48e81ed4/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/stdio.js
 var STDIO_DEFAULT_MAX_BUFFER_SIZE = 10 * 1024 * 1024;
 var ReadBuffer = class {
   constructor(options) {
@@ -36521,7 +36521,7 @@ function serializeMessage(message) {
   return JSON.stringify(message) + "\n";
 }
 
-// node_modules/.pnpm/@modelcontextprotocol+sdk@1.32.1_@cfworker+json-schema@4.1.1_zod@4.6.7/node_modules/@modelcontextprotocol/sdk/dist/esm/server/stdio.js
+// node_modules/.pnpm/@modelcontextprotocol+sdk@1_21094f0cd8613470299b4faa48e81ed4/node_modules/@modelcontextprotocol/sdk/dist/esm/server/stdio.js
 var StdioServerTransport = class {
   constructor(_stdin = process2.stdin, _stdout = process2.stdout, options) {
     this._stdin = _stdin;
@@ -36592,7 +36592,7 @@ var StdioServerTransport = class {
 import { readFile as readFile3 } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 
-// node_modules/.pnpm/@modelcontextprotocol+ext-apps@2.0.3_@modelcontextprotocol+client@2.3.1_@modelcontextpr_0a01bbfbbb04289a4d6fa077ad6ce1e4/node_modules/@modelcontextprotocol/ext-apps/dist/src/server/index.js
+// node_modules/.pnpm/@modelcontextprotocol+ext-a_0a01bbfbbb04289a4d6fa077ad6ce1e4/node_modules/@modelcontextprotocol/ext-apps/dist/src/server/index.js
 var D = "ui/resourceUri";
 var L = "text/html;profile=mcp-app";
 function j(B, Q, F, V) {
@@ -36604,103 +36604,6 @@ function j(B, Q, F, V) {
 function G(B, Q, F, V, q) {
   return B.registerResource(Q, F, { mimeType: L, ...V }, q);
 }
-
-// src/types/recommendation.ts
-var LinkedItem = external_exports.object({
-  id: external_exports.string(),
-  name: external_exports.string(),
-  gametora_url: external_exports.string().url().nullable().optional(),
-  reason: external_exports.string()
-});
-var BuildRecommendationSchema = external_exports.object({
-  server: external_exports.enum(["ja", "global"]),
-  scenario: external_exports.string(),
-  target: external_exports.string(),
-  generated_at: external_exports.string().datetime(),
-  evidence_checked_at: external_exports.string().datetime(),
-  trainee: LinkedItem,
-  deck: external_exports.array(external_exports.object({
-    support_id: external_exports.string(),
-    name: external_exports.string(),
-    gametora_url: external_exports.string().url().nullable(),
-    owned: external_exports.boolean().nullable(),
-    limit_break: external_exports.number().int().min(0).max(4).nullable(),
-    effective_level: external_exports.number().int().min(1).nullable(),
-    role: external_exports.string(),
-    reason: external_exports.string(),
-    effects: external_exports.array(external_exports.string()),
-    skills: external_exports.array(external_exports.string()),
-    borrowed_from: external_exports.string().nullable().optional()
-  })).length(6),
-  legacy_candidates: external_exports.array(external_exports.object({
-    id: external_exports.string().nullable(),
-    name: external_exports.string(),
-    gametora_url: external_exports.string().url().nullable(),
-    reason: external_exports.string(),
-    factors: external_exports.array(external_exports.string()),
-    skills: external_exports.array(external_exports.string()),
-    owned: external_exports.boolean().nullable()
-  })),
-  stat_priorities: external_exports.array(external_exports.object({ name: external_exports.string(), target: external_exports.string().nullable().optional(), reason: external_exports.string() })),
-  skill_priorities: external_exports.array(external_exports.object({ name: external_exports.string(), target: external_exports.string().nullable().optional(), reason: external_exports.string() })),
-  alternatives: external_exports.array(external_exports.object({ label: external_exports.string(), changes: external_exports.string(), tradeoff: external_exports.string() })),
-  assumptions: external_exports.array(external_exports.string()),
-  confidence: external_exports.object({ level: external_exports.enum(["high", "medium", "low"]), explanation: external_exports.string() }),
-  sources: external_exports.array(external_exports.object({
-    url: external_exports.string().url(),
-    title: external_exports.string(),
-    source_type: external_exports.enum(["game_data", "official", "community", "inference"]),
-    context: external_exports.string(),
-    retrieved_at: external_exports.string().datetime(),
-    confidence_note: external_exports.string()
-  }))
-}).strict();
-function recommendationText(value) {
-  const ownership = (owned) => owned === null ? "ownership unknown" : owned ? "owned" : "not owned";
-  const priorities = (items) => items.map((item) => `${item.name}${item.target ? ` (${item.target})` : ""}: ${item.reason}`).join("; ") || "none supplied";
-  const deck = value.deck.map((slot, index) => {
-    const status = slot.owned === false ? `rental${slot.borrowed_from ? ` from ${slot.borrowed_from}` : ""}` : ownership(slot.owned);
-    return [
-      `${index + 1}. ${slot.name} (ID ${slot.support_id}) \u2014 ${slot.role}; ${status}; ${slot.limit_break === null ? "LB unknown" : `LB${slot.limit_break}`}; ${slot.effective_level === null ? "level unknown" : `level ${slot.effective_level}`}. ${slot.reason}`,
-      slot.effects.length ? `   Effects: ${slot.effects.join("; ")}` : "",
-      slot.skills.length ? `   Skills: ${slot.skills.join("; ")}` : "",
-      slot.gametora_url ? `   Card: ${slot.gametora_url}` : ""
-    ].filter(Boolean).join("\n");
-  }).join("\n");
-  const legacies = value.legacy_candidates.map((legacy) => [
-    `- ${legacy.name}${legacy.id ? ` (ID ${legacy.id})` : ""} \u2014 ${ownership(legacy.owned)}. ${legacy.reason}`,
-    legacy.factors.length ? `  Factors: ${legacy.factors.join("; ")}` : "",
-    legacy.skills.length ? `  Skills: ${legacy.skills.join("; ")}` : "",
-    legacy.gametora_url ? `  Candidate: ${legacy.gametora_url}` : ""
-  ].filter(Boolean).join("\n")).join("\n") || "none supplied";
-  const alternatives = value.alternatives.map((item) => `- ${item.label}: ${item.changes} Tradeoff: ${item.tradeoff}`).join("\n") || "none supplied";
-  const assumptions = value.assumptions.map((item) => `- ${item}`).join("\n") || "none supplied";
-  const sources = value.sources.map((source) => `- [${source.source_type}] ${source.title}: ${source.url} (${source.context}; ${source.confidence_note}; retrieved ${source.retrieved_at})`).join("\n") || "none supplied";
-  return [
-    `Server: ${value.server} | Scenario: ${value.scenario} | Target: ${value.target}`,
-    `Generated: ${value.generated_at}`,
-    `Trainee: ${value.trainee.name} (ID ${value.trainee.id}) \u2014 ${value.trainee.reason}${value.trainee.gametora_url ? ` ${value.trainee.gametora_url}` : ""}`,
-    "Six support slots:",
-    deck,
-    "Legacy options:",
-    legacies,
-    `Stat priorities: ${priorities(value.stat_priorities)}`,
-    `Skill priorities: ${priorities(value.skill_priorities)}`,
-    "Alternatives and tradeoffs:",
-    alternatives,
-    "Assumptions and gaps:",
-    assumptions,
-    `Confidence: ${value.confidence.level} \u2014 ${value.confidence.explanation}`,
-    `Evidence checked: ${value.evidence_checked_at}`,
-    "Sources:",
-    sources
-  ].join("\n");
-}
-
-// src/tools/game-images.ts
-import { createHash } from "node:crypto";
-import { readFile as readFile2, realpath, stat as stat2 } from "node:fs/promises";
-import path3 from "node:path";
 
 // src/config.ts
 import { homedir } from "node:os";
@@ -36827,6 +36730,196 @@ function assertPathWithin(root, target) {
   return resolved;
 }
 
+// src/repositories/catalog-reader.ts
+import path3 from "node:path";
+var ENTITY_LAYOUT = {
+  support_card: { entity: "support_cards", folder: "support-cards" },
+  trainee_outfit: { entity: "trainee_outfits", folder: "trainees" },
+  skill: { entity: "skills", folder: "skills" },
+  training_event: { entity: "events", folder: "events" },
+  scenario: { entity: "scenarios", folder: "scenarios" },
+  race: { entity: "races", folder: "races" },
+  race_course: { entity: "race_courses", folder: "races/courses" },
+  race_condition: { entity: "race_conditions", folder: "races/conditions" },
+  inheritance_factor: { entity: "factors", folder: "factors" }
+};
+function catalogRoot(config2, server2) {
+  return assertPathWithin(config2.publicRepoRoot, path3.join(config2.publicRepoRoot, "data", server2));
+}
+async function readManifest(config2, server2) {
+  const root = catalogRoot(config2, server2);
+  const manifest = await readJsonCached(assertPathWithin(root, path3.join(root, "manifest.json")));
+  if (manifest.server !== server2) throw new Error(`Catalog server mismatch: expected ${server2}, found ${manifest.server}`);
+  return manifest;
+}
+function compactManifest(manifest) {
+  const { generated_files, ...summary } = manifest;
+  return summary;
+}
+function normalizeName(value) {
+  return value.normalize("NFKC").toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim().replace(/\s+/g, " ");
+}
+async function getRecord(config2, server2, kind, id) {
+  if (!/^\d+$/.test(id)) return null;
+  const root = catalogRoot(config2, server2);
+  const layout = ENTITY_LAYOUT[kind];
+  const recordPath = assertPathWithin(root, path3.join(root, layout.folder, `${id}.json`));
+  try {
+    const record2 = await readJsonCached(recordPath);
+    if (record2.server !== server2 || String(record2.id) !== id) return null;
+    return record2;
+  } catch (error62) {
+    if (error62.code === "ENOENT") return null;
+    throw error62;
+  }
+}
+async function searchRecords(config2, server2, kind, query, limit = 20, selectedManifest) {
+  const manifest = selectedManifest ?? await readManifest(config2, server2);
+  if (manifest.server !== server2) throw new Error("Catalog manifest does not match the selected server.");
+  if (manifest.coverage_status === "source_unavailable") return [];
+  const root = catalogRoot(config2, server2);
+  const layout = ENTITY_LAYOUT[kind];
+  const indexPath = assertPathWithin(root, path3.join(root, "indexes", `${layout.entity}.json`));
+  const index = await readJsonCached(indexPath);
+  const normalized = normalizeName(query);
+  if (!normalized) return [];
+  const ids = /* @__PURE__ */ new Map();
+  if (/^\d+$/.test(query.trim()) && index.by_id[query.trim()]) ids.set(query.trim(), "id");
+  const exactIds = Object.hasOwn(index.by_name, normalized) ? index.by_name[normalized] : [];
+  for (const id of exactIds) if (!ids.has(id)) ids.set(id, "name");
+  if (ids.size === 0 && normalized.length >= 2) {
+    for (const [name, matchingIds] of Object.entries(index.by_name)) {
+      if (name.includes(normalized)) {
+        for (const id of matchingIds) ids.set(id, "name");
+        if (ids.size >= Math.min(limit * 4, 200)) break;
+      }
+    }
+  }
+  const summaries = [];
+  const selected = [...ids.entries()].slice(0, Math.max(1, Math.min(limit, 50)));
+  for (let start = 0; start < selected.length; start += 8) {
+    const group = selected.slice(start, start + 8);
+    const records = await Promise.all(group.map(([id]) => getRecord(config2, server2, kind, id)));
+    for (let index2 = 0; index2 < group.length; index2++) {
+      const [id, matchType] = group[index2];
+      const record2 = records[index2];
+      if (!record2) continue;
+      summaries.push({
+        id,
+        kind,
+        server: server2,
+        name: typeof record2.name === "string" ? record2.name : null,
+        name_text: record2.name_text,
+        title_text: record2.title_text,
+        gametora: record2.gametora,
+        record_path: `${layout.folder}/${id}.json`,
+        match_type: matchType
+      });
+    }
+  }
+  return summaries;
+}
+function recordKinds() {
+  return Object.keys(ENTITY_LAYOUT);
+}
+
+// src/types/recommendation.ts
+var LinkedItem = external_exports.object({
+  id: external_exports.string(),
+  name: external_exports.string(),
+  gametora_url: external_exports.string().url().nullable().optional(),
+  reason: external_exports.string()
+});
+var BuildRecommendationSchema = external_exports.object({
+  server: external_exports.enum(["ja", "global"]),
+  scenario: external_exports.string(),
+  target: external_exports.string(),
+  generated_at: external_exports.string().datetime(),
+  evidence_checked_at: external_exports.string().datetime(),
+  trainee: LinkedItem,
+  deck: external_exports.array(external_exports.object({
+    support_id: external_exports.string(),
+    name: external_exports.string(),
+    gametora_url: external_exports.string().url().nullable(),
+    owned: external_exports.boolean().nullable(),
+    limit_break: external_exports.number().int().min(0).max(4).nullable(),
+    effective_level: external_exports.number().int().min(1).nullable(),
+    role: external_exports.string(),
+    reason: external_exports.string(),
+    effects: external_exports.array(external_exports.string()),
+    skills: external_exports.array(external_exports.string()),
+    borrowed_from: external_exports.string().nullable().optional()
+  })).length(6),
+  legacy_candidates: external_exports.array(external_exports.object({
+    id: external_exports.string().nullable(),
+    name: external_exports.string(),
+    gametora_url: external_exports.string().url().nullable(),
+    reason: external_exports.string(),
+    factors: external_exports.array(external_exports.string()),
+    skills: external_exports.array(external_exports.string()),
+    owned: external_exports.boolean().nullable()
+  })),
+  stat_priorities: external_exports.array(external_exports.object({ name: external_exports.string(), target: external_exports.string().nullable().optional(), reason: external_exports.string() })),
+  skill_priorities: external_exports.array(external_exports.object({ name: external_exports.string(), target: external_exports.string().nullable().optional(), reason: external_exports.string() })),
+  alternatives: external_exports.array(external_exports.object({ label: external_exports.string(), changes: external_exports.string(), tradeoff: external_exports.string() })),
+  assumptions: external_exports.array(external_exports.string()),
+  confidence: external_exports.object({ level: external_exports.enum(["high", "medium", "low"]), explanation: external_exports.string() }),
+  sources: external_exports.array(external_exports.object({
+    url: external_exports.string().url(),
+    title: external_exports.string(),
+    source_type: external_exports.enum(["game_data", "official", "community", "inference"]),
+    context: external_exports.string(),
+    retrieved_at: external_exports.string().datetime(),
+    confidence_note: external_exports.string()
+  }))
+}).strict();
+function recommendationText(value) {
+  const ownership = (owned) => owned === null ? "ownership unknown" : owned ? "owned" : "not owned";
+  const priorities = (items) => items.map((item) => `${item.name}${item.target ? ` (${item.target})` : ""}: ${item.reason}`).join("; ") || "none supplied";
+  const deck = value.deck.map((slot, index) => {
+    const status = slot.owned === false ? `rental${slot.borrowed_from ? ` from ${slot.borrowed_from}` : ""}` : ownership(slot.owned);
+    return [
+      `${index + 1}. ${slot.name} (ID ${slot.support_id}) \u2014 ${slot.role}; ${status}; ${slot.limit_break === null ? "LB unknown" : `LB${slot.limit_break}`}; ${slot.effective_level === null ? "level unknown" : `level ${slot.effective_level}`}. ${slot.reason}`,
+      slot.effects.length ? `   Effects: ${slot.effects.join("; ")}` : "",
+      slot.skills.length ? `   Skills: ${slot.skills.join("; ")}` : "",
+      slot.gametora_url ? `   Card: ${slot.gametora_url}` : ""
+    ].filter(Boolean).join("\n");
+  }).join("\n");
+  const legacies = value.legacy_candidates.map((legacy) => [
+    `- ${legacy.name}${legacy.id ? ` (ID ${legacy.id})` : ""} \u2014 ${ownership(legacy.owned)}. ${legacy.reason}`,
+    legacy.factors.length ? `  Factors: ${legacy.factors.join("; ")}` : "",
+    legacy.skills.length ? `  Skills: ${legacy.skills.join("; ")}` : "",
+    legacy.gametora_url ? `  Candidate: ${legacy.gametora_url}` : ""
+  ].filter(Boolean).join("\n")).join("\n") || "none supplied";
+  const alternatives = value.alternatives.map((item) => `- ${item.label}: ${item.changes} Tradeoff: ${item.tradeoff}`).join("\n") || "none supplied";
+  const assumptions = value.assumptions.map((item) => `- ${item}`).join("\n") || "none supplied";
+  const sources = value.sources.map((source) => `- [${source.source_type}] ${source.title}: ${source.url} (${source.context}; ${source.confidence_note}; retrieved ${source.retrieved_at})`).join("\n") || "none supplied";
+  return [
+    `Server: ${value.server} | Scenario: ${value.scenario} | Target: ${value.target}`,
+    `Generated: ${value.generated_at}`,
+    `Trainee: ${value.trainee.name} (ID ${value.trainee.id}) \u2014 ${value.trainee.reason}${value.trainee.gametora_url ? ` ${value.trainee.gametora_url}` : ""}`,
+    "Six support slots:",
+    deck,
+    "Legacy options:",
+    legacies,
+    `Stat priorities: ${priorities(value.stat_priorities)}`,
+    `Skill priorities: ${priorities(value.skill_priorities)}`,
+    "Alternatives and tradeoffs:",
+    alternatives,
+    "Assumptions and gaps:",
+    assumptions,
+    `Confidence: ${value.confidence.level} \u2014 ${value.confidence.explanation}`,
+    `Evidence checked: ${value.evidence_checked_at}`,
+    "Sources:",
+    sources
+  ].join("\n");
+}
+
+// src/tools/game-images.ts
+import { createHash } from "node:crypto";
+import { readFile as readFile2, realpath, stat as stat2 } from "node:fs/promises";
+import path4 from "node:path";
+
 // src/tools/response-budget.ts
 var MCP_REPLY_BUDGET = 900 * 1024;
 function replyBytes(data) {
@@ -36862,11 +36955,11 @@ var MAX_IMAGE_BYTES = 240 * 1024;
 var MAX_IMAGE_DIMENSION = 1024;
 var ImageRequestSchema = external_exports.object({
   server: external_exports.enum(["ja", "global"]),
-  kind: external_exports.enum(["support_card", "trainee"]),
+  kind: external_exports.enum(["support_card", "trainee", "training_type"]),
   catalog_id: external_exports.string().regex(/^\d{1,12}$/),
   variant: external_exports.enum(["thumbnail", "card", "icon", "portrait"])
 }).strict().superRefine((request, context) => {
-  const variantMatches = request.kind === "support_card" ? request.variant === "thumbnail" || request.variant === "card" || request.variant === "portrait" : request.variant === "icon" || request.variant === "portrait";
+  const variantMatches = request.kind === "support_card" ? request.variant === "thumbnail" || request.variant === "card" || request.variant === "portrait" : request.kind === "training_type" ? request.variant === "icon" : request.variant === "icon" || request.variant === "portrait";
   if (!variantMatches) context.addIssue({ code: "custom", message: "The requested art variant does not match its catalog kind." });
 });
 var GetImagesSchema = external_exports.object({
@@ -36922,12 +37015,12 @@ function safeAssetPath(assetRoot, relativePath) {
   if (!normalized || normalized.startsWith("/") || segments.some((segment) => segment === ".." || segment === "")) {
     throw new Error("The image manifest contains an unsafe relative path.");
   }
-  const candidate = path3.resolve(assetRoot, ...segments);
+  const candidate = path4.resolve(assetRoot, ...segments);
   if (!isPathWithin(assetRoot, candidate)) throw new Error("The image path escapes the configured asset directory.");
   return candidate;
 }
-async function readManifest(assetRoot) {
-  const manifest = await readJsonCached(path3.join(assetRoot, "manifest.json"));
+async function readManifest2(assetRoot) {
+  const manifest = await readJsonCached(path4.join(assetRoot, "manifest.json"));
   if (manifest.schema_version !== 1 || !manifest.assets || typeof manifest.assets !== "object" || Array.isArray(manifest.assets)) {
     throw new Error("The installed artwork manifest uses an unsupported format.");
   }
@@ -37001,7 +37094,7 @@ async function loadGameImages(requests, offset = 0, budget = MCP_REPLY_BUDGET) {
   let manifestError = null;
   if (requests.slice(nextOffset).some((request) => request.server === "ja")) {
     try {
-      manifest = await readManifest(config2.config.assetRoot);
+      manifest = await readManifest2(config2.config.assetRoot);
     } catch {
       manifestError = "Japanese artwork is not installed or its manifest could not be read on this MCP host.";
     }
@@ -37047,12 +37140,36 @@ function registerGameImageTools(server2) {
 }
 
 // src/tools/build-view.ts
-var BUILD_VIEW_URI = "ui://uma-build-advisor/build-view-v0.4.3.html";
+var BUILD_VIEW_URI = "ui://uma-build-advisor/build-view-v0.4.4.html";
 var BUILD_VIEW_ALIASES = [
   "ui://uma-build-advisor/build-view.html",
   "ui://uma-build-advisor/build-view-v0.4.1.html",
-  "ui://uma-build-advisor/build-view-v0.4.2.html"
+  "ui://uma-build-advisor/build-view-v0.4.2.html",
+  "ui://uma-build-advisor/build-view-v0.4.3.html"
 ];
+var SupportCardArtworkSchema = external_exports.object({
+  server: external_exports.literal("ja"),
+  cards: external_exports.array(external_exports.object({
+    support_id: external_exports.string().regex(/^\d{1,12}$/),
+    takeaway: external_exports.string().trim().min(1).max(280)
+  }).strict()).min(1).max(2)
+}).strict();
+var TRAINING_TYPE_ROLES = [
+  { id: "101", aliases: ["speed"] },
+  { id: "102", aliases: ["stamina"] },
+  { id: "103", aliases: ["power"] },
+  { id: "105", aliases: ["guts"] },
+  { id: "106", aliases: ["wit", "wisdom", "intelligence"] }
+];
+function trainingTypeIdForRole(role) {
+  const normalized = role.trim().toLocaleLowerCase();
+  return TRAINING_TYPE_ROLES.find((type) => type.aliases.some((alias) => normalized === alias || normalized.includes(alias)))?.id ?? null;
+}
+function supportDisplayName(record2, id) {
+  if (!record2) return `Support card ${id}`;
+  const englishSearchName = Array.isArray(record2.search_names) ? record2.search_names.find((name) => typeof name === "string" && /[a-z]/i.test(name)) : null;
+  return record2.name_text?.en || englishSearchName || record2.name_text?.ja || `Support card ${id}`;
+}
 function registerBuildView(server2) {
   for (const uri of [BUILD_VIEW_URI, ...BUILD_VIEW_ALIASES]) G(
     server2,
@@ -37097,10 +37214,60 @@ function registerBuildView(server2) {
       const requests = [
         ...recommendation.deck.map((slot) => ({ server: recommendation.server, kind: "support_card", catalog_id: slot.support_id, variant: "portrait" })),
         { server: recommendation.server, kind: "trainee", catalog_id: recommendation.trainee.id, variant: "icon" },
-        { server: recommendation.server, kind: "trainee", catalog_id: recommendation.trainee.id, variant: "portrait" }
+        { server: recommendation.server, kind: "trainee", catalog_id: recommendation.trainee.id, variant: "portrait" },
+        ...[...new Set(recommendation.deck.map((slot) => trainingTypeIdForRole(slot.role)).filter((id) => id !== null))].map((catalog_id) => ({ server: recommendation.server, kind: "training_type", catalog_id, variant: "icon" }))
       ];
       const artwork = await loadGameImages(requests, 0, budget);
       return { ...response, _meta: { artwork } };
+    }
+  );
+  j(
+    server2,
+    "build.present_support_card_artwork",
+    {
+      title: "Show Japanese support-card artwork",
+      description: "Return the exact installed Japanese in-game artwork for up to two support cards as image content in the chat. Use catalog-confirmed support IDs and explain why each card matters. This tool never uses guide-site screenshots or substitutes images across servers.",
+      annotations: { readOnlyHint: true, destructiveHint: false, openWorldHint: false, idempotentHint: true },
+      inputSchema: SupportCardArtworkSchema,
+      _meta: { ui: { visibility: ["model"] } }
+    },
+    async ({ cards }) => {
+      const { config: config2 } = await loadConfig();
+      const records = await Promise.all(cards.map(({ support_id }) => getRecord(config2, "ja", "support_card", support_id)));
+      const known = cards.flatMap((card, index) => records[index] ? [{ ...card, record: records[index] }] : []);
+      const requests = known.map((card) => ({
+        server: "ja",
+        kind: "support_card",
+        catalog_id: card.support_id,
+        variant: "portrait"
+      }));
+      const payload = requests.length ? await loadGameImages(requests, 0, MCP_REPLY_BUDGET - 12 * 1024) : { assets: [] };
+      const content = [
+        { type: "text", text: "Japanese in-game support-card artwork resolved by exact catalog ID from the installed game cache." }
+      ];
+      const results = cards.map((card, index) => {
+        const record2 = records[index];
+        const label = supportDisplayName(record2, card.support_id);
+        const image = payload.assets.find((asset) => asset.key === `ja:support_card:${card.support_id}:portrait`);
+        content.push({ type: "text", text: `${label} (support ID ${card.support_id}): ${card.takeaway}` });
+        if (image?.status === "available" && image.mime_type === "image/webp" && image.data_base64) {
+          content.push({ type: "image", data: image.data_base64, mimeType: image.mime_type });
+        } else {
+          content.push({ type: "text", text: record2 ? `Installed-game artwork unavailable: ${image?.reason || "the exact portrait is not in this host's verified cache"}` : "The exact support ID is absent from the Japanese catalog; no image was returned." });
+        }
+        return {
+          support_id: card.support_id,
+          catalog_record_found: Boolean(record2),
+          label,
+          takeaway: card.takeaway,
+          artwork_status: image?.status || (record2 ? "missing" : "unresolved"),
+          reason: image?.reason || (record2 ? void 0 : "Exact ID is absent from the Japanese catalog.")
+        };
+      });
+      return {
+        content,
+        structuredContent: { server: "ja", source: "installed_japanese_game_cache", cards: results }
+      };
     }
   );
 }
@@ -37109,14 +37276,14 @@ function registerBuildView(server2) {
 import { execFile as execFileCallback } from "node:child_process";
 import { promisify } from "node:util";
 import { mkdir, readFile as readFile4, unlink, writeFile } from "node:fs/promises";
-import path5 from "node:path";
+import path6 from "node:path";
 import { randomUUID } from "node:crypto";
 
 // src/repositories/profile-reader.ts
-import path4 from "node:path";
+import path5 from "node:path";
 async function readProfile(config2, server2) {
-  const root = assertPathWithin(config2.privateRepoRoot, path4.join(config2.privateRepoRoot, "profiles", server2));
-  const currentPath = assertPathWithin(root, path4.join(root, "current.json"));
+  const root = assertPathWithin(config2.privateRepoRoot, path5.join(config2.privateRepoRoot, "profiles", server2));
+  const currentPath = assertPathWithin(root, path5.join(root, "current.json"));
   let profile;
   try {
     profile = await readJsonCached(currentPath);
@@ -37277,7 +37444,7 @@ function parseCliJson(output2, operation) {
   }
 }
 async function runPython(config2, scriptName, args) {
-  const scriptPath = assertPathWithin(config2.publicRepoRoot, path5.join(config2.publicRepoRoot, "scripts", scriptName));
+  const scriptPath = assertPathWithin(config2.publicRepoRoot, path6.join(config2.publicRepoRoot, "scripts", scriptName));
   const { stdout } = await execFile(config2.pythonPath, [scriptPath, ...args], {
     cwd: config2.publicRepoRoot,
     windowsHide: true,
@@ -37288,7 +37455,7 @@ async function runPython(config2, scriptName, args) {
 }
 function profileCandidatePath(server2, profileId) {
   if (!new RegExp(`^${server2}-[a-z0-9-]{8,60}$`).test(profileId)) throw new Error("Invalid profile candidate ID");
-  return assertPathWithin(path5.join(getStateRoot(), "imports", server2), path5.join(getStateRoot(), "imports", server2, `${profileId}.json`));
+  return assertPathWithin(path6.join(getStateRoot(), "imports", server2), path6.join(getStateRoot(), "imports", server2, `${profileId}.json`));
 }
 function registerInventoryTools(server2) {
   server2.registerTool(
@@ -37377,9 +37544,9 @@ function registerInventoryTools(server2) {
         const { config: config2 } = await loadConfig();
         const chosenServer = selectedServer;
         const candidateId = `${chosenServer}-${Date.now().toString(36)}-${randomUUID().replace(/-/g, "").slice(0, 12)}`;
-        const importDir = assertPathWithin(getStateRoot(), path5.join(getStateRoot(), "imports", chosenServer));
+        const importDir = assertPathWithin(getStateRoot(), path6.join(getStateRoot(), "imports", chosenServer));
         await mkdir(importDir, { recursive: true });
-        const inputPath = assertPathWithin(importDir, path5.join(importDir, `${candidateId}.input.json`));
+        const inputPath = assertPathWithin(importDir, path6.join(importDir, `${candidateId}.input.json`));
         const outputPath = profileCandidatePath(chosenServer, candidateId);
         await writeFile(inputPath, payload_json, "utf8");
         let summary;
@@ -37390,7 +37557,7 @@ function registerInventoryTools(server2) {
             "--input",
             inputPath,
             "--catalog-root",
-            path5.join(config2.publicRepoRoot, "data", chosenServer),
+            path6.join(config2.publicRepoRoot, "data", chosenServer),
             "--output",
             outputPath
           ]);
@@ -37463,7 +37630,7 @@ import { execFile as execFileCallback2 } from "node:child_process";
 import { promisify as promisify2 } from "node:util";
 import { randomUUID as randomUUID2 } from "node:crypto";
 import { copyFile, mkdir as mkdir2, readFile as readFile5, stat as stat3, unlink as unlink2, writeFile as writeFile2 } from "node:fs/promises";
-import path6 from "node:path";
+import path7 from "node:path";
 var execFile2 = promisify2(execFileCallback2);
 var PUBLIC_REMOTE = "Wayzer107/uma-jp-build-advisor";
 function reply2(data) {
@@ -37509,7 +37676,7 @@ async function git(config2, args, allowFailure = false) {
   return result2.stdout.trim();
 }
 async function runValidator(config2, server2, catalogRoot2) {
-  const scriptPath = assertPathWithin(config2.publicRepoRoot, path6.join(config2.publicRepoRoot, "scripts", "validate_catalog.py"));
+  const scriptPath = assertPathWithin(config2.publicRepoRoot, path7.join(config2.publicRepoRoot, "scripts", "validate_catalog.py"));
   const result2 = await runCli(config2.pythonPath, [scriptPath, "--server", server2, "--catalog-root", catalogRoot2, "--game-root", config2.gameRoot], config2.publicRepoRoot);
   const summary = parseSummary(result2.stdout, "Catalog validator");
   if (result2.code && summary.coverage_status !== "incomplete") {
@@ -37521,7 +37688,7 @@ async function runValidator(config2, server2, catalogRoot2) {
   return summary;
 }
 async function writeJsonAtomic(filePath, value) {
-  await mkdir2(path6.dirname(filePath), { recursive: true });
+  await mkdir2(path7.dirname(filePath), { recursive: true });
   const temporary = `${filePath}.tmp`;
   await writeFile2(temporary, `${JSON.stringify(value, null, 2)}
 `, "utf8");
@@ -37530,17 +37697,17 @@ async function writeJsonAtomic(filePath, value) {
 }
 async function readCandidate(config2, candidateId) {
   if (!/^(ja|global)-[a-f0-9]{8}-\d{10,16}$/.test(candidateId)) throw new Error("Invalid catalog candidate ID");
-  const stateCandidates = path6.join(getStateRoot(), "catalog-candidates");
-  const metadataPath = assertPathWithin(stateCandidates, path6.join(stateCandidates, `${candidateId}.json`));
+  const stateCandidates = path7.join(getStateRoot(), "catalog-candidates");
+  const metadataPath = assertPathWithin(stateCandidates, path7.join(stateCandidates, `${candidateId}.json`));
   const metadata = JSON.parse(await readFile5(metadataPath, "utf8"));
   if (metadata.candidate_id !== candidateId || !["ja", "global"].includes(metadata.server)) throw new Error("Candidate metadata does not match the requested candidate");
-  const stagingRoot = assertPathWithin(config2.publicRepoRoot, path6.join(config2.publicRepoRoot, ".staging", "catalog-candidates"));
+  const stagingRoot = assertPathWithin(config2.publicRepoRoot, path7.join(config2.publicRepoRoot, ".staging", "catalog-candidates"));
   const root = assertPathWithin(stagingRoot, String(metadata.catalog_root || ""));
   return { server: metadata.server, root, metadataPath, metadata };
 }
 async function copyGeneratedCatalog(candidateRoot, destinationRoot) {
-  const candidateManifest = JSON.parse(await readFile5(path6.join(candidateRoot, "manifest.json"), "utf8"));
-  const destinationManifestPath = path6.join(destinationRoot, "manifest.json");
+  const candidateManifest = JSON.parse(await readFile5(path7.join(candidateRoot, "manifest.json"), "utf8"));
+  const destinationManifestPath = path7.join(destinationRoot, "manifest.json");
   let previousGenerated = [];
   try {
     const previous = JSON.parse(await readFile5(destinationManifestPath, "utf8"));
@@ -37551,7 +37718,7 @@ async function copyGeneratedCatalog(candidateRoot, destinationRoot) {
   let removed = 0;
   for (const relative of previousGenerated) {
     if (typeof relative !== "string" || newGenerated.has(relative)) continue;
-    const stale = assertPathWithin(destinationRoot, path6.join(destinationRoot, relative));
+    const stale = assertPathWithin(destinationRoot, path7.join(destinationRoot, relative));
     if (stale !== destinationRoot) {
       await unlink2(stale).catch((error62) => {
         if (error62.code !== "ENOENT") throw error62;
@@ -37561,14 +37728,14 @@ async function copyGeneratedCatalog(candidateRoot, destinationRoot) {
   }
   let copied = 0;
   for (const relative of newGenerated) {
-    if (typeof relative !== "string" || path6.isAbsolute(relative) || relative.split(/[\\/]/).includes("..")) throw new Error("Manifest contains an unsafe generated path");
-    const source = assertPathWithin(candidateRoot, path6.join(candidateRoot, relative));
-    const destination = assertPathWithin(destinationRoot, path6.join(destinationRoot, relative));
-    await mkdir2(path6.dirname(destination), { recursive: true });
+    if (typeof relative !== "string" || path7.isAbsolute(relative) || relative.split(/[\\/]/).includes("..")) throw new Error("Manifest contains an unsafe generated path");
+    const source = assertPathWithin(candidateRoot, path7.join(candidateRoot, relative));
+    const destination = assertPathWithin(destinationRoot, path7.join(destinationRoot, relative));
+    await mkdir2(path7.dirname(destination), { recursive: true });
     await copyFile(source, destination);
     copied += 1;
   }
-  await copyFile(path6.join(candidateRoot, "manifest.json"), destinationManifestPath);
+  await copyFile(path7.join(candidateRoot, "manifest.json"), destinationManifestPath);
   return { copied: copied + 1, removed };
 }
 function registerMaintenanceTools(server2) {
@@ -37595,7 +37762,7 @@ function registerMaintenanceTools(server2) {
           server: selectedServer,
           warnings
         };
-        const manifestPath = path6.join(publicRoot, "data", selectedServer, "manifest.json");
+        const manifestPath = path7.join(publicRoot, "data", selectedServer, "manifest.json");
         try {
           const manifest = JSON.parse(await readFile5(manifestPath, "utf8"));
           Object.assign(result2, { catalog_status: manifest.coverage_status, catalog_generated_at_utc: manifest.generated_at_utc, catalog_counts: manifest.counts });
@@ -37624,10 +37791,10 @@ function registerMaintenanceTools(server2) {
         if (!config2.gameRoot || !await stat3(config2.gameRoot).then(() => true).catch(() => false)) {
           return reply2({ server: chosenServer, status: "source_unavailable", message: "No local Japanese game install is available on this host. Use a Windows machine with the installed game to refresh catalog data; this host can continue serving the published catalog." });
         }
-        const stagingRoot = assertPathWithin(config2.publicRepoRoot, path6.join(config2.publicRepoRoot, ".staging", "catalog-candidates"));
+        const stagingRoot = assertPathWithin(config2.publicRepoRoot, path7.join(config2.publicRepoRoot, ".staging", "catalog-candidates"));
         const candidateId = `ja-${randomUUID2().replace(/-/g, "").slice(0, 8)}-${Date.now()}`;
-        const candidateRoot = assertPathWithin(stagingRoot, path6.join(stagingRoot, candidateId, "ja"));
-        const exporter = assertPathWithin(config2.publicRepoRoot, path6.join(config2.publicRepoRoot, "scripts", "export_catalog.py"));
+        const candidateRoot = assertPathWithin(stagingRoot, path7.join(stagingRoot, candidateId, "ja"));
+        const exporter = assertPathWithin(config2.publicRepoRoot, path7.join(config2.publicRepoRoot, "scripts", "export_catalog.py"));
         const result2 = await runCli(config2.pythonPath, [
           exporter,
           "--game-root",
@@ -37651,7 +37818,7 @@ function registerMaintenanceTools(server2) {
           trainee_mapping: exportSummary.gametora_reconciliation?.trainee_outfits,
           blocking_issues: validation.blocking_issues
         };
-        await writeJsonAtomic(path6.join(getStateRoot(), "catalog-candidates", `${candidateId}.json`), metadata);
+        await writeJsonAtomic(path7.join(getStateRoot(), "catalog-candidates", `${candidateId}.json`), metadata);
         return reply2({ status: "candidate_ready_for_review", ...metadata, coverage_report: validation });
       } catch (error62) {
         return reply2({ server: selectedServer, status: "refresh_failed", error: String(error62) });
@@ -37673,7 +37840,7 @@ function registerMaintenanceTools(server2) {
         if (candidate.server !== selectedServer) throw new Error("Candidate server does not match the requested server");
         if (candidate.server === "global") throw new Error("Global catalog publication is blocked until an independent Global source is verified");
         const validation = await runValidator(config2, candidate.server, candidate.root);
-        const candidateManifest = JSON.parse(await readFile5(path6.join(candidate.root, "manifest.json"), "utf8"));
+        const candidateManifest = JSON.parse(await readFile5(path7.join(candidate.root, "manifest.json"), "utf8"));
         if (candidateManifest.coverage_status === "source_unavailable") throw new Error("Candidate source is unavailable");
         const remote = await git(config2, ["remote", "get-url", "origin"]);
         if (!expectedPublicRemote(remote)) throw new Error("Configured public repository origin does not match the authorized catalog repository");
@@ -37682,7 +37849,7 @@ function registerMaintenanceTools(server2) {
         const dataPath = `data/${candidate.server}`;
         const dirtyData = await git(config2, ["status", "--porcelain", "--", dataPath]);
         if (dirtyData) throw new Error(`${dataPath} has local changes; review or commit them before publishing this candidate`);
-        const destination = assertPathWithin(config2.publicRepoRoot, path6.join(config2.publicRepoRoot, "data", candidate.server));
+        const destination = assertPathWithin(config2.publicRepoRoot, path7.join(config2.publicRepoRoot, "data", candidate.server));
         const copied = await copyGeneratedCatalog(candidate.root, destination);
         const publishedValidation = await runValidator(config2, candidate.server, destination);
         await git(config2, ["add", "--", dataPath]);
@@ -37711,99 +37878,6 @@ function registerMaintenanceTools(server2) {
   );
 }
 
-// src/repositories/catalog-reader.ts
-import path7 from "node:path";
-var ENTITY_LAYOUT = {
-  support_card: { entity: "support_cards", folder: "support-cards" },
-  trainee_outfit: { entity: "trainee_outfits", folder: "trainees" },
-  skill: { entity: "skills", folder: "skills" },
-  training_event: { entity: "events", folder: "events" },
-  scenario: { entity: "scenarios", folder: "scenarios" },
-  race: { entity: "races", folder: "races" },
-  race_course: { entity: "race_courses", folder: "races/courses" },
-  race_condition: { entity: "race_conditions", folder: "races/conditions" },
-  inheritance_factor: { entity: "factors", folder: "factors" }
-};
-function catalogRoot(config2, server2) {
-  return assertPathWithin(config2.publicRepoRoot, path7.join(config2.publicRepoRoot, "data", server2));
-}
-async function readManifest2(config2, server2) {
-  const root = catalogRoot(config2, server2);
-  const manifest = await readJsonCached(assertPathWithin(root, path7.join(root, "manifest.json")));
-  if (manifest.server !== server2) throw new Error(`Catalog server mismatch: expected ${server2}, found ${manifest.server}`);
-  return manifest;
-}
-function compactManifest(manifest) {
-  const { generated_files, ...summary } = manifest;
-  return summary;
-}
-function normalizeName(value) {
-  return value.normalize("NFKC").toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim().replace(/\s+/g, " ");
-}
-async function getRecord(config2, server2, kind, id) {
-  if (!/^\d+$/.test(id)) return null;
-  const root = catalogRoot(config2, server2);
-  const layout = ENTITY_LAYOUT[kind];
-  const recordPath = assertPathWithin(root, path7.join(root, layout.folder, `${id}.json`));
-  try {
-    const record2 = await readJsonCached(recordPath);
-    if (record2.server !== server2 || String(record2.id) !== id) return null;
-    return record2;
-  } catch (error62) {
-    if (error62.code === "ENOENT") return null;
-    throw error62;
-  }
-}
-async function searchRecords(config2, server2, kind, query, limit = 20, selectedManifest) {
-  const manifest = selectedManifest ?? await readManifest2(config2, server2);
-  if (manifest.server !== server2) throw new Error("Catalog manifest does not match the selected server.");
-  if (manifest.coverage_status === "source_unavailable") return [];
-  const root = catalogRoot(config2, server2);
-  const layout = ENTITY_LAYOUT[kind];
-  const indexPath = assertPathWithin(root, path7.join(root, "indexes", `${layout.entity}.json`));
-  const index = await readJsonCached(indexPath);
-  const normalized = normalizeName(query);
-  if (!normalized) return [];
-  const ids = /* @__PURE__ */ new Map();
-  if (/^\d+$/.test(query.trim()) && index.by_id[query.trim()]) ids.set(query.trim(), "id");
-  const exactIds = Object.hasOwn(index.by_name, normalized) ? index.by_name[normalized] : [];
-  for (const id of exactIds) if (!ids.has(id)) ids.set(id, "name");
-  if (ids.size === 0 && normalized.length >= 2) {
-    for (const [name, matchingIds] of Object.entries(index.by_name)) {
-      if (name.includes(normalized)) {
-        for (const id of matchingIds) ids.set(id, "name");
-        if (ids.size >= Math.min(limit * 4, 200)) break;
-      }
-    }
-  }
-  const summaries = [];
-  const selected = [...ids.entries()].slice(0, Math.max(1, Math.min(limit, 50)));
-  for (let start = 0; start < selected.length; start += 8) {
-    const group = selected.slice(start, start + 8);
-    const records = await Promise.all(group.map(([id]) => getRecord(config2, server2, kind, id)));
-    for (let index2 = 0; index2 < group.length; index2++) {
-      const [id, matchType] = group[index2];
-      const record2 = records[index2];
-      if (!record2) continue;
-      summaries.push({
-        id,
-        kind,
-        server: server2,
-        name: typeof record2.name === "string" ? record2.name : null,
-        name_text: record2.name_text,
-        title_text: record2.title_text,
-        gametora: record2.gametora,
-        record_path: `${layout.folder}/${id}.json`,
-        match_type: matchType
-      });
-    }
-  }
-  return summaries;
-}
-function recordKinds() {
-  return Object.keys(ENTITY_LAYOUT);
-}
-
 // src/tools/reference.ts
 function reply3(data) {
   return { content: [{ type: "text", text: JSON.stringify(data) }], structuredContent: data };
@@ -37820,7 +37894,7 @@ function registerReferenceTools(server2) {
     async ({ server: selectedServer }) => {
       try {
         const { config: config2, warnings } = await loadConfig();
-        const manifest = await readManifest2(config2, selectedServer);
+        const manifest = await readManifest(config2, selectedServer);
         return reply3({ server: selectedServer, manifest: compactManifest(manifest), setup_warnings: warnings });
       } catch (error62) {
         return reply3({ server: selectedServer, status: "unavailable", error: String(error62) });
@@ -37843,7 +37917,7 @@ function registerReferenceTools(server2) {
     async ({ server: selectedServer, kind, query, limit }) => {
       try {
         const { config: config2 } = await loadConfig();
-        const manifest = await readManifest2(config2, selectedServer);
+        const manifest = await readManifest(config2, selectedServer);
         const records = await searchRecords(config2, selectedServer, kind, query, limit, manifest);
         return reply3({
           server: selectedServer,
@@ -37869,7 +37943,7 @@ function registerReferenceTools(server2) {
     async ({ server: selectedServer, kind, id }) => {
       try {
         const { config: config2 } = await loadConfig();
-        const manifest = await readManifest2(config2, selectedServer);
+        const manifest = await readManifest(config2, selectedServer);
         const record2 = await getRecord(config2, selectedServer, kind, id);
         return reply3({
           server: selectedServer,
@@ -37897,7 +37971,7 @@ function registerReferenceTools(server2) {
     async ({ server: selectedServer, records: requests }) => {
       try {
         const { config: config2 } = await loadConfig();
-        const manifest = await readManifest2(config2, selectedServer);
+        const manifest = await readManifest(config2, selectedServer);
         const results = [];
         for (let start = 0; start < requests.length; start += 8) {
           results.push(...await Promise.all(requests.slice(start, start + 8).map(async ({ kind, id }) => {
@@ -37928,7 +38002,7 @@ function registerReferenceTools(server2) {
 var server = new McpServer(
   {
     name: "uma-build-advisor",
-    version: "0.4.3"
+    version: "0.4.4"
   },
   {
     instructions: [
@@ -37937,8 +38011,8 @@ var server = new McpServer(
       "Never infer ownership from a missing or unavailable private profile. Ask for a GameTora Everything export when inventory is unknown.",
       "Start with the compact reference.get_manifest and inventory.get_summary. Use inventory.query_records to inspect relevant owned supports, trainees, and veteran factors/skills; fetch full veteran details only when needed. Read related catalog facts together with reference.get_records in bounded batches. Follow continuation metadata rather than treating partial pages as complete. inventory.get_profile remains available for compatible callers.",
       "Check current server-specific strategy sources before giving build advice. Prefer reasoned community guides and Japanese community discussion for Japan; treat social posts as anecdotal and cross-check mechanics against the catalog. Use commercial guide sites only when independently corroborated.",
-      "Complete every build by calling build.present_recommendation with six support slots, trainee, legacy candidates, alternatives, priorities, assumptions, confidence, and dated evidence links.",
-      "The presentation result includes exact Japanese support portraits and trainee artwork in component-only metadata, so the Build View normally needs no extra tool calls. The app-only build.get_game_images tool is a bounded batch fallback for omitted artwork. The configured assetRoot must contain the reviewed local image derivatives and manifest on this MCP host; missing or unresolved art remains a placeholder. Global art is unavailable unless independently verified assets are installed; never substitute Japanese images.",
+      "Complete every build by calling build.present_recommendation with six support slots, trainee, legacy candidates, alternatives, priorities, assumptions, confidence, and dated evidence links. For card-specific Japanese banner or pull advice, present the two most relevant exact-ID support portraits with build.present_support_card_artwork before the final answer.",
+      "The presentation result includes exact Japanese support portraits, trainee artwork, and official training-type icons in component-only metadata; build.get_game_images is the bounded app-only fallback for omitted art. For specific banner or pull advice, call build.present_support_card_artwork with up to two exact Japanese support IDs to include installed-game images in chat. Do not substitute guide screenshots or images from another server. Global art is unavailable unless independently verified assets are installed.",
       "Connect this private MCP server through OpenAI Secure MCP Tunnel for ChatGPT. Local stdio without a tunnel is not available in ChatGPT Web. The host running the MCP process and tunnel client must stay online while ChatGPT uses the tools. The Build View uses the standard MCP Apps UI bridge and responsive layout; keep the text response complete for hosts that do not render the component.",
       "Use official OpenAI plugin developer documentation and direct checks in the target ChatGPT clients when assessing mobile behavior. Keep the Build View responsive and the text answer complete; verify plugin connection, MCP tool invocation, and UI rendering separately in web and native mobile before claiming each works. A read-only GPT Actions API is a separate optional text-only integration, not the mobile fallback by default."
     ].join(" ")

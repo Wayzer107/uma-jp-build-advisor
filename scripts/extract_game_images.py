@@ -37,6 +37,7 @@ DERIVATIVE_SPECS = {
     ("support_card", "portrait"): {"max_edge": 512, "quality": 84, "method": 6, "profile": "full-art-source-aspect-v2"},
     ("trainee", "icon"): {"max_edge": 128, "quality": 80, "method": 6},
     ("trainee", "portrait"): {"max_edge": 512, "quality": 84, "method": 6},
+    ("training_type", "icon"): {"max_edge": 128, "quality": 90, "method": 6, "lossless": True, "profile": "game-training-icon-lossless-v1"},
 }
 
 
@@ -45,20 +46,21 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--server", choices=("ja", "global"), default="ja")
     parser.add_argument("--game-root", type=Path, default=DEFAULT_GAME_ROOT)
     parser.add_argument("--output-root", type=Path, default=None)
-    parser.add_argument("--all", action="store_true", help="Review and incrementally extract every catalog ID for --server")
+    parser.add_argument("--all", action="store_true", help="Review and incrementally extract every catalog ID and Japanese training-type icon for --server")
     parser.add_argument("--candidate", action="store_true", help="Extract only the explicitly selected IDs")
     parser.add_argument("--support-id", action="append", default=[], help="Exact support_card_data.id; repeat as needed")
     parser.add_argument("--trainee-id", action="append", default=[], help="Exact card_data.id outfit; repeat as needed")
+    parser.add_argument("--training-type-id", action="append", default=[], help="Exact support_card_data.command_id; repeat as needed")
     parser.add_argument("--dry-run", action="store_true", help="Resolve exact mappings and availability without decoding or writing")
     parser.add_argument("--node", default="node", help="Node.js executable used to read the encrypted metadata index")
     parser.add_argument("--workers", type=int, default=min(8, os.cpu_count() or 1), help="Parallel decoder processes (1-8; default 8 or fewer on small hosts)")
     args = parser.parse_args()
     if args.all and args.candidate:
         parser.error("Use --all or --candidate, not both")
-    if args.all and (args.support_id or args.trainee_id):
+    if args.all and (args.support_id or args.trainee_id or args.training_type_id):
         parser.error("Do not pass selected IDs with --all")
-    if args.candidate and not (args.support_id or args.trainee_id):
-        parser.error("--candidate requires at least one --support-id or --trainee-id")
+    if args.candidate and not (args.support_id or args.trainee_id or args.training_type_id):
+        parser.error("--candidate requires at least one --support-id, --trainee-id, or --training-type-id")
     if not args.all and not args.candidate:
         parser.error("Choose --all or --candidate")
     if args.output_root is None:
@@ -66,7 +68,7 @@ def parse_args() -> argparse.Namespace:
         args.output_root = local_app_data / "UmaBuildAdvisor" / "assets"
     if not 1 <= args.workers <= 8:
         parser.error("--workers must be between 1 and 8")
-    if args.server == "global" and (args.support_id or args.trainee_id):
+    if args.server == "global" and (args.support_id or args.trainee_id or args.training_type_id):
         # The IDs remain useful as unresolved, explicitly unavailable placeholders.
         pass
     return args
@@ -116,6 +118,8 @@ def asset_index(args: argparse.Namespace) -> dict[str, Any]:
             command.extend(("--support-id", str(item)))
         for item in args.trainee_id:
             command.extend(("--trainee-id", str(item)))
+        for item in args.training_type_id:
+            command.extend(("--training-type-id", str(item)))
     environment = os.environ.copy()
     default_modules = Path(environment.get("LOCALAPPDATA", Path.home() / "AppData" / "Local")) / "UmaBuildAdvisor" / "meta-reader" / "node_modules"
     environment.setdefault("UMABUILD_META_NODE_MODULES", str(default_modules))
@@ -189,6 +193,8 @@ def texture_image(environment: Any, expected_name: str) -> Image.Image:
 
 
 def derivative_relative_path(record: dict[str, Any]) -> PurePosixPath:
+    if record["kind"] == "training_type":
+        return PurePosixPath("ja", "training-types", record["catalog_id"], f"{record['variant']}.webp")
     kind_dir = "support-cards" if record["kind"] == "support_card" else "trainees"
     return PurePosixPath("ja", kind_dir, record["catalog_id"], f"{record['variant']}.webp")
 
@@ -202,7 +208,7 @@ def write_derivative(image: Image.Image, relative_path: PurePosixPath, output_ro
     fd, temporary = tempfile.mkstemp(prefix=f".{output_path.stem}.", suffix=".webp.tmp", dir=output_path.parent)
     os.close(fd)
     try:
-        optimized.save(temporary, format="WEBP", quality=spec["quality"], method=spec["method"], lossless=False, exact=True)
+        optimized.save(temporary, format="WEBP", quality=spec["quality"], method=spec["method"], lossless=spec.get("lossless", False), exact=True)
         with Image.open(temporary) as check:
             check.verify()
         os.replace(temporary, output_path)

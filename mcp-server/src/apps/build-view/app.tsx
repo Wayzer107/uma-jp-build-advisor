@@ -1,12 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { useApp } from "@modelcontextprotocol/ext-apps/react";
-import speedIcon from "./assets/stat-icons/speed.png";
-import staminaIcon from "./assets/stat-icons/stamina.png";
-import powerIcon from "./assets/stat-icons/power.png";
-import gutsIcon from "./assets/stat-icons/guts.png";
-import witIcon from "./assets/stat-icons/wit.png";
-import palIcon from "./assets/stat-icons/pal.png";
 import "./styles.css";
 
 type LinkItem = { id: string; name: string; gametora_url?: string | null; reason: string };
@@ -40,19 +34,19 @@ type Recommendation = {
   sources: { url: string; title: string; source_type: "game_data" | "official" | "community" | "inference"; context: string; retrieved_at: string; confidence_note: string }[];
 };
 
-type ImageRequest = { server: "ja" | "global"; kind: "support_card" | "trainee"; catalog_id: string; variant: "thumbnail" | "card" | "icon" | "portrait" };
+type ImageRequest = { server: "ja" | "global"; kind: "support_card" | "trainee" | "training_type"; catalog_id: string; variant: "thumbnail" | "card" | "icon" | "portrait" };
 type Artwork = { status: string; src?: string; width?: number; height?: number; reason?: string };
 type ArtworkPayload = { assets?: Array<{ key?: string; status?: string; mime_type?: string; data_base64?: string; width?: number; height?: number; reason?: string }>; next_offset?: number; has_more?: boolean };
 type AppBridge = NonNullable<ReturnType<typeof useApp>["app"]>;
 type OpenAiBridge = { callTool?: (name: string, args: Record<string, unknown>) => Promise<unknown> };
 
 const STAT_TYPES = [
-  { key: "speed", label: "Speed", icon: speedIcon, aliases: ["speed"] },
-  { key: "stamina", label: "Stamina", icon: staminaIcon, aliases: ["stamina"] },
-  { key: "power", label: "Power", icon: powerIcon, aliases: ["power"] },
-  { key: "guts", label: "Guts", icon: gutsIcon, aliases: ["guts"] },
-  { key: "wit", label: "Wit", icon: witIcon, aliases: ["wit", "wisdom"] },
-  { key: "pal", label: "Pal", icon: palIcon, aliases: ["pal", "friend", "group"] },
+  { key: "speed", label: "Speed", trainingTypeId: "101", aliases: ["speed"] },
+  { key: "stamina", label: "Stamina", trainingTypeId: "102", aliases: ["stamina"] },
+  { key: "power", label: "Power", trainingTypeId: "103", aliases: ["power"] },
+  { key: "guts", label: "Guts", trainingTypeId: "105", aliases: ["guts"] },
+  { key: "wit", label: "Wit", trainingTypeId: "106", aliases: ["wit", "wisdom", "intelligence"] },
+  { key: "pal", label: "Pal", trainingTypeId: null, aliases: ["pal", "friend", "group"] },
 ] as const;
 
 function statType(role: string) {
@@ -74,6 +68,7 @@ function parseArtwork(result: unknown): ArtworkPayload | null {
 }
 
 async function callArtworkTool(app: AppBridge, requests: ImageRequest[], signal: AbortSignal): Promise<ArtworkPayload> {
+  if (requests.length > 12) throw new Error("The artwork tool accepts at most twelve images per request.");
   const args = { requests, offset: 0 };
   const valid = (payload: ArtworkPayload | null) => payload?.assets?.length && typeof payload.next_offset === "number" && payload.next_offset > 0 && payload.next_offset <= requests.length && payload.assets.every((asset) => requests.some((request) => imageKey(request) === asset.key) && (asset.status !== "available" || (asset.mime_type === "image/webp" && typeof asset.data_base64 === "string")));
   let standardError: unknown;
@@ -130,6 +125,14 @@ function ArtworkImage({ artwork, className, label }: { artwork?: Artwork; classN
   return <div className={`${className} artwork-placeholder`} role="img" aria-label={`${label}: artwork unavailable`} title="Artwork unavailable on this MCP host"><span aria-hidden="true">✦</span></div>;
 }
 
+function TrainingTypeIcon({ server, role, artwork }: { server: "ja" | "global"; role: string; artwork: Record<string, Artwork> }) {
+  const type = statType(role);
+  if (!type?.trainingTypeId) return null;
+  const image = artwork[imageKey({ server, kind: "training_type", catalog_id: type.trainingTypeId, variant: "icon" })];
+  if (image?.status !== "available" || !image.src) return null;
+  return <span className={`stat-icon ${type.key}`} title={`${type.label} training`}><img src={image.src} alt="" /></span>;
+}
+
 function parseRecommendation(result: unknown): Recommendation | null {
   if (!result || typeof result !== "object") return null;
   const envelope = result as { structuredContent?: unknown; content?: { type?: string; text?: string }[] };
@@ -169,7 +172,7 @@ function AppView() {
   const [sending, setSending] = useState(false);
   const [message, setMessage] = useState("");
   const { app, isConnected, error } = useApp({
-    appInfo: { name: "Umamusume Build Advisor", version: "0.4.3" },
+    appInfo: { name: "Umamusume Build Advisor", version: "0.4.4" },
     capabilities: {},
     onAppCreated: (createdApp) => {
       createdApp.ontoolresult = (result) => {
@@ -191,10 +194,14 @@ function AppView() {
     }
     const controller = new AbortController();
     const objectUrls: string[] = [];
+    const trainingTypeIds = [...new Set(recommendation.deck
+      .map((slot) => statType(slot.role)?.trainingTypeId)
+      .filter((id): id is Exclude<typeof id, null | undefined> => id !== null && id !== undefined))];
     const requests: ImageRequest[] = [
       ...recommendation.deck.map((slot): ImageRequest => ({ server: recommendation.server, kind: "support_card", catalog_id: slot.support_id, variant: "portrait" })),
       { server: recommendation.server, kind: "trainee", catalog_id: recommendation.trainee.id, variant: "icon" },
       { server: recommendation.server, kind: "trainee", catalog_id: recommendation.trainee.id, variant: "portrait" },
+      ...trainingTypeIds.map((catalog_id): ImageRequest => ({ server: recommendation.server, kind: "training_type", catalog_id, variant: "icon" })),
     ];
     setArtwork({});
     setArtworkMessage("");
@@ -220,7 +227,8 @@ function AppView() {
       let pending = requests.filter((request) => !resolved[imageKey(request)]);
       try {
         while (pending.length && !controller.signal.aborted) {
-          const payload = await callArtworkTool(app, pending, controller.signal);
+          const batch = pending.slice(0, 12);
+          const payload = await callArtworkTool(app, batch, controller.signal);
           if (controller.signal.aborted) return;
           accept(payload);
           pending = pending.slice(payload.next_offset!);
@@ -305,7 +313,7 @@ function AppView() {
             <article className="support-card" key={`${slot.support_id}-${index}`}>
               <div className="support-art-wrap">
                 <ArtworkImage className="support-art" artwork={artwork[imageKey({ server: recommendation.server, kind: "support_card", catalog_id: slot.support_id, variant: "portrait" })]} label={`${slot.name} support card`} />
-                {statType(slot.role) && <span className={`stat-icon ${statType(slot.role)!.key}`} title={statType(slot.role)!.label}><img src={statType(slot.role)!.icon} alt="" /></span>}
+                <TrainingTypeIcon server={recommendation.server} role={slot.role} artwork={artwork} />
               </div>
               <h3><ExternalLink href={slot.gametora_url}>{slot.name}</ExternalLink></h3>
               <div className={`role ${statType(slot.role)?.key || "other"}`}>{statType(slot.role)?.label || slot.role}</div>
@@ -332,7 +340,7 @@ function AppView() {
           window.setTimeout(() => document.getElementById("refinement")?.focus(), 250);
         }}>Refine build <span aria-hidden="true">→</span></button>
       </div>
-      <div className="icon-credit">Stat icons: <a href="https://github.com/Euophrys/umamusume-tierlist" target="_blank" rel="noreferrer">Euophrys / umamusume-tierlist</a> · MIT License</div>
+      <div className="icon-credit">Japanese artwork and stat icons are served from the installed game cache. Global game artwork is unavailable unless a verified Global cache is installed.</div>
 
       <details className="recommendation-details" id="recommendation-details">
         <summary>Recommendation details, rationale and sources</summary>

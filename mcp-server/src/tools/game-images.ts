@@ -14,13 +14,15 @@ const MAX_IMAGE_DIMENSION = 1024;
 
 const ImageRequestSchema = z.object({
   server: z.enum(["ja", "global"]),
-  kind: z.enum(["support_card", "trainee"]),
+  kind: z.enum(["support_card", "trainee", "training_type"]),
   catalog_id: z.string().regex(/^\d{1,12}$/),
   variant: z.enum(["thumbnail", "card", "icon", "portrait"]),
 }).strict().superRefine((request, context) => {
   const variantMatches = request.kind === "support_card"
     ? request.variant === "thumbnail" || request.variant === "card" || request.variant === "portrait"
-    : request.variant === "icon" || request.variant === "portrait";
+    : request.kind === "training_type"
+      ? request.variant === "icon"
+      : request.variant === "icon" || request.variant === "portrait";
   if (!variantMatches) context.addIssue({ code: "custom", message: "The requested art variant does not match its catalog kind." });
 });
 
